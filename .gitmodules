@@ -1,0 +1,6 @@
+[submodule "lib-zemax-programming"]
+	path = lib-zemax-programming
+	url = https://github.com/ansys/lib-zemax-programming.git
+[submodule "ZOSPy"]
+	path = ZOSPy
+	url = https://github.com/MREYE-LUMC/ZOSPy.git

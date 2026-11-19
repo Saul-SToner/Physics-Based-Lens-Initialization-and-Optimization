@@ -1,0 +1,278 @@
+{
+  "schema": "project_archive_manifest_v1",
+  "created_local": "2026-11-19T10:07:47+08:00",
+  "title": "基于Zemax自动化仿真的光学优化结果预测与规则决策研究",
+  "closeout_status": "阶段性研究完成，后续方向待定",
+  "scope": {
+    "modeled_prescriptions": 200,
+    "rule_conditioned_samples": 600,
+    "independent_validation_prescriptions": 337,
+    "sealed_prescriptions": "538-700 (163)",
+    "candidates": 700
+  },
+  "archive": {
+    "file": "project_archive_20261119.zip",
+    "bytes": 45510654,
+    "sha256": "d4077d200153054ae3d6c1d0db2eedd84ee17285992da17c799bcc8eba90176e",
+    "unzipped_files": 10706,
+    "unzipped_bytes": 177146419.0
+  },
+  "included_directories": [
+    ".screenshots",
+    "background_runs",
+    "budget_diagnosis_100_v1",
+    "dedup_audit_20261118",
+    "dedup_audit_20261118_v2",
+    "feature_engineering_100_v1",
+    "independent_f_number_test_batch2_v1",
+    "ml_rule_regression_100_v1",
+    "ml_rule_regression_200_v2",
+    "ml_rule_regression_followup_100_v1",
+    "ml_stage_aware_f_number_100_v1",
+    "ml_v2_oof_error_decision_analysis",
+    "opticstudio_analysis",
+    "opticstudio_comparison",
+    "opticstudio_concurrency_load",
+    "opticstudio_rule_1_edge_margin",
+    "opticstudio_rule_2_edge_margin",
+    "opticstudio_rule_3",
+    "opticstudio_rules",
+    "opticstudio_rules_50",
+    "opticstudio_rules_50_geometry",
+    "opticstudio_target",
+    "p1_random_3",
+    "p1_random_3_v1",
+    "prescription_registry",
+    "random_candidates_10",
+    "random_candidates_100",
+    "random_candidates_200",
+    "random_candidates_700",
+    "ray_p1_stress_8",
+    "ray_p1_stress_8_v2",
+    "ray_thread_regression",
+    "resource_attribution",
+    "resource_attribution_detail",
+    "rule_discriminability_100_v1",
+    "rule2_stage_switch_mve_v1",
+    "third_batch_followup_237_validation_v1",
+    "third_batch_pilot_100_validation_v1",
+    "third_batch_validation_freeze_v1"
+  ],
+  "included_root_files": [
+    ".gitignore",
+    ".gitmodules",
+    "工作历程技术分析.md",
+    "阶段性结题报告.md",
+    "思考流程.md",
+    "analyze_oof_error_decision_v2.py",
+    "analyze_opticstudio.py",
+    "analyze_rule_discriminability.py",
+    "audit_prescription_duplicates.py",
+    "audit_ray_stress_v2.py",
+    "audit_ray_stress.py",
+    "audit_third_batch_integrity.py",
+    "background_batch.py",
+    "background_model_worker.py",
+    "BACKGROUND_RUNNER.md",
+    "benchmark_opticstudio_concurrency.py",
+    "budget_adapter.py",
+    "budget_batch.py",
+    "budget_model_worker.py",
+    "build_feature_dataset.py",
+    "ca.dcclab.python.raytracing.json",
+    "compare_opticstudio.py",
+    "compare_target_optimization.py",
+    "crystals-12-01206.pdf",
+    "diagnose_budget_limits.py",
+    "evaluate_third_batch_followup_237.py",
+    "evaluate_third_batch_pilot_100.py",
+    "finish_budget_experiment.py",
+    "generate_batch_candidates.py",
+    "generate_random_prescriptions.py",
+    "lens_geometry.py",
+    "model_protocol_freeze_batch1_to_batch2_v1.json",
+    "notify_pushplus.py",
+    "opticstudio_concurrency_probe.json",
+    "opticstudio_freeze.json",
+    "opticstudio_three_rules_freeze.json",
+    "opticstudio_workflow_freeze_v1.json",
+    "OPTIMIZATION_PROTOCOL.md",
+    "optimize_opticstudio_rule_3.py",
+    "optimize_opticstudio_rules.py",
+    "p1_engine.py",
+    "prepare_rule2_stage_switch_mve.py",
+    "prepare_third_batch_validation.py",
+    "prescription_registry.py",
+    "probe_opticstudio_concurrency.py",
+    "profile_resource_attribution.py",
+    "ray_stress_worker_v2.py",
+    "ray_stress_worker.py",
+    "README.md",
+    "render_oof_error_decision_v2.py",
+    "render_rule_discriminability.py",
+    "render_rule_regression_followup.py",
+    "render_rule_regression_v1.py",
+    "render_stage_aware_f_number_v1.py",
+    "report_third_batch_progress.py",
+    "requirements-background.txt",
+    "requirements-optimization.txt",
+    "requirements-validation.txt",
+    "run_independent_f_number_test_v1.py",
+    "run_ml_v2_200.py",
+    "run_p1.py",
+    "run_ray_stress_v2.py",
+    "run_ray_stress.py",
+    "run_rule_regression_followup.py",
+    "run_rule_regression_v1.py",
+    "run_rule2_stage_switch_mve.py",
+    "run_stage_aware_f_number_v1.py",
+    "run_thread_regression.py",
+    "summarize_budget_comparison.py",
+    "summarize_p1.py",
+    "summarize_resource_attribution.py",
+    "summarize_rule2_stage_switch_mve.py",
+    "test_background_batch.py",
+    "test_budget_adapter.py",
+    "test_feature_dataset.py",
+    "test_independent_f_number_test_v1.py",
+    "test_ml_v2_200.py",
+    "test_oof_error_decision_v2.py",
+    "test_prescription_registry.py",
+    "test_rule_regression_followup.py",
+    "test_rule_regression_v1.py",
+    "test_rule2_stage_switch_mve.py",
+    "test_stage_aware_f_number_v1.py",
+    "test_third_batch_followup_237.py",
+    "test_third_batch_pilot_100.py",
+    "test_validate_two_lens.py",
+    "third_batch_followup_237_protocol.json",
+    "third_batch_pilot_100_protocol.json",
+    "two_lens.py",
+    "validate_two_lens.py",
+    "verify_rule_discriminability.py"
+  ],
+  "excluded": {
+    "directories": [
+      ".venv-background",
+      "ZOSPy",
+      "lib-zemax-programming",
+      "__pycache__",
+      ".git",
+      "archive_20261119_staging"
+    ],
+    "files": [
+      "*.zmx",
+      "*.ZDA",
+      "*.lock",
+      "*.pyc",
+      "*.zip"
+    ],
+    "reason": "Zemax 二进制处方与第三方依赖可由源码和冻结参数重建，避免体积膨胀与许可问题"
+  },
+  "by_extension": [
+    {
+      "extension": ".json",
+      "files": 7137,
+      "bytes": 112841883.0
+    },
+    {
+      "extension": ".log",
+      "files": 1685,
+      "bytes": 2277097.0
+    },
+    {
+      "extension": "(none)",
+      "files": 1663,
+      "bytes": 11773.0
+    },
+    {
+      "extension": ".py",
+      "files": 71,
+      "bytes": 540929.0
+    },
+    {
+      "extension": ".png",
+      "files": 44,
+      "bytes": 7139094.0
+    },
+    {
+      "extension": ".jsonl",
+      "files": 33,
+      "bytes": 39732287.0
+    },
+    {
+      "extension": ".md",
+      "files": 27,
+      "bytes": 171462.0
+    },
+    {
+      "extension": ".svg",
+      "files": 16,
+      "bytes": 2085824.0
+    },
+    {
+      "extension": ".ready",
+      "files": 15,
+      "bytes": 75.0
+    },
+    {
+      "extension": ".txt",
+      "files": 7,
+      "bytes": 173.0
+    },
+    {
+      "extension": ".joblib",
+      "files": 2,
+      "bytes": 7635241.0
+    },
+    {
+      "extension": ".tmp",
+      "files": 1,
+      "bytes": 52346.0
+    },
+    {
+      "extension": ".gitmodules",
+      "files": 1,
+      "bytes": 205.0
+    },
+    {
+      "extension": ".sqlite",
+      "files": 1,
+      "bytes": 1044480.0
+    },
+    {
+      "extension": ".gitignore",
+      "files": 1,
+      "bytes": 31.0
+    },
+    {
+      "extension": ".pid",
+      "files": 1,
+      "bytes": 6.0
+    },
+    {
+      "extension": ".pdf",
+      "files": 1,
+      "bytes": 3613513.0
+    }
+  ],
+  "key_artifact_sha256": {
+    "README.md": "ed06cfcf438a82e3c95e9871dc440e0a8ff12bb17f8ff9eb35e03145ec5cd5f0",
+    "阶段性结题报告.md": "70f72d94b35eeec4242fec8e3710e3f440e591966ccc724366c06be77ae107e0",
+    "思考流程.md": "ba68bbe57c13c8fb4d045215c15c92ab26f1b80b8dcd37b0dffa5fb1423a228e",
+    "工作历程技术分析.md": "27de8787e78fed6f1fdb7b757785e8d3301f3b87896cf3ac703fd96ef2adff12",
+    "opticstudio_three_rules_freeze.json": "033a7ce978791ee346f40ebe7a25b3f941d9d8d638a26151a7f639d75a615f8b",
+    "model_protocol_freeze_batch1_to_batch2_v1.json": "7009812ee276b18aba509b0c38fa2b72a1bb0fb331278ccda1de9c96ad15f13b",
+    "ml_rule_regression_200_v2\\model_final_f_number.joblib": "44b15f4d56027302b532444f1b82dd93dc32d1483800ddeb4fbe7dd26856fd3f",
+    "ml_rule_regression_200_v2\\model_final_field_deg.joblib": "8430969978abe40b1a5695eb028c1086fdb8d5b8be33de2870715dfb8e0ba56b",
+    "third_batch_validation_freeze_v1\\freeze_manifest.json": "f4a1686c430ad6750814031bbb06e7ea58524730f2da90671ef75e9ab8bb0fc1",
+    "prescription_registry\\global.sqlite": "89fe0fe99cf224e64bad2cf23ac57a6e43bc79d0e3e842ee03f11d874fcfd6d7"
+  },
+  "incomplete": {
+    "budget_experiment": "background_runs/budget_52_5_11_v1: 3/27 results, state running/completed=2, 自 2026-11-18 19:29 起无更新，决定不再补跑",
+    "rule3_order_ablation": "未执行",
+    "threshold_sensitivity": "未执行",
+    "thickness_ablation": "未执行",
+    "caveat": "不得宣称失败与 DLS 预算无关已被证明"
+  }
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "target": "final_f_number",
+    "scope": "overall",
+    "n": 300,
+    "mae": 21.018570908327842,
+    "rmse": 47.236377218591485,
+    "r2": 0.8278495359845817,
+    "bias_pred_minus_actual": -1.2856821487553571
+  },
+  {
+    "target": "final_f_number",
+    "scope": "f_number_500",
+    "n": 18,
+    "mae": 122.92595279771061,
+    "rmse": 147.6583099323565,
+    "r2": null,
+    "bias_pred_minus_actual": -122.92595279771061
+  },
+  {
+    "target": "final_f_number",
+    "scope": "non_f_number_500",
+    "n": 282,
+    "mae": 14.513844404750218,
+    "rmse": 31.33716343142683,
+    "r2": -0.2779009017419547,
+    "bias_pred_minus_actual": 6.478590445858807
+  },
+  {
+    "target": "final_f_number",
+    "scope": "rule_1",
+    "n": 100,
+    "mae": 16.929471354399343,
+    "rmse": 28.989634596068452,
+    "r2": 0.28076210754552033,
+    "bias_pred_minus_actual": -2.39553883384728
+  },
+  {
+    "target": "final_f_number",
+    "scope": "rule_2",
+    "n": 100,
+    "mae": 40.458381813819244,
+    "rmse": 76.05527142968249,
+    "r2": 0.8253215582791196,
+    "bias_pred_minus_actual": -5.316677826688818
+  },
+  {
+    "target": "final_f_number",
+    "scope": "rule_3",
+    "n": 100,
+    "mae": 5.667859556764938,
+    "rmse": 8.307994460455609,
+    "r2": 0.4544281872108321,
+    "bias_pred_minus_actual": 3.855170214270026
+  },
+  {
+    "target": "final_field_deg",
+    "scope": "overall",
+    "n": 300,
+    "mae": 0.3420990848903049,
+    "rmse": 0.6771041470370065,
+    "r2": 0.827527365685735,
+    "bias_pred_minus_actual": 0.06290824816327233
+  },
+  {
+    "target": "final_field_deg",
+    "scope": "f_number_500",
+    "n": 18,
+    "mae": 0.5343500794734601,
+    "rmse": 0.7048388420766634,
+    "r2": 0.24085864782050326,
+    "bias_pred_minus_actual": 0.4867839862925393
+  },
+  {
+    "target": "final_field_deg",
+    "scope": "non_f_number_500",
+    "n": 282,
+    "mae": 0.32982774481052896,
+    "rmse": 0.6752951744967763,
+    "r2": 0.8359007779614642,
+    "bias_pred_minus_actual": 0.03585234998480847
+  },
+  {
+    "target": "final_field_deg",
+    "scope": "rule_1",
+    "n": 100,
+    "mae": 0.7706734031050011,
+    "rmse": 1.0898692859478611,
+    "r2": 0.4949059043776979,
+    "bias_pred_minus_actual": 0.08692578958551854
+  },
+  {
+    "target": "final_field_deg",
+    "scope": "rule_2",
+    "n": 100,
+    "mae": 0.12478397180306683,
+    "rmse": 0.3064774156419142,
+    "r2": 0.7873509436729327,
+    "bias_pred_minus_actual": 0.059020160034813085
+  },
+  {
+    "target": "final_field_deg",
+    "scope": "rule_3",
+    "n": 100,
+    "mae": 0.13083987976284647,
+    "rmse": 0.3060500139733517,
+    "r2": 0.7924777320668556,
+    "bias_pred_minus_actual": 0.04277879486948535
+  }
+]

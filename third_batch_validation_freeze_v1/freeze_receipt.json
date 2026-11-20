@@ -1,0 +1,11 @@
+{
+  "artifact_sha256": {
+    "predictions_preoptimization.json": "179fffe3bd4bd69a2a96e191275f30c2b3afc123ceae175f398a53513ce2e4b2",
+    "rule_selection_preoptimization.json": "b829e64605ab386aa77ddd13d084f82c5cda6fdb7e4ce6ba5f149c163e6ebe67",
+    "prescription_registry.json": "887bb05b847ecf746405c21de6044a6a9e8c98c7c8322332575a9365e0cbe1db",
+    "freeze_manifest.json": "f4a1686c430ad6750814031bbb06e7ea58524730f2da90671ef75e9ab8bb0fc1"
+  },
+  "prediction_rows": 1500,
+  "decision_rows": 500,
+  "prior_overlap_count": 0
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "OPENBLAS_NUM_THREADS": null,
+    "measurement": {
+      "threads": 27,
+      "private_bytes": 795447296,
+      "working_set_bytes": 32219136,
+      "numpy": "2.5.5",
+      "numpy_configuration": "{'blas': {'name': 'scipy-openblas', 'found': True, 'version': '0.3.34.237.2', 'detection method': 'pkgconfig', 'include directory': 'C:/Users/runneradmin/AppData/Local/Temp/cibw-run-vlt599qd/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/include', 'lib directory': 'C:/Users/runneradmin/AppData/Local/Temp/cibw-run-vlt599qd/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/lib', 'openblas configuration': 'OpenBLAS 0.3.34.237.2  USE64BITINT DYNAMIC_ARCH NO_AFFINITY SkylakeX MAX_THREADS=24', 'pc file directory': 'D:/a/numpy-release/numpy-release/.openblas'}, 'lapack': {'name': 'scipy-openblas', 'found': True, 'version': '0.3.34.237.2', 'detection method': 'pkgconfig', 'include directory': 'C:/Users/runneradmin/AppData/Local/Temp/cibw-run-vlt599qd/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/include', 'lib directory': 'C:/Users/runneradmin/AppData/Local/Temp/cibw-run-vlt599qd/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/lib', 'openblas configuration': 'OpenBLAS 0.3.34.237.2  USE64BITINT DYNAMIC_ARCH NO_AFFINITY SkylakeX MAX_THREADS=24', 'pc file directory': 'D:/a/numpy-release/numpy-release/.openblas'}}"
+    }
+  },
+  {
+    "OPENBLAS_NUM_THREADS": "1",
+    "measurement": {
+      "threads": 4,
+      "private_bytes": 20226048,
+      "working_set_bytes": 30683136,
+      "numpy": "2.5.5",
+      "numpy_configuration": "{'blas': {'name': 'scipy-openblas', 'found': True, 'version': '0.3.34.237.2', 'detection method': 'pkgconfig', 'include directory': 'C:/Users/runneradmin/AppData/Local/Temp/cibw-run-vlt599qd/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/include', 'lib directory': 'C:/Users/runneradmin/AppData/Local/Temp/cibw-run-vlt599qd/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/lib', 'openblas configuration': 'OpenBLAS 0.3.34.237.2  USE64BITINT DYNAMIC_ARCH NO_AFFINITY SkylakeX MAX_THREADS=24', 'pc file directory': 'D:/a/numpy-release/numpy-release/.openblas'}, 'lapack': {'name': 'scipy-openblas', 'found': True, 'version': '0.3.34.237.2', 'detection method': 'pkgconfig', 'include directory': 'C:/Users/runneradmin/AppData/Local/Temp/cibw-run-vlt599qd/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/include', 'lib directory': 'C:/Users/runneradmin/AppData/Local/Temp/cibw-run-vlt599qd/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/lib', 'openblas configuration': 'OpenBLAS 0.3.34.237.2  USE64BITINT DYNAMIC_ARCH NO_AFFINITY SkylakeX MAX_THREADS=24', 'pc file directory': 'D:/a/numpy-release/numpy-release/.openblas'}}"
+    }
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "paper_magnification": -3.463,
+  "target_image_gap_mm": 1.4055,
+  "target_exit_pupil_gap_mm": 104.936,
+  "center_thicknesses_mm": [
+    1.0,
+    1.0
+  ],
+  "clear_semi_apertures_mm": [
+    1,
+    1
+  ],
+  "groups": {
+    "A_initial": {
+      "effl_mm": 4.203222137652902,
+      "vertex_to_image_mm": 1.4055,
+      "vertex_to_paraxial_focus_mm": 7.6552642412377585,
+      "object_image_b_mm": 1.397221387502528,
+      "magnification_at_paraxial_focus": -4.472994972120302,
+      "exit_pupil_b_mm": 7.553649917499947,
+      "vertex_to_exit_pupil_mm": -156.77211035359622,
+      "first_vertex_to_image_mm": 11.08972084465036,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 106.6498498924997,
+          "mtf_frequency_lp_per_mm": 42.58943781942079,
+          "mtf_tangential": 0.006816043498244379,
+          "mtf_sagittal": 0.006816043498244379,
+          "mtf_threshold": 0.3,
+          "meets_threshold": false
+        },
+        {
+          "field_deg": 0.707,
+          "rms_spot_radius": 106.4703887103716,
+          "mtf_frequency_lp_per_mm": 36.626916524701876,
+          "mtf_tangential": 0.006343125885581077,
+          "mtf_sagittal": 0.0065025628704928964,
+          "mtf_threshold": 0.4,
+          "meets_threshold": false
+        },
+        {
+          "field_deg": 1.0,
+          "rms_spot_radius": 106.290969036251,
+          "mtf_frequency_lp_per_mm": 29.81260647359455,
+          "mtf_tangential": 0.007718308786860531,
+          "mtf_sagittal": 0.007080472521988584,
+          "mtf_threshold": 0.5,
+          "meets_threshold": false
+        }
+      ]
+    },
+    "B_quick_focus": {
+      "effl_mm": 4.203222137652902,
+      "vertex_to_image_mm": 6.951517189275682,
+      "vertex_to_paraxial_focus_mm": 7.6552642412377585,
+      "object_image_b_mm": 0.15733240398177428,
+      "magnification_at_paraxial_focus": -4.472994972120302,
+      "exit_pupil_b_mm": 7.553649917499947,
+      "vertex_to_exit_pupil_mm": -156.77211035359622,
+      "first_vertex_to_image_mm": 16.635738033926042,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 5.460540279678413,
+          "mtf_frequency_lp_per_mm": 42.58943781942079,
+          "mtf_tangential": 0.373334322505376,
+          "mtf_sagittal": 0.373334322505376,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 0.707,
+          "rms_spot_radius": 6.281559435633744,
+          "mtf_frequency_lp_per_mm": 36.626916524701876,
+          "mtf_tangential": 0.44303955144128815,
+          "mtf_sagittal": 0.440565652344024,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 1.0,
+          "rms_spot_radius": 7.019186864248055,
+          "mtf_frequency_lp_per_mm": 29.81260647359455,
+          "mtf_tangential": 0.532212716238713,
+          "mtf_sagittal": 0.5285672470243102,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ]
+    },
+    "C_restored_conjugates": {
+      "effl_mm": 4.189162253394586,
+      "vertex_to_image_mm": 1.4055,
+      "vertex_to_paraxial_focus_mm": 1.4054999999999997,
+      "object_image_b_mm": -5.951635372812242e-17,
+      "magnification_at_paraxial_focus": -3.4630000000000005,
+      "exit_pupil_b_mm": -4.3777822841230315e-16,
+      "vertex_to_exit_pupil_mm": 104.93599999999999,
+      "first_vertex_to_image_mm": 11.03493976626724,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 7.882139612685722,
+          "mtf_frequency_lp_per_mm": 42.58943781942079,
+          "mtf_tangential": 0.3653735762109275,
+          "mtf_sagittal": 0.3653735762109275,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 0.707,
+          "rms_spot_radius": 8.253885615694253,
+          "mtf_frequency_lp_per_mm": 36.626916524701876,
+          "mtf_tangential": 0.4350810890176631,
+          "mtf_sagittal": 0.4382913769885908,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 1.0,
+          "rms_spot_radius": 8.615096525311179,
+          "mtf_frequency_lp_per_mm": 29.81260647359455,
+          "mtf_tangential": 0.5197228675668166,
+          "mtf_sagittal": 0.5268370299544849,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ]
+    }
+  }
+}

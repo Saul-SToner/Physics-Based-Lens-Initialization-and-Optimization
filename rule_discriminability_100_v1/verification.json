@@ -1,0 +1,22 @@
+{
+  "groups": 300,
+  "paired_rows": 300,
+  "source_hashes_verified": 307,
+  "source_files_unchanged": true,
+  "case_rule_and_success_consistency": "pass",
+  "count_reconciliation": "pass",
+  "failed_cases_stop_reason_counts": {
+    "1": {
+      "{\"aperture\": \"step_limit\", \"field\": \"not_started_first_stage_limit\"}": 47,
+      "{\"aperture\": \"target_reached\", \"field\": \"step_limit\"}": 31
+    },
+    "2": {
+      "{\"aperture\": \"step_limit\", \"field\": \"target_reached\"}": 67,
+      "{\"aperture\": \"not_started_first_stage_limit\", \"field\": \"step_limit\"}": 11
+    },
+    "3": {
+      "{\"aperture\": \"step_limit\", \"field\": \"target_reached\"}": 67,
+      "{\"aperture\": \"step_limit\", \"field\": \"step_limit\"}": 11
+    }
+  }
+}

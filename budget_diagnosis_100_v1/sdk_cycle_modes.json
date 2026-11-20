@@ -1,0 +1,11 @@
+{
+  "OptimizationCycles": [
+    "Automatic",
+    "Fixed_1_Cycle",
+    "Fixed_5_Cycles",
+    "Fixed_10_Cycles",
+    "Fixed_50_Cycles",
+    "Infinite"
+  ],
+  "opened_opticstudio_session": false
+}

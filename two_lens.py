@@ -27,6 +27,13 @@ class TwoLensDesign:
     k2: float
     efl: float
 
+    @property
+    def radii_mm(self) -> tuple[float, float, float, float]:
+        """Front/back radii of lens 1, then lens 2, for symmetric n=1.5 lenses."""
+        r1 = 1 / self.k1 if self.k1 else float("inf")
+        r2 = 1 / self.k2 if self.k2 else float("inf")
+        return r1, -r1, r2, -r2
+
 
 def design_two_lens(
     l1: float, l2_prime: float, pupil_l1: float, pupil_l2_prime: float,

@@ -1,0 +1,167 @@
+{
+  "storage_precision_candidates": [],
+  "geometry_storage_precision_candidates": [],
+  "nearest_structure_pairs_for_review": [
+    {
+      "case_id_a": 34,
+      "case_id_b": 99,
+      "sampling_storage_precision_overlap": false,
+      "geometry_storage_precision_overlap": false,
+      "structure_relative_linf_distance": 0.020108819508936563,
+      "absolute_geometry_differences_mm": [
+        0.02985040849908116,
+        0.02985040849908116,
+        0.07375677768872269,
+        0.07375677768872269,
+        0.0,
+        0.0,
+        0.10340449396845663
+      ]
+    },
+    {
+      "case_id_a": 8,
+      "case_id_b": 68,
+      "sampling_storage_precision_overlap": false,
+      "geometry_storage_precision_overlap": false,
+      "structure_relative_linf_distance": 0.05088363606995425,
+      "absolute_geometry_differences_mm": [
+        0.11181594381639526,
+        0.11181594381639526,
+        0.16689505347759592,
+        0.16689505347759592,
+        0.0,
+        0.0,
+        0.14623744413059647
+      ]
+    },
+    {
+      "case_id_a": 5,
+      "case_id_b": 95,
+      "sampling_storage_precision_overlap": false,
+      "geometry_storage_precision_overlap": false,
+      "structure_relative_linf_distance": 0.0542013963868088,
+      "absolute_geometry_differences_mm": [
+        0.2014686052139103,
+        0.2014686052139103,
+        0.302254148328414,
+        0.302254148328414,
+        0.0,
+        0.0,
+        0.6963948331322598
+      ]
+    },
+    {
+      "case_id_a": 50,
+      "case_id_b": 56,
+      "sampling_storage_precision_overlap": false,
+      "geometry_storage_precision_overlap": false,
+      "structure_relative_linf_distance": 0.06544561153442165,
+      "absolute_geometry_differences_mm": [
+        0.10557370622758366,
+        0.10557370622758366,
+        0.6305607049985635,
+        0.6305607049985635,
+        0.0,
+        0.0,
+        0.15465954086057465
+      ]
+    },
+    {
+      "case_id_a": 18,
+      "case_id_b": 52,
+      "sampling_storage_precision_overlap": false,
+      "geometry_storage_precision_overlap": false,
+      "structure_relative_linf_distance": 0.06790752699142034,
+      "absolute_geometry_differences_mm": [
+        0.14670735289855097,
+        0.14670735289855097,
+        0.5489591117238319,
+        0.5489591117238319,
+        0.0,
+        0.0,
+        0.39622664350341896
+      ]
+    },
+    {
+      "case_id_a": 20,
+      "case_id_b": 29,
+      "sampling_storage_precision_overlap": false,
+      "geometry_storage_precision_overlap": false,
+      "structure_relative_linf_distance": 0.06853280937915225,
+      "absolute_geometry_differences_mm": [
+        0.03298170488280161,
+        0.03298170488280161,
+        0.7231788672637744,
+        0.7231788672637744,
+        0.0,
+        0.0,
+        0.40960071187666003
+      ]
+    },
+    {
+      "case_id_a": 73,
+      "case_id_b": 91,
+      "sampling_storage_precision_overlap": false,
+      "geometry_storage_precision_overlap": false,
+      "structure_relative_linf_distance": 0.06955221685678879,
+      "absolute_geometry_differences_mm": [
+        0.1957596880535184,
+        0.1957596880535184,
+        0.5766771299523441,
+        0.5766771299523441,
+        0.0,
+        0.0,
+        1.589075596025129
+      ]
+    },
+    {
+      "case_id_a": 7,
+      "case_id_b": 32,
+      "sampling_storage_precision_overlap": false,
+      "geometry_storage_precision_overlap": false,
+      "structure_relative_linf_distance": 0.07042395233161793,
+      "absolute_geometry_differences_mm": [
+        0.11454942305866611,
+        0.11454942305866611,
+        0.059300671318467835,
+        0.059300671318467835,
+        0.0,
+        0.0,
+        0.9424953558855709
+      ]
+    },
+    {
+      "case_id_a": 74,
+      "case_id_b": 86,
+      "sampling_storage_precision_overlap": false,
+      "geometry_storage_precision_overlap": false,
+      "structure_relative_linf_distance": 0.07052424100510436,
+      "absolute_geometry_differences_mm": [
+        0.08560710810237726,
+        0.08560710810237726,
+        0.4125692260377667,
+        0.4125692260377667,
+        0.0,
+        0.0,
+        0.33843864954533043
+      ]
+    },
+    {
+      "case_id_a": 14,
+      "case_id_b": 68,
+      "sampling_storage_precision_overlap": false,
+      "geometry_storage_precision_overlap": false,
+      "structure_relative_linf_distance": 0.07237186789091979,
+      "absolute_geometry_differences_mm": [
+        0.040529499111195744,
+        0.040529499111195744,
+        0.28377884026252964,
+        0.28377884026252964,
+        0.0,
+        0.0,
+        0.7876925137073734
+      ]
+    }
+  ],
+  "review_scope": "Nearest pairs are ranked observations; no engineering similarity cutoff was supplied."
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_f_number",
+    "scope": "overall",
+    "n": 600,
+    "mae": 26.093598800163587,
+    "rmse": 62.16148292527663,
+    "r2": 0.6594954979689893
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_f_number",
+    "scope": "f_number_500",
+    "n": 31,
+    "mae": 176.26681756780124,
+    "rmse": 200.08385915390136,
+    "r2": null
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_f_number",
+    "scope": "non_f_number_500",
+    "n": 569,
+    "mae": 17.911929587866982,
+    "rmse": 43.514131275779604,
+    "r2": -1.4209107443419695
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_f_number",
+    "scope": "rule_1",
+    "n": 200,
+    "mae": 16.303949913371085,
+    "rmse": 28.266220551793666,
+    "r2": 0.20688524315432444
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_f_number",
+    "scope": "rule_2",
+    "n": 200,
+    "mae": 52.29299753231052,
+    "rmse": 99.79130099292496,
+    "r2": 0.6552169994911952
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_f_number",
+    "scope": "rule_3",
+    "n": 200,
+    "mae": 9.683848954809159,
+    "rmse": 28.894063408686346,
+    "r2": 0.19315991787933173
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_field_deg",
+    "scope": "overall",
+    "n": 600,
+    "mae": 0.3569415689668628,
+    "rmse": 0.6917440343735874,
+    "r2": 0.8173572151488935
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_field_deg",
+    "scope": "f_number_500",
+    "n": 31,
+    "mae": 0.6791972273862729,
+    "rmse": 0.9299204092924495,
+    "r2": -0.02132546393314727
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_field_deg",
+    "scope": "non_f_number_500",
+    "n": 569,
+    "mae": 0.3393845823042939,
+    "rmse": 0.6763628751958647,
+    "r2": 0.8315466793173769
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_field_deg",
+    "scope": "rule_1",
+    "n": 200,
+    "mae": 0.7146867669442866,
+    "rmse": 1.0154551189349472,
+    "r2": 0.5996607756703578
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_field_deg",
+    "scope": "rule_2",
+    "n": 200,
+    "mae": 0.16895344744743032,
+    "rmse": 0.4239341751760438,
+    "r2": 0.43451533234462003
+  },
+  {
+    "version": "v2_grouped_cv_200",
+    "target": "final_field_deg",
+    "scope": "rule_3",
+    "n": 200,
+    "mae": 0.18718449250887179,
+    "rmse": 0.47398327377763033,
+    "r2": 0.39761977124486936
+  }
+]

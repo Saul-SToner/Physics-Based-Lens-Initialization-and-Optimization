@@ -1,0 +1,530 @@
+{
+  "metadata_columns": [
+    "case_id",
+    "prescription_sha256"
+  ],
+  "features": {
+    "object_l1_mm": {
+      "unit": "mm",
+      "definition": "original sampled signed parameter",
+      "dependencies": [
+        "candidate.inputs[0]"
+      ],
+      "group": "sampled",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "image_l2_mm": {
+      "unit": "mm",
+      "definition": "original sampled signed parameter",
+      "dependencies": [
+        "candidate.inputs[1]"
+      ],
+      "group": "sampled",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "entrance_pupil_l1_mm": {
+      "unit": "mm",
+      "definition": "original sampled signed parameter",
+      "dependencies": [
+        "candidate.inputs[2]"
+      ],
+      "group": "sampled",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "exit_pupil_l2_mm": {
+      "unit": "mm",
+      "definition": "original sampled signed parameter",
+      "dependencies": [
+        "candidate.inputs[3]"
+      ],
+      "group": "sampled",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "magnification": {
+      "unit": "dimensionless",
+      "definition": "original sampled signed parameter",
+      "dependencies": [
+        "candidate.inputs[4]"
+      ],
+      "group": "sampled",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "thin_spacing_mm": {
+      "unit": "mm",
+      "definition": "candidate.theory.solution.d12",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "paper_derived",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "thin_power_1_per_mm": {
+      "unit": "1/mm",
+      "definition": "candidate.theory.solution.k1",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "paper_derived",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "thin_power_2_per_mm": {
+      "unit": "1/mm",
+      "definition": "candidate.theory.solution.k2",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "paper_derived",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "thin_efl_mm": {
+      "unit": "mm",
+      "definition": "candidate.theory.solution.efl",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "paper_derived",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_r1_mm": {
+      "unit": "mm",
+      "definition": "entity.radii_mm[0]",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "entity",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_r2_mm": {
+      "unit": "mm",
+      "definition": "entity.radii_mm[1]",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "entity",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_r3_mm": {
+      "unit": "mm",
+      "definition": "entity.radii_mm[2]",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "entity",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_r4_mm": {
+      "unit": "mm",
+      "definition": "entity.radii_mm[3]",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "entity",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_t1_mm": {
+      "unit": "mm",
+      "definition": "entity.center_thicknesses_mm[0]",
+      "dependencies": [
+        "fixed construction"
+      ],
+      "group": "construction_constant",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": true,
+      "suggested_use": "retain as construction metadata"
+    },
+    "initial_t2_mm": {
+      "unit": "mm",
+      "definition": "entity.center_thicknesses_mm[1]",
+      "dependencies": [
+        "fixed construction"
+      ],
+      "group": "construction_constant",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": true,
+      "suggested_use": "retain as construction metadata"
+    },
+    "initial_air_gap_mm": {
+      "unit": "mm",
+      "definition": "entity.air_gap_mm",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "entity",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_object_to_first_vertex_mm": {
+      "unit": "mm",
+      "definition": "entity.object_to_first_vertex_mm",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "entity",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_last_vertex_to_image_mm": {
+      "unit": "mm",
+      "definition": "entity.last_vertex_to_image_mm",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "entity",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_stop_to_first_vertex_mm": {
+      "unit": "mm",
+      "definition": "entity.stop_to_first_vertex_mm",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "entity",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_last_vertex_to_exit_pupil_mm": {
+      "unit": "mm",
+      "definition": "entity.last_vertex_to_exit_pupil_mm",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "entity",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_efl_mm": {
+      "unit": "mm",
+      "definition": "independent restored thick-lens EFL",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "entity",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "index_nd": {
+      "unit": "dimensionless",
+      "definition": "fixed model glass index",
+      "dependencies": [
+        "fixed construction"
+      ],
+      "group": "construction_constant",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": true,
+      "suggested_use": "retain as construction metadata"
+    },
+    "initial_semi_aperture_1_mm": {
+      "unit": "mm",
+      "definition": "entity.semi_apertures_mm[0]",
+      "dependencies": [
+        "fixed construction"
+      ],
+      "group": "construction_constant",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": true,
+      "suggested_use": "retain as construction metadata"
+    },
+    "initial_semi_aperture_2_mm": {
+      "unit": "mm",
+      "definition": "entity.semi_apertures_mm[1]",
+      "dependencies": [
+        "fixed construction"
+      ],
+      "group": "construction_constant",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": true,
+      "suggested_use": "retain as construction metadata"
+    },
+    "thin_spacing_over_abs_efl": {
+      "unit": "dimensionless",
+      "definition": "thin_spacing_mm / abs(thin_efl_mm)",
+      "dependencies": [
+        "thin_spacing_mm",
+        "thin_efl_mm"
+      ],
+      "group": "dimensionless",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "thin_power_ratio": {
+      "unit": "dimensionless",
+      "definition": "thin_power_1_per_mm / thin_power_2_per_mm",
+      "dependencies": [
+        "thin_power_1_per_mm",
+        "thin_power_2_per_mm"
+      ],
+      "group": "dimensionless",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "thin_power_balance": {
+      "unit": "dimensionless",
+      "definition": "(K1-K2)/(abs(K1)+abs(K2))",
+      "dependencies": [
+        "thin_power_1_per_mm",
+        "thin_power_2_per_mm"
+      ],
+      "group": "dimensionless",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_gap_over_abs_efl": {
+      "unit": "dimensionless",
+      "definition": "initial_air_gap_mm / abs(initial_efl_mm)",
+      "dependencies": [
+        "initial_air_gap_mm",
+        "initial_efl_mm"
+      ],
+      "group": "dimensionless",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "object_over_abs_efl": {
+      "unit": "dimensionless",
+      "definition": "abs(object_l1_mm)/abs(initial_efl_mm)",
+      "dependencies": [
+        "object_l1_mm",
+        "initial_efl_mm"
+      ],
+      "group": "dimensionless",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "image_over_abs_efl": {
+      "unit": "dimensionless",
+      "definition": "abs(image_l2_mm)/abs(initial_efl_mm)",
+      "dependencies": [
+        "image_l2_mm",
+        "initial_efl_mm"
+      ],
+      "group": "dimensionless",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_bending_factor_1": {
+      "unit": "dimensionless",
+      "definition": "(c_front+c_back)/(c_front-c_back)",
+      "dependencies": [
+        "initial_r1_mm",
+        "initial_r2_mm"
+      ],
+      "group": "dimensionless",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": true,
+      "suggested_use": "retain as construction metadata"
+    },
+    "initial_edge_margin_1_mm": {
+      "unit": "mm",
+      "definition": "restored_geometry.edge_thickness_mm[0] - 0.001 mm",
+      "dependencies": [
+        "initial_r1_mm",
+        "initial_r2_mm",
+        "initial_t1_mm"
+      ],
+      "group": "initial_geometry",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_bending_factor_2": {
+      "unit": "dimensionless",
+      "definition": "(c_front+c_back)/(c_front-c_back)",
+      "dependencies": [
+        "initial_r3_mm",
+        "initial_r4_mm"
+      ],
+      "group": "dimensionless",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": true,
+      "suggested_use": "retain as construction metadata"
+    },
+    "initial_edge_margin_2_mm": {
+      "unit": "mm",
+      "definition": "restored_geometry.edge_thickness_mm[1] - 0.001 mm",
+      "dependencies": [
+        "initial_r3_mm",
+        "initial_r4_mm",
+        "initial_t2_mm"
+      ],
+      "group": "initial_geometry",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    },
+    "initial_air_gap_margin_mm": {
+      "unit": "mm",
+      "definition": "restored_geometry.minimum_air_gap_mm - 0.001 mm",
+      "dependencies": [
+        "initial_air_gap_mm",
+        "initial_r2_mm",
+        "initial_r3_mm"
+      ],
+      "group": "initial_geometry",
+      "available_before_rule_selection": true,
+      "constant_in_this_batch": false,
+      "suggested_use": "initial feature candidate"
+    }
+  },
+  "feature_sets": {
+    "raw_sampled_5": [
+      "object_l1_mm",
+      "image_l2_mm",
+      "entrance_pupil_l1_mm",
+      "exit_pupil_l2_mm",
+      "magnification"
+    ],
+    "paper_9": [
+      "object_l1_mm",
+      "image_l2_mm",
+      "entrance_pupil_l1_mm",
+      "exit_pupil_l2_mm",
+      "magnification",
+      "thin_spacing_mm",
+      "thin_power_1_per_mm",
+      "thin_power_2_per_mm",
+      "thin_efl_mm"
+    ],
+    "all_initial_nonconstant": [
+      "object_l1_mm",
+      "image_l2_mm",
+      "entrance_pupil_l1_mm",
+      "exit_pupil_l2_mm",
+      "magnification",
+      "thin_spacing_mm",
+      "thin_power_1_per_mm",
+      "thin_power_2_per_mm",
+      "thin_efl_mm",
+      "initial_r1_mm",
+      "initial_r2_mm",
+      "initial_r3_mm",
+      "initial_r4_mm",
+      "initial_air_gap_mm",
+      "initial_object_to_first_vertex_mm",
+      "initial_last_vertex_to_image_mm",
+      "initial_stop_to_first_vertex_mm",
+      "initial_last_vertex_to_exit_pupil_mm",
+      "initial_efl_mm",
+      "thin_spacing_over_abs_efl",
+      "thin_power_ratio",
+      "thin_power_balance",
+      "initial_gap_over_abs_efl",
+      "object_over_abs_efl",
+      "image_over_abs_efl",
+      "initial_edge_margin_1_mm",
+      "initial_edge_margin_2_mm",
+      "initial_air_gap_margin_mm"
+    ]
+  },
+  "outcomes_available_after_optimization": true,
+  "label_definitions": {
+    "target_success_mask": "bit 0=Rule1, bit 1=Rule2, bit 2=Rule3 reaches F/20 and 5 degrees with accepted MTF/geometry",
+    "pareto_endpoint_rules": "recorded endpoint nondominance over minimizing F/# and maximizing field; exact recorded values, ties retained",
+    "least_requested_cycles_successful_rules": "minimum requested DLS cycles among successful rules; ties retained; empty if none succeeds"
+  },
+  "preprocessing": "raw values retained; no train/test split, scaling, imputation or supervised feature selection",
+  "generation_degrees_of_freedom": "five random inputs; other feature columns are deterministic constructions",
+  "outcome_units": {
+    "fields.rms_spot_radius": "um",
+    "fields.mtf_tangential": "dimensionless",
+    "fields.mtf_sagittal": "dimensionless",
+    "fields.mtf_frequency_lp_per_mm": "lp/mm",
+    "final_geometry_clearances_mm": "mm",
+    "cost.dls_seconds": "s",
+    "cost.wall_seconds": "s"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source_sha256": {
+    "feature_engineering_100_v1\\features.json": "e9d0a02ac1b1388ab2e47013e020c43830868e3d99dc0c76393012015292c498",
+    "feature_engineering_100_v1\\outcomes.json": "468663a3ec0a6a6b61ef8eb5c1bda930a47fdf85f5811ef18ec3cbd9ff8b45fa",
+    "feature_engineering_100_v1\\dictionary.json": "a276d86f199f9c2c6baa06eb59e6fb69cb9b5ce4e09a27576fdf5e4d479033aa",
+    "feature_engineering_100_v1\\quality.json": "cf6be8c732ea55c4ffd48c5edbc6722ae4a668424923a4cf16e88dedda6fbd45",
+    "feature_engineering_100_v1\\provenance.json": "ad8af3926376c7f8609e30b09d826609cb6c0a032a84f2259be20b50206914a6"
+  },
+  "analysis_script_sha256": "fcfe109b5d78a2dd6589bfdbbe0feaa35c3dba87f5e2cb508a1eef0315f0a508",
+  "random_seed": 20261118,
+  "versions": {
+    "numpy": "2.5.5",
+    "pandas": "3.1.1"
+  }
+}

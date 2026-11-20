@@ -1,0 +1,18 @@
+{
+  "sources_sha256": {
+    "feature_engineering_100_v1\\features.json": "e9d0a02ac1b1388ab2e47013e020c43830868e3d99dc0c76393012015292c498",
+    "feature_engineering_100_v1\\outcomes.json": "468663a3ec0a6a6b61ef8eb5c1bda930a47fdf85f5811ef18ec3cbd9ff8b45fa",
+    "ml_rule_regression_100_v1\\predictions.json": "0ae7be51159c809ef0ff4ff4c5adb0f3c83dc0008d1294b36a5dbf45be3fb452",
+    "ml_rule_regression_100_v1\\metrics.json": "61375bf3fe4acf74f6d518b29febfbfe5d09bbd1211e732f0fd30b233a523415",
+    "ml_rule_regression_100_v1\\fold_metrics.json": "aa4b9aa4a8b0ee15b27f57fcea7341e2fcfff240de0bd6075c36829ec387118c",
+    "ml_rule_regression_100_v1\\fold_assignments.json": "d955eb6854cc88434176de86b4a8d37a6dad4c04e2ac111eb3bc4bfd0051a3a0",
+    "background_runs\\batch_300_20261118\\state.json": "7ef60d1e2838b47bafa481dbaea6d36638b6ba018a3e35e237f3b242f7eabfa1",
+    "p1_engine.py": "e78c40b22f5224b6bae6e8f5b3f31c53814841606aab4013e98256b59cb24a71",
+    "run_p1.py": "b4f5cc2a6d1883cddfd471a749dc819e1d1dbc1ea159f345cd5fbe004603c28a"
+  },
+  "script_sha256": "90212a23c4af179c79d391fdd123a31beaf4a9898c8dce2c4c4d2f752d57af64",
+  "random_seed": 20261118,
+  "second_batch_used": false,
+  "new_zemax_run": false,
+  "rf_sensitivity_is_model_analysis_not_hyperparameter_selection": true
+}

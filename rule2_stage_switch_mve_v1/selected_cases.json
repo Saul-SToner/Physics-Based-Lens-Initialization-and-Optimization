@@ -1,0 +1,62 @@
+[
+  {
+    "cluster": 0,
+    "case_id": 5,
+    "cluster_size": 5,
+    "distance_to_centroid": 0.5762345934808409
+  },
+  {
+    "cluster": 1,
+    "case_id": 25,
+    "cluster_size": 4,
+    "distance_to_centroid": 0.7790325540438908
+  },
+  {
+    "cluster": 9,
+    "case_id": 66,
+    "cluster_size": 4,
+    "distance_to_centroid": 0.8005171939776812
+  },
+  {
+    "cluster": 3,
+    "case_id": 115,
+    "cluster_size": 1,
+    "distance_to_centroid": 1.1102230246251565e-16
+  },
+  {
+    "cluster": 8,
+    "case_id": 129,
+    "cluster_size": 4,
+    "distance_to_centroid": 0.5378401176138827
+  },
+  {
+    "cluster": 6,
+    "case_id": 132,
+    "cluster_size": 1,
+    "distance_to_centroid": 0.0
+  },
+  {
+    "cluster": 2,
+    "case_id": 140,
+    "cluster_size": 5,
+    "distance_to_centroid": 0.9876621805136155
+  },
+  {
+    "cluster": 4,
+    "case_id": 157,
+    "cluster_size": 1,
+    "distance_to_centroid": 1.1102230246251565e-16
+  },
+  {
+    "cluster": 7,
+    "case_id": 188,
+    "cluster_size": 3,
+    "distance_to_centroid": 0.7504806448463369
+  },
+  {
+    "cluster": 5,
+    "case_id": 189,
+    "cluster_size": 3,
+    "distance_to_centroid": 0.7519313779837079
+  }
+]

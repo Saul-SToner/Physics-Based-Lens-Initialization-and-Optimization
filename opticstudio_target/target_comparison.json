@@ -1,0 +1,272 @@
+[
+  {
+    "seed": "C",
+    "dls_cycles": 5,
+    "prescription": "C_5_cycles.zmx",
+    "working_f_number": 20.0,
+    "max_field_deg": 5.0,
+    "dls_seconds": 1.5757010000015725,
+    "final_merit": 0.005456615926125046,
+    "geometry_valid": true,
+    "first_vertex_to_image_mm": 11.691476095964015,
+    "object_image_b_mm": 0.022696883725684458,
+    "magnification_error_at_image": 0.022091850793620527,
+    "exit_pupil_b_mm": -0.031474238941818555,
+    "spot_radius_units": "um",
+    "fields": [
+      {
+        "field_deg": 0.0,
+        "rms_spot_radius": 5.933005626304748,
+        "mtf_frequency_lp_per_mm": 42.58943781942079,
+        "mtf_tangential": 0.3835362338548034,
+        "mtf_sagittal": 0.3835362338548034,
+        "mtf_threshold": 0.3,
+        "meets_threshold": true
+      },
+      {
+        "field_deg": 3.5349999999999997,
+        "rms_spot_radius": 12.246078749967513,
+        "mtf_frequency_lp_per_mm": 36.626916524701876,
+        "mtf_tangential": 0.3513296203975067,
+        "mtf_sagittal": 0.42678353137580904,
+        "mtf_threshold": 0.4,
+        "meets_threshold": false
+      },
+      {
+        "field_deg": 5.0,
+        "rms_spot_radius": 17.348673332710458,
+        "mtf_frequency_lp_per_mm": 29.81260647359455,
+        "mtf_tangential": 0.2874692105356347,
+        "mtf_sagittal": 0.46857747765959973,
+        "mtf_threshold": 0.5,
+        "meets_threshold": false
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "seed": "C",
+    "dls_cycles": 50,
+    "prescription": "C_50_cycles.zmx",
+    "working_f_number": 20.0,
+    "max_field_deg": 5.0,
+    "dls_seconds": 6.0643408999967505,
+    "final_merit": 0.004544969338454611,
+    "geometry_valid": true,
+    "first_vertex_to_image_mm": 13.470269716283806,
+    "object_image_b_mm": 0.02321404342489153,
+    "magnification_error_at_image": 0.019995891231688212,
+    "exit_pupil_b_mm": -0.005697044216901759,
+    "spot_radius_units": "um",
+    "fields": [
+      {
+        "field_deg": 0.0,
+        "rms_spot_radius": 5.134409007960563,
+        "mtf_frequency_lp_per_mm": 42.58943781942079,
+        "mtf_tangential": 0.3863943866229047,
+        "mtf_sagittal": 0.3863943866229047,
+        "mtf_threshold": 0.3,
+        "meets_threshold": true
+      },
+      {
+        "field_deg": 3.5349999999999997,
+        "rms_spot_radius": 10.743729140589924,
+        "mtf_frequency_lp_per_mm": 36.626916524701876,
+        "mtf_tangential": 0.37996422337614943,
+        "mtf_sagittal": 0.4393100363112098,
+        "mtf_threshold": 0.4,
+        "meets_threshold": false
+      },
+      {
+        "field_deg": 5.0,
+        "rms_spot_radius": 15.15257375491486,
+        "mtf_frequency_lp_per_mm": 29.81260647359455,
+        "mtf_tangential": 0.33541442117599557,
+        "mtf_sagittal": 0.4937528061946628,
+        "mtf_threshold": 0.5,
+        "meets_threshold": false
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "seed": "rule_1",
+    "dls_cycles": 5,
+    "prescription": "rule_1_5_cycles.zmx",
+    "working_f_number": 20.0,
+    "max_field_deg": 5.0,
+    "dls_seconds": 1.5563322000016342,
+    "final_merit": 0.0045815764153208155,
+    "geometry_valid": true,
+    "first_vertex_to_image_mm": 13.392469092275363,
+    "object_image_b_mm": 0.021917068613826807,
+    "magnification_error_at_image": 0.019514719197184505,
+    "exit_pupil_b_mm": -0.0022288473223355254,
+    "spot_radius_units": "um",
+    "fields": [
+      {
+        "field_deg": 0.0,
+        "rms_spot_radius": 5.295950766170252,
+        "mtf_frequency_lp_per_mm": 42.58943781942079,
+        "mtf_tangential": 0.3854910459279308,
+        "mtf_sagittal": 0.3854910459279308,
+        "mtf_threshold": 0.3,
+        "meets_threshold": true
+      },
+      {
+        "field_deg": 3.5349999999999997,
+        "rms_spot_radius": 10.90393044472469,
+        "mtf_frequency_lp_per_mm": 36.626916524701876,
+        "mtf_tangential": 0.3768584409146593,
+        "mtf_sagittal": 0.4372927542776307,
+        "mtf_threshold": 0.4,
+        "meets_threshold": false
+      },
+      {
+        "field_deg": 5.0,
+        "rms_spot_radius": 15.339130964122834,
+        "mtf_frequency_lp_per_mm": 29.81260647359455,
+        "mtf_tangential": 0.3316860100143369,
+        "mtf_sagittal": 0.4907186577316337,
+        "mtf_threshold": 0.5,
+        "meets_threshold": false
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "seed": "rule_1",
+    "dls_cycles": 50,
+    "prescription": "rule_1_50_cycles.zmx",
+    "working_f_number": 20.0,
+    "max_field_deg": 5.0,
+    "dls_seconds": 6.59618380000029,
+    "final_merit": 0.004457851416986995,
+    "geometry_valid": true,
+    "first_vertex_to_image_mm": 13.996304095376633,
+    "object_image_b_mm": 0.022977295208505666,
+    "magnification_error_at_image": 0.0196039247693367,
+    "exit_pupil_b_mm": -0.0005373974688751559,
+    "spot_radius_units": "um",
+    "fields": [
+      {
+        "field_deg": 0.0,
+        "rms_spot_radius": 4.981081950490346,
+        "mtf_frequency_lp_per_mm": 42.58943781942079,
+        "mtf_tangential": 0.3867800491696718,
+        "mtf_sagittal": 0.3867800491696718,
+        "mtf_threshold": 0.3,
+        "meets_threshold": true
+      },
+      {
+        "field_deg": 3.5349999999999997,
+        "rms_spot_radius": 10.516482434373355,
+        "mtf_frequency_lp_per_mm": 36.626916524701876,
+        "mtf_tangential": 0.3828526544146592,
+        "mtf_sagittal": 0.441715308989609,
+        "mtf_threshold": 0.4,
+        "meets_threshold": false
+      },
+      {
+        "field_deg": 5.0,
+        "rms_spot_radius": 14.786256727876346,
+        "mtf_frequency_lp_per_mm": 29.81260647359455,
+        "mtf_tangential": 0.3386059108780599,
+        "mtf_sagittal": 0.4982286183823394,
+        "mtf_threshold": 0.5,
+        "meets_threshold": false
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "seed": "rule_2",
+    "dls_cycles": 5,
+    "prescription": "rule_2_5_cycles.zmx",
+    "working_f_number": 20.0,
+    "max_field_deg": 5.0,
+    "dls_seconds": 1.5324080000063987,
+    "final_merit": 0.00472543060624066,
+    "geometry_valid": true,
+    "first_vertex_to_image_mm": 13.06022328402986,
+    "object_image_b_mm": 0.02405600724705348,
+    "magnification_error_at_image": 0.020949777278146176,
+    "exit_pupil_b_mm": -0.015696012234137413,
+    "spot_radius_units": "um",
+    "fields": [
+      {
+        "field_deg": 0.0,
+        "rms_spot_radius": 5.368942301407313,
+        "mtf_frequency_lp_per_mm": 42.58943781942079,
+        "mtf_tangential": 0.3857760886324335,
+        "mtf_sagittal": 0.3857760886324335,
+        "mtf_threshold": 0.3,
+        "meets_threshold": true
+      },
+      {
+        "field_deg": 3.5349999999999997,
+        "rms_spot_radius": 11.095557720829403,
+        "mtf_frequency_lp_per_mm": 36.626916524701876,
+        "mtf_tangential": 0.3751460418661047,
+        "mtf_sagittal": 0.43655562845224066,
+        "mtf_threshold": 0.4,
+        "meets_threshold": false
+      },
+      {
+        "field_deg": 5.0,
+        "rms_spot_radius": 15.651384846589105,
+        "mtf_frequency_lp_per_mm": 29.81260647359455,
+        "mtf_tangential": 0.3280014494383091,
+        "mtf_sagittal": 0.48854117693254917,
+        "mtf_threshold": 0.5,
+        "meets_threshold": false
+      }
+    ],
+    "accepted": false
+  },
+  {
+    "seed": "rule_2",
+    "dls_cycles": 50,
+    "prescription": "rule_2_50_cycles.zmx",
+    "working_f_number": 20.0,
+    "max_field_deg": 5.0,
+    "dls_seconds": 5.604639799996221,
+    "final_merit": 0.0044693689933671355,
+    "geometry_valid": true,
+    "first_vertex_to_image_mm": 13.857636305137165,
+    "object_image_b_mm": 0.023049314849481917,
+    "magnification_error_at_image": 0.019673842971316358,
+    "exit_pupil_b_mm": 0.0005892729078880166,
+    "spot_radius_units": "um",
+    "fields": [
+      {
+        "field_deg": 0.0,
+        "rms_spot_radius": 5.038612729946198,
+        "mtf_frequency_lp_per_mm": 42.58943781942079,
+        "mtf_tangential": 0.386613990138605,
+        "mtf_sagittal": 0.386613990138605,
+        "mtf_threshold": 0.3,
+        "meets_threshold": true
+      },
+      {
+        "field_deg": 3.5349999999999997,
+        "rms_spot_radius": 10.581359072174429,
+        "mtf_frequency_lp_per_mm": 36.626916524701876,
+        "mtf_tangential": 0.3822545687528908,
+        "mtf_sagittal": 0.44096071945793724,
+        "mtf_threshold": 0.4,
+        "meets_threshold": false
+      },
+      {
+        "field_deg": 5.0,
+        "rms_spot_radius": 14.882647073782376,
+        "mtf_frequency_lp_per_mm": 29.81260647359455,
+        "mtf_tangential": 0.3386241724239234,
+        "mtf_sagittal": 0.4969696360292949,
+        "mtf_threshold": 0.5,
+        "meets_threshold": false
+      }
+    ],
+    "accepted": false
+  }
+]

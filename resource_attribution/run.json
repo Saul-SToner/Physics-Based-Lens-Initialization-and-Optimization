@@ -1,0 +1,22 @@
+{
+  "profiles": [
+    {
+      "mode": "ray",
+      "returncode": 0,
+      "guard_stop": null,
+      "minimum_free_gib": 2.553752899169922
+    },
+    {
+      "mode": "native",
+      "returncode": 0,
+      "guard_stop": null,
+      "minimum_free_gib": 3.486774444580078
+    }
+  ],
+  "counter_registration_errors": {},
+  "history_changed": [],
+  "memory_floor_gib": 1,
+  "timeout_seconds_per_profile": 120,
+  "historical_files_verified": 133,
+  "logical_cpu_count": 32
+}

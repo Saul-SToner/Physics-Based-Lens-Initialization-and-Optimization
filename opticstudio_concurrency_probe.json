@@ -1,0 +1,102 @@
+{
+  "attempts": [
+    {
+      "ready": true,
+      "license": "EnterpriseEdition",
+      "subscription": true,
+      "instance_attempt": 1,
+      "startup_seconds": 5.260777500000017
+    },
+    {
+      "ready": true,
+      "license": "EnterpriseEdition",
+      "subscription": true,
+      "instance_attempt": 2,
+      "startup_seconds": 5.690415600000051
+    },
+    {
+      "ready": true,
+      "license": "EnterpriseEdition",
+      "subscription": true,
+      "instance_attempt": 3,
+      "startup_seconds": 5.034429000000046
+    },
+    {
+      "ready": true,
+      "license": "EnterpriseEdition",
+      "subscription": true,
+      "instance_attempt": 4,
+      "startup_seconds": 6.062631900000042
+    },
+    {
+      "ready": true,
+      "license": "EnterpriseEdition",
+      "subscription": true,
+      "instance_attempt": 5,
+      "startup_seconds": 5.020900200000028
+    },
+    {
+      "ready": true,
+      "license": "EnterpriseEdition",
+      "subscription": true,
+      "instance_attempt": 6,
+      "startup_seconds": 5.235215799999992
+    },
+    {
+      "ready": true,
+      "license": "EnterpriseEdition",
+      "subscription": true,
+      "instance_attempt": 7,
+      "startup_seconds": 5.583121699999992
+    },
+    {
+      "ready": true,
+      "license": "EnterpriseEdition",
+      "subscription": true,
+      "instance_attempt": 8,
+      "startup_seconds": 5.16807869999991
+    },
+    {
+      "ready": false,
+      "error": "No licensed API application",
+      "instance_attempt": 9,
+      "startup_seconds": 3.0987963000000036
+    }
+  ],
+  "licensed_simultaneous_sessions": 8,
+  "held_session_checks": [
+    {
+      "alive": true,
+      "surfaces": 3
+    },
+    {
+      "alive": true,
+      "surfaces": 3
+    },
+    {
+      "alive": true,
+      "surfaces": 3
+    },
+    {
+      "alive": true,
+      "surfaces": 3
+    },
+    {
+      "alive": true,
+      "surfaces": 3
+    },
+    {
+      "alive": true,
+      "surfaces": 3
+    },
+    {
+      "alive": true,
+      "surfaces": 3
+    },
+    {
+      "alive": true,
+      "surfaces": 3
+    }
+  ],
+  "all_probe_processes_closed": true
+}

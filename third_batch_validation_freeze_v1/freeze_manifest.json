@@ -1,0 +1,75 @@
+{
+  "status": "frozen_before_third_batch_optimization",
+  "cases": [
+    201,
+    700
+  ],
+  "prescription_count": 500,
+  "rule_conditioned_predictions": 1500,
+  "models": "V2 RF/raw9 leaf=1 final models trained on Case 1-200",
+  "raw9": [
+    "object_l1_mm",
+    "image_l2_mm",
+    "entrance_pupil_l1_mm",
+    "exit_pupil_l2_mm",
+    "magnification",
+    "thin_spacing_mm",
+    "thin_power_1_per_mm",
+    "thin_power_2_per_mm",
+    "thin_efl_mm"
+  ],
+  "design_columns": [
+    "rule_1",
+    "object_l1_mm__rule_1",
+    "image_l2_mm__rule_1",
+    "entrance_pupil_l1_mm__rule_1",
+    "exit_pupil_l2_mm__rule_1",
+    "magnification__rule_1",
+    "thin_spacing_mm__rule_1",
+    "thin_power_1_per_mm__rule_1",
+    "thin_power_2_per_mm__rule_1",
+    "thin_efl_mm__rule_1",
+    "rule_2",
+    "object_l1_mm__rule_2",
+    "image_l2_mm__rule_2",
+    "entrance_pupil_l1_mm__rule_2",
+    "exit_pupil_l2_mm__rule_2",
+    "magnification__rule_2",
+    "thin_spacing_mm__rule_2",
+    "thin_power_1_per_mm__rule_2",
+    "thin_power_2_per_mm__rule_2",
+    "thin_efl_mm__rule_2",
+    "rule_3",
+    "object_l1_mm__rule_3",
+    "image_l2_mm__rule_3",
+    "entrance_pupil_l1_mm__rule_3",
+    "exit_pupil_l2_mm__rule_3",
+    "magnification__rule_3",
+    "thin_spacing_mm__rule_3",
+    "thin_power_1_per_mm__rule_3",
+    "thin_power_2_per_mm__rule_3",
+    "thin_efl_mm__rule_3"
+  ],
+  "selection_policy": {
+    "formula": "max((predicted_F_number-20)/20,0) + max((5-predicted_field_deg)/5,0)",
+    "direction": "minimum",
+    "tie_break": "smallest rule number",
+    "primary_validation_contrast": "actual_gap(selected_rule) - actual_gap(fixed_Rule_3)",
+    "secondary_endpoints": [
+      "target_success_rate",
+      "true_Pareto_membership",
+      "harm_fraction"
+    ]
+  },
+  "artifact_sha256": {
+    "ml_rule_regression_200_v2\\model_final_f_number.joblib": "44b15f4d56027302b532444f1b82dd93dc32d1483800ddeb4fbe7dd26856fd3f",
+    "ml_rule_regression_200_v2\\model_final_field_deg.joblib": "8430969978abe40b1a5695eb028c1086fdb8d5b8be33de2870715dfb8e0ba56b",
+    "ml_rule_regression_200_v2\\feature_dictionary.json": "3b7dba143c302632117bf96aa10966fe3950e7cad77d51e2a0c55afc76ef7a91",
+    "ml_rule_regression_200_v2\\config.json": "1aa7f80469e9aa8de6e245336616d8624959e0d0b1e1e8c7e166b97de51240de",
+    "ml_v2_oof_error_decision_analysis\\decision_summary.json": "2bf9a5ace1d3f6ceb7c3d5351a9a6db7ce1447be5cd9b3ca37987547f171522d",
+    "random_candidates_700\\candidates.json": "f6337f0f04983969cde02508a4575a46cfafb0bb9a7ac73911815f84344c0dae"
+  },
+  "no_third_batch_outcome_read": true,
+  "predictions_written_before_optimization": true,
+  "validation_metrics_embargoed_until_user_requests_report": true
+}

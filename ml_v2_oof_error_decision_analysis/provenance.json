@@ -1,0 +1,16 @@
+{
+  "source_sha256": {
+    "ml_rule_regression_200_v2\\predictions_oof.json": "94354b86c4b839dd416809493e8ef3e1c4899b74894285c65bd79aaf1f0ad3f7",
+    "ml_rule_regression_200_v2\\fold_assignments.json": "c73668ce97ab3502a4c5b4e8eec1fdcfde8f157a66efbb88e2c6fbb3681c5cbb",
+    "ml_rule_regression_200_v2\\config.json": "1aa7f80469e9aa8de6e245336616d8624959e0d0b1e1e8c7e166b97de51240de",
+    "random_candidates_200\\candidates.json": "c027fb051b5e6add3e05532db66dc96e98a1850775587cf94bf3d14da63946f2",
+    "background_runs\\batch_300_20261118\\state.json": "7ef60d1e2838b47bafa481dbaea6d36638b6ba018a3e35e237f3b242f7eabfa1",
+    "background_runs\\batch_300_20261118_02\\state.json": "b0af4a33326c2fa11f17bfaf579d94cb69c8a3542ff93b54c5349ec6adbfdb21"
+  },
+  "oof_only": true,
+  "prescription_grouped_outer_predictions": true,
+  "no_new_model_fit": true,
+  "no_zemax_run": true,
+  "decision_uses_only_oof_predictions_at_selection_time": true,
+  "actual_endpoints_used_only_for_post_selection_scoring": true
+}

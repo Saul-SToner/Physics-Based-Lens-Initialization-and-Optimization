@@ -1,0 +1,10 @@
+{
+  "not_entered_total": 11,
+  "not_entered_fraction": 0.03666666666666667,
+  "minimum_not_entered_training_rows": 7,
+  "validation_fold_without_not_entered": [
+    2
+  ],
+  "stable_training_supported": false,
+  "decision": "Retain direct RF models; stage-aware results are feasibility evidence only because the minority class has 11 rows, all from Rule 2, and one validation fold has no minority example."
+}

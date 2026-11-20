@@ -1,0 +1,30 @@
+{
+  "experiment": "ml_rule_regression_200_v2",
+  "prescriptions": 200,
+  "rows": 600,
+  "cross_validation": {
+    "class": "GroupKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 20261118,
+    "group": "prescription_id"
+  },
+  "model": {
+    "class": "RandomForestRegressor",
+    "n_estimators": 500,
+    "min_samples_leaf": 1,
+    "max_depth": null,
+    "max_features": "sqrt",
+    "random_state": 20261118,
+    "n_jobs": 1
+  },
+  "targets": [
+    "final_f_number",
+    "final_field_deg"
+  ],
+  "feature_set": "raw9 + fixed rule conditioning",
+  "historical_independent_test_preserved": true,
+  "new_independent_test_available": false,
+  "stage_aware_included": false,
+  "second_batch_used_for_training": true
+}

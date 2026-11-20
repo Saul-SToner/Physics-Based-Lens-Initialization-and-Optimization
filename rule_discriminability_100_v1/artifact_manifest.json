@@ -1,0 +1,43 @@
+{
+  "python_analysis": "3.13.1",
+  "numpy": "2.5.5",
+  "matplotlib": "3.11.2",
+  "pandas": "3.1.1",
+  "files_sha256": {
+    "analyze_rule_discriminability.py": "8acf64dd88cd45b01f7de92a5720690402a261093022d5de19b8232bc3a6881e",
+    "render_rule_discriminability.py": "66ebd8cd5ade2f966925f786630ec17bcb8c3eb4a6bf4b22c5872ddc9cab8e77",
+    "verify_rule_discriminability.py": "1b327e90d22aceaa4d9f44c4e05a429a2c3323c63e0c7dba52cb97a712e81abd",
+    "rule_discriminability_100_v1\\01_distributions.png": "7884212675d250613a5216c0e4ee5501c6d3e5e76945c879b11031b5329af504",
+    "rule_discriminability_100_v1\\01_distributions.svg": "60ea9eab9cf442a7f8d5c9b815b54a7330cc30cd18ba1ff06e4ba3f90eab8b4e",
+    "rule_discriminability_100_v1\\01_distributions_gray.png": "c1617ac776ccef47549f93b60ce545f70e32ab15555011c44fafb83b04785703",
+    "rule_discriminability_100_v1\\01_distributions_preview.png": "8eaa5f2d4e2eb258ba711ef3ce697faabd0e5c8319191cb2c74e7e2693c519a7",
+    "rule_discriminability_100_v1\\02_failed_target_gaps.png": "1f1f491325e9892835b317d5fbc64869dacf69b2975566ffba19fc6b5ed58488",
+    "rule_discriminability_100_v1\\02_failed_target_gaps.svg": "54d6e9a9859d9244dc08b492248726a832b4c1702c6e34e0781fc0dc2e387678",
+    "rule_discriminability_100_v1\\02_failed_target_gaps_gray.png": "6781ecd58307f8f6685921e087c16d74b9098e6e6055c02681a0efd50b4ee537",
+    "rule_discriminability_100_v1\\02_failed_target_gaps_preview.png": "8dfed763f32bbc7d9f23c2b177c3b058cc2ccf428fcb2162ca201e0f7a0a127d",
+    "rule_discriminability_100_v1\\03_paired_comparisons.png": "30af5be96768300ebbadfdeadaed81ba1bcdd949bf2d555176500aade370c3fb",
+    "rule_discriminability_100_v1\\03_paired_comparisons.svg": "e3cf878d565e9ebd58a5ef272ca65ca6b19726535d992aec38dfc6528b143fe7",
+    "rule_discriminability_100_v1\\03_paired_comparisons_gray.png": "39edc31743de3183430a279b029cfa4e90431e3a3036c9e59de6d427664b7783",
+    "rule_discriminability_100_v1\\03_paired_comparisons_preview.png": "08b1eba64b529f30b109dba2d00c40686952f11306b17c20d81ba96d8392110b",
+    "rule_discriminability_100_v1\\04_cost_vs_budget.png": "283d8af24bb3f9a1904472bdef1ee8d5de5ce6c726f11fa13e44e183f5680170",
+    "rule_discriminability_100_v1\\04_cost_vs_budget.svg": "0d046b90450915c8c7a16a508f088281d5fd544ffc056c5788128eed7b40023c",
+    "rule_discriminability_100_v1\\04_cost_vs_budget_gray.png": "7b410907f817499485ff916a15374f0a5b1b6cf1a1fd343417e3706d6b4c67a2",
+    "rule_discriminability_100_v1\\04_cost_vs_budget_preview.png": "ac451e7a472b5489a6d1cb44922f1fe95aaa898d1b03da9143dd728e9af85a00",
+    "rule_discriminability_100_v1\\analysis.json": "d26cf60da25c825fa3c5cb6891a85db19983e498766e2055fd96d725c45ee505",
+    "rule_discriminability_100_v1\\case_sets.json": "2a137c3b57030a5df7b212eaf73bb98457af4d02e6e743c6e97d52d4ed60b71d",
+    "rule_discriminability_100_v1\\data_profile.json": "8462ec4e07e69cfe8d3a1524cc05cacb8f4b407d6e5a53fad076c3aa7978d9c6",
+    "rule_discriminability_100_v1\\failed_78_details.json": "678cd373a0c50b40df3544e76527ce138424b5ca8b41c01af75be17d44ea38fc",
+    "rule_discriminability_100_v1\\figure_qa.json": "4324fc49a1f54e2cd99cb488666cca5e8e8e7d8effae4a7a08593da9facda1bc",
+    "rule_discriminability_100_v1\\group_metrics.json": "90b84dc6e2f2e8097d4344b8f8bee701e4679f520552d55a3c107207eee72df7",
+    "rule_discriminability_100_v1\\paired_metrics.json": "46bd3b60c6072043986453d62f0d46056c6ebf5cbaa410e1d0fe8326810a96ed",
+    "rule_discriminability_100_v1\\provenance.json": "800e7eb6f7e4c0e1818db7034b15dd81cf0561edd8ecb874a2d6704d3d2fc811",
+    "rule_discriminability_100_v1\\report.md": "303dcea67e971d9c1717eced2c9897154834b96256ac9ae18b954109d965094f",
+    "rule_discriminability_100_v1\\verification.json": "376ddeed8c0a4e5bc3fc166814cd601ad52a8f5ea6dcc55f52e50c5a4c0f6d74"
+  },
+  "reproduction": [
+    "python analyze_rule_discriminability.py NEW_OUTPUT_DIRECTORY",
+    "python verify_rule_discriminability.py",
+    "python render_rule_discriminability.py"
+  ],
+  "note": "Analysis accepts a fresh output directory. Rendering and verification currently target rule_discriminability_100_v1; adjust their out/p constant to reproduce in another directory. Original scientific scripts and historical datasets were not changed."
+}

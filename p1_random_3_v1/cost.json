@@ -1,0 +1,35 @@
+{
+  "batch": {
+    "groups": 9,
+    "wall_seconds_including_api_sessions": 2016.7382566999997,
+    "requested_dls_cycles": 7450,
+    "dls_seconds": 1914.6500997000012
+  },
+  "by_rule": {
+    "1": {
+      "groups": 3,
+      "attempts": 43,
+      "requested_dls_cycles": 2150,
+      "dls_seconds": 559.9249589000008,
+      "wall_seconds": 573.9830994000001
+    },
+    "2": {
+      "groups": 3,
+      "attempts": 53,
+      "requested_dls_cycles": 2650,
+      "dls_seconds": 649.8889885000001,
+      "wall_seconds": 664.2333484000003
+    },
+    "3": {
+      "groups": 3,
+      "attempts": 53,
+      "requested_dls_cycles": 2650,
+      "dls_seconds": 704.8361523000003,
+      "wall_seconds": 720.3834135000002
+    }
+  },
+  "completed_dls_cycles": null,
+  "cycle_accounting": "50 requested cycles per completed optimization call; the API exposes no completed-cycle counter",
+  "historical_files_verified": 64,
+  "targets_reached": 5
+}

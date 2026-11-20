@@ -1,0 +1,149 @@
+{
+  "raw9": [
+    "object_l1_mm",
+    "image_l2_mm",
+    "entrance_pupil_l1_mm",
+    "exit_pupil_l2_mm",
+    "magnification",
+    "thin_spacing_mm",
+    "thin_power_1_per_mm",
+    "thin_power_2_per_mm",
+    "thin_efl_mm"
+  ],
+  "rule_encoding": "three fixed indicator blocks, each followed by raw9*indicator",
+  "design_columns": [
+    "rule_1",
+    "object_l1_mm__rule_1",
+    "image_l2_mm__rule_1",
+    "entrance_pupil_l1_mm__rule_1",
+    "exit_pupil_l2_mm__rule_1",
+    "magnification__rule_1",
+    "thin_spacing_mm__rule_1",
+    "thin_power_1_per_mm__rule_1",
+    "thin_power_2_per_mm__rule_1",
+    "thin_efl_mm__rule_1",
+    "rule_2",
+    "object_l1_mm__rule_2",
+    "image_l2_mm__rule_2",
+    "entrance_pupil_l1_mm__rule_2",
+    "exit_pupil_l2_mm__rule_2",
+    "magnification__rule_2",
+    "thin_spacing_mm__rule_2",
+    "thin_power_1_per_mm__rule_2",
+    "thin_power_2_per_mm__rule_2",
+    "thin_efl_mm__rule_2",
+    "rule_3",
+    "object_l1_mm__rule_3",
+    "image_l2_mm__rule_3",
+    "entrance_pupil_l1_mm__rule_3",
+    "exit_pupil_l2_mm__rule_3",
+    "magnification__rule_3",
+    "thin_spacing_mm__rule_3",
+    "thin_power_1_per_mm__rule_3",
+    "thin_power_2_per_mm__rule_3",
+    "thin_efl_mm__rule_3"
+  ],
+  "source_feature_definitions": {
+    "object_l1_mm": {
+      "unit": "mm",
+      "definition": "original sampled signed parameter",
+      "dependencies": [
+        "candidate.inputs[0]"
+      ],
+      "group": "sampled",
+      "available_before_rule_selection": true
+    },
+    "image_l2_mm": {
+      "unit": "mm",
+      "definition": "original sampled signed parameter",
+      "dependencies": [
+        "candidate.inputs[1]"
+      ],
+      "group": "sampled",
+      "available_before_rule_selection": true
+    },
+    "entrance_pupil_l1_mm": {
+      "unit": "mm",
+      "definition": "original sampled signed parameter",
+      "dependencies": [
+        "candidate.inputs[2]"
+      ],
+      "group": "sampled",
+      "available_before_rule_selection": true
+    },
+    "exit_pupil_l2_mm": {
+      "unit": "mm",
+      "definition": "original sampled signed parameter",
+      "dependencies": [
+        "candidate.inputs[3]"
+      ],
+      "group": "sampled",
+      "available_before_rule_selection": true
+    },
+    "magnification": {
+      "unit": "dimensionless",
+      "definition": "original sampled signed parameter",
+      "dependencies": [
+        "candidate.inputs[4]"
+      ],
+      "group": "sampled",
+      "available_before_rule_selection": true
+    },
+    "thin_spacing_mm": {
+      "unit": "mm",
+      "definition": "candidate.theory.solution.d12",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "paper_derived",
+      "available_before_rule_selection": true
+    },
+    "thin_power_1_per_mm": {
+      "unit": "1/mm",
+      "definition": "candidate.theory.solution.k1",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "paper_derived",
+      "available_before_rule_selection": true
+    },
+    "thin_power_2_per_mm": {
+      "unit": "1/mm",
+      "definition": "candidate.theory.solution.k2",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "paper_derived",
+      "available_before_rule_selection": true
+    },
+    "thin_efl_mm": {
+      "unit": "mm",
+      "definition": "candidate.theory.solution.efl",
+      "dependencies": [
+        "object_l1_mm",
+        "image_l2_mm",
+        "entrance_pupil_l1_mm",
+        "exit_pupil_l2_mm",
+        "magnification"
+      ],
+      "group": "paper_derived",
+      "available_before_rule_selection": true
+    }
+  },
+  "target_definitions": {
+    "final_f_number": "accepted endpoint working_f_number",
+    "final_field_deg": "accepted endpoint max_field_deg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "paired_comparison": "predicted target-gap policy minus fixed Rule 3",
+  "mean_delta": -0.09505265241405791,
+  "bootstrap_95_percentile_ci": [
+    -0.20355242088602518,
+    -0.01510065918595782
+  ],
+  "prescriptions_better": 22,
+  "prescriptions_equal": 166,
+  "prescriptions_worse": 12,
+  "mean_oracle_regret": 0.1581906044007587,
+  "oracle_regret_bootstrap_95_percentile_ci": [
+    0.0702810138341073,
+    0.2877121052857385
+  ],
+  "bootstrap_unit": "prescription",
+  "bootstrap_replicates": 20000,
+  "interpretation": "Exploratory paired uncertainty on the same OOF prescriptions; not an independent confirmation."
+}

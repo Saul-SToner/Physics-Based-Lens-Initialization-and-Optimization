@@ -1,0 +1,4 @@
+numpy==2.5.5
+pythonnet==3.2.1
+ray==2.60.0
+psutil==7.2.2

@@ -1,0 +1,25 @@
+{
+  "n_prescriptions": 237,
+  "primary_mean_paired_gap_delta_selected_minus_rule_3": -0.004107238158305732,
+  "primary_bootstrap_95_percentile_ci": [
+    -0.06014500951560026,
+    0.062001991584380446
+  ],
+  "mean_actual_gap_selected": 0.8521273248227502,
+  "mean_actual_gap_fixed_rule_3": 0.856234562981056,
+  "benefit_equal_harm_counts": {
+    "benefit": 33,
+    "equal": 185,
+    "harm": 19
+  },
+  "selected_target_success_rate": 0.15611814345991562,
+  "fixed_rule_3_target_success_rate": 0.15611814345991562,
+  "selected_rule_true_pareto_rate": 0.9493670886075949,
+  "mean_oracle_regret": 0.2608972699645266,
+  "zero_oracle_regret_rate": 0.70042194092827,
+  "selection_counts": {
+    "1": 51,
+    "2": 24,
+    "3": 162
+  }
+}

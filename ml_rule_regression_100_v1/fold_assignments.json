@@ -1,0 +1,402 @@
+[
+  {
+    "case_id": 1,
+    "fold": 4
+  },
+  {
+    "case_id": 2,
+    "fold": 1
+  },
+  {
+    "case_id": 3,
+    "fold": 3
+  },
+  {
+    "case_id": 4,
+    "fold": 3
+  },
+  {
+    "case_id": 5,
+    "fold": 3
+  },
+  {
+    "case_id": 6,
+    "fold": 3
+  },
+  {
+    "case_id": 7,
+    "fold": 5
+  },
+  {
+    "case_id": 8,
+    "fold": 1
+  },
+  {
+    "case_id": 9,
+    "fold": 5
+  },
+  {
+    "case_id": 10,
+    "fold": 2
+  },
+  {
+    "case_id": 11,
+    "fold": 3
+  },
+  {
+    "case_id": 12,
+    "fold": 2
+  },
+  {
+    "case_id": 13,
+    "fold": 1
+  },
+  {
+    "case_id": 14,
+    "fold": 5
+  },
+  {
+    "case_id": 15,
+    "fold": 4
+  },
+  {
+    "case_id": 16,
+    "fold": 4
+  },
+  {
+    "case_id": 17,
+    "fold": 1
+  },
+  {
+    "case_id": 18,
+    "fold": 5
+  },
+  {
+    "case_id": 19,
+    "fold": 4
+  },
+  {
+    "case_id": 20,
+    "fold": 1
+  },
+  {
+    "case_id": 21,
+    "fold": 2
+  },
+  {
+    "case_id": 22,
+    "fold": 3
+  },
+  {
+    "case_id": 23,
+    "fold": 3
+  },
+  {
+    "case_id": 24,
+    "fold": 1
+  },
+  {
+    "case_id": 25,
+    "fold": 3
+  },
+  {
+    "case_id": 26,
+    "fold": 3
+  },
+  {
+    "case_id": 27,
+    "fold": 2
+  },
+  {
+    "case_id": 28,
+    "fold": 2
+  },
+  {
+    "case_id": 29,
+    "fold": 5
+  },
+  {
+    "case_id": 30,
+    "fold": 1
+  },
+  {
+    "case_id": 31,
+    "fold": 5
+  },
+  {
+    "case_id": 32,
+    "fold": 2
+  },
+  {
+    "case_id": 33,
+    "fold": 5
+  },
+  {
+    "case_id": 34,
+    "fold": 5
+  },
+  {
+    "case_id": 35,
+    "fold": 3
+  },
+  {
+    "case_id": 36,
+    "fold": 2
+  },
+  {
+    "case_id": 37,
+    "fold": 1
+  },
+  {
+    "case_id": 38,
+    "fold": 5
+  },
+  {
+    "case_id": 39,
+    "fold": 3
+  },
+  {
+    "case_id": 40,
+    "fold": 4
+  },
+  {
+    "case_id": 41,
+    "fold": 1
+  },
+  {
+    "case_id": 42,
+    "fold": 3
+  },
+  {
+    "case_id": 43,
+    "fold": 3
+  },
+  {
+    "case_id": 44,
+    "fold": 1
+  },
+  {
+    "case_id": 45,
+    "fold": 2
+  },
+  {
+    "case_id": 46,
+    "fold": 2
+  },
+  {
+    "case_id": 47,
+    "fold": 1
+  },
+  {
+    "case_id": 48,
+    "fold": 5
+  },
+  {
+    "case_id": 49,
+    "fold": 2
+  },
+  {
+    "case_id": 50,
+    "fold": 4
+  },
+  {
+    "case_id": 51,
+    "fold": 4
+  },
+  {
+    "case_id": 52,
+    "fold": 2
+  },
+  {
+    "case_id": 53,
+    "fold": 1
+  },
+  {
+    "case_id": 54,
+    "fold": 5
+  },
+  {
+    "case_id": 55,
+    "fold": 2
+  },
+  {
+    "case_id": 56,
+    "fold": 4
+  },
+  {
+    "case_id": 57,
+    "fold": 4
+  },
+  {
+    "case_id": 58,
+    "fold": 4
+  },
+  {
+    "case_id": 59,
+    "fold": 1
+  },
+  {
+    "case_id": 60,
+    "fold": 4
+  },
+  {
+    "case_id": 61,
+    "fold": 2
+  },
+  {
+    "case_id": 62,
+    "fold": 3
+  },
+  {
+    "case_id": 63,
+    "fold": 4
+  },
+  {
+    "case_id": 64,
+    "fold": 5
+  },
+  {
+    "case_id": 65,
+    "fold": 4
+  },
+  {
+    "case_id": 66,
+    "fold": 1
+  },
+  {
+    "case_id": 67,
+    "fold": 2
+  },
+  {
+    "case_id": 68,
+    "fold": 4
+  },
+  {
+    "case_id": 69,
+    "fold": 5
+  },
+  {
+    "case_id": 70,
+    "fold": 3
+  },
+  {
+    "case_id": 71,
+    "fold": 2
+  },
+  {
+    "case_id": 72,
+    "fold": 1
+  },
+  {
+    "case_id": 73,
+    "fold": 2
+  },
+  {
+    "case_id": 74,
+    "fold": 1
+  },
+  {
+    "case_id": 75,
+    "fold": 2
+  },
+  {
+    "case_id": 76,
+    "fold": 2
+  },
+  {
+    "case_id": 77,
+    "fold": 1
+  },
+  {
+    "case_id": 78,
+    "fold": 5
+  },
+  {
+    "case_id": 79,
+    "fold": 2
+  },
+  {
+    "case_id": 80,
+    "fold": 4
+  },
+  {
+    "case_id": 81,
+    "fold": 3
+  },
+  {
+    "case_id": 82,
+    "fold": 5
+  },
+  {
+    "case_id": 83,
+    "fold": 5
+  },
+  {
+    "case_id": 84,
+    "fold": 4
+  },
+  {
+    "case_id": 85,
+    "fold": 4
+  },
+  {
+    "case_id": 86,
+    "fold": 5
+  },
+  {
+    "case_id": 87,
+    "fold": 2
+  },
+  {
+    "case_id": 88,
+    "fold": 1
+  },
+  {
+    "case_id": 89,
+    "fold": 5
+  },
+  {
+    "case_id": 90,
+    "fold": 1
+  },
+  {
+    "case_id": 91,
+    "fold": 5
+  },
+  {
+    "case_id": 92,
+    "fold": 5
+  },
+  {
+    "case_id": 93,
+    "fold": 4
+  },
+  {
+    "case_id": 94,
+    "fold": 3
+  },
+  {
+    "case_id": 95,
+    "fold": 3
+  },
+  {
+    "case_id": 96,
+    "fold": 4
+  },
+  {
+    "case_id": 97,
+    "fold": 3
+  },
+  {
+    "case_id": 98,
+    "fold": 3
+  },
+  {
+    "case_id": 99,
+    "fold": 1
+  },
+  {
+    "case_id": 100,
+    "fold": 4
+  }
+]

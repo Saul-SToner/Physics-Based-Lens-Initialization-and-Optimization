@@ -1,0 +1,46 @@
+{
+  "audited_completed_cases": 100,
+  "audited_rule_results": 300,
+  "exact_sampling_duplicate_groups": [],
+  "exact_full_prescription_duplicate_groups": [],
+  "exact_geometry_duplicate_groups": [],
+  "sampling_precision_overlap_pairs": [],
+  "geometry_precision_overlap_pairs": [],
+  "identity_issues": [],
+  "independent_exact_sampling_cases": 100,
+  "usable_independent_cases": 100,
+  "next_batch_overlap_with_first": 0,
+  "registry_counts": {
+    "prescriptions": 204,
+    "geometry_variants": 200,
+    "occurrences": 316,
+    "batch_cases": 200,
+    "execution_refs": 300
+  },
+  "registry_validation_counts": {
+    "rejected": 4,
+    "valid": 200
+  },
+  "repeated_snapshot_fingerprint_count": 102,
+  "repeated_snapshot_excess_records": 112,
+  "cross_batch_duplicate_fingerprints": [],
+  "engineering_similarity_tolerance": null,
+  "geometry_vector_order": [
+    "r1_mm",
+    "r2_mm",
+    "r3_mm",
+    "r4_mm",
+    "t1_mm",
+    "t2_mm",
+    "air_gap_mm"
+  ],
+  "storage_precision_rule": "closed exact-rational midpoint intervals between adjacent binary64 values; all coordinates must overlap",
+  "precision_scope": "binary64 output representation; original sampler has no fixed decimal quantization",
+  "similarity_ranking_rule": "max_i(abs(a_i-b_i)/max(abs(a_i),abs(b_i))); zero/zero gives zero",
+  "source_files_verified_unchanged": 906,
+  "native_to_source_max_relative_distance": 4.561563829408563e-15,
+  "repeated_snapshot_excess_by_validation_status": {
+    "rejected": 2,
+    "valid": 110
+  }
+}

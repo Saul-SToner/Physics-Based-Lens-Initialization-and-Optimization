@@ -1,0 +1,919 @@
+{
+  "accepted_for_batch_generation": true,
+  "scheduler_dependency_checks_passed": true,
+  "model_thread_checks_passed": true,
+  "ray_task_worker_unique_pids": [
+    4996,
+    9868,
+    15340,
+    39252,
+    41812,
+    42476,
+    43520,
+    44508
+  ],
+  "model_import_private_bytes_range": [
+    21217280,
+    22835200
+  ],
+  "comparisons": [
+    {
+      "case_id": 1,
+      "rule": 1,
+      "passed": true,
+      "complete": true,
+      "reference_wall_seconds": 213.3286510999999,
+      "parallel_wall_seconds": 130.67666240000017,
+      "reference_steps": 11,
+      "parallel_steps": 11,
+      "metric_comparison": {
+        "working_f_number": {
+          "parallel": 124.92451140049998,
+          "serial": 124.92451140049998,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "max_field_deg": {
+          "parallel": 1.0,
+          "serial": 1.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "object_image_b_mm": {
+          "parallel": 0.0008471055314203113,
+          "serial": 0.0008471055314203113,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "magnification_error_at_image": {
+          "parallel": 9.378627187706101e-05,
+          "serial": 9.378627187706101e-05,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "exit_pupil_b_mm": {
+          "parallel": 0.001390318985119876,
+          "serial": 0.001390318985119876,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_tangential": {
+          "parallel": 0.38863235468190366,
+          "serial": 0.38863235468190366,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_sagittal": {
+          "parallel": 0.38863235468190366,
+          "serial": 0.38863235468190366,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_rms_spot_radius": {
+          "parallel": 0.008133211820033235,
+          "serial": 0.008133211820033235,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_2_mtf_tangential": {
+          "parallel": 0.4707010300211083,
+          "serial": 0.4707010300211083,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_mtf_sagittal": {
+          "parallel": 0.4687020874438301,
+          "serial": 0.4687020874438301,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_rms_spot_radius": {
+          "parallel": 0.08396287675101224,
+          "serial": 0.08396287675101224,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_3_mtf_tangential": {
+          "parallel": 0.5668520073841156,
+          "serial": 0.5668520073841156,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_mtf_sagittal": {
+          "parallel": 0.5634622323721878,
+          "serial": 0.5634622323721878,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_rms_spot_radius": {
+          "parallel": 0.15804001025718414,
+          "serial": 0.15804001025718414,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        }
+      },
+      "geometry_valid": true,
+      "mismatches": []
+    },
+    {
+      "case_id": 1,
+      "rule": 2,
+      "passed": true,
+      "complete": true,
+      "reference_wall_seconds": 250.91231200000016,
+      "parallel_wall_seconds": 232.69540400000005,
+      "reference_steps": 16,
+      "parallel_steps": 16,
+      "metric_comparison": {
+        "working_f_number": {
+          "parallel": 20.0,
+          "serial": 20.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "max_field_deg": {
+          "parallel": 5.0,
+          "serial": 5.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "object_image_b_mm": {
+          "parallel": 0.007931186946862567,
+          "serial": 0.007931186946862567,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "magnification_error_at_image": {
+          "parallel": 0.001118453981387102,
+          "serial": 0.001118453981387102,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "exit_pupil_b_mm": {
+          "parallel": -0.0058825805629201255,
+          "serial": -0.0058825805629201255,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_tangential": {
+          "parallel": 0.38720344380685934,
+          "serial": 0.38720344380685934,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_sagittal": {
+          "parallel": 0.38720344380685934,
+          "serial": 0.38720344380685934,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_rms_spot_radius": {
+          "parallel": 1.0418764908836102,
+          "serial": 1.0418764908836102,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_2_mtf_tangential": {
+          "parallel": 0.4537298818498089,
+          "serial": 0.4537298818498089,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_mtf_sagittal": {
+          "parallel": 0.4632402290168701,
+          "serial": 0.4632402290168701,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_rms_spot_radius": {
+          "parallel": 3.323882583708091,
+          "serial": 3.323882583708091,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_3_mtf_tangential": {
+          "parallel": 0.5123723803708414,
+          "serial": 0.5123723803708414,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_mtf_sagittal": {
+          "parallel": 0.5502632033527549,
+          "serial": 0.5502632033527549,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_rms_spot_radius": {
+          "parallel": 5.252329027796388,
+          "serial": 5.252329027796388,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        }
+      },
+      "geometry_valid": true,
+      "mismatches": []
+    },
+    {
+      "case_id": 1,
+      "rule": 3,
+      "passed": true,
+      "complete": true,
+      "reference_wall_seconds": 369.88913679999996,
+      "parallel_wall_seconds": 228.2770332,
+      "reference_steps": 16,
+      "parallel_steps": 16,
+      "metric_comparison": {
+        "working_f_number": {
+          "parallel": 20.0,
+          "serial": 20.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "max_field_deg": {
+          "parallel": 5.0,
+          "serial": 5.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "object_image_b_mm": {
+          "parallel": 0.00793063349748735,
+          "serial": 0.00793063349748735,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "magnification_error_at_image": {
+          "parallel": 0.001118399922124036,
+          "serial": 0.001118399922124036,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "exit_pupil_b_mm": {
+          "parallel": -0.005891752751733037,
+          "serial": -0.005891752751733037,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_tangential": {
+          "parallel": 0.38720255697926426,
+          "serial": 0.38720255697926426,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_sagittal": {
+          "parallel": 0.38720255697926426,
+          "serial": 0.38720255697926426,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_rms_spot_radius": {
+          "parallel": 1.0422980024239636,
+          "serial": 1.0422980024239636,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_2_mtf_tangential": {
+          "parallel": 0.4537257289565037,
+          "serial": 0.4537257289565037,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_mtf_sagittal": {
+          "parallel": 0.4632370998069463,
+          "serial": 0.4632370998069463,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_rms_spot_radius": {
+          "parallel": 3.324124881534738,
+          "serial": 3.324124881534738,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_3_mtf_tangential": {
+          "parallel": 0.51237515718175,
+          "serial": 0.51237515718175,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_mtf_sagittal": {
+          "parallel": 0.5502595694937291,
+          "serial": 0.5502595694937291,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_rms_spot_radius": {
+          "parallel": 5.25235725543333,
+          "serial": 5.25235725543333,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        }
+      },
+      "geometry_valid": true,
+      "mismatches": []
+    },
+    {
+      "case_id": 2,
+      "rule": 1,
+      "passed": true,
+      "complete": true,
+      "reference_wall_seconds": 278.71453850000034,
+      "parallel_wall_seconds": 168.60898160000033,
+      "reference_steps": 16,
+      "parallel_steps": 16,
+      "metric_comparison": {
+        "working_f_number": {
+          "parallel": 22.06707283779626,
+          "serial": 22.06707283779626,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "max_field_deg": {
+          "parallel": 1.0,
+          "serial": 1.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "object_image_b_mm": {
+          "parallel": 0.006650883488063641,
+          "serial": 0.006650883488063641,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "magnification_error_at_image": {
+          "parallel": 0.0019270099575967592,
+          "serial": 0.0019270099575967592,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "exit_pupil_b_mm": {
+          "parallel": -0.003411093812209387,
+          "serial": -0.003411093812209387,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_tangential": {
+          "parallel": 0.3541456720119471,
+          "serial": 0.3541456720119471,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_sagittal": {
+          "parallel": 0.3541456720119471,
+          "serial": 0.3541456720119471,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_rms_spot_radius": {
+          "parallel": 8.169464717324542,
+          "serial": 8.169464717324542,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_2_mtf_tangential": {
+          "parallel": 0.428391180180047,
+          "serial": 0.428391180180047,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_mtf_sagittal": {
+          "parallel": 0.4302856639311321,
+          "serial": 0.4302856639311321,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_rms_spot_radius": {
+          "parallel": 8.461387004599542,
+          "serial": 8.461387004599542,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_3_mtf_tangential": {
+          "parallel": 0.517942948223345,
+          "serial": 0.517942948223345,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_mtf_sagittal": {
+          "parallel": 0.5222905750202632,
+          "serial": 0.5222905750202632,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_rms_spot_radius": {
+          "parallel": 8.74605829123109,
+          "serial": 8.74605829123109,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        }
+      },
+      "geometry_valid": true,
+      "mismatches": []
+    },
+    {
+      "case_id": 2,
+      "rule": 2,
+      "passed": true,
+      "complete": true,
+      "reference_wall_seconds": 312.85295529999985,
+      "parallel_wall_seconds": 273.5048517,
+      "reference_steps": 21,
+      "parallel_steps": 21,
+      "metric_comparison": {
+        "working_f_number": {
+          "parallel": 29.888405136246078,
+          "serial": 29.888405136246078,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "max_field_deg": {
+          "parallel": 5.0,
+          "serial": 5.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "object_image_b_mm": {
+          "parallel": 0.0029638143987735788,
+          "serial": 0.0029638143987735788,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "magnification_error_at_image": {
+          "parallel": 0.0001392989381687748,
+          "serial": 0.0001392989381687748,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "exit_pupil_b_mm": {
+          "parallel": 0.012078219325832862,
+          "serial": 0.012078219325832862,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_tangential": {
+          "parallel": 0.3799551554873173,
+          "serial": 0.3799551554873173,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_sagittal": {
+          "parallel": 0.3799551554873173,
+          "serial": 0.3799551554873173,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_rms_spot_radius": {
+          "parallel": 3.581763431736631,
+          "serial": 3.581763431736631,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_2_mtf_tangential": {
+          "parallel": 0.4522562624707821,
+          "serial": 0.4522562624707821,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_mtf_sagittal": {
+          "parallel": 0.4607219270452108,
+          "serial": 0.4607219270452108,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_rms_spot_radius": {
+          "parallel": 7.468885139793787,
+          "serial": 7.468885139793787,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_3_mtf_tangential": {
+          "parallel": 0.5017766974527377,
+          "serial": 0.5017766974527377,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_mtf_sagittal": {
+          "parallel": 0.5500289376593077,
+          "serial": 0.5500289376593077,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_rms_spot_radius": {
+          "parallel": 10.32723005608207,
+          "serial": 10.32723005608207,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        }
+      },
+      "geometry_valid": true,
+      "mismatches": []
+    },
+    {
+      "case_id": 2,
+      "rule": 3,
+      "passed": true,
+      "complete": true,
+      "reference_wall_seconds": 113.01092980000021,
+      "parallel_wall_seconds": 250.3359089999999,
+      "reference_steps": 21,
+      "parallel_steps": 21,
+      "metric_comparison": {
+        "working_f_number": {
+          "parallel": 29.888405136246078,
+          "serial": 29.888405136246078,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "max_field_deg": {
+          "parallel": 5.0,
+          "serial": 5.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "object_image_b_mm": {
+          "parallel": 0.002963255608063875,
+          "serial": 0.002963255608063875,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "magnification_error_at_image": {
+          "parallel": 0.0001399126474126433,
+          "serial": 0.0001399126474126433,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "exit_pupil_b_mm": {
+          "parallel": 0.012285516387115614,
+          "serial": 0.012285516387115614,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_tangential": {
+          "parallel": 0.3799505018041721,
+          "serial": 0.3799505018041721,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_sagittal": {
+          "parallel": 0.3799505018041721,
+          "serial": 0.3799505018041721,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_rms_spot_radius": {
+          "parallel": 3.583111045479445,
+          "serial": 3.583111045479445,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_2_mtf_tangential": {
+          "parallel": 0.45226082671127865,
+          "serial": 0.45226082671127865,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_mtf_sagittal": {
+          "parallel": 0.46072238901364054,
+          "serial": 0.46072238901364054,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_rms_spot_radius": {
+          "parallel": 7.470148385941029,
+          "serial": 7.470148385941029,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_3_mtf_tangential": {
+          "parallel": 0.5017788002825877,
+          "serial": 0.5017788002825877,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_mtf_sagittal": {
+          "parallel": 0.5500345399994664,
+          "serial": 0.5500345399994664,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_rms_spot_radius": {
+          "parallel": 10.328354489719217,
+          "serial": 10.328354489719217,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        }
+      },
+      "geometry_valid": true,
+      "mismatches": []
+    },
+    {
+      "case_id": 3,
+      "rule": 1,
+      "passed": true,
+      "complete": true,
+      "reference_wall_seconds": 81.9399097999999,
+      "parallel_wall_seconds": 176.9544695999998,
+      "reference_steps": 16,
+      "parallel_steps": 16,
+      "metric_comparison": {
+        "working_f_number": {
+          "parallel": 20.0,
+          "serial": 20.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "max_field_deg": {
+          "parallel": 5.0,
+          "serial": 5.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "object_image_b_mm": {
+          "parallel": 0.0011208993107083565,
+          "serial": 0.0011208993107083565,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "magnification_error_at_image": {
+          "parallel": 0.0004249125874715709,
+          "serial": 0.0004249125874715709,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "exit_pupil_b_mm": {
+          "parallel": 0.0022190869803786484,
+          "serial": 0.0022190869803786484,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_tangential": {
+          "parallel": 0.38764039074730183,
+          "serial": 0.38764039074730183,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_sagittal": {
+          "parallel": 0.38764039074730183,
+          "serial": 0.38764039074730183,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_rms_spot_radius": {
+          "parallel": 0.5172200298649958,
+          "serial": 0.5172200298649958,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_2_mtf_tangential": {
+          "parallel": 0.4666406581028848,
+          "serial": 0.4666406581028848,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_mtf_sagittal": {
+          "parallel": 0.46696698037994055,
+          "serial": 0.46696698037994055,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_rms_spot_radius": {
+          "parallel": 1.5261899940532662,
+          "serial": 1.5261899940532662,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_3_mtf_tangential": {
+          "parallel": 0.5534839374130662,
+          "serial": 0.5534839374130662,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_mtf_sagittal": {
+          "parallel": 0.5599872733508818,
+          "serial": 0.5599872733508818,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_rms_spot_radius": {
+          "parallel": 2.4771142377905027,
+          "serial": 2.4771142377905027,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        }
+      },
+      "geometry_valid": true,
+      "mismatches": []
+    },
+    {
+      "case_id": 3,
+      "rule": 2,
+      "passed": true,
+      "complete": true,
+      "reference_wall_seconds": 100.46808110000029,
+      "parallel_wall_seconds": 227.33438710000019,
+      "reference_steps": 16,
+      "parallel_steps": 16,
+      "metric_comparison": {
+        "working_f_number": {
+          "parallel": 20.0,
+          "serial": 20.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "max_field_deg": {
+          "parallel": 5.0,
+          "serial": 5.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "object_image_b_mm": {
+          "parallel": 0.0011210925400937377,
+          "serial": 0.0011210925400937377,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "magnification_error_at_image": {
+          "parallel": 0.00042499105349769195,
+          "serial": 0.00042499105349769195,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "exit_pupil_b_mm": {
+          "parallel": 0.002218270602964534,
+          "serial": 0.002218270602964534,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_tangential": {
+          "parallel": 0.38763694640775026,
+          "serial": 0.38763694640775026,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_sagittal": {
+          "parallel": 0.38763694640775026,
+          "serial": 0.38763694640775026,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_rms_spot_radius": {
+          "parallel": 0.5183645865407991,
+          "serial": 0.5183645865407991,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_2_mtf_tangential": {
+          "parallel": 0.46664058510331924,
+          "serial": 0.46664058510331924,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_mtf_sagittal": {
+          "parallel": 0.46696454252625524,
+          "serial": 0.46696454252625524,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_rms_spot_radius": {
+          "parallel": 1.5268455085681112,
+          "serial": 1.5268455085681112,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_3_mtf_tangential": {
+          "parallel": 0.5534897866622276,
+          "serial": 0.5534897866622276,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_mtf_sagittal": {
+          "parallel": 0.5599862091362297,
+          "serial": 0.5599862091362297,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_rms_spot_radius": {
+          "parallel": 2.4774308703466086,
+          "serial": 2.4774308703466086,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        }
+      },
+      "geometry_valid": true,
+      "mismatches": []
+    },
+    {
+      "case_id": 3,
+      "rule": 3,
+      "passed": true,
+      "complete": true,
+      "reference_wall_seconds": 237.48334690000002,
+      "parallel_wall_seconds": 189.1455050999998,
+      "reference_steps": 16,
+      "parallel_steps": 16,
+      "metric_comparison": {
+        "working_f_number": {
+          "parallel": 20.0,
+          "serial": 20.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "max_field_deg": {
+          "parallel": 5.0,
+          "serial": 5.0,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-09
+        },
+        "object_image_b_mm": {
+          "parallel": 0.0011209180643931838,
+          "serial": 0.0011209180643931838,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "magnification_error_at_image": {
+          "parallel": 0.0004249256876218688,
+          "serial": 0.0004249256876218688,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "exit_pupil_b_mm": {
+          "parallel": 0.0022189336193305653,
+          "serial": 0.0022189336193305653,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_tangential": {
+          "parallel": 0.3876394929688575,
+          "serial": 0.3876394929688575,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_mtf_sagittal": {
+          "parallel": 0.3876394929688575,
+          "serial": 0.3876394929688575,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_1_rms_spot_radius": {
+          "parallel": 0.5175177003982976,
+          "serial": 0.5175177003982976,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_2_mtf_tangential": {
+          "parallel": 0.46664039874205054,
+          "serial": 0.46664039874205054,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_mtf_sagittal": {
+          "parallel": 0.46696622215381506,
+          "serial": 0.46696622215381506,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_2_rms_spot_radius": {
+          "parallel": 1.5263321043286762,
+          "serial": 1.5263321043286762,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        },
+        "field_3_mtf_tangential": {
+          "parallel": 0.5534855593570528,
+          "serial": 0.5534855593570528,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_mtf_sagittal": {
+          "parallel": 0.5599868528958545,
+          "serial": 0.5599868528958545,
+          "absolute_difference": 0.0,
+          "tolerance": 1e-06
+        },
+        "field_3_rms_spot_radius": {
+          "parallel": 2.477138069637358,
+          "serial": 2.477138069637358,
+          "absolute_difference": 0.0,
+          "tolerance": 0.001
+        }
+      },
+      "geometry_valid": true,
+      "mismatches": []
+    }
+  ],
+  "observations": {
+    "peak_active_sessions": 8,
+    "peak_running_groups": 8,
+    "peak_live_subprocesses": 8,
+    "minimum_available_memory_gib": 1.0136604309082031,
+    "mean_system_cpu_percent": 34.78566978193147,
+    "peak_system_cpu_percent": 68.9,
+    "wall_seconds_including_ray_setup": 344.9442402999998,
+    "workload_wall_seconds": 342.05252070000006,
+    "stop_events": [],
+    "historical_files_changed": [],
+    "peak_committed_gib": 23.221233367919922,
+    "peak_commit_fraction": 0.7581836296145266,
+    "samples_with_eight_running": 294,
+    "mean_system_cpu_percent_at_eight_running": 45.814625850340136
+  }
+}

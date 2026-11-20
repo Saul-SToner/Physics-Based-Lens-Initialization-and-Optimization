@@ -1,0 +1,35 @@
+{
+  "rows": 300,
+  "unique_case_ids": 100,
+  "rules": [
+    1,
+    2,
+    3
+  ],
+  "raw9": [
+    "object_l1_mm",
+    "image_l2_mm",
+    "entrance_pupil_l1_mm",
+    "exit_pupil_l2_mm",
+    "magnification",
+    "thin_spacing_mm",
+    "thin_power_1_per_mm",
+    "thin_power_2_per_mm",
+    "thin_efl_mm"
+  ],
+  "physics6_added": [
+    "thin_spacing_over_abs_efl",
+    "thin_power_ratio",
+    "thin_power_balance",
+    "initial_gap_over_abs_efl",
+    "object_over_abs_efl",
+    "image_over_abs_efl"
+  ],
+  "targets": {
+    "final_f_number": "final_working_f_number",
+    "final_field_deg": "final_max_field_deg"
+  },
+  "source_directory": "feature_engineering_100_v1",
+  "second_batch_used": false,
+  "rule_conditioning": "fixed one-hot rule indicators and rule-by-feature interactions"
+}

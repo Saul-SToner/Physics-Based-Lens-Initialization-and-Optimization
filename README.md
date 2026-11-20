@@ -2,6 +2,45 @@
 
 本仓库围绕 *Crystals* 2022, 12, 1206（"Lens Design Method Prediction of Local Optimization Algorithm by Using Deep Learning"）的双透镜算例，做三件事：复现近轴初始设计、在 OpticStudio 中验证"先缩孔径/先扩视场"两类由粗到细的优化规则、再用 200 套随机处方建模并在第三批 337 套全新处方上独立检验。
 
+> **归档状态（2026-11-20）**：阶段性研究完成。项目证明了规则条件终点回归的可行性，但没有证明学习式规则选择优于固定 Rule 3，也没有完整复现论文的 OpticStudio 布局。Case 538–700 未运行/未解盲，预算对照仅完成 3/27；这些均作为明确限制保留。
+
+## 仓库入口
+
+| 目的 | 入口 |
+|---|---|
+| 了解最终结论与证据边界 | [阶段性结题报告.md](阶段性结题报告.md) |
+| 追踪判断如何形成和修正 | [思考流程.md](思考流程.md) |
+| 查看工程实现和实验时间线 | [工作历程技术分析.md](工作历程技术分析.md) |
+| 复现近轴双透镜求解 | `two_lens.py`、`validate_two_lens.py`、`lens_geometry.py` |
+| 复现三条 OpticStudio 规则 | [OPTIMIZATION_PROTOCOL.md](OPTIMIZATION_PROTOCOL.md)、`optimize_opticstudio_rules.py` |
+| 复现 V2 机器学习实验 | `run_ml_v2_200.py`、`ml_rule_regression_200_v2/` |
+| 查看第三批独立验证 | `third_batch_pilot_100_validation_v1/`、`third_batch_followup_237_validation_v1/` |
+| 查看 Rule 2 阶段切换实验 | `rule2_stage_switch_mve_v1/` |
+
+## 最小复现
+
+近轴求解与独立残差检查不依赖 OpticStudio：
+
+```powershell
+py -m pip install -r requirements-validation.txt
+py validate_two_lens.py
+py -m unittest test_validate_two_lens.py
+```
+
+机器学习报告需要 scikit-learn；OpticStudio 优化需要本机已安装并授权的 Ansys Zemax OpticStudio/ZOS-API。后台批处理、线程限制、断点续跑和 PushPlus 的用法见 [BACKGROUND_RUNNER.md](BACKGROUND_RUNNER.md)。通知凭据不在仓库中。
+
+```powershell
+py -m pip install -r requirements-ml.txt
+py run_ml_v2_200.py
+```
+
+## 数据与归档边界
+
+- GitHub 保存源代码、冻结协议、紧凑结果、图表、V2 模型权重与可验证报告。
+- 不上传虚拟环境、后台原始遥测、临时 ZMX/ZDA、运行日志和本地归档 ZIP；这些文件体积大、依赖机器环境，且不是结论的唯一证据。
+- 已发表论文 PDF 随原项目历史保留；使用者仍应遵守出版方版权条款。
+- 结果目录是历史快照，不应被新运行原地覆盖。新实验应使用新目录和新的冻结清单。
+
 以下为只读审阅后整理的**思考流程**：记录判断如何形成、如何被推翻、如何被修正。结果汇总与逐项数值另见 [思考流程.md](思考流程.md)。
 
 ---

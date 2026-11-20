@@ -1,0 +1,15 @@
+{
+  "status": "frozen_before_followup_unblinding",
+  "evaluated_cases": [301, 537],
+  "prescription_count": 237,
+  "rule_conditioned_rows": 711,
+  "model": "frozen V2 RF/raw9 leaf=1",
+  "prediction_source": "third_batch_validation_freeze_v1/predictions_preoptimization.json",
+  "selection_source": "third_batch_validation_freeze_v1/rule_selection_preoptimization.json",
+  "model_metrics": ["MAE", "RMSE", "R2", "bias"],
+  "model_scopes": ["overall", "rule_1", "rule_2", "rule_3", "f_number_500", "non_f_number_500"],
+  "decision_primary_endpoint": "mean paired actual_gap(selected_rule) - actual_gap(fixed_Rule_3)",
+  "target_gap": "max((F_number-20)/20,0) + max((5-field_deg)/5,0)",
+  "remaining_unread_cases": [538, 700],
+  "no_refit_or_hyperparameter_change": true
+}

@@ -1,0 +1,50 @@
+{
+  "status": "prepared_not_launched",
+  "case_ids": [
+    52,
+    5,
+    11
+  ],
+  "selection": "nearest common target among all-failed cases, then smallest case IDs with differing Rule 2/3 endpoints; three distinct cases",
+  "rules": [
+    1,
+    2,
+    3
+  ],
+  "single_factor_design": "Increase DLS budget per candidate while keeping .99/1.01 progression thresholds fixed. Do not call this a stage-step-budget experiment. Verify supported SDK cycle modes before choosing execution implementation.",
+  "separate_experiment": "Relaxing .99/1.01 is a continuation-resolution experiment, must be reported separately from DLS budget.",
+  "preserve": [
+    "V1 source and results",
+    "merit function",
+    "geometry constraints",
+    "success standard",
+    "2 DLS cores",
+    "independent case sessions"
+  ],
+  "baseline": "Use matching V1 data for historical comparison, and repeat 50-cycle controls under the new run environment before attributing timing or small numerical differences.",
+  "sdk_verified_fixed_cycles": [
+    1,
+    5,
+    10,
+    50
+  ],
+  "sdk_supports_fixed_100_or_200": false,
+  "proposed_dls_budget_levels": [
+    {
+      "calls_per_candidate": 1,
+      "fixed_cycles_per_call": 50,
+      "requested_budget_per_candidate": 50
+    },
+    {
+      "calls_per_candidate": 2,
+      "fixed_cycles_per_call": 50,
+      "requested_budget_per_candidate": 100
+    },
+    {
+      "calls_per_candidate": 4,
+      "fixed_cycles_per_call": 50,
+      "requested_budget_per_candidate": 200
+    }
+  ],
+  "operational_requirement": "Additional calls use the same candidate and current optimized prescription without restoring between calls; validation and continuation advancement only after the allocated calls. This probes additional DLS passes and includes call-restart effects; it is not a fixed 100/200-cycle single call."
+}

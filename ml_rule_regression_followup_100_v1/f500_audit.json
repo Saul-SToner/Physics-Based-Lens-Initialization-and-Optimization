@@ -1,0 +1,219 @@
+{
+  "count": 11,
+  "rule_counts": {
+    "2": 11
+  },
+  "code_evidence": {
+    "initial_value": "p1_engine.py START_F = 500.0",
+    "rule_2_order": "run_p1.py order = (field, aperture)",
+    "failure_behavior": "If first stage stops before target, second stage is marked not_started_first_stage_limit"
+  },
+  "classification": {
+    "special_failure_sentinel": false,
+    "explicit_optimizer_upper_bound": false,
+    "initial_continuation_boundary": true,
+    "valid_under_current_geometry_and_mtf_checks": true,
+    "policy_censored_endpoint": true,
+    "explanation": "Rule 2 starts at F/#=500 and expands field first. In these cases field progression stopped before 5 degrees, so aperture progression never began. The last accepted prescriptions are real saved and reloaded endpoints that pass current geometry and MTF checks, but 500 reflects the continuation policy boundary rather than an independently optimized aperture optimum."
+  },
+  "cases": [
+    {
+      "case_id": 5,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_005_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "e1935e0b7a6a60db8f5fc26d3b5f454053036e8fd02dc6caca4d86ca452dd327",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 6,
+      "final_field_deg": 4.805337401868629,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.714373862203434,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.0631388561861368,
+      "saved_final_verified": true
+    },
+    {
+      "case_id": 11,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_011_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "a2ac9c52eb42052fe095ad91b2cbb615f8befb409cf4726033a01d4963a65a40",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 6,
+      "final_field_deg": 4.129545636717807,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.8103059619868382,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.06478478585706693,
+      "saved_final_verified": true
+    },
+    {
+      "case_id": 25,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_025_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "8dd5dd72013331bf0b9ac5324bb40c16ed5342c35708dceeff2739cb45b90c8b",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 4,
+      "final_field_deg": 2.8271459439999997,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.8297430692661455,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.055350240435656284,
+      "saved_final_verified": true
+    },
+    {
+      "case_id": 41,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_041_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "cb7e57ace201b13278e1e0454c191a0c466b6f857dde773b4e8c3af51ac1ed2f",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 5,
+      "final_field_deg": 4.174493739005702,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.6806934018854972,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.06351515180398148,
+      "saved_final_verified": true
+    },
+    {
+      "case_id": 44,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_044_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "cd94037bd1d80c3660f995df89a5bdb0876fd7a87f72f9ff9df5b9b7e7a7ed94",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 7,
+      "final_field_deg": 4.601693730160205,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.755953169628202,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.06090985552490369,
+      "saved_final_verified": true
+    },
+    {
+      "case_id": 57,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_057_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "788918a18a2c714710045b6682ed671ffa4bfd801a140e5cf95febcebe872b05",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 8,
+      "final_field_deg": 3.9545411020473176,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.7756431716435436,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.06281591867969138,
+      "saved_final_verified": true
+    },
+    {
+      "case_id": 66,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_066_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "a8de4386d4c8a2fe552cc80cb35bc77fe4c1527e090283681d22239806c4ba40",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 6,
+      "final_field_deg": 4.857641169902225,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.6871436599856506,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.06381764270915469,
+      "saved_final_verified": true
+    },
+    {
+      "case_id": 78,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_078_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "8a576cccc824f37f7b27fc01d313d17cf7b98caeed4030bbfe4c6305f1013677",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 6,
+      "final_field_deg": 3.548792881661899,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.7257719272958152,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.06469007464348786,
+      "saved_final_verified": true
+    },
+    {
+      "case_id": 85,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_085_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "134cc59be837b3cfbe4d6e49a188d2d3e9368cef1e8ed54563bc44f57b1196f9",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 6,
+      "final_field_deg": 4.963962806012439,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.6732730022072821,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.06417875589402233,
+      "saved_final_verified": true
+    },
+    {
+      "case_id": 92,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_092_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "32c693a7db2a8adec5c9f619f8eea3c2e71ea7307ab2278b62bdc602eaa4f8a3",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 5,
+      "final_field_deg": 4.753596805146958,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.7965669073687529,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.06296509243484938,
+      "saved_final_verified": true
+    },
+    {
+      "case_id": 95,
+      "rule": 2,
+      "result_path": "background_runs\\batch_300_20261118\\case_095_rule_2\\attempt_002\\experiment\\result.json",
+      "result_sha256": "735c0f6f94b46d61a174f57d141df1b819be2e1c06645628297aaaacf2cbb65b",
+      "initial_step_accepted": true,
+      "accepted_field_steps": 7,
+      "final_field_deg": 4.601693730160205,
+      "stop_reasons": {
+        "field": "step_limit",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "geometry_valid": true,
+      "minimum_geometry_clearance_mm": 0.7258900937294971,
+      "all_mtf_pass": true,
+      "minimum_mtf_margin": 0.06366051713442356,
+      "saved_final_verified": true
+    }
+  ]
+}

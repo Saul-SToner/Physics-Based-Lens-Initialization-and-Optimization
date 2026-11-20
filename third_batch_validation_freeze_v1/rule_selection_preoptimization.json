@@ -1,0 +1,4502 @@
+[
+  {
+    "prescription_id": 201,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.4661496835135271,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 202,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.20942311513020168,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 203,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.2942976741203962,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 204,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5687306877612613,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 205,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.8205464842972479,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 206,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.1681261493673004,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 207,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.16381958463693083,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 208,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.4105136082873866,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 209,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6173014479708007,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 210,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.8003845743774045,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 211,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.6884503778324893,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 212,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.6983944123310788,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 213,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.19928820615738302,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 214,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.390086791288918,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 215,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.26010357017126023,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 216,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.06031627904517602,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 217,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.34442704157713866,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 218,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6605533210757654,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 219,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5904235423056235,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 220,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.03470921508229239,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 221,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.056979823155165,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 222,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6968161891346806,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 223,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3713149933236872,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 224,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3538393227992886,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 225,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.3298838460307962,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 226,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8048904269594479,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 227,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8086422142519798,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 228,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.30807831688929155,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 229,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.567261955451808,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 230,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.01159217544737956,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 231,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.02253057403008185,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 232,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.083828101664282,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 233,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.8873926983324185,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 234,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.258768780307443,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 235,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.18620959817001348,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 236,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.346574370852016,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 237,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 2.363570644903874,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 238,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.1340533167560836,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 239,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0810634492238342,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 240,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5293697425550634,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 241,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.9328181342534079,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 242,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.303255883719313,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 243,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 2.1595599635045453,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 244,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.368783050209878,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 245,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.18669996084528434,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 246,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.0953779438199787,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 247,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.4745580509133984,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 248,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.3709636609524385,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 249,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.38318370117541495,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 250,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.217185816350691,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 251,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.27310671518403923,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 252,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8403562744428132,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 253,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.06957880623026061,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 254,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8439853053127597,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 255,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0995435256393045,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 256,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.25088249736372215,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 257,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.33811308721937666,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 258,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.15419548626070742,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 259,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.44150215579128993,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 260,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 2.1936056112617344,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 261,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.5170085642193047,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 262,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.0515903445646986,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 263,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.1450067553870196,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 264,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.12357093875403019,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 265,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.09145111044383131,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 266,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.4019515325874837,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 267,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.4331467603742878,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 268,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8321793928684842,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 269,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.7696385446026048,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 270,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0279876397774865,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 271,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.27565126319920646,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 272,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.726061733366833,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 273,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.39970222142482,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 274,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.03775059508409111,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 275,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.13808379220948286,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 276,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.048138947057362456,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 277,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 2.1889252112497255,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 278,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.2151071687390322,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 279,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.5930116397408479,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 280,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.1108917466132637,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 281,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7753983726295689,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 282,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.5515819414230306,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 283,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.049976750166563735,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 284,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5754344549863099,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 285,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.6406481048735646,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 286,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.21110373191968393,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 287,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.1629374424319583,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 288,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.02720457326365917,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 289,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.06870939640767001,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 290,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.2284265202926706,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 291,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.642412288032233,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 292,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.8913337743413721,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 293,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.35188884042335594,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 294,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.12094533924288804,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 295,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.12077467700917185,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 296,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.14901362197560974,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 297,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.248721968148927,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 298,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.37054026394459266,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 299,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.2032860765251332,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 300,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.012318588333867453,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 301,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.2686690424089788,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 302,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.48343119449398414,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 303,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.147786065056705,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 304,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5618001765289626,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 305,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6190785538433493,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 306,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.06895787683381922,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 307,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.1351198628560868,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 308,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6433843761333562,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 309,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.2430001613987118,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 310,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.1916257862450998,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 311,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.8201169014852943,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 312,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.3229876540674872,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 313,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.9639435329213675,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 314,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.500193411320357,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 315,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8764311338401598,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 316,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7605604513772459,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 317,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.309865350716708,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 318,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.6868830836443172,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 319,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8774432360268613,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 320,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.00733666878070025,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 321,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.4557315861689986,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 322,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.24879868714135042,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 323,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.5397174599082426,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 324,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.6286598111903656,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 325,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.5991852211329379,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 326,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.37789516994275957,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 327,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7258996916605899,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 328,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.19143474439175154,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 329,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.755999880184165,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 330,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.044156203146636486,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 331,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.6140556916656847,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 332,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.023560684032210056,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 333,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.10930082201888797,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 334,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5265987570017887,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 335,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8689221075483685,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 336,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.10549198022549966,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 337,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.45929083447619184,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 338,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.2860520492233087,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 339,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.621303224983682,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 340,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.22322191634611582,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 341,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.9024947569892987,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 342,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.7598443418505085,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 343,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.0600964036176248,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 344,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.20806265081889527,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 345,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.00489279971136,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 346,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.2489819794027703,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 347,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.09454342322929375,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 348,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.22189894888375594,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 349,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.8224372493138192,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 350,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6586111986897328,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 351,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9899545318871926,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 352,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.5961637635464836,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 353,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.19111635204453437,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 354,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.752038785454236,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 355,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.2565466163191962,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 356,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9961655529839291,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 357,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.43360769275251,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 358,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.4107908371066822,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 359,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.5324614961644527,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 360,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.5642451309408593,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 361,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.18095996806105658,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 362,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.6299396983231258,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 363,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.3124207599114911,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 364,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7313510597131356,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 365,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5291903493937864,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 366,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.141385378747452,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 367,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.27106853094924793,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 368,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.3349191224675758,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 369,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.5588340570884476,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 370,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.44435708995035217,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 371,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.3915419275949419,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 372,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.1320354911589223,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 373,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.625191728269142,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 374,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6668242472640469,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 375,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.3047831614577787,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 376,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.25767608317784935,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 377,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.4304918854605489,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 378,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6991814129178286,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 379,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.23103164770608425,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 380,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5526461904625439,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 381,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8941667742639857,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 382,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.4452279521640774,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 383,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3761483041791049,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 384,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.4991245811527851,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 385,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.635619002816036,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 386,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.6982298055029933,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 387,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.6653729897573419,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 388,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.4746882020692649,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 389,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5228523209685436,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 390,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3476891359288649,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 391,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.5252551632659133,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 392,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5289564828652497,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 393,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0243675595507349,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 394,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.08635929463335153,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 395,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7601117043621288,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 396,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.059656550690467824,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 397,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.36805186109206556,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 398,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.0284431683456148,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 399,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.1915368700189037,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 400,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.01594291683060689,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 401,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.6030613243656133,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 402,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0826671934972347,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 403,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.230124922333209,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 404,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.01814143051778192,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 405,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.035035560385390595,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 406,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.22553158839384205,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 407,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.016936654720871,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 408,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.6410397796575649,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 409,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5585141090356137,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 410,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5637163259396221,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 411,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.2837856660490607,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 412,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.4482009140276282,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 413,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.74352448098912,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 414,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.08603778617869295,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 415,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.37089056637919293,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 416,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.4416631912459799,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 417,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 2.2393882156951035,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 418,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.23696214802313928,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 419,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.5618173792818254,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 420,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7621810675202534,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 421,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7236847645434257,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 422,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3803449078061032,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 423,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.1822557207052224,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 424,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.321457778408126,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 425,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.5762343602322317,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 426,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.5023155598414735,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 427,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.047476053857146636,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 428,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5318047885051109,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 429,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.3892266274708172,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 430,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.019847238062902405,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 431,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.1213839927256128,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 432,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6826314977013324,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 433,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.20833277383941784,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 434,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.17437013321152078,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 435,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7284371048256343,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 436,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 2.0808447526989644,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 437,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7770782505554474,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 438,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.7074284316173214,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 439,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.3009202565338387,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 440,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.4350615840463972,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 441,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3276650461212801,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 442,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.4823408454952633,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 443,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.455004978652786,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 444,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3121579500150517,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 445,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.014489712072624884,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 446,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0724825618658633,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 447,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.267272357137488,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 448,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.017250608665563938,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 449,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0906450314611562,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 450,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.28753308064709326,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 451,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.49665116886570326,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 452,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.220293842086625,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 453,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.05786835431449955,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 454,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.1540957678464272,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 455,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.6519223799206613,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 456,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.08326086159458103,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 457,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.44984466293258796,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 458,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5219251807725926,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 459,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.5122062084949377,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 460,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.4416488528054021,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 461,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.3867249334790979,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 462,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5219413956137952,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 463,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8925129247918913,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 464,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9344615294244847,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 465,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5385679270908581,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 466,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9087980153134563,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 467,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.3992423137545975,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 468,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.511628523158497,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 469,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.38124430467979614,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 470,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.052751418442309725,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 471,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6001858120970652,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 472,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.1143825759086357,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 473,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9715510513858789,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 474,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.2770760832528655,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 475,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.7302304351965891,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 476,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0350417877393345,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 477,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5710803573180024,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 478,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.027748547411614588,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 479,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9979223207514124,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 480,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8402887395069522,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 481,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.20260333738861683,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 482,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.5152096174042222,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 483,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.057351775438983,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 484,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.08671282110499572,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 485,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.2143203608572986,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 486,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5817827693486463,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 487,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.026610078613499868,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 488,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.43315913029286346,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 489,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.132611574569766,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 490,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.554326436758358,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 491,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.2819957526411583,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 492,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.36922780056352983,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 493,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 3.2888618141890564,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 494,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.3519354510258128,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 495,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9943209343258205,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 496,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0222198757021868,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 497,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.2388229165351154,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 498,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.36333968734337124,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 499,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.4007102793319854,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 500,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.7308106156058076,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 501,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.7922464321789786,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 502,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.08514593050701738,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 503,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.2128461848338077,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 504,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.21361908942648783,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 505,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7474824673986185,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 506,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.5846735331701183,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 507,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.70328098041656,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 508,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.09256102328469638,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 509,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3265545174121497,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 510,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.9711888803530756,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 511,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.2687361743146308,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 512,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.2372232183026743,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 513,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3835914826280433,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 514,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.48915817697295566,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 515,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.04938669352217939,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 516,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.49808709162055836,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 517,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.05173897303520896,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 518,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.3391165858390568,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 519,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.5896957949216581,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 520,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.04670068550627633,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 521,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.32766718928959193,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 522,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9666451288141187,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 523,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.26983683875685,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 524,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.4820458410193263,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 525,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.4789773282078842,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 526,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.288317527611357,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 527,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3875800085348283,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 528,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.6166874821163684,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 529,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.1001658728854526,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 530,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.011650926120142912,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 531,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.0361984797022337,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 532,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6889784125083278,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 533,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8793212960276917,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 534,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.07685579945183516,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 535,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.637912487781396,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 536,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.24034012510445207,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 537,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.09464270583470835,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 538,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7533592849250568,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 539,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.01983330675802808,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 540,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7474899308490305,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 541,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.15043208484875592,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 542,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5362450425124793,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 543,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.5247191699903253,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 544,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.01650137071738378,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 545,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.07689277841231466,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 546,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.2781462898934985,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 547,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.29719384658689624,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 548,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.7421859807959896,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 549,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.055418853550885314,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 550,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.37416590131329974,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 551,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.18032513615668933,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 552,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.8798124586030582,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 553,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.058464110619119936,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 554,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.3794951925192008,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 555,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0178271563109798,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 556,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.48264629923926616,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 557,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.5871555536860305,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 558,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9084460981699845,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 559,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.3870762177294253,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 560,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.026808913061889685,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 561,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7038833433856606,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 562,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.5373347495247218,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 563,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.22608546608682545,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 564,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.18235177215562254,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 565,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0498121528984894,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 566,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.19490270864064757,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 567,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.03939736033231593,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 568,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.4914953226817016,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 569,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.4942610541269525,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 570,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.09729218864864589,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 571,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.09256476492120828,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 572,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.1785666563264308,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 573,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.17763712035906173,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 574,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.43599033144437715,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 575,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7500890089966942,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 576,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.050766734880265396,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 577,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.10552458076773537,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 578,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.7751288699709529,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 579,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.4401446880808555,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 580,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.57077820202482,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 581,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.008136532890170578,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 582,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6418349887347012,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 583,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.47477325128227915,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 584,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3607884018145931,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 585,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9647727458549076,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 586,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.13677718624698015,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 587,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.4585408985707691,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 588,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6514884456196928,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 589,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0950966250903802,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 590,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.1311945501538885,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 591,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.7076470120705954,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 592,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.14490326208398888,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 593,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.6799505384594244,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 594,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.655860816416497,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 595,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3744787150566873,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 596,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.1880361096914834,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 597,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.063062881421847,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 598,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.2324795043152925,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 599,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.19745632822243736,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 600,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.21378171126369966,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 601,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.4273905799169713,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 602,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.39490719412458347,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 603,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8878761419913405,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 604,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.10225299316730059,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 605,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.1567979160982807,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 606,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9278458655308797,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 607,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.2604776656714147,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 608,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3561986697833543,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 609,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.21210983397310948,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 610,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.37141158645119193,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 611,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6891277385169623,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 612,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.08448007128362019,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 613,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.19155257486776306,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 614,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.8189982405743742,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 615,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8232175742478245,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 616,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.349233196690215,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 617,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.4242657900025046,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 618,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.5575867990942625,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 619,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7158967286319188,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 620,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7479104213438897,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 621,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7518031470702364,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 622,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.4818069362819225,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 623,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.80849170343308,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 624,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0332154911276343,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 625,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.018389001254712056,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 626,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3078600982221923,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 627,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5484077368295578,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 628,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.2840813329464027,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 629,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.49038296784680263,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 630,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.55667080885452,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 631,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.39813522762010206,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 632,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.518903909917778,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 633,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9004669826551988,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 634,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.712571386881832,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 635,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3740573782495195,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 636,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.800930659980966,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 637,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.2311327336484577,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 638,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.6230636088756603,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 639,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9669085562589409,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 640,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5541267339926395,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 641,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8098774843105575,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 642,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.9170190030318377,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 643,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.1207300097627316,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 644,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.2945007591823128,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 645,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.043317052617741506,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 646,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7137430566259662,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 647,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7865428285243226,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 648,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.489946204194081,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 649,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7488260648422305,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 650,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.032916450575836545,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 651,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.429098692062785,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 652,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.13514725207075617,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 653,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.7759395915402774,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 654,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0065069386687857,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 655,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.131268975597185,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 656,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.0204583625291126,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 657,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9740305483460192,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 658,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6634295805383928,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 659,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.447990466120551,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 660,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.1169284928272825,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 661,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.06090323459175018,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 662,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.5282190055088355,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 663,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3240496838837343,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 664,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.34141703304845505,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 665,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.6840552633550319,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 666,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.2921834313825367,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 667,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.6312630366550323,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 668,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3613913064191145,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 669,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.10880219472585714,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 670,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.5723425188506983,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 671,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.0573235445385647,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 672,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.07809450569831196,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 673,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.3780590534664334,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 674,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.5072597265485976,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 675,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.050745519520218704,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 676,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.7690911632833706,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 677,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.1611247730788354,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 678,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.2124965647302646,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 679,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.7269726490416404,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 680,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.0914649978466953,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 681,
+    "selected_rule": 2,
+    "predicted_minimum_gap": 0.24208614190418665,
+    "tie_rules": [
+      2
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 682,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.4904152844570113,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 683,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.1092535219232804,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 684,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8421878339800314,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 685,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.6286684524704811,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 686,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.5645553749049286,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 687,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 2.124345815755783,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 688,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.7869913247171771,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 689,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.3061655452435983,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 690,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.06376197903723409,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 691,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.24418837745426245,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 692,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.11633544136707634,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 693,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.246224373788245,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 694,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8939019525048861,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 695,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.891624281594972,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 696,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.9175949601250742,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 697,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 0.8222375184893271,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 698,
+    "selected_rule": 3,
+    "predicted_minimum_gap": 1.3019313390940719,
+    "tie_rules": [
+      3
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 699,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 0.8398145361763514,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  },
+  {
+    "prescription_id": 700,
+    "selected_rule": 1,
+    "predicted_minimum_gap": 1.0201514730097254,
+    "tie_rules": [
+      1
+    ],
+    "selection_available_before_optimization": true
+  }
+]

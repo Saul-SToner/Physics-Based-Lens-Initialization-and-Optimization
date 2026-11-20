@@ -1,0 +1,6402 @@
+[
+  {
+    "case_id": 1,
+    "sampling_sha256": "ecd797d062dd2dfa21cc986e61ff6eb2d2444ac935c8d892b42e8135b647d092",
+    "geometry_sha256": "fbb32821a1070bcd2d15869ffec5d83a1a6b35727e68779f3d45f3b508df3b33",
+    "full_initial_sha256": "2dda3e07d7b3c33dd1725c607b4f0eb56224285467307032072f60da5faa24a5",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.976598389084902,
+        "image_l2_mm": 3.807388269975729,
+        "entrance_pupil_l1_mm": -3.24200785940864,
+        "exit_pupil_l2_mm": 21.51851878005104,
+        "magnification": -1.5380945349372688
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.644197602455243,
+          -4.644197602455243,
+          9.967387553278279,
+          -9.967387553278279
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 10.008951395038597,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.476598389084902,
+        "last_vertex_to_image_mm": 3.307388269975729,
+        "stop_to_first_vertex_mm": 2.74200785940864,
+        "last_vertex_to_exit_pupil_mm": 21.01851878005104
+      }
+    }
+  },
+  {
+    "case_id": 2,
+    "sampling_sha256": "8fac8041cf10e98e36f2e4d0dc98f6d08860d3dd4c98b83d4e17efdaaf846a85",
+    "geometry_sha256": "8a9f04db49b6edba73c63628ba6173c75e5f63aa04949a8f3e198172d44f974a",
+    "full_initial_sha256": "220a068e94b463b804604f8ea44b3390f9169e2c1237276e6aed0860e0fbfcd0",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.3930869489694926,
+        "image_l2_mm": 2.2169922227111423,
+        "entrance_pupil_l1_mm": -1.6854343058483636,
+        "exit_pupil_l2_mm": 26.090294798096167,
+        "magnification": -3.8353749761817997
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.512202749503925,
+          -2.512202749503925,
+          9.976857169652572,
+          -9.976857169652572
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 12.358687393762542,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.8930869489694926,
+        "last_vertex_to_image_mm": 1.7169922227111423,
+        "stop_to_first_vertex_mm": 1.1854343058483636,
+        "last_vertex_to_exit_pupil_mm": 25.590294798096167
+      }
+    }
+  },
+  {
+    "case_id": 3,
+    "sampling_sha256": "2f2f10c0a80bd9cb52419660274132e9614f93f564101bab18e82dd93622043c",
+    "geometry_sha256": "71ab0009aa04d424ddd69a20f3235af1fc153ea20b07ee8fd1578b820ef907f5",
+    "full_initial_sha256": "95f86bb912afb7324ed4653482d2462096491d65ef066d9b19ab47cbb8fc70ca",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.0094991549699914,
+        "image_l2_mm": 4.928653416140328,
+        "entrance_pupil_l1_mm": -0.7351344942502762,
+        "exit_pupil_l2_mm": 20.204140670841678,
+        "magnification": -2.1973385729714607
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.8294433745937275,
+          -1.8294433745937275,
+          3.9828535656461934,
+          -3.9828535656461934
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 3.6705879806691297,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.5094991549699914,
+        "last_vertex_to_image_mm": 4.428653416140328,
+        "stop_to_first_vertex_mm": 0.23513449425027622,
+        "last_vertex_to_exit_pupil_mm": 19.704140670841678
+      }
+    }
+  },
+  {
+    "case_id": 4,
+    "sampling_sha256": "01df264f3609a35bbb0de016cd1b0eba7f58c5cc58e648a5f6c488e8407d2f42",
+    "geometry_sha256": "e51c3c4fec451a162d8c60333365c3ca152f2202a8a522b1fe72f1e2ef3ff7cb",
+    "full_initial_sha256": "271f095a8f781d12fadf8b943c19e68e56036eb16df0cb3e66775506ebd8b47b",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -5.605684180561162,
+        "image_l2_mm": 2.502804437990051,
+        "entrance_pupil_l1_mm": -4.199363125623618,
+        "exit_pupil_l2_mm": 27.97087289716208,
+        "magnification": -1.8317890005680644
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.2834251734573052,
+          -3.2834251734573052,
+          -40.422363147189586,
+          40.422363147189586
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 6.557929115827933,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 5.105684180561162,
+        "last_vertex_to_image_mm": 2.002804437990051,
+        "stop_to_first_vertex_mm": 3.699363125623618,
+        "last_vertex_to_exit_pupil_mm": 27.47087289716208
+      }
+    }
+  },
+  {
+    "case_id": 5,
+    "sampling_sha256": "baf237874dbe01c50e97bea8b1e93d1eb88ecc85d21f4c70b8a5c3300bb7644a",
+    "geometry_sha256": "9a2273c1331bb01cb2c2fdd4cfdb51a81f53134a1339298c18638011c78a785c",
+    "full_initial_sha256": "52c3fa98c362f310e198bffd65bbd143aa271082d2dd1b7a8b6e4b8e6b3688b1",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.488853230290319,
+        "image_l2_mm": 1.1880824873572595,
+        "entrance_pupil_l1_mm": -2.2364660758647745,
+        "exit_pupil_l2_mm": 21.720016544591264,
+        "magnification": -5.216306840845685
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.5155685680745346,
+          -3.5155685680745346,
+          12.08274713721973,
+          -12.08274713721973
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 22.89330627682897,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.988853230290319,
+        "last_vertex_to_image_mm": 0.6880824873572595,
+        "stop_to_first_vertex_mm": 1.7364660758647745,
+        "last_vertex_to_exit_pupil_mm": 21.220016544591264
+      }
+    }
+  },
+  {
+    "case_id": 6,
+    "sampling_sha256": "169253c4840b7535516ae49bdaea1d938514377db2b5f746c10c727fa48d4dc3",
+    "geometry_sha256": "57eadb5fda45c89218afd8d33bdc42b66095defd93f1e83256ac077b996f88f9",
+    "full_initial_sha256": "db5c38bf1bb3ab75d1f5c10c403eb01c6d6b31fab877fe7b8cf7d6ed2aba8c0d",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.568714423365653,
+        "image_l2_mm": 3.7425681246497935,
+        "entrance_pupil_l1_mm": -1.4285043950689063,
+        "exit_pupil_l2_mm": 88.86810470526203,
+        "magnification": -1.8550122961357407
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.8464298972270488,
+          -1.8464298972270488,
+          5.526078183793725,
+          -5.526078183793725
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 1.8017898967009192,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.068714423365653,
+        "last_vertex_to_image_mm": 3.2425681246497935,
+        "stop_to_first_vertex_mm": 0.9285043950689063,
+        "last_vertex_to_exit_pupil_mm": 88.36810470526203
+      }
+    }
+  },
+  {
+    "case_id": 7,
+    "sampling_sha256": "7bd95fbf1bb0d9b46ddf01851b4d37a818c34affe3af69ac261f198d1aa670a4",
+    "geometry_sha256": "23641b8d6d4bb1bd6bff800c37087f86515733361b6d6e255388ee9f0df45d15",
+    "full_initial_sha256": "df7bc5158ce9ecd33033c81cfa978bd2d3e9b744c53e6e03e61be969c1cb5bf6",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.4899006883684853,
+        "image_l2_mm": 1.8309865025941405,
+        "entrance_pupil_l1_mm": -2.214075645547904,
+        "exit_pupil_l2_mm": 21.936846513811126,
+        "magnification": -4.068388708996293
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.59063497238513,
+          -2.59063497238513,
+          10.844414230694783,
+          -10.844414230694783
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 13.383164742692566,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.9899006883684853,
+        "last_vertex_to_image_mm": 1.3309865025941405,
+        "stop_to_first_vertex_mm": 1.7140756455479038,
+        "last_vertex_to_exit_pupil_mm": 21.436846513811126
+      }
+    }
+  },
+  {
+    "case_id": 8,
+    "sampling_sha256": "1726912c69a76ae3938889cf5882405b80c4e8eb43b79b28309ebc3bfb03699a",
+    "geometry_sha256": "0010ad9e6829b27402ebb1fba99160ef59ceb0cf7e86b4f0a53437e34ab46324",
+    "full_initial_sha256": "9d2fee2848c9c6b9b302988d7de6da854768e2ac5e524ca3299bd0e8a3bcfdd5",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.013706570731259,
+        "image_l2_mm": 2.61188429646691,
+        "entrance_pupil_l1_mm": -1.849802716516862,
+        "exit_pupil_l2_mm": 36.67572758984498,
+        "magnification": -3.766472002421693
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.197483365038457,
+          -2.197483365038457,
+          11.310539399676601,
+          -11.310539399676601
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.950030020845984,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.513706570731259,
+        "last_vertex_to_image_mm": 2.11188429646691,
+        "stop_to_first_vertex_mm": 1.349802716516862,
+        "last_vertex_to_exit_pupil_mm": 36.17572758984498
+      }
+    }
+  },
+  {
+    "case_id": 9,
+    "sampling_sha256": "5584dc824b109f1039a3c9892aa3c8a18b3d4d2698e06142c72eb7af04413c2c",
+    "geometry_sha256": "993b5b872586f0cbef94d12e8cd3259c48ade016ce52e18be29922464697aaa1",
+    "full_initial_sha256": "c108a3ab69c5e0e28bfae6f88dba496bfc916dfe86283097299aae64177d9b5d",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.4743020456800915,
+        "image_l2_mm": 1.543384330365216,
+        "entrance_pupil_l1_mm": -2.1709541248274133,
+        "exit_pupil_l2_mm": 72.24288911820693,
+        "magnification": -4.3590136603635035
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.5730063525052,
+          -2.5730063525052,
+          16.69607850708474,
+          -16.69607850708474
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 13.616478809274101,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.9743020456800915,
+        "last_vertex_to_image_mm": 1.043384330365216,
+        "stop_to_first_vertex_mm": 1.6709541248274133,
+        "last_vertex_to_exit_pupil_mm": 71.74288911820693
+      }
+    }
+  },
+  {
+    "case_id": 10,
+    "sampling_sha256": "947810b92cf2eb4da8470bb416bf379cffb06b12208cba56a94c6e8493056413",
+    "geometry_sha256": "0d031e1583b4f46941c8b18ad159f6f03f83f1ae72d36eddb118572d99e769a9",
+    "full_initial_sha256": "9b5025314b3760df44ca90c158e3e95b273ce3e72295fe190c75dc15571ef53c",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.3320386386706566,
+        "image_l2_mm": 1.3718273809541979,
+        "entrance_pupil_l1_mm": -1.301123624554791,
+        "exit_pupil_l2_mm": 76.91906388135915,
+        "magnification": -2.737740535993485
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.4932629330552036,
+          -1.4932629330552036,
+          8.326146976576961,
+          -8.326146976576961
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 4.919332738125816,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.8320386386706566,
+        "last_vertex_to_image_mm": 0.8718273809541979,
+        "stop_to_first_vertex_mm": 0.801123624554791,
+        "last_vertex_to_exit_pupil_mm": 76.41906388135915
+      }
+    }
+  },
+  {
+    "case_id": 11,
+    "sampling_sha256": "22dd494478f1f5d51c06403047e013e5205ad958c15fe5ee68c993347cb415a8",
+    "geometry_sha256": "a0a64d096887d2eaf7444cd241b3b2e080886447dd6b48865b0b304a6a2e5427",
+    "full_initial_sha256": "235e284743159046f83a3ef614d9c7b56d64b5a0e0825242c4a2004157d40556",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.76194404401985,
+        "image_l2_mm": 2.7411181800563105,
+        "entrance_pupil_l1_mm": -3.7618925957646416,
+        "exit_pupil_l2_mm": 22.234077764997146,
+        "magnification": -4.180498913316415
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          5.350512885879044,
+          -5.350512885879044,
+          14.168980327055113,
+          -14.168980327055113
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 29.846600301251833,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.26194404401985,
+        "last_vertex_to_image_mm": 2.2411181800563105,
+        "stop_to_first_vertex_mm": 3.2618925957646416,
+        "last_vertex_to_exit_pupil_mm": 21.734077764997146
+      }
+    }
+  },
+  {
+    "case_id": 12,
+    "sampling_sha256": "a9ffb9ffd4fd26a9d55066e8f68c4d6b3760d695248ee3fce109572437d16089",
+    "geometry_sha256": "cdfc4ee7b1429282d4ccf3735242d04269e7e3d6ebc82080fd04afb4cad16e24",
+    "full_initial_sha256": "a99e6e4c81943291a2941fa96c014f7d05913393e4317f211eb0ac6deeada89b",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.7959402854966555,
+        "image_l2_mm": 2.118185062185852,
+        "entrance_pupil_l1_mm": -1.5227721602792517,
+        "exit_pupil_l2_mm": 31.28718274095866,
+        "magnification": -5.663763028836772
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.1353158727815997,
+          -2.1353158727815997,
+          11.677569298836826,
+          -11.677569298836826
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 14.985618198209648,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.2959402854966555,
+        "last_vertex_to_image_mm": 1.618185062185852,
+        "stop_to_first_vertex_mm": 1.0227721602792517,
+        "last_vertex_to_exit_pupil_mm": 30.78718274095866
+      }
+    }
+  },
+  {
+    "case_id": 13,
+    "sampling_sha256": "e2a37f5c289f471214705808e80f289baa61638148cdf57ceecaf432c7a4fd78",
+    "geometry_sha256": "45fe22cf595fd30b7b2c3eccb2af753bea1ffc94fd7b980563733cfe4c664e60",
+    "full_initial_sha256": "07abee15c8f8cb7bdab55f4c72dc585ee918b46ec72a2668b9990762a4096a7a",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.275129189808184,
+        "image_l2_mm": 1.3564014729826062,
+        "entrance_pupil_l1_mm": -0.834636631334337,
+        "exit_pupil_l2_mm": 21.413902560222528,
+        "magnification": -1.7342323587867914
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.3453342031183813,
+          -1.3453342031183813,
+          3.8451906422722555,
+          -3.8451906422722555
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 2.8890698668176245,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.775129189808184,
+        "last_vertex_to_image_mm": 0.8564014729826062,
+        "stop_to_first_vertex_mm": 0.33463663133433696,
+        "last_vertex_to_exit_pupil_mm": 20.913902560222528
+      }
+    }
+  },
+  {
+    "case_id": 14,
+    "sampling_sha256": "701af58e97bc89ca400289125ef360ceff4d7a2acc6e2c2095e4386a9373724a",
+    "geometry_sha256": "e77619b142d28a41c4c03e92124a686002e3a21db989a71a5e01453940f41c2c",
+    "full_initial_sha256": "9d240a770d792468155ac15f005ab5a21711ee26243533b4338abf5358bfda74",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.887192553375112,
+        "image_l2_mm": 2.39715701403343,
+        "entrance_pupil_l1_mm": -1.3868184296085033,
+        "exit_pupil_l2_mm": 61.410891242959046,
+        "magnification": -4.214938573213915
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.1261969203332574,
+          -2.1261969203332574,
+          11.427423186461535,
+          -11.427423186461535
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 10.883959978683954,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.387192553375112,
+        "last_vertex_to_image_mm": 1.89715701403343,
+        "stop_to_first_vertex_mm": 0.8868184296085033,
+        "last_vertex_to_exit_pupil_mm": 60.910891242959046
+      }
+    }
+  },
+  {
+    "case_id": 15,
+    "sampling_sha256": "688e04e437ed3238686491a3a7ed1a30c0caddbce4003113256f8373debbf458",
+    "geometry_sha256": "a41ba871a7ee175e7dbe47062b37d1251137fe73018e8060f2988da3486d964d",
+    "full_initial_sha256": "0e1ab9e93187fbb51ff1acf2ae064604b0168e6abc3d5a3607f64191cb19cefd",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.283501792542427,
+        "image_l2_mm": 3.8049282538986953,
+        "entrance_pupil_l1_mm": -0.9194285941712023,
+        "exit_pupil_l2_mm": 73.85626696736325,
+        "magnification": -1.5888950858093835
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.1232425874423937,
+          -2.1232425874423937,
+          3.1198934034801127,
+          -3.1198934034801127
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 1.5545462883500196,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.783501792542427,
+        "last_vertex_to_image_mm": 3.3049282538986953,
+        "stop_to_first_vertex_mm": 0.41942859417120226,
+        "last_vertex_to_exit_pupil_mm": 73.35626696736325
+      }
+    }
+  },
+  {
+    "case_id": 16,
+    "sampling_sha256": "724d9d756bb0625a8fcab05e00c36b2c965163f548eca46c8ac904b05eaf0142",
+    "geometry_sha256": "c33b034fc874f57836dd211a053d6de57a67866eb63976e8fd2aa8594c9fb504",
+    "full_initial_sha256": "d6dbb543dcdecbf89eefeafed1234f675e9b261942f1647897f3fd800b8144db",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.891081809018179,
+        "image_l2_mm": 4.1809629605163465,
+        "entrance_pupil_l1_mm": -1.5352067307278525,
+        "exit_pupil_l2_mm": 41.338003777172396,
+        "magnification": -1.8335546914543994
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.8296386711866033,
+          -2.8296386711866033,
+          7.147517358084873,
+          -7.147517358084873
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 5.621302672225582,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.391081809018179,
+        "last_vertex_to_image_mm": 3.6809629605163465,
+        "stop_to_first_vertex_mm": 1.0352067307278525,
+        "last_vertex_to_exit_pupil_mm": 40.838003777172396
+      }
+    }
+  },
+  {
+    "case_id": 17,
+    "sampling_sha256": "fcbe5a2865f8cc701f9380a62981cbb29568a5291c973e9d53ca45140d3ee4ed",
+    "geometry_sha256": "82bf8f8a5547c77417b460da4ecbccb96e8b730df8fa3350c2fa4ada94a27be1",
+    "full_initial_sha256": "0e533edd9b7bffa94d91961411fe49286d00906b1009b5f40034a49a051b65e7",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -7.893347168558029,
+        "image_l2_mm": 4.6149485808192745,
+        "entrance_pupil_l1_mm": -3.5467642087274647,
+        "exit_pupil_l2_mm": 74.44838681903077,
+        "magnification": -2.171102127026759
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          5.561245910756079,
+          -5.561245910756079,
+          18.292964964066574,
+          -18.292964964066574
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 15.589230700848496,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 7.393347168558029,
+        "last_vertex_to_image_mm": 4.1149485808192745,
+        "stop_to_first_vertex_mm": 3.0467642087274647,
+        "last_vertex_to_exit_pupil_mm": 73.94838681903077
+      }
+    }
+  },
+  {
+    "case_id": 18,
+    "sampling_sha256": "0891ec4a95adf6bce08c89d7ab06e4ccb3ef6e8213cfa29aa967ea932e7dc4b3",
+    "geometry_sha256": "4b07ebb7c9ef9882faf5f3594e75eb02eb3698a6923e6416e4aa446ee6b810b3",
+    "full_initial_sha256": "a85d6460c7dd0eae6390b24efe0a37ebac05b828dcefe9af40f00575a5feaa4c",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.245089684819814,
+        "image_l2_mm": 3.763362776122075,
+        "entrance_pupil_l1_mm": -2.070496474796084,
+        "exit_pupil_l2_mm": 20.844920545699154,
+        "magnification": -2.3955324656529413
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.31402516937792,
+          -2.31402516937792,
+          8.547270323472901,
+          -8.547270323472901
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 5.834797128652315,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.745089684819814,
+        "last_vertex_to_image_mm": 3.263362776122075,
+        "stop_to_first_vertex_mm": 1.5704964747960841,
+        "last_vertex_to_exit_pupil_mm": 20.344920545699154
+      }
+    }
+  },
+  {
+    "case_id": 19,
+    "sampling_sha256": "9fa1e0d642b87f571ebde9fa739a4eef87f143f68eac19df9b32b6959926a74f",
+    "geometry_sha256": "b61b85fda7c1757f77f65032e7a469896f1bc2605708370038257bbab17cd140",
+    "full_initial_sha256": "5441b5c3c7ca0ecfa962de9ad3481a3f4d5cc73b31ff545c7e375179288b8781",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.469148479241378,
+        "image_l2_mm": 2.486786963609606,
+        "entrance_pupil_l1_mm": -2.298536093862714,
+        "exit_pupil_l2_mm": 27.05714391319765,
+        "magnification": -2.4340054918469596
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.1013242476135514,
+          -3.1013242476135514,
+          10.18043111993407,
+          -10.18043111993407
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.876024769826982,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.969148479241378,
+        "last_vertex_to_image_mm": 1.9867869636096058,
+        "stop_to_first_vertex_mm": 1.798536093862714,
+        "last_vertex_to_exit_pupil_mm": 26.55714391319765
+      }
+    }
+  },
+  {
+    "case_id": 20,
+    "sampling_sha256": "7050730347fa671a00e2034f365b239197d328b5a6d02f219760a63a66aaae4a",
+    "geometry_sha256": "a048aaaad11ba6e1a458b692f16237b5030a7056fdc475fbdcda8e98e49c83d9",
+    "full_initial_sha256": "afe6c139deb8194cc9bec923d4498c68a81601a53c29eec12c4d6b3c2c2d6aed",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.7557147517902063,
+        "image_l2_mm": 1.263932716973767,
+        "entrance_pupil_l1_mm": -1.2068718778540553,
+        "exit_pupil_l2_mm": 53.86092174812681,
+        "magnification": -3.860518867995516
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.9472254565034028,
+          -1.9472254565034028,
+          9.829122633508588,
+          -9.829122633508588
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.426394043527365,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.2557147517902063,
+        "last_vertex_to_image_mm": 0.7639327169737671,
+        "stop_to_first_vertex_mm": 0.7068718778540553,
+        "last_vertex_to_exit_pupil_mm": 53.36092174812681
+      }
+    }
+  },
+  {
+    "case_id": 21,
+    "sampling_sha256": "8dc0ba6e3ae1b4fd400e8118b4242cb03bd8d50caf799ceb632f397c1d6f9c48",
+    "geometry_sha256": "ff13b67b0cbcd343e20fa06a8a5d316fab017875dc4d1b4a228328a9b49f8c70",
+    "full_initial_sha256": "ec5dbbe86ce6a97aecd747765d7a8a316664b9bd4eb7528f6cb56cc1739e6e20",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.175252109154888,
+        "image_l2_mm": 1.9684117235753955,
+        "entrance_pupil_l1_mm": -2.432727211526419,
+        "exit_pupil_l2_mm": 42.94379141896164,
+        "magnification": -4.730015431671075
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.213699187742557,
+          -3.213699187742557,
+          16.153801776927654,
+          -16.153801776927654
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 18.697360828798065,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.675252109154888,
+        "last_vertex_to_image_mm": 1.4684117235753955,
+        "stop_to_first_vertex_mm": 1.932727211526419,
+        "last_vertex_to_exit_pupil_mm": 42.44379141896164
+      }
+    }
+  },
+  {
+    "case_id": 22,
+    "sampling_sha256": "d15657553e6ed3bbd2890f36be1a30dd52ab6b2a49aecd36149b73751dc7534a",
+    "geometry_sha256": "b9ff532ce5337d97e9b77098ee706c458276291896804563dfe72f9bd61970d0",
+    "full_initial_sha256": "9367d1388de4419d6f65837e86305d3618872e2e103eca723b3d732a44d7685b",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -7.558124324196754,
+        "image_l2_mm": 1.2676093155106902,
+        "entrance_pupil_l1_mm": -5.495265028761925,
+        "exit_pupil_l2_mm": 49.16343565033729,
+        "magnification": -4.988311726148889
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          6.0320871163239485,
+          -6.0320871163239485,
+          29.54061794768862,
+          -29.54061794768862
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 36.51807935477418,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 7.058124324196754,
+        "last_vertex_to_image_mm": 0.7676093155106902,
+        "stop_to_first_vertex_mm": 4.995265028761925,
+        "last_vertex_to_exit_pupil_mm": 48.66343565033729
+      }
+    }
+  },
+  {
+    "case_id": 23,
+    "sampling_sha256": "0a9b5cd68e551c2b74b7ab76b8c09239f3acd0bfc0f6cfeafcf3e90fbda3a4fd",
+    "geometry_sha256": "1a70ac91bdbc198500d57d8d6e8a785ddd735469f64f17fc57e80527989eb8c5",
+    "full_initial_sha256": "306d8b2e04a27b5304f51f9327e404518436deb1e36407ef7822b1a3cf5a59b8",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.5317794888507326,
+        "image_l2_mm": 1.9258090313210463,
+        "entrance_pupil_l1_mm": -1.0935136414479134,
+        "exit_pupil_l2_mm": 53.691885377488866,
+        "magnification": -2.5267552578916344
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.6724055906641042,
+          -1.6724055906641042,
+          6.6452380589457585,
+          -6.6452380589457585
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 5.095622613983736,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.0317794888507326,
+        "last_vertex_to_image_mm": 1.4258090313210463,
+        "stop_to_first_vertex_mm": 0.5935136414479134,
+        "last_vertex_to_exit_pupil_mm": 53.191885377488866
+      }
+    }
+  },
+  {
+    "case_id": 24,
+    "sampling_sha256": "7e0ea33b59387af581804a39952ad48ed1d66a287cbbf0dd23b6904155370589",
+    "geometry_sha256": "98ac8b9a74f78877c795bd1fc0308a19dc5f206e2be796de6c6ab883839737d1",
+    "full_initial_sha256": "3d568f2a48450c428230551c5bf9b4d799a10574acc19a06cefbee51e8d59864",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.0745208227408605,
+        "image_l2_mm": 2.382224849853999,
+        "entrance_pupil_l1_mm": -2.3309916912594004,
+        "exit_pupil_l2_mm": 33.98571249552085,
+        "magnification": -3.7528670038118794
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.1995655116383754,
+          -2.1995655116383754,
+          17.67189239772378,
+          -17.67189239772378
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.348844949420988,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.5745208227408605,
+        "last_vertex_to_image_mm": 1.882224849853999,
+        "stop_to_first_vertex_mm": 1.8309916912594004,
+        "last_vertex_to_exit_pupil_mm": 33.48571249552085
+      }
+    }
+  },
+  {
+    "case_id": 25,
+    "sampling_sha256": "0c44837f4f8b0135643ca3da21cc6901416fd3175f136160b53dc7b953b5f1dd",
+    "geometry_sha256": "5aea2e59130230ca1ae9d2ccba323a99f1b8366699dd95fc5e3209750be6ea2c",
+    "full_initial_sha256": "cdd357f625d451fbc4091da45ddc4366598a0a51f76739a3411dcff7fc51b476",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -7.61010612079391,
+        "image_l2_mm": 1.1842346485404691,
+        "entrance_pupil_l1_mm": -3.9334648285807097,
+        "exit_pupil_l2_mm": 28.810086003368625,
+        "magnification": -5.447688063512084
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          6.180251208033183,
+          -6.180251208033183,
+          18.203326687525387,
+          -18.203326687525387
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 41.2284375835094,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 7.11010612079391,
+        "last_vertex_to_image_mm": 0.6842346485404691,
+        "stop_to_first_vertex_mm": 3.4334648285807097,
+        "last_vertex_to_exit_pupil_mm": 28.310086003368625
+      }
+    }
+  },
+  {
+    "case_id": 26,
+    "sampling_sha256": "fa343159062c92ec1d00277a540a576b5e6b05ada96510d6d07edda0d49e9b3e",
+    "geometry_sha256": "3eda96c561e2f7185ce0bf3aabd5695a76a6a0d57b39b6bde322f0a692767744",
+    "full_initial_sha256": "de136aab2f2367652b790a697d7bf30323f78535dcd4a5f05a4e2cd88d42ee8f",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.997713335952579,
+        "image_l2_mm": 1.4049803262783207,
+        "entrance_pupil_l1_mm": -4.413081607603368,
+        "exit_pupil_l2_mm": 46.74061821962521,
+        "magnification": -1.7742638691371242
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.263331868538282,
+          -4.263331868538282,
+          33.24511388852666,
+          -33.24511388852666
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 10.6425060790395,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.497713335952579,
+        "last_vertex_to_image_mm": 0.9049803262783207,
+        "stop_to_first_vertex_mm": 3.9130816076033677,
+        "last_vertex_to_exit_pupil_mm": 46.24061821962521
+      }
+    }
+  },
+  {
+    "case_id": 27,
+    "sampling_sha256": "29babd9b27af669ace7558aef9ba5d43bd6e624c616b0b1d356c8e5b0105af70",
+    "geometry_sha256": "494e4468c90f6a8dcc0b5b951b8c45c4ef20fc3bbd30cd5c9ed58ad76413ac09",
+    "full_initial_sha256": "23ee01a6b0050e26af63129d9c4c92b26058dd139577f6a016953e55a80410f1",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.460334616861426,
+        "image_l2_mm": 2.608174060297534,
+        "entrance_pupil_l1_mm": -1.7131162141976939,
+        "exit_pupil_l2_mm": 47.57084910767166,
+        "magnification": -3.855908933718433
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.568158187733327,
+          -2.568158187733327,
+          12.114023252686874,
+          -12.114023252686874
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 12.22073053776569,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.960334616861426,
+        "last_vertex_to_image_mm": 2.108174060297534,
+        "stop_to_first_vertex_mm": 1.2131162141976939,
+        "last_vertex_to_exit_pupil_mm": 47.07084910767166
+      }
+    }
+  },
+  {
+    "case_id": 28,
+    "sampling_sha256": "a074369e134814809c2639751442244d9626e3913ce9d3e3a35c3336fe0acda8",
+    "geometry_sha256": "6e0bd94d67dc08a0a6420e95d1373f00a90dc236f670a9add9792359420a1e00",
+    "full_initial_sha256": "4adc7daa9bfa0b12ec20b84204f8cf5814efc341a120ec09d37659c510c0dde9",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.805002954663825,
+        "image_l2_mm": 4.336028510270043,
+        "entrance_pupil_l1_mm": -3.551350395433608,
+        "exit_pupil_l2_mm": 44.94399160420639,
+        "magnification": -1.8672475004572078
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.616417062181609,
+          -4.616417062181609,
+          15.048071893629208,
+          -15.048071893629208
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 10.678590125386789,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.305002954663825,
+        "last_vertex_to_image_mm": 3.836028510270043,
+        "stop_to_first_vertex_mm": 3.051350395433608,
+        "last_vertex_to_exit_pupil_mm": 44.44399160420639
+      }
+    }
+  },
+  {
+    "case_id": 29,
+    "sampling_sha256": "61e3000d4550c56253ae5219499c59d7680786898370aeb254be8764b9c46da4",
+    "geometry_sha256": "55f6a2be6a5763591d6e3f49ab4d5e62c001828cef86e9186c75cd31b4a72f0f",
+    "full_initial_sha256": "0ddda15b5f35ed920a1a0836a860c7ad096ac8b06b2c86ac8f12f3c243c6396b",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.5508532705621114,
+        "image_l2_mm": 4.070037341682356,
+        "entrance_pupil_l1_mm": -1.4639661472174792,
+        "exit_pupil_l2_mm": 54.60818834180791,
+        "magnification": -4.174520172691058
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.9142437516206012,
+          -1.9142437516206012,
+          10.552301500772362,
+          -10.552301500772362
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.016793331650705,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.0508532705621114,
+        "last_vertex_to_image_mm": 3.5700373416823563,
+        "stop_to_first_vertex_mm": 0.9639661472174792,
+        "last_vertex_to_exit_pupil_mm": 54.10818834180791
+      }
+    }
+  },
+  {
+    "case_id": 30,
+    "sampling_sha256": "824125de95e525fb962f07ae247f2cf8f789677e93f1c29d6b769cd5b2de730e",
+    "geometry_sha256": "f3a81158ff0e7396cdf38f7ec7388787315eef79bedd57139e48a48caf770380",
+    "full_initial_sha256": "aa0dbbb46e6cf03e3526a0c1ab0459d2f54b2ef2c70001bf74ebb1af75ff9f9a",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.467784952404371,
+        "image_l2_mm": 1.2026824135579364,
+        "entrance_pupil_l1_mm": -2.9939137592035343,
+        "exit_pupil_l2_mm": 96.96630738219929,
+        "magnification": -4.214646429018365
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.3436482312102602,
+          -3.3436482312102602,
+          24.313715255595373,
+          -24.313715255595373
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 17.236787904883425,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.9677849524043713,
+        "last_vertex_to_image_mm": 0.7026824135579364,
+        "stop_to_first_vertex_mm": 2.4939137592035343,
+        "last_vertex_to_exit_pupil_mm": 96.46630738219929
+      }
+    }
+  },
+  {
+    "case_id": 31,
+    "sampling_sha256": "77a32dd1693022d9cf8c4df4e6e3c6d8730951fad37300104fe7e2ba69715ddb",
+    "geometry_sha256": "e8ea2dfb92341f0a1404981a3993889729910bab1d44d5cb0fc659c4e966ebfe",
+    "full_initial_sha256": "040ed7ef7907f89753dcfe17261f5c79e43250c7eae0d9fff0b469e772ad29b6",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.3144499241928087,
+        "image_l2_mm": 1.898201863171141,
+        "entrance_pupil_l1_mm": -1.365893663849916,
+        "exit_pupil_l2_mm": 74.08302107525546,
+        "magnification": -3.151388770454399
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.552317591543944,
+          -1.552317591543944,
+          9.141647307224305,
+          -9.141647307224305
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 5.627438567869431,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.8144499241928087,
+        "last_vertex_to_image_mm": 1.398201863171141,
+        "stop_to_first_vertex_mm": 0.865893663849916,
+        "last_vertex_to_exit_pupil_mm": 73.58302107525546
+      }
+    }
+  },
+  {
+    "case_id": 32,
+    "sampling_sha256": "f968424fce8ce935185c8b4f8834afad992e1ec049d926b4e7e3392e167f63b8",
+    "geometry_sha256": "a595193c40a3baa9901e3d767386016a1beef15f49ea48086ad50a2b87896ba7",
+    "full_initial_sha256": "1607464c70ac5a23004f8a8b1b47b45ca4a0fcd84770e5417b055e72e45e827a",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.3961091251872317,
+        "image_l2_mm": 1.3167209729268032,
+        "entrance_pupil_l1_mm": -1.2607604127840306,
+        "exit_pupil_l2_mm": 41.922532015346256,
+        "magnification": -3.9715013580956344
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.4760855493264637,
+          -2.4760855493264637,
+          10.90371490201325,
+          -10.90371490201325
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 12.440669386806995,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.8961091251872317,
+        "last_vertex_to_image_mm": 0.8167209729268032,
+        "stop_to_first_vertex_mm": 0.7607604127840306,
+        "last_vertex_to_exit_pupil_mm": 41.422532015346256
+      }
+    }
+  },
+  {
+    "case_id": 33,
+    "sampling_sha256": "3e818652ee20a36a8a7c930ec0c39a00a4aeae9d2c80ffdf463860d6a113e346",
+    "geometry_sha256": "7d988c1b965cb5e0085490058d0b30dc4f79c3c150ca1f00d5a135a0592a53e2",
+    "full_initial_sha256": "0a7fd2b1ceaba2a9208c59a597d55697fe1a4bfec416ee5443c9e4c96e853767",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.770498267755063,
+        "image_l2_mm": 1.0041339782003982,
+        "entrance_pupil_l1_mm": -1.7126785313729727,
+        "exit_pupil_l2_mm": 55.17455046428303,
+        "magnification": -1.8876582600709024
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.5763163504508306,
+          -1.5763163504508306,
+          14.586980216421182,
+          -14.586980216421182
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 3.6891089005968456,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.270498267755063,
+        "last_vertex_to_image_mm": 0.5041339782003982,
+        "stop_to_first_vertex_mm": 1.2126785313729727,
+        "last_vertex_to_exit_pupil_mm": 54.67455046428303
+      }
+    }
+  },
+  {
+    "case_id": 34,
+    "sampling_sha256": "a2eae27cc25ab713827c9748a14298d256287240faf23ebab2755ab51dda3657",
+    "geometry_sha256": "c496c9b2f59ffb5907690351fb204802f27e4c5210ebb60e3bbaa291942de7bf",
+    "full_initial_sha256": "dbfe3061d75f7f051d1913ce306288a3870be5a4e13b15639911544038e7c825",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.2425786269476395,
+        "image_l2_mm": 2.378492474395491,
+        "entrance_pupil_l1_mm": -1.0597628978775935,
+        "exit_pupil_l2_mm": 21.157991646414253,
+        "magnification": -2.7059950242803343
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.5407584214366385,
+          -1.5407584214366385,
+          5.508994239852252,
+          -5.508994239852252
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 5.038841370961737,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.7425786269476395,
+        "last_vertex_to_image_mm": 1.878492474395491,
+        "stop_to_first_vertex_mm": 0.5597628978775935,
+        "last_vertex_to_exit_pupil_mm": 20.657991646414253
+      }
+    }
+  },
+  {
+    "case_id": 35,
+    "sampling_sha256": "83bae83246c23bab8513bf1081e05061717ae452e190e44c028f4b90a6e56584",
+    "geometry_sha256": "208f156cd1121ad37ee98399d00d8ed021e00dfe60260ebf0fcf9c45c86a8f39",
+    "full_initial_sha256": "15183a501b4b0dedf46f5c33d1a47598bf4be5c93f1d5eaa3566ef06a5dd71ee",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.1839843390072393,
+        "image_l2_mm": 1.0147130428321152,
+        "entrance_pupil_l1_mm": -1.4548551358109019,
+        "exit_pupil_l2_mm": 63.75073026151871,
+        "magnification": -4.22679530273768
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.5005939315794417,
+          -1.5005939315794417,
+          11.783573471191865,
+          -11.783573471191865
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 7.740038333179824,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.6839843390072393,
+        "last_vertex_to_image_mm": 0.5147130428321152,
+        "stop_to_first_vertex_mm": 0.9548551358109019,
+        "last_vertex_to_exit_pupil_mm": 63.25073026151871
+      }
+    }
+  },
+  {
+    "case_id": 36,
+    "sampling_sha256": "06a24184e2a80b91756b392c5c68f21a36432795ad39bc52cd5448320038093a",
+    "geometry_sha256": "82f169f3b44fe8a26c9bae7b394abef32c52ca38ee2121c6fdd7ff6d74b533d2",
+    "full_initial_sha256": "5cf47eb78206306a6263798842c8d050dbe9e193fc0354d7d74e32e3d8ce6a9c",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -7.0672878953440765,
+        "image_l2_mm": 1.1381857827316388,
+        "entrance_pupil_l1_mm": -4.402036913183878,
+        "exit_pupil_l2_mm": 98.91286962612837,
+        "magnification": -1.8328993485403031
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.333677384506039,
+          -4.333677384506039,
+          45.823949871895266,
+          -45.823949871895266
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 11.271433304405903,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.5672878953440765,
+        "last_vertex_to_image_mm": 0.6381857827316388,
+        "stop_to_first_vertex_mm": 3.9020369131838777,
+        "last_vertex_to_exit_pupil_mm": 98.41286962612837
+      }
+    }
+  },
+  {
+    "case_id": 37,
+    "sampling_sha256": "0a016c775747ad0f91e9abbd8d102bb41f31df8213df86f1e1426454bfa58f1c",
+    "geometry_sha256": "470cd98a3ca5a1f08695e85721326591a7e8fa7cdd2844d2c59524bb3f834ab8",
+    "full_initial_sha256": "5629c6e6d1f10be6aaa9f17c226ebed37f62e363d3a461dc060b2fd2cb3360e6",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.29994610482438,
+        "image_l2_mm": 1.2378140954277363,
+        "entrance_pupil_l1_mm": -2.28790339008624,
+        "exit_pupil_l2_mm": 66.60082755247146,
+        "magnification": -3.346866136358321
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.0730618021205265,
+          -3.0730618021205265,
+          15.236863189421783,
+          -15.236863189421783
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 13.094945616428777,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.7999461048243797,
+        "last_vertex_to_image_mm": 0.7378140954277363,
+        "stop_to_first_vertex_mm": 1.7879033900862402,
+        "last_vertex_to_exit_pupil_mm": 66.10082755247146
+      }
+    }
+  },
+  {
+    "case_id": 38,
+    "sampling_sha256": "32aa7ddfd9b0dcec56989b9867c488d2e896e20c41a8e13a7a3bfdf0b1b13ebc",
+    "geometry_sha256": "a6a350477cb5a3ddfa98cddc9e55e5be2055663413897080ec9ad15936d177c1",
+    "full_initial_sha256": "fee415f5e8e100fe66fa8ee59301f314f2a0b2211db4fc327ee5de51700e83d0",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.7287505236932805,
+        "image_l2_mm": 4.239518013764615,
+        "entrance_pupil_l1_mm": -1.38350083148653,
+        "exit_pupil_l2_mm": 22.508081208786454,
+        "magnification": -3.6928381186198704
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.9145156998997934,
+          -2.9145156998997934,
+          9.695605012125869,
+          -9.695605012125869
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 14.90706759289922,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.2287505236932805,
+        "last_vertex_to_image_mm": 3.7395180137646147,
+        "stop_to_first_vertex_mm": 0.88350083148653,
+        "last_vertex_to_exit_pupil_mm": 22.008081208786454
+      }
+    }
+  },
+  {
+    "case_id": 39,
+    "sampling_sha256": "7b8a9d495e8d52daee38e3ac971fb09d7300898416d1a9641bf85f3cfc810f45",
+    "geometry_sha256": "3b81e5b04c3be25f496168bedcb511a3942a03d87e28e454dbbad4cd881afd4c",
+    "full_initial_sha256": "d6ba846e2eb0f2f3229e96d4336daeac577d71422db363ede3ffe6927670df59",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.1872281317791753,
+        "image_l2_mm": 1.139423555568953,
+        "entrance_pupil_l1_mm": -1.1563470196509766,
+        "exit_pupil_l2_mm": 32.979968127087105,
+        "magnification": -5.086551254852847
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.4022438303297267,
+          -2.4022438303297267,
+          11.262326554900232,
+          -11.262326554900232
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 15.173782859853972,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.6872281317791753,
+        "last_vertex_to_image_mm": 0.6394235555689529,
+        "stop_to_first_vertex_mm": 0.6563470196509766,
+        "last_vertex_to_exit_pupil_mm": 32.479968127087105
+      }
+    }
+  },
+  {
+    "case_id": 40,
+    "sampling_sha256": "7b17cf29411557900a6e66cbd37ad8e4336ed69fe76a24b228c81e047667bc49",
+    "geometry_sha256": "2a7a5a33222fce197c498f2b993e4ae917ab0a5fb775f64c385d4e98f8cec35b",
+    "full_initial_sha256": "dcd110b49425ac7e848f6d7656d53e6801cf551ce817b5929d232420cdddd651",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.557659876283019,
+        "image_l2_mm": 1.4681829424806374,
+        "entrance_pupil_l1_mm": -5.04356165705368,
+        "exit_pupil_l2_mm": 67.39822874220452,
+        "magnification": -1.6383579534554387
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.61794050461688,
+          -3.61794050461688,
+          -10.181511420074187,
+          10.181511420074187
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 7.469459676680163,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.057659876283019,
+        "last_vertex_to_image_mm": 0.9681829424806374,
+        "stop_to_first_vertex_mm": 4.54356165705368,
+        "last_vertex_to_exit_pupil_mm": 66.89822874220452
+      }
+    }
+  },
+  {
+    "case_id": 41,
+    "sampling_sha256": "57a2147efeb49b9cfcbb2cdd099db9fd1852d21c95cad4968922fe5b364a04d2",
+    "geometry_sha256": "191ac62f15f57481dd31dbc3dde95ea312ab798275e99444efc1f57e8b5f260e",
+    "full_initial_sha256": "b0da91059aaf326d22af0bbb4e37d608d188ebfb0588379a681d80bd1c92f724",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.097509657874885,
+        "image_l2_mm": 1.87516683297488,
+        "entrance_pupil_l1_mm": -1.5434756022869662,
+        "exit_pupil_l2_mm": 42.27359788757891,
+        "magnification": -5.236015596293434
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.201103636683961,
+          -3.201103636683961,
+          15.018135715549963,
+          -15.018135715549963
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 20.686880396247993,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.597509657874885,
+        "last_vertex_to_image_mm": 1.37516683297488,
+        "stop_to_first_vertex_mm": 1.0434756022869662,
+        "last_vertex_to_exit_pupil_mm": 41.77359788757891
+      }
+    }
+  },
+  {
+    "case_id": 42,
+    "sampling_sha256": "61f9ab31b9e57d8821dedeebc3252f503dd0d7e83dfd253c2dbfe47026ca3c66",
+    "geometry_sha256": "82aa925e008dd602d5e2a258d53593930e198710dc4c30ed8474cbeef00bd984",
+    "full_initial_sha256": "ad1d7733fef85e8e0ee0e9aeceaeb36750e03b7b04ca344c1b9b6a961af0dc02",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.5405208407246107,
+        "image_l2_mm": 1.2635598707226228,
+        "entrance_pupil_l1_mm": -2.703591781944111,
+        "exit_pupil_l2_mm": 40.48695442688617,
+        "magnification": -1.5145814089155516
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.6419946294012557,
+          -1.6419946294012557,
+          -3.6191025928647202,
+          3.6191025928647202
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 2.4218622800139458,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.0405208407246107,
+        "last_vertex_to_image_mm": 0.7635598707226228,
+        "stop_to_first_vertex_mm": 2.203591781944111,
+        "last_vertex_to_exit_pupil_mm": 39.98695442688617
+      }
+    }
+  },
+  {
+    "case_id": 43,
+    "sampling_sha256": "190aecd56b983265f79087df04c88afc900b3f996a85853663142667271dbaf7",
+    "geometry_sha256": "51aecf520acc0e2ed499168ae141e4614c4718ca21cb10b4992762c30919b421",
+    "full_initial_sha256": "4e39ccaf45b3b8290163bb6c302fd36d2089c70a0e298f2702d7e06c2d70e57b",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.0354944628796336,
+        "image_l2_mm": 1.298053700260657,
+        "entrance_pupil_l1_mm": -1.1003498005958863,
+        "exit_pupil_l2_mm": 45.29797223064947,
+        "magnification": -3.9185356852636266
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.180773786864545,
+          -2.180773786864545,
+          9.995855551721077,
+          -9.995855551721077
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 10.798945741970815,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.5354944628796336,
+        "last_vertex_to_image_mm": 0.7980537002606569,
+        "stop_to_first_vertex_mm": 0.6003498005958863,
+        "last_vertex_to_exit_pupil_mm": 44.79797223064947
+      }
+    }
+  },
+  {
+    "case_id": 44,
+    "sampling_sha256": "7b08683daeff481da0f143349554951a71e03744f716bdda71c9af5b586cf11c",
+    "geometry_sha256": "195c3c7f13bc0425a1dbee196bee62bb9a6d7b5a30b7ff56fe12a809a8010872",
+    "full_initial_sha256": "6cabf39914dd2b36e2aab4ff6f5b57be300300790747d3781e31b4ebf7c7ba0e",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -5.146782082733239,
+        "image_l2_mm": 1.3409620911082747,
+        "entrance_pupil_l1_mm": -2.8167353923604357,
+        "exit_pupil_l2_mm": 33.69744011879022,
+        "magnification": -5.260950251080139
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.070056477378888,
+          -4.070056477378888,
+          16.747286233624674,
+          -16.747286233624674
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 26.291113628995348,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 4.646782082733239,
+        "last_vertex_to_image_mm": 0.8409620911082747,
+        "stop_to_first_vertex_mm": 2.3167353923604357,
+        "last_vertex_to_exit_pupil_mm": 33.19744011879022
+      }
+    }
+  },
+  {
+    "case_id": 45,
+    "sampling_sha256": "4b686a306d1c988a2c060ee12f0c323e71b7645c05f4cbff064dfe70ecf9360c",
+    "geometry_sha256": "f3329d0298697f064eee3eb6df3f3477141f4685c5e385854a0f84e365401cc1",
+    "full_initial_sha256": "82435f1a0433be269855f7ab82c04c3ed0b0774f0861435848e5e3aa29a8bb91",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -5.4828270247925985,
+        "image_l2_mm": 4.195907278585166,
+        "entrance_pupil_l1_mm": -3.429017647225215,
+        "exit_pupil_l2_mm": 38.86378666279413,
+        "magnification": -3.2156754841507404
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.132119237333312,
+          -4.132119237333312,
+          16.99384012462734,
+          -16.99384012462734
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 16.449344410261585,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 4.9828270247925985,
+        "last_vertex_to_image_mm": 3.6959072785851657,
+        "stop_to_first_vertex_mm": 2.929017647225215,
+        "last_vertex_to_exit_pupil_mm": 38.36378666279413
+      }
+    }
+  },
+  {
+    "case_id": 46,
+    "sampling_sha256": "c14144827fb6a4c96564ca1f9b912b2d08f18e8c558ad8b1fc317a5ef8beeee4",
+    "geometry_sha256": "cdcfab02d053371ecf728e9b47f962f948372002057928980adbae777a36a344",
+    "full_initial_sha256": "408fabb856848ad8ba5512398de49abd89ae8e9d504da5ee4ffccfb0cec29cc7",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.193011443147492,
+        "image_l2_mm": 1.0030455103509972,
+        "entrance_pupil_l1_mm": -4.355084355906384,
+        "exit_pupil_l2_mm": 93.05556033100223,
+        "magnification": -4.061451600171721
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.696117843434,
+          -4.696117843434,
+          34.33256490719821,
+          -34.33256490719821
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 23.596652577847014,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 5.693011443147492,
+        "last_vertex_to_image_mm": 0.5030455103509972,
+        "stop_to_first_vertex_mm": 3.855084355906384,
+        "last_vertex_to_exit_pupil_mm": 92.55556033100223
+      }
+    }
+  },
+  {
+    "case_id": 47,
+    "sampling_sha256": "19cd5f385210945ed09d875bc6fdbd4dec274b1886a8adc74cf113a1946a3ec7",
+    "geometry_sha256": "112c6a371aa68072ae7f658e2469b75592e22577e9da375423991483d01f74bc",
+    "full_initial_sha256": "eb634000f9c3dcac839b320e4de786c3e48f04575123c9ae435b04fd394456e2",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.682990532002689,
+        "image_l2_mm": 1.3287130710586055,
+        "entrance_pupil_l1_mm": -4.588981108199909,
+        "exit_pupil_l2_mm": 36.61982029307579,
+        "magnification": -5.23635928248499
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          5.354744243676641,
+          -5.354744243676641,
+          22.10264384091168,
+          -22.10264384091168
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 34.15499505452166,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.182990532002689,
+        "last_vertex_to_image_mm": 0.8287130710586055,
+        "stop_to_first_vertex_mm": 4.088981108199909,
+        "last_vertex_to_exit_pupil_mm": 36.11982029307579
+      }
+    }
+  },
+  {
+    "case_id": 48,
+    "sampling_sha256": "3272e84605dc5b66264a84cb2f9236a659b5f762141c74b4981d0d258fc31db0",
+    "geometry_sha256": "83b48da6b236fbfc4c948e2d1fd116f63b4d4919069d0709d97735100335a66f",
+    "full_initial_sha256": "8f14a040076b1a772a2e06612a23f3258451700690f201092a3c76f2199d3715",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -7.876881209352051,
+        "image_l2_mm": 3.3360536323866525,
+        "entrance_pupil_l1_mm": -5.535542491221215,
+        "exit_pupil_l2_mm": 61.02486049149542,
+        "magnification": -3.6789274860120598
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          6.028739464023196,
+          -6.028739464023196,
+          32.072727252784,
+          -32.072727252784
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 27.30338979823843,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 7.376881209352051,
+        "last_vertex_to_image_mm": 2.8360536323866525,
+        "stop_to_first_vertex_mm": 5.035542491221215,
+        "last_vertex_to_exit_pupil_mm": 60.52486049149542
+      }
+    }
+  },
+  {
+    "case_id": 49,
+    "sampling_sha256": "852a4aa858418d2f1e7d9586fd456db069099cb052fded706a421e2b0bc33193",
+    "geometry_sha256": "34f39d24746d9319b89749d490a5cf188902c1ce35c3af3e923e50668fb0dbc2",
+    "full_initial_sha256": "72edd1485b7c761b8a32f3a9782dc91f9949fd824657fc27f7f46ebbf293e31e",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.3300132999136,
+        "image_l2_mm": 4.497596856369564,
+        "entrance_pupil_l1_mm": -1.2454360234363608,
+        "exit_pupil_l2_mm": 49.44753134301933,
+        "magnification": -1.8499619071078448
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.1947973634920226,
+          -2.1947973634920226,
+          3.6263096617961432,
+          -3.6263096617961432
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 1.3380650273437604,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.8300132999135998,
+        "last_vertex_to_image_mm": 3.9975968563695643,
+        "stop_to_first_vertex_mm": 0.7454360234363608,
+        "last_vertex_to_exit_pupil_mm": 48.94753134301933
+      }
+    }
+  },
+  {
+    "case_id": 50,
+    "sampling_sha256": "ffd044471b9959c7da533dbbd1a27dd98011be00d4cca87d058e1922d9db0574",
+    "geometry_sha256": "73d4857f5d017fe8e72ae45825dbb9d9a89d65bbc8cfef0ffe474a893136062f",
+    "full_initial_sha256": "66307be58804da5d7b476474657475b7d2f571d40f1a94db21cbe84dc7edd34b",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.8786995295128732,
+        "image_l2_mm": 3.27895744151498,
+        "entrance_pupil_l1_mm": -1.8295534922004264,
+        "exit_pupil_l2_mm": 31.091978085341378,
+        "magnification": -2.7541004994877776
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.8149537506419042,
+          -2.8149537506419042,
+          9.634881395629026,
+          -9.634881395629026
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.809838822756433,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.3786995295128732,
+        "last_vertex_to_image_mm": 2.77895744151498,
+        "stop_to_first_vertex_mm": 1.3295534922004264,
+        "last_vertex_to_exit_pupil_mm": 30.591978085341378
+      }
+    }
+  },
+  {
+    "case_id": 51,
+    "sampling_sha256": "858dfb4ce61464c78e7fe93b1f2c02bd698e794c11c8e36dc1c11e86feb4a36f",
+    "geometry_sha256": "9ec40a00ba2548f6c9ed0d91d56482deca3f0c1821a1fa59d506f6fe44ccdad8",
+    "full_initial_sha256": "d168dabadc4516a08e200d68c276d7bf0420c4abecfb32a197e4870052ce386c",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -7.345938351362465,
+        "image_l2_mm": 3.9596162682560125,
+        "entrance_pupil_l1_mm": -4.13204162701935,
+        "exit_pupil_l2_mm": 89.55005868511638,
+        "magnification": -2.2069810772629395
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          5.043058364915376,
+          -5.043058364915376,
+          22.95395239050083,
+          -22.95395239050083
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 13.764958030783674,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.845938351362465,
+        "last_vertex_to_image_mm": 3.4596162682560125,
+        "stop_to_first_vertex_mm": 3.6320416270193503,
+        "last_vertex_to_exit_pupil_mm": 89.05005868511638
+      }
+    }
+  },
+  {
+    "case_id": 52,
+    "sampling_sha256": "8d5e63c934e9510040b6842ce633135fb477eb5ce4bea923b1d32d28367c5fd2",
+    "geometry_sha256": "54039264b3e6a0235eae0e842ec9c332e14023d745bc4fe40b1719db809fc203",
+    "full_initial_sha256": "321980017ee4eaf7389dc17d6504bf6cf984163f75e796f61bd98ef2cd203392",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.107760155828235,
+        "image_l2_mm": 3.4438947211712865,
+        "entrance_pupil_l1_mm": -1.7567279405882439,
+        "exit_pupil_l2_mm": 50.778248898809736,
+        "magnification": -2.441074957653789
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.167317816479369,
+          -2.167317816479369,
+          9.096229435196733,
+          -9.096229435196733
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 5.438570485148896,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.607760155828235,
+        "last_vertex_to_image_mm": 2.9438947211712865,
+        "stop_to_first_vertex_mm": 1.2567279405882439,
+        "last_vertex_to_exit_pupil_mm": 50.278248898809736
+      }
+    }
+  },
+  {
+    "case_id": 53,
+    "sampling_sha256": "e7c25f8640885f6b62703e6ef7f80b239054a317287ee54837deb0621d460de2",
+    "geometry_sha256": "f56cf4c23c3c2ffa77ec2d182b323584d2302ce5882cb21c81a61f89c13c71ab",
+    "full_initial_sha256": "821edd6a476cbc349d3223cc114feb0311d61c2242580186bc01149620a86ca2",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.185506198334183,
+        "image_l2_mm": 2.8439290213688855,
+        "entrance_pupil_l1_mm": -3.2382481352147403,
+        "exit_pupil_l2_mm": 55.53432399775933,
+        "magnification": -1.6551338765218468
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.8438932001540844,
+          -3.8438932001540844,
+          15.634583296183603,
+          -15.634583296183603
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 8.11340896856633,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 5.685506198334183,
+        "last_vertex_to_image_mm": 2.3439290213688855,
+        "stop_to_first_vertex_mm": 2.7382481352147403,
+        "last_vertex_to_exit_pupil_mm": 55.03432399775933
+      }
+    }
+  },
+  {
+    "case_id": 54,
+    "sampling_sha256": "f7e1069918fec4ea9ffe4026429fe2e45f43a0702b1067722aa13fdc32d03e16",
+    "geometry_sha256": "28253f98b930beb3d99a485ab6b353444c7a431f2bb3b83101a66048fc3ae6fe",
+    "full_initial_sha256": "00273216b696a03efcc74400c8f9923e261cd16c14db624bb2956d477dc6a8c3",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.6419001414901326,
+        "image_l2_mm": 1.8897430885532662,
+        "entrance_pupil_l1_mm": -1.8397563891280069,
+        "exit_pupil_l2_mm": 83.2249503860034,
+        "magnification": -4.460241672076236
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.9065678034996314,
+          -1.9065678034996314,
+          15.865292414627236,
+          -15.865292414627236
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.89496987169413,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.1419001414901326,
+        "last_vertex_to_image_mm": 1.3897430885532662,
+        "stop_to_first_vertex_mm": 1.3397563891280069,
+        "last_vertex_to_exit_pupil_mm": 82.7249503860034
+      }
+    }
+  },
+  {
+    "case_id": 55,
+    "sampling_sha256": "5ff5480165ac310fbd412b58704ffeb576e20e93c43fc59691ad4db72826c24c",
+    "geometry_sha256": "74287f436c7b3d4acf600f54653686982238ef5b7f2638b1c04a8c25413baff2",
+    "full_initial_sha256": "cdf28a5fa78fbaf35b4181bd6901c6cf92d2ca923528c83beed2361aa539d533",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.2743094734515394,
+        "image_l2_mm": 1.780504731654522,
+        "entrance_pupil_l1_mm": -1.1986831218726948,
+        "exit_pupil_l2_mm": 80.99796233051022,
+        "magnification": -2.1713365591952805
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.406006019875671,
+          -1.406006019875671,
+          6.554442694477305,
+          -6.554442694477305
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 3.3011757066209992,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.7743094734515394,
+        "last_vertex_to_image_mm": 1.280504731654522,
+        "stop_to_first_vertex_mm": 0.6986831218726948,
+        "last_vertex_to_exit_pupil_mm": 80.49796233051022
+      }
+    }
+  },
+  {
+    "case_id": 56,
+    "sampling_sha256": "a43e518e685ea7de3d9d21bc383be288877d925b8fa647599d4b8a53d7dee219",
+    "geometry_sha256": "e502e2bfcdb42b99c0ab26d93da8fe11368e542ff129759a0c79488b7ce5d3a1",
+    "full_initial_sha256": "d54b4894b41e12d75d5ba53856ed72505bc66094f76770b56b9a94c381744c21",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.7028530905240697,
+        "image_l2_mm": 3.245232183534885,
+        "entrance_pupil_l1_mm": -1.3082817715906754,
+        "exit_pupil_l2_mm": 33.843467513305036,
+        "magnification": -2.855481387598366
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.7093800444143206,
+          -2.7093800444143206,
+          9.004320690630463,
+          -9.004320690630463
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.964498363617007,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.2028530905240697,
+        "last_vertex_to_image_mm": 2.745232183534885,
+        "stop_to_first_vertex_mm": 0.8082817715906754,
+        "last_vertex_to_exit_pupil_mm": 33.343467513305036
+      }
+    }
+  },
+  {
+    "case_id": 57,
+    "sampling_sha256": "bd3b9df4d4ac0905b985eead7ca0f33e52e5e79b02aa08c090f30f92c0506703",
+    "geometry_sha256": "e77f0ebd0f612db5d28aaaf9ccba1b5486bdfff3d10d9a1ebd6584a2fde32e18",
+    "full_initial_sha256": "27f6c8af85885618f8ff1737bd6696d5cfd85f1d0804aaa7b5781e6257bcda8a",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.047237847367065,
+        "image_l2_mm": 1.1971225511083854,
+        "entrance_pupil_l1_mm": -2.702084580323597,
+        "exit_pupil_l2_mm": 22.33258744767576,
+        "magnification": -4.274560107259047
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.67584013228813,
+          -4.67584013228813,
+          12.8615256896293,
+          -12.8615256896293
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 25.55510130068872,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 5.547237847367065,
+        "last_vertex_to_image_mm": 0.6971225511083854,
+        "stop_to_first_vertex_mm": 2.202084580323597,
+        "last_vertex_to_exit_pupil_mm": 21.83258744767576
+      }
+    }
+  },
+  {
+    "case_id": 58,
+    "sampling_sha256": "30b62bc8ee19969bb09b29c50166924a77cc6320700332f37ca903bace524613",
+    "geometry_sha256": "438cd33546ecd2cdefc0e7537164d48e1932c674ae9300b6182b1da66a2fa768",
+    "full_initial_sha256": "a82a3d8f9e7e872ab83700621b332b7a2b0ff0b6a45f728a38ed5b426372a2e1",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.577345549393036,
+        "image_l2_mm": 1.5071848960004879,
+        "entrance_pupil_l1_mm": -2.6122661568951453,
+        "exit_pupil_l2_mm": 66.96079378398072,
+        "magnification": -3.3137471100344555
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.4913251856826766,
+          -2.4913251856826766,
+          26.165991290884108,
+          -26.165991290884108
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.885294778254936,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.077345549393036,
+        "last_vertex_to_image_mm": 1.0071848960004879,
+        "stop_to_first_vertex_mm": 2.1122661568951453,
+        "last_vertex_to_exit_pupil_mm": 66.46079378398072
+      }
+    }
+  },
+  {
+    "case_id": 59,
+    "sampling_sha256": "11266c8ad9687a4bdcf9ac8344e20cc3383df56dd1738458c4f26d01075375ca",
+    "geometry_sha256": "b6b0010e0cce673ca9662ad3c7100dac26e159dd011b1a438280b3fdc3530800",
+    "full_initial_sha256": "ece6b0e3ec4eed31b8633356503f109dd723f936a7afb5f7f90eea867e3b1e6c",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -7.351418553061256,
+        "image_l2_mm": 1.5931877522857527,
+        "entrance_pupil_l1_mm": -5.299810108137633,
+        "exit_pupil_l2_mm": 80.79111946772473,
+        "magnification": -2.846603958611259
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          5.191300482713368,
+          -5.191300482713368,
+          51.699865528140265,
+          -51.699865528140265
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 18.91656307252273,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.851418553061256,
+        "last_vertex_to_image_mm": 1.0931877522857527,
+        "stop_to_first_vertex_mm": 4.799810108137633,
+        "last_vertex_to_exit_pupil_mm": 80.29111946772473
+      }
+    }
+  },
+  {
+    "case_id": 60,
+    "sampling_sha256": "fd525cc7ced5548bd1538473c8b1d80296f17c94b5415b8ce274b82af448a486",
+    "geometry_sha256": "7d93bc6286b393d31d3d5e7bcd9784281d84a1d9f158712e4b3d06e6463c9d78",
+    "full_initial_sha256": "7fb1d246c3950bbf369b76a7dfb01ad29665b25b0c55fff27631e2bfe3ef5417",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.0068133001682162,
+        "image_l2_mm": 1.3541622946934098,
+        "entrance_pupil_l1_mm": -1.8496501838984014,
+        "exit_pupil_l2_mm": 22.056422874894725,
+        "magnification": -3.405785805604701
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.102062293940117,
+          -2.102062293940117,
+          9.289854004694128,
+          -9.289854004694128
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.114159199182907,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.5068133001682162,
+        "last_vertex_to_image_mm": 0.8541622946934098,
+        "stop_to_first_vertex_mm": 1.3496501838984014,
+        "last_vertex_to_exit_pupil_mm": 21.556422874894725
+      }
+    }
+  },
+  {
+    "case_id": 61,
+    "sampling_sha256": "64868f99a5be1c21d5b4f5fe10e82414d9d162b5806f158fb3d68d411d54735a",
+    "geometry_sha256": "c4991f905eb71b710a21b781acaf007435573041da50b8f05126e2a4e71bd723",
+    "full_initial_sha256": "5e72f4cc92755aeeb5222b8d6720f2df6bfa0bfc939553793740bf11e57fc658",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.34121782006498,
+        "image_l2_mm": 2.960725159724566,
+        "entrance_pupil_l1_mm": -3.021676983279578,
+        "exit_pupil_l2_mm": 35.97006616365809,
+        "magnification": -1.90774650803146
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.217902132001523,
+          -4.217902132001523,
+          12.586040940472577,
+          -12.586040940472577
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 10.853957665166782,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 5.84121782006498,
+        "last_vertex_to_image_mm": 2.460725159724566,
+        "stop_to_first_vertex_mm": 2.521676983279578,
+        "last_vertex_to_exit_pupil_mm": 35.47006616365809
+      }
+    }
+  },
+  {
+    "case_id": 62,
+    "sampling_sha256": "62b26d8dfb25ced884ca9db435ee21ab0ffb65a332617e0637170c9240cb622b",
+    "geometry_sha256": "6a1257a7383bbab7d7e93a5d11e699ca3c6c62cd696ccb34a8618243409d9e80",
+    "full_initial_sha256": "ee2d7460c847630d664c4125fd398e62d800718337cb9105389eee288b2121f2",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.248293005280696,
+        "image_l2_mm": 3.575848526713095,
+        "entrance_pupil_l1_mm": -1.4180578001948956,
+        "exit_pupil_l2_mm": 68.57144064480887,
+        "magnification": -2.6569443076291943
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.5631472307540097,
+          -1.5631472307540097,
+          7.673669866704888,
+          -7.673669866704888
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 3.219074609782151,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.7482930052806962,
+        "last_vertex_to_image_mm": 3.075848526713095,
+        "stop_to_first_vertex_mm": 0.9180578001948956,
+        "last_vertex_to_exit_pupil_mm": 68.07144064480887
+      }
+    }
+  },
+  {
+    "case_id": 63,
+    "sampling_sha256": "4b778c899534e0b01f590ae3224cbab5904981d2cc22233dac98e1d0c5b5e340",
+    "geometry_sha256": "30f3a2c2155b170f09812a47fb62a3a0f8fa25151e677803a19d8addc717b33f",
+    "full_initial_sha256": "a32aebc4c1c0cbf6b2b42ffc3d868de016c7ff6395d0804c48bafc05d6f2627f",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -7.040734098862333,
+        "image_l2_mm": 3.081755745768715,
+        "entrance_pupil_l1_mm": -4.898699397820104,
+        "exit_pupil_l2_mm": 23.70840821917886,
+        "magnification": -2.352108911646582
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.8955820978430005,
+          -4.8955820978430005,
+          18.488535336059048,
+          -18.488535336059048
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 15.05852977391385,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.540734098862333,
+        "last_vertex_to_image_mm": 2.581755745768715,
+        "stop_to_first_vertex_mm": 4.398699397820104,
+        "last_vertex_to_exit_pupil_mm": 23.20840821917886
+      }
+    }
+  },
+  {
+    "case_id": 64,
+    "sampling_sha256": "58c7ab451d1ddd6ed6f84bbdc96ec94205af9b474363e9cafc917ef56a61fcab",
+    "geometry_sha256": "8fd88187e6e3d6000dd7710fffef108e0c7a263229b4856665ee4ac4cd662b76",
+    "full_initial_sha256": "642c223b895911f59d97e1cc85f2ff9d314d3f09f4f51aff986f087e20419be6",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.401650652287534,
+        "image_l2_mm": 3.8332472276534144,
+        "entrance_pupil_l1_mm": -2.0452279057340332,
+        "exit_pupil_l2_mm": 73.17128824901648,
+        "magnification": -2.342435564586085
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.118746386579443,
+          -3.118746386579443,
+          11.368659202795905,
+          -11.368659202795905
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 8.53936981105223,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.9016506522875343,
+        "last_vertex_to_image_mm": 3.3332472276534144,
+        "stop_to_first_vertex_mm": 1.5452279057340332,
+        "last_vertex_to_exit_pupil_mm": 72.67128824901648
+      }
+    }
+  },
+  {
+    "case_id": 65,
+    "sampling_sha256": "9cc48b22d52b0a695b29355469a41dcd8ae844170810ec4ba7e5c2329af8252f",
+    "geometry_sha256": "7e22fe189795fe3a6eb9af5e54f32f2f13bf527c2fc480680b216f1c9cd50ae9",
+    "full_initial_sha256": "9a53d6f3985387216e9fa5e3c955e92b2d4a806387d91505feb1eb0603dd9f7c",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.607076044483287,
+        "image_l2_mm": 2.2688374303214736,
+        "entrance_pupil_l1_mm": -1.4451047993188122,
+        "exit_pupil_l2_mm": 89.49534006686716,
+        "magnification": -3.0854107531736754
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.5619767417380093,
+          -2.5619767417380093,
+          11.189222467515288,
+          -11.189222467515288
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.838722961105477,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.107076044483287,
+        "last_vertex_to_image_mm": 1.7688374303214736,
+        "stop_to_first_vertex_mm": 0.9451047993188122,
+        "last_vertex_to_exit_pupil_mm": 88.99534006686716
+      }
+    }
+  },
+  {
+    "case_id": 66,
+    "sampling_sha256": "626f33f0def003ac523cf26e571daee3f5459d280b7519f7d2f5c71b1c0f069a",
+    "geometry_sha256": "722208902cfa227f51bf9bf80287a27283f89c502cdda8595a3aec677feeb667",
+    "full_initial_sha256": "0f1615e76610e12d8d7d0e72cc9e259bcf8fc558d27f90c5b52d810442bfb6b2",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.081951110911107,
+        "image_l2_mm": 4.2743360248451046,
+        "entrance_pupil_l1_mm": -2.051132456708618,
+        "exit_pupil_l2_mm": 45.260288327409405,
+        "magnification": -5.3409629962442295
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.270705351729727,
+          -3.270705351729727,
+          16.578453110523977,
+          -16.578453110523977
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 21.705080842849387,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.581951110911107,
+        "last_vertex_to_image_mm": 3.7743360248451046,
+        "stop_to_first_vertex_mm": 1.551132456708618,
+        "last_vertex_to_exit_pupil_mm": 44.760288327409405
+      }
+    }
+  },
+  {
+    "case_id": 67,
+    "sampling_sha256": "feee87fb50cad11659b0e4ed342c6a52a6187cc372b59c66b2a60d17b6e94b02",
+    "geometry_sha256": "78094e832106d4c559e03f66027cbb95ffd0a2f961efd5dd8ffa0f960c148ca5",
+    "full_initial_sha256": "5889282f63c3cbbcdd8e990a99daa2efda0db8f525011083d1b9d3d97b0a3993",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.0790856469348213,
+        "image_l2_mm": 1.6352785400325036,
+        "entrance_pupil_l1_mm": -0.9180379961966959,
+        "exit_pupil_l2_mm": 35.6409711582369,
+        "magnification": -4.668396175662351
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.4742819883344975,
+          -1.4742819883344975,
+          8.124752043791986,
+          -8.124752043791986
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 8.590031612240098,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.5790856469348213,
+        "last_vertex_to_image_mm": 1.1352785400325036,
+        "stop_to_first_vertex_mm": 0.4180379961966959,
+        "last_vertex_to_exit_pupil_mm": 35.1409711582369
+      }
+    }
+  },
+  {
+    "case_id": 68,
+    "sampling_sha256": "10499d0a86ecf956a1c8bfa1a3a256bd20e5141c8f42386eebbb3b28bdefc44d",
+    "geometry_sha256": "9cbd055fc4faeb1a58c5638b14ba204374fceb982cb97072581259290a791fc5",
+    "full_initial_sha256": "fe4d498e14fbd546dfc7066c0b6ae0e5701ba6780ce726ff864ea46292400a64",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.922699243026484,
+        "image_l2_mm": 1.396552541884839,
+        "entrance_pupil_l1_mm": -1.2324093655336656,
+        "exit_pupil_l2_mm": 91.40320724095135,
+        "magnification": -3.897066180284864
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.0856674212220616,
+          -2.0856674212220616,
+          11.143644346199006,
+          -11.143644346199006
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 10.096267464976581,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.422699243026484,
+        "last_vertex_to_image_mm": 0.896552541884839,
+        "stop_to_first_vertex_mm": 0.7324093655336656,
+        "last_vertex_to_exit_pupil_mm": 90.90320724095135
+      }
+    }
+  },
+  {
+    "case_id": 69,
+    "sampling_sha256": "67ff2dd42b154b2a8bd2a22cac35399407182549a8166ea29204ce65bb6d6071",
+    "geometry_sha256": "f8a1fba066da3a395b4cb5d3838be780304023c9085e069dc9bdc99800e3e199",
+    "full_initial_sha256": "3df701898242a8464c3cdfa10f97e8e77adaed2cfe65ac9099a8a8556fb4b30f",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.289500595447002,
+        "image_l2_mm": 4.067550689155607,
+        "entrance_pupil_l1_mm": -3.123464101890678,
+        "exit_pupil_l2_mm": 75.2800734854446,
+        "magnification": -2.907657935773225
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.646794095421713,
+          -4.646794095421713,
+          18.752694341734315,
+          -18.752694341734315
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 16.87590566432776,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 5.789500595447002,
+        "last_vertex_to_image_mm": 3.567550689155607,
+        "stop_to_first_vertex_mm": 2.623464101890678,
+        "last_vertex_to_exit_pupil_mm": 74.7800734854446
+      }
+    }
+  },
+  {
+    "case_id": 70,
+    "sampling_sha256": "793daea757cf6931454713bfdef75ede5860278d8253a0662a5441e65b9175cc",
+    "geometry_sha256": "5cbeb2d1fd54ecd45c415d1f04574e36b46e8721153e28e3e65c8bf4d8b9f251",
+    "full_initial_sha256": "b68733f62c65f73e5266077162bcaa403dbfa8d90732137006882e7a23e506de",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.866224466822143,
+        "image_l2_mm": 1.3976177550236029,
+        "entrance_pupil_l1_mm": -1.7863166985124719,
+        "exit_pupil_l2_mm": 29.94062737151605,
+        "magnification": -3.064392078404568
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.480571774325042,
+          -3.480571774325042,
+          10.982044560771776,
+          -10.982044560771776
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 14.175662656837185,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 4.366224466822143,
+        "last_vertex_to_image_mm": 0.8976177550236029,
+        "stop_to_first_vertex_mm": 1.2863166985124719,
+        "last_vertex_to_exit_pupil_mm": 29.44062737151605
+      }
+    }
+  },
+  {
+    "case_id": 71,
+    "sampling_sha256": "fbdfb1e9d1599a569309110ca388dd46653532e048cef019291d932e10782961",
+    "geometry_sha256": "ee6bb1dc32bbe7757fc0c5fd01d68e67c2b5047c36f690dc1811ea23fc311c50",
+    "full_initial_sha256": "2863c5549cd08572b10564387d06d85637c5fd2d7b49f7bf6922ff09fd49b9d8",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.5906556196607795,
+        "image_l2_mm": 2.282311363626735,
+        "entrance_pupil_l1_mm": -1.8700035875212622,
+        "exit_pupil_l2_mm": 70.59030565792837,
+        "magnification": -4.052931591307118
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.4800015840033818,
+          -3.4800015840033818,
+          16.288537388148953,
+          -16.288537388148953
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 17.538979362942484,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 4.0906556196607795,
+        "last_vertex_to_image_mm": 1.782311363626735,
+        "stop_to_first_vertex_mm": 1.3700035875212622,
+        "last_vertex_to_exit_pupil_mm": 70.09030565792837
+      }
+    }
+  },
+  {
+    "case_id": 72,
+    "sampling_sha256": "314e521f05a1d2c8d48d36b18c0edbe058625b01e73c65a5c6b7001f929ffb1e",
+    "geometry_sha256": "31a38e0a4af551ce325cf658b5647c823c7b7a3bd4dc5983b2a06d08b4e7c68a",
+    "full_initial_sha256": "76ed6bb8c475b99547f75a5f753164a851110c94253f296aaf051788dfe064c1",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -5.7400131295464485,
+        "image_l2_mm": 3.461650073513678,
+        "entrance_pupil_l1_mm": -4.308061483961473,
+        "exit_pupil_l2_mm": 69.84873324305921,
+        "magnification": -3.113584709332704
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.130356492254459,
+          -4.130356492254459,
+          45.85384660770624,
+          -45.85384660770624
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 14.50647485014698,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 5.2400131295464485,
+        "last_vertex_to_image_mm": 2.961650073513678,
+        "stop_to_first_vertex_mm": 3.808061483961473,
+        "last_vertex_to_exit_pupil_mm": 69.34873324305921
+      }
+    }
+  },
+  {
+    "case_id": 73,
+    "sampling_sha256": "8821915586bac211d95c01d19b3bb8345e42c2e5f895afc967514b88b870e0ab",
+    "geometry_sha256": "5acd8dbc3a679832e507d2f4aba31047acd2a8f6b0119ce41666e198c96bc219",
+    "full_initial_sha256": "e6714ba5ab98c4acf65b6581e3079cb56efd18ca1a5bed768649e5348e753bf4",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.702976101576314,
+        "image_l2_mm": 3.4863600440620752,
+        "entrance_pupil_l1_mm": -2.695826857686309,
+        "exit_pupil_l2_mm": 84.82086198899427,
+        "magnification": -4.815931845591004
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.6962232473952485,
+          -3.6962232473952485,
+          21.638731049385466,
+          -21.638731049385466
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 21.25815584876273,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 4.202976101576314,
+        "last_vertex_to_image_mm": 2.9863600440620752,
+        "stop_to_first_vertex_mm": 2.195826857686309,
+        "last_vertex_to_exit_pupil_mm": 84.32086198899427
+      }
+    }
+  },
+  {
+    "case_id": 74,
+    "sampling_sha256": "31d24d7a2eeeb405750d7ec6fe43efd6fac10135ba0c6314bd7819ac7d945d2f",
+    "geometry_sha256": "ea3a0680c0646b495a661d10303fd06c02df4d37029fa51430f16caa1946f9e0",
+    "full_initial_sha256": "79a5e5affa32b45aada62ce966b1417690e8d1abe3829197fa3236948be0137e",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.2396121979007066,
+        "image_l2_mm": 1.6523126493351377,
+        "entrance_pupil_l1_mm": -1.1790550076585191,
+        "exit_pupil_l2_mm": 92.37662259894535,
+        "magnification": -2.666226987349085
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.4389516651351744,
+          -1.4389516651351744,
+          7.348373260922245,
+          -7.348373260922245
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 4.460459498409713,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.7396121979007066,
+        "last_vertex_to_image_mm": 1.1523126493351377,
+        "stop_to_first_vertex_mm": 0.6790550076585191,
+        "last_vertex_to_exit_pupil_mm": 91.87662259894535
+      }
+    }
+  },
+  {
+    "case_id": 75,
+    "sampling_sha256": "467ef8477b5ec83b56bbc3bf1e39dc29e88e04bc1db1ddbceb5eb8a1e2a18cc6",
+    "geometry_sha256": "3ea35ae12b46a0684c382546b11deea451d4ccc0f6e3255232020735fc245f17",
+    "full_initial_sha256": "1f70d436407db72bf5de5eb2348abe24fdc1e9fa4af9d12d5899b18911825a41",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.7157390188287205,
+        "image_l2_mm": 2.2476144953905313,
+        "entrance_pupil_l1_mm": -1.7545516816886249,
+        "exit_pupil_l2_mm": 84.66479782016881,
+        "magnification": -4.8458692551660185
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.008232987316164,
+          -2.008232987316164,
+          14.86455998692432,
+          -14.86455998692432
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 11.389990460178346,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.2157390188287205,
+        "last_vertex_to_image_mm": 1.7476144953905313,
+        "stop_to_first_vertex_mm": 1.2545516816886249,
+        "last_vertex_to_exit_pupil_mm": 84.16479782016881
+      }
+    }
+  },
+  {
+    "case_id": 76,
+    "sampling_sha256": "2f02454771af0fd8a28096b187b6db4d4fec5d798e96f593b9bd1aeed4050e65",
+    "geometry_sha256": "8b142df71b17462c9548d30a2918226cad6c4c627b2588ea58c1f902fd48d30d",
+    "full_initial_sha256": "53441e48435eaeba8d3f0027062af1b1e60a1afdf1fa0108a3ad125a4fc959ab",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.9176016005402037,
+        "image_l2_mm": 1.8806034361113753,
+        "entrance_pupil_l1_mm": -1.490236155379853,
+        "exit_pupil_l2_mm": 64.15373298485123,
+        "magnification": -2.113615795698657
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.8436707143319437,
+          -1.8436707143319437,
+          8.007773140542387,
+          -8.007773140542387
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 4.566244164113229,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.4176016005402037,
+        "last_vertex_to_image_mm": 1.3806034361113753,
+        "stop_to_first_vertex_mm": 0.9902361553798531,
+        "last_vertex_to_exit_pupil_mm": 63.65373298485123
+      }
+    }
+  },
+  {
+    "case_id": 77,
+    "sampling_sha256": "1d36b52a0090da6146895c6999332a1cb0d23fc1763c86091ad05af8f2cc0226",
+    "geometry_sha256": "159563868483561aff35e724b84a58ed854b3262d1a864dc5e4e36c26177e64f",
+    "full_initial_sha256": "41f040f3aa783207ce7b7b02fcc051f5638cee309f60433bee10c1d387fcdd6c",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.5910493835388806,
+        "image_l2_mm": 1.0901215916262443,
+        "entrance_pupil_l1_mm": -1.3297733605197608,
+        "exit_pupil_l2_mm": 99.41194871694566,
+        "magnification": -2.1149243696875617
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.5511375651435237,
+          -1.5511375651435237,
+          7.873366513875736,
+          -7.873366513875736
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 4.127790766530677,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.0910493835388806,
+        "last_vertex_to_image_mm": 0.5901215916262443,
+        "stop_to_first_vertex_mm": 0.8297733605197608,
+        "last_vertex_to_exit_pupil_mm": 98.91194871694566
+      }
+    }
+  },
+  {
+    "case_id": 78,
+    "sampling_sha256": "d27f7d7514279f9ef9ca825519034796f7f4e029e2f733f882757c65afeb1d67",
+    "geometry_sha256": "9aa26e58f8b1d3356f70b51e0405cba5971bb1c784c494c6d74b89ee2aa54567",
+    "full_initial_sha256": "22938b1fcd201ba13c472a3d22cb7bce94edc4f1211cf9f972987c680c582de5",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.48552800268423,
+        "image_l2_mm": 4.989996674578083,
+        "entrance_pupil_l1_mm": -2.102711901419991,
+        "exit_pupil_l2_mm": 21.84783268677417,
+        "magnification": -5.39588949613788
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.70537614404927,
+          -3.70537614404927,
+          12.961307595600868,
+          -12.961307595600868
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 28.66724943190111,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.98552800268423,
+        "last_vertex_to_image_mm": 4.489996674578083,
+        "stop_to_first_vertex_mm": 1.6027119014199909,
+        "last_vertex_to_exit_pupil_mm": 21.34783268677417
+      }
+    }
+  },
+  {
+    "case_id": 79,
+    "sampling_sha256": "6911be7aa4a8d28dbf5312d50e1943f42c43401756c2179f42f8f3709580fb15",
+    "geometry_sha256": "81e9ba0dba935e4750acfa5766d2aa2b806efda0c694d57f551e17c25ba919df",
+    "full_initial_sha256": "e9a8a0b0f2c3e00505a3749361bcfda353db277fff410fecc7b573ca22c8faef",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.501855798745693,
+        "image_l2_mm": 3.8217275435870683,
+        "entrance_pupil_l1_mm": -1.0410132610799943,
+        "exit_pupil_l2_mm": 49.715181253075464,
+        "magnification": -3.3196679971121243
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.8546729208693353,
+          -1.8546729208693353,
+          7.758338276734439,
+          -7.758338276734439
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 7.096592434718756,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.001855798745693,
+        "last_vertex_to_image_mm": 3.3217275435870683,
+        "stop_to_first_vertex_mm": 0.5410132610799943,
+        "last_vertex_to_exit_pupil_mm": 49.215181253075464
+      }
+    }
+  },
+  {
+    "case_id": 80,
+    "sampling_sha256": "d293dbf80f8736a5b9db4f45d58004ff7c764cd63cba300dcd4317575ba249d0",
+    "geometry_sha256": "c3f7a1000c3400c06be68bc5615f583b8bc4239a2fd47e2b2f088d44ccdd342d",
+    "full_initial_sha256": "82cceb68b636f0dd0a0ed5a043ca7e3b6986a554a61d68e0c63774b19d1006bb",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.868716891184091,
+        "image_l2_mm": 3.6954726864085616,
+        "entrance_pupil_l1_mm": -1.4545817729235244,
+        "exit_pupil_l2_mm": 34.02212883062908,
+        "magnification": -1.9720852521310286
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.761232265604483,
+          -2.761232265604483,
+          7.301868213685071,
+          -7.301868213685071
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 6.5308083572868245,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.368716891184091,
+        "last_vertex_to_image_mm": 3.1954726864085616,
+        "stop_to_first_vertex_mm": 0.9545817729235244,
+        "last_vertex_to_exit_pupil_mm": 33.52212883062908
+      }
+    }
+  },
+  {
+    "case_id": 81,
+    "sampling_sha256": "ef4ec92cff43d3d89a40e1bbb5a0b0d517538bb3746b3e6073e254d5754ccd84",
+    "geometry_sha256": "18b557947b890e9e4e6feea64a8d638e9cac70ad7b43e541f140c8e822ac312e",
+    "full_initial_sha256": "1872dd7658e43825733fddf42f797c2c5a227ed2c618f361fd856c0789dbb1b6",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.9898664319755754,
+        "image_l2_mm": 3.7329867995796033,
+        "entrance_pupil_l1_mm": -1.4260168136729803,
+        "exit_pupil_l2_mm": 53.14505460932469,
+        "magnification": -3.1022750618714765
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.972224183064716,
+          -2.972224183064716,
+          11.131027290056672,
+          -11.131027290056672
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 11.517847516151285,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.4898664319755754,
+        "last_vertex_to_image_mm": 3.2329867995796033,
+        "stop_to_first_vertex_mm": 0.9260168136729803,
+        "last_vertex_to_exit_pupil_mm": 52.64505460932469
+      }
+    }
+  },
+  {
+    "case_id": 82,
+    "sampling_sha256": "7d590ef4547866ee973f5fc711277cce581e8e32c202bb552a2775b7bfdcfbbe",
+    "geometry_sha256": "0436229ffe69a2c521f4476b621824239b9d4f9e910e04140d939d744637e164",
+    "full_initial_sha256": "fce2296ca551a82a132b2655b833eded22b4cc48bb0e24abad34d98c1d4b22cb",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -7.677758644598838,
+        "image_l2_mm": 2.2987682012887665,
+        "entrance_pupil_l1_mm": -5.9917554818064875,
+        "exit_pupil_l2_mm": 75.74809422128673,
+        "magnification": -4.261577749152892
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          5.969598693345795,
+          -5.969598693345795,
+          49.88665386740208,
+          -49.88665386740208
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 30.57108518632598,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 7.177758644598838,
+        "last_vertex_to_image_mm": 1.7987682012887665,
+        "stop_to_first_vertex_mm": 5.4917554818064875,
+        "last_vertex_to_exit_pupil_mm": 75.24809422128673
+      }
+    }
+  },
+  {
+    "case_id": 83,
+    "sampling_sha256": "b632ea52653a50d0a1924d364684d2f3841f6a45abeac3296d6f67d3740a4c87",
+    "geometry_sha256": "fbc917ed9e5bd3b5ba542872532fb3714b8b02cdf614a36a4e7b8ac8a7122eed",
+    "full_initial_sha256": "c3bfa99056b3181174a19e2c9382836f97a63a768580cc1f5f35ff27199f7b5c",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -5.105952682845631,
+        "image_l2_mm": 2.9091152505375337,
+        "entrance_pupil_l1_mm": -3.914468631772961,
+        "exit_pupil_l2_mm": 78.62890442059943,
+        "magnification": -2.0638342472833027
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.9886334137955672,
+          -2.9886334137955672,
+          -16.308742041221596,
+          16.308742041221596
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 5.725181087942887,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 4.605952682845631,
+        "last_vertex_to_image_mm": 2.4091152505375337,
+        "stop_to_first_vertex_mm": 3.414468631772961,
+        "last_vertex_to_exit_pupil_mm": 78.12890442059943
+      }
+    }
+  },
+  {
+    "case_id": 84,
+    "sampling_sha256": "f4938267d3f09fe3c53c9497e9d550719761100a1e883ac2cb6310b1488f6d21",
+    "geometry_sha256": "ad971336516f9e468a8d1dc92fc3eaa20853b5a34ce484cd44c6cc5fe690cbfc",
+    "full_initial_sha256": "66de426bdc16d6cf42d2ee68cbaa98329868ea85094c65b435d2e7ba313c7cae",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.079554392572363,
+        "image_l2_mm": 3.8154872245436584,
+        "entrance_pupil_l1_mm": -1.534146157996629,
+        "exit_pupil_l2_mm": 74.09288288660791,
+        "magnification": -1.6311666234113995
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.208679345080276,
+          -2.208679345080276,
+          5.69488981724303,
+          -5.69488981724303
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 2.3172126323376814,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.579554392572363,
+        "last_vertex_to_image_mm": 3.3154872245436584,
+        "stop_to_first_vertex_mm": 1.034146157996629,
+        "last_vertex_to_exit_pupil_mm": 73.59288288660791
+      }
+    }
+  },
+  {
+    "case_id": 85,
+    "sampling_sha256": "e4dd7dc81d50b00aed5c408cd1254c60be56084d7c5e4eb050c54ddce217bb5c",
+    "geometry_sha256": "773f72f32cae21a3a2bda799584287ffab3617a93562136332a5cc3a09cd6273",
+    "full_initial_sha256": "b9e17c2fd7d41229ffd327c6412d2d2caa0ebf796ba2c30000131c27a1cabf0b",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.9516768503094473,
+        "image_l2_mm": 3.080124435458152,
+        "entrance_pupil_l1_mm": -2.0324875405781233,
+        "exit_pupil_l2_mm": 83.46855260976598,
+        "magnification": -5.883500225113728
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.143952203282503,
+          -3.143952203282503,
+          20.258581978813375,
+          -20.258581978813375
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 22.0159357879819,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.4516768503094473,
+        "last_vertex_to_image_mm": 2.580124435458152,
+        "stop_to_first_vertex_mm": 1.5324875405781233,
+        "last_vertex_to_exit_pupil_mm": 82.96855260976598
+      }
+    }
+  },
+  {
+    "case_id": 86,
+    "sampling_sha256": "78afe49b59c39d1d1514f99c210e1744dbf4c2141310bb8dad81c2d4e0df238e",
+    "geometry_sha256": "a59568a5160fc6c2a07886b5ba6b756fe1348fd3664aeb79c1add05dc929886b",
+    "full_initial_sha256": "8e70b5d06a885b29cc084ab12b88492b7dc7e194f3974283ebee127739d20724",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.065821877047839,
+        "image_l2_mm": 1.7189389015914733,
+        "entrance_pupil_l1_mm": -1.2628401278499726,
+        "exit_pupil_l2_mm": 39.6381326031344,
+        "magnification": -3.080159839326427
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.353344557032797,
+          -1.353344557032797,
+          7.760942486960012,
+          -7.760942486960012
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 4.798898147955043,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.565821877047839,
+        "last_vertex_to_image_mm": 1.2189389015914733,
+        "stop_to_first_vertex_mm": 0.7628401278499726,
+        "last_vertex_to_exit_pupil_mm": 39.1381326031344
+      }
+    }
+  },
+  {
+    "case_id": 87,
+    "sampling_sha256": "c348feb8b9c46b329ea89e636c87aed75c8c86cd8516f9f7de727077b285aca7",
+    "geometry_sha256": "f09a58857dab86f983d032f3415e597f693a2b5274cb0558f5df08521696978d",
+    "full_initial_sha256": "d8c1351bad2dfaac2e2838da1dfdf25cc82ec83b10946539a85b4f5a2c923682",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.5638294976505285,
+        "image_l2_mm": 1.8946109389640808,
+        "entrance_pupil_l1_mm": -1.7542756269447894,
+        "exit_pupil_l2_mm": 21.111483359867805,
+        "magnification": -1.8517511816131396
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.2496853231659153,
+          -2.2496853231659153,
+          6.9935118680069275,
+          -6.9935118680069275
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 5.375022845107035,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.0638294976505285,
+        "last_vertex_to_image_mm": 1.3946109389640808,
+        "stop_to_first_vertex_mm": 1.2542756269447894,
+        "last_vertex_to_exit_pupil_mm": 20.611483359867805
+      }
+    }
+  },
+  {
+    "case_id": 88,
+    "sampling_sha256": "3038aba23b5787fd6b007baf278b8aa3841af697a65875c3ee26f9643c27c857",
+    "geometry_sha256": "8e1eebedbfca429e98b233878fe43537b0d6e5c2671f8b8c5f30e1232fa6b331",
+    "full_initial_sha256": "db2c729895bd0b87701249a9d8fae5f3bfb1999c6a7e7e202b4c21f39bc3956f",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.1375549014445556,
+        "image_l2_mm": 1.6471985731968626,
+        "entrance_pupil_l1_mm": -0.8658831599710776,
+        "exit_pupil_l2_mm": 57.155211778847644,
+        "magnification": -3.672109247317477
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.4643361772702959,
+          -1.4643361772702959,
+          7.379721684320139,
+          -7.379721684320139
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 6.639118125164787,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.6375549014445556,
+        "last_vertex_to_image_mm": 1.1471985731968626,
+        "stop_to_first_vertex_mm": 0.36588315997107757,
+        "last_vertex_to_exit_pupil_mm": 56.655211778847644
+      }
+    }
+  },
+  {
+    "case_id": 89,
+    "sampling_sha256": "1a37434c97c7d5b611ee5ecdb61164553ed92991ee2ab176d7f3475ce947db91",
+    "geometry_sha256": "80ddfb6a8afc68dd8459e001f4be15eeb8feb883e224b88b9b00fa31aba920e8",
+    "full_initial_sha256": "5c277c2677b5369d4624698faf27664c1837e46e81dd8e6214f757c317ed3c0c",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.2987114060962996,
+        "image_l2_mm": 2.744488828100299,
+        "entrance_pupil_l1_mm": -1.0887541431533092,
+        "exit_pupil_l2_mm": 23.781199437561774,
+        "magnification": -2.974897550521005
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.6253722879279355,
+          -1.6253722879279355,
+          6.1353080090935075,
+          -6.1353080090935075
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 5.845692669610841,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.7987114060962996,
+        "last_vertex_to_image_mm": 2.244488828100299,
+        "stop_to_first_vertex_mm": 0.5887541431533092,
+        "last_vertex_to_exit_pupil_mm": 23.281199437561774
+      }
+    }
+  },
+  {
+    "case_id": 90,
+    "sampling_sha256": "f9380775673c8a5dfcb38309f31b174209699dacd4b1e8b7fcc2712a0eff7a82",
+    "geometry_sha256": "584a81bdf1d8b5c4067ece4258b3931b912063a3dc29402959217fbef97cdac5",
+    "full_initial_sha256": "f0f616193c374046fb83de18d3f2d7d3360f5adbe5a90dcdd040d573a10d526e",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.1202518352473665,
+        "image_l2_mm": 2.5740871676228947,
+        "entrance_pupil_l1_mm": -1.7161147438939415,
+        "exit_pupil_l2_mm": 48.79337902006366,
+        "magnification": -1.6076754117170537
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.8881520361965238,
+          -1.8881520361965238,
+          8.162043833843112,
+          -8.162043833843112
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 2.6534480760969794,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.6202518352473665,
+        "last_vertex_to_image_mm": 2.0740871676228947,
+        "stop_to_first_vertex_mm": 1.2161147438939415,
+        "last_vertex_to_exit_pupil_mm": 48.29337902006366
+      }
+    }
+  },
+  {
+    "case_id": 91,
+    "sampling_sha256": "f2b2b9cfff6db2cfda601d3c0ac85ea6fd40b639808ab07747b56fc917453e7b",
+    "geometry_sha256": "cffc13b5fd90a955f5b3edcd28b0fe9ed0bd52dedaa9ccfdc9a397cc9598c44d",
+    "full_initial_sha256": "8e54a9ef9c38d256dc99a5a89f8a2c738be281119b83707bdd0a9c2a773457da",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.424509469023175,
+        "image_l2_mm": 2.55400373259821,
+        "entrance_pupil_l1_mm": -2.675934892524558,
+        "exit_pupil_l2_mm": 64.81767373436314,
+        "magnification": -5.444824020875194
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.50046355934173,
+          -3.50046355934173,
+          21.062053919433122,
+          -21.062053919433122
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 22.84723144478786,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.9245094690231754,
+        "last_vertex_to_image_mm": 2.05400373259821,
+        "stop_to_first_vertex_mm": 2.175934892524558,
+        "last_vertex_to_exit_pupil_mm": 64.31767373436314
+      }
+    }
+  },
+  {
+    "case_id": 92,
+    "sampling_sha256": "2b5de4a831ebbdaa8cec42673d7996af0acccc3002734bc6a0baa6a939d941eb",
+    "geometry_sha256": "3e75f57fd8792ff9fb6b62c801be3cf5a59387593bc020919c7c1e26a42a8dab",
+    "full_initial_sha256": "da33b31416c87444d9ffc56bab9604983b614a842f575d37e9594893ee3bc402",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -7.046219149216275,
+        "image_l2_mm": 2.270814690176904,
+        "entrance_pupil_l1_mm": -2.5201649889702322,
+        "exit_pupil_l2_mm": 26.532899058537925,
+        "magnification": -2.4898006456518043
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          5.001120789187903,
+          -5.001120789187903,
+          11.990248971291072,
+          -11.990248971291072
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 17.52319597201825,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 6.546219149216275,
+        "last_vertex_to_image_mm": 1.7708146901769042,
+        "stop_to_first_vertex_mm": 2.0201649889702322,
+        "last_vertex_to_exit_pupil_mm": 26.032899058537925
+      }
+    }
+  },
+  {
+    "case_id": 93,
+    "sampling_sha256": "28abe4d95ba469d6ebece2fb7645efc744a8ddee7c5719356ad371e3938471ae",
+    "geometry_sha256": "2f241d51849ca589b5f567fdd05595d527a922156cf4ddd996606f5fbe3be0c0",
+    "full_initial_sha256": "8bf4b3080f6657b956e607cf1344b838d2a56bb4bb61cab252e1ad19289e617d",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.4372557149776193,
+        "image_l2_mm": 1.1808695725198008,
+        "entrance_pupil_l1_mm": -1.3924444873240203,
+        "exit_pupil_l2_mm": 20.326933949580702,
+        "magnification": -4.165502744129103
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.7218027396635622,
+          -1.7218027396635622,
+          7.9354333381995925,
+          -7.9354333381995925
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.113852003725777,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.9372557149776193,
+        "last_vertex_to_image_mm": 0.6808695725198008,
+        "stop_to_first_vertex_mm": 0.8924444873240203,
+        "last_vertex_to_exit_pupil_mm": 19.826933949580702
+      }
+    }
+  },
+  {
+    "case_id": 94,
+    "sampling_sha256": "4bca2d47b16c13c71ddfca3e4276fc0dff171634451068c20ea06fb8e72dd807",
+    "geometry_sha256": "807aa4eac0cbb66082b07a9432a743e70bf841711f3d7c5016c737e0180b74f6",
+    "full_initial_sha256": "f2f95253e8bf52d2d751d387d7de8fc773520fbe3fce14a08a75ad1d60a4412d",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -6.164819052530797,
+        "image_l2_mm": 1.7338569302681248,
+        "entrance_pupil_l1_mm": -3.6698314210156444,
+        "exit_pupil_l2_mm": 31.09387461781285,
+        "magnification": -2.4794354275712247
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          4.2367601437967775,
+          -4.2367601437967775,
+          15.600730225353365,
+          -15.600730225353365
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 14.126448680479136,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 5.664819052530797,
+        "last_vertex_to_image_mm": 1.2338569302681248,
+        "stop_to_first_vertex_mm": 3.1698314210156444,
+        "last_vertex_to_exit_pupil_mm": 30.59387461781285
+      }
+    }
+  },
+  {
+    "case_id": 95,
+    "sampling_sha256": "43f2d6af147dac8a1c2db6819ff2751e2dc7fcf4579a58bdcc6aaf37c2c89010",
+    "geometry_sha256": "855ab9af0046bca8b3ec5e0f7bab79b997924971ebc8700f44d202be0fe0fe0d",
+    "full_initial_sha256": "476699d86891574535ebaf134d7dbaa410b44eba9b2da9a714e030caa9163930",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -4.622369197122226,
+        "image_l2_mm": 4.036160823838,
+        "entrance_pupil_l1_mm": -2.3496015600974496,
+        "exit_pupil_l2_mm": 20.326795759498914,
+        "magnification": -4.535557124402123
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          3.717037173288445,
+          -3.717037173288445,
+          11.780492988891316,
+          -11.780492988891316
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 23.58970110996123,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 4.122369197122226,
+        "last_vertex_to_image_mm": 3.5361608238380002,
+        "stop_to_first_vertex_mm": 1.8496015600974496,
+        "last_vertex_to_exit_pupil_mm": 19.826795759498914
+      }
+    }
+  },
+  {
+    "case_id": 96,
+    "sampling_sha256": "1fb7fa20e198f8c28662fc7fde7ac069229d065a8e0d0ae642df9ba5c0b71413",
+    "geometry_sha256": "179df99289f0f22f54c3f7b61a27988aa684f751c34f81400924539cc3298bce",
+    "full_initial_sha256": "512819fdec5b7ec556a3312f0a2f9e860744d1127b885ece02702ca43a1f2d76",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.305534869823745,
+        "image_l2_mm": 1.28827296551772,
+        "entrance_pupil_l1_mm": -2.54543703830466,
+        "exit_pupil_l2_mm": 57.89727305882498,
+        "magnification": -2.550362454749372
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.0840557161655755,
+          -2.0840557161655755,
+          -69.09712863771422,
+          69.09712863771422
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 6.152172676522668,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.805534869823745,
+        "last_vertex_to_image_mm": 0.7882729655177201,
+        "stop_to_first_vertex_mm": 2.04543703830466,
+        "last_vertex_to_exit_pupil_mm": 57.39727305882498
+      }
+    }
+  },
+  {
+    "case_id": 97,
+    "sampling_sha256": "90f2f5119c87699248ea06861fd9de39f4bfaf34a53fdc5425ede5da924c92eb",
+    "geometry_sha256": "29fed12337eafe7f468a862f841cd428103dae919e6623d32faf9958b1a336d0",
+    "full_initial_sha256": "7ea66949a189e7c46688e300d1bda243ec4fd94757f3b18d7fffc925abcfa8d8",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.533848096582122,
+        "image_l2_mm": 2.414744902328015,
+        "entrance_pupil_l1_mm": -1.3198139413680552,
+        "exit_pupil_l2_mm": 25.432169958602703,
+        "magnification": -5.522311664655257
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.9204149534276231,
+          -1.9204149534276231,
+          9.94345654460319,
+          -9.94345654460319
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 13.442033100053877,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 2.033848096582122,
+        "last_vertex_to_image_mm": 1.9147449023280152,
+        "stop_to_first_vertex_mm": 0.8198139413680552,
+        "last_vertex_to_exit_pupil_mm": 24.932169958602703
+      }
+    }
+  },
+  {
+    "case_id": 98,
+    "sampling_sha256": "3c30475a3b4dcebc2450fff3b844c6df71ab1b621ba2f8b04fdc3af178aaa106",
+    "geometry_sha256": "0fa76ac856ce070650e5d74d337e338cac8b3e081acf41017d49964ff1cf6516",
+    "full_initial_sha256": "cbe68323ba98e377a981b0dbbccf7bb2d9d6bc39768e2bc8575524181c88aeed",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.291225113662211,
+        "image_l2_mm": 1.090716651190244,
+        "entrance_pupil_l1_mm": -1.4512773363658307,
+        "exit_pupil_l2_mm": 30.23281353341416,
+        "magnification": -5.876970494339295
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.684885406541613,
+          -1.684885406541613,
+          10.83697472229078,
+          -10.83697472229078
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 12.148840043617147,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.791225113662211,
+        "last_vertex_to_image_mm": 0.590716651190244,
+        "stop_to_first_vertex_mm": 0.9512773363658307,
+        "last_vertex_to_exit_pupil_mm": 29.73281353341416
+      }
+    }
+  },
+  {
+    "case_id": 99,
+    "sampling_sha256": "66ef7c79196c3d4179fcc24da8d9b11a2cc6e309cedc7175a7f09757444588c1",
+    "geometry_sha256": "1127d6a804e8e9fcb05949f211c33a85f178f925672de6bc70053b876a8d576e",
+    "full_initial_sha256": "b3cda96cf6baa4d2ca58648a47c14078eca719b5d9c74de1be4d0c20b650f8db",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -2.319653891248668,
+        "image_l2_mm": 2.1229084128968334,
+        "entrance_pupil_l1_mm": -1.0990229513768413,
+        "exit_pupil_l2_mm": 20.43955539729961,
+        "magnification": -2.6558630752341625
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          1.5706088299357197,
+          -1.5706088299357197,
+          5.582751017540975,
+          -5.582751017540975
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 5.142245864930193,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 1.819653891248668,
+        "last_vertex_to_image_mm": 1.6229084128968334,
+        "stop_to_first_vertex_mm": 0.5990229513768413,
+        "last_vertex_to_exit_pupil_mm": 19.93955539729961
+      }
+    }
+  },
+  {
+    "case_id": 100,
+    "sampling_sha256": "98c86ebdb062e16a465c0997b313f44b4ee674ef2d32de2d8b6a3b8b15bbe53b",
+    "geometry_sha256": "f6856d3de016b32f77c69af1812ee6aa67cefa20fff3d93038ff598dacefbbb9",
+    "full_initial_sha256": "e3f3b17f20d4f3cd80930c88cb0b632b614322690505df5213cb2fcc35a3f5ab",
+    "normalized_parameters": {
+      "sampled": {
+        "object_l1_mm": -3.775237124294893,
+        "image_l2_mm": 1.043816827962683,
+        "entrance_pupil_l1_mm": -1.8448162439128934,
+        "exit_pupil_l2_mm": 35.39114546463985,
+        "magnification": -4.0025743288561975
+      },
+      "fixed": {
+        "index_nd": 1.5,
+        "abbe_vd": 60.0,
+        "dpgf": 0.0,
+        "wavelength_mm": 0.000587,
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "initial_working_f_number": 500.0,
+        "initial_fields_deg": [
+          0.0,
+          0.707,
+          1.0
+        ],
+        "shape": "symmetric spherical elements",
+        "reference_planes": "lens vertex midpoints",
+        "medium": "air"
+      },
+      "geometry": {
+        "radii_mm": [
+          2.769454635344421,
+          -2.769454635344421,
+          12.056636728722712,
+          -12.056636728722712
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 14.01537552882565,
+        "index_nd": 1.5,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "abbe_vd": 60.0,
+        "dpgf": 0.0
+      },
+      "conjugate_vertex_distances_mm": {
+        "object_to_first_vertex_mm": 3.275237124294893,
+        "last_vertex_to_image_mm": 0.5438168279626829,
+        "stop_to_first_vertex_mm": 1.3448162439128934,
+        "last_vertex_to_exit_pupil_mm": 34.89114546463985
+      }
+    }
+  }
+]

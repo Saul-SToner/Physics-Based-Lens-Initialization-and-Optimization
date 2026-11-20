@@ -1,0 +1,7127 @@
+[
+  {
+    "prescription_id": 1,
+    "fold": 4,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 6.0462255700249985,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 124.92451140049998,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 2,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.4944202568123039,
+    "actual_gap_oracle": 0.4944202568123039,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 0.4944202568123039,
+    "actual_gap_rule_3": 0.4944202568123039,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 29.888405136246078,
+    "actual_f_rule_3": 29.888405136246078,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 3,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 4,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.7392089123586484,
+    "actual_gap_oracle": 0.7392089123586484,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.7621765360608841,
+    "actual_gap_rule_2": 0.7392089123586484,
+    "actual_gap_rule_3": 0.7392089123586484,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 34.78417824717297,
+    "actual_f_rule_3": 34.78417824717297,
+    "actual_field_rule_1": 1.18911731969558,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 5,
+    "fold": 4,
+    "true_pareto": [
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.1652476587327825,
+    "actual_gap_oracle": 1.1652476587327825,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 6.0462255700249985,
+    "actual_gap_rule_2": 24.038932519626275,
+    "actual_gap_rule_3": 1.1652476587327825,
+    "actual_f_rule_1": 124.92451140049998,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 42.73551785426455,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.805337401868629,
+    "actual_field_rule_3": 4.857641169902225
+  },
+  {
+    "prescription_id": 6,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 7,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 2.9626037342494795,
+    "actual_gap_oracle": 1.1122150847603376,
+    "gap_regret": 1.850388649489142,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.1122150847603376,
+    "actual_gap_rule_2": 2.9626037342494795,
+    "actual_gap_rule_3": 2.9626037342494795,
+    "actual_f_rule_1": 26.24430169520675,
+    "actual_f_rule_2": 79.2520746849896,
+    "actual_f_rule_3": 79.2520746849896,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 8,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.5776147655790297,
+    "actual_gap_oracle": 0.5776147655790297,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8797008572921993,
+    "actual_gap_rule_2": 0.5776147655790297,
+    "actual_gap_rule_3": 0.5776147655790297,
+    "actual_f_rule_1": 21.594017145843985,
+    "actual_f_rule_2": 31.552295311580593,
+    "actual_f_rule_3": 31.552295311580593,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 9,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 1.1122150847603376,
+    "actual_gap_oracle": 0.8560326517119343,
+    "gap_regret": 0.25618243304840327,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.1122150847603376,
+    "actual_gap_rule_2": 0.8560326517119343,
+    "actual_gap_rule_3": 0.8560326517119343,
+    "actual_f_rule_1": 26.24430169520675,
+    "actual_f_rule_2": 37.120653034238686,
+    "actual_f_rule_3": 37.120653034238686,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 10,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 11,
+    "fold": 4,
+    "true_pareto": [
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.5985751662120138,
+    "actual_gap_oracle": 1.5985751662120138,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 3.473170952381091,
+    "actual_gap_rule_2": 24.17409087265644,
+    "actual_gap_rule_3": 1.5985751662120138,
+    "actual_f_rule_1": 73.46341904762181,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 48.669478280263085,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.129545636717807,
+    "actual_field_rule_3": 4.174493739005702
+  },
+  {
+    "prescription_id": 12,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.7415032914078423,
+    "actual_gap_oracle": 1.294420256812304,
+    "gap_regret": 0.44708303459553833,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.294420256812304,
+    "actual_gap_rule_2": 1.7415032914078423,
+    "actual_gap_rule_3": 1.7415032914078423,
+    "actual_f_rule_1": 29.888405136246078,
+    "actual_f_rule_2": 54.83006582815685,
+    "actual_f_rule_3": 54.83006582815685,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 13,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 14,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.4944202568123039,
+    "actual_gap_oracle": 0.4944202568123039,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 0.4944202568123039,
+    "actual_gap_rule_3": 0.4944202568123039,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 29.888405136246078,
+    "actual_f_rule_3": 29.888405136246078,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 15,
+    "fold": 2,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 2.922169604951425,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 62.44339209902851,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 16,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 17,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.3966247547931959,
+    "actual_gap_oracle": 0.31221508476033755,
+    "gap_regret": 0.08440967003285837,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.3966247547931959,
+    "actual_gap_rule_2": 0.31221508476033755,
+    "actual_gap_rule_3": 0.31221508476033755,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 26.24430169520675,
+    "actual_f_rule_3": 26.24430169520675,
+    "actual_field_rule_1": 3.0168762260340203,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 18,
+    "fold": 5,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.11537363926437383,
+    "actual_gap_oracle": 0.11537363926437383,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 4.216081478007674,
+    "actual_gap_rule_2": 0.11537363926437383,
+    "actual_gap_rule_3": 0.11537363926437383,
+    "actual_f_rule_1": 88.32162956015348,
+    "actual_f_rule_2": 22.307472785287477,
+    "actual_f_rule_3": 22.307472785287477,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 19,
+    "fold": 4,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.20326110745468212,
+    "actual_gap_oracle": 0.20326110745468212,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 4.216081478007674,
+    "actual_gap_rule_2": 0.20326110745468212,
+    "actual_gap_rule_3": 0.20326110745468212,
+    "actual_f_rule_1": 88.32162956015348,
+    "actual_f_rule_2": 24.065222149093643,
+    "actual_f_rule_3": 24.065222149093643,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 20,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.8560326517119343,
+    "actual_gap_oracle": 0.6086856931009208,
+    "gap_regret": 0.24734695861101352,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.6086856931009208,
+    "actual_gap_rule_2": 0.8560326517119343,
+    "actual_gap_rule_3": 0.8560326517119343,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 37.120653034238686,
+    "actual_f_rule_3": 37.120653034238686,
+    "actual_field_rule_1": 1.956571534495396,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 21,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 2.0552391101948695,
+    "actual_gap_oracle": 1.2310347255509804,
+    "gap_regret": 0.8242043846438891,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.2310347255509804,
+    "actual_gap_rule_2": 2.0552391101948695,
+    "actual_gap_rule_3": 2.0552391101948695,
+    "actual_f_rule_1": 28.620694511019604,
+    "actual_f_rule_2": 61.104782203897386,
+    "actual_f_rule_3": 61.104782203897386,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 22,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.5392089123586485,
+    "actual_gap_oracle": 1.5392089123586485,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.5392089123586485,
+    "actual_gap_rule_2": 3.228774280249337,
+    "actual_gap_rule_3": 3.228774280249337,
+    "actual_f_rule_1": 34.78417824717297,
+    "actual_f_rule_2": 84.57548560498674,
+    "actual_f_rule_3": 84.57548560498674,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 23,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 24,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.1600540509077724,
+    "actual_gap_oracle": 0.903353641889813,
+    "gap_regret": 0.2567004090179593,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 1.1600540509077724,
+    "actual_gap_rule_3": 1.1600540509077724,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 43.20108101815545,
+    "actual_f_rule_3": 43.20108101815545,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 25,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 2.360222575902671,
+    "actual_gap_oracle": 1.8240943784313726,
+    "gap_regret": 0.5361281974712986,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.8240943784313726,
+    "actual_gap_rule_2": 24.4345708112,
+    "actual_gap_rule_3": 2.360222575902671,
+    "actual_f_rule_1": 40.48188756862745,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 58.513035294053424,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 2.8271459439999997,
+    "actual_field_rule_3": 2.8271459439999993
+  },
+  {
+    "prescription_id": 26,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.31221508476033755,
+    "actual_gap_oracle": 0.31221508476033755,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.3203200280242392,
+    "actual_gap_rule_2": 0.31221508476033755,
+    "actual_gap_rule_3": 0.31221508476033755,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 26.24430169520675,
+    "actual_f_rule_3": 26.24430169520675,
+    "actual_field_rule_1": 3.398399859878804,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 27,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.5271582139917952,
+    "actual_gap_oracle": 0.5271582139917952,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 0.5271582139917952,
+    "actual_gap_rule_3": 0.5271582139917952,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 30.543164279835903,
+    "actual_f_rule_3": 30.543164279835903,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 28,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.21636950244556113,
+    "actual_gap_oracle": 0.21636950244556113,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.23436556608046644,
+    "actual_gap_rule_2": 0.21636950244556113,
+    "actual_gap_rule_3": 0.21636950244556113,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 24.327390048911223,
+    "actual_f_rule_3": 24.327390048911223,
+    "actual_field_rule_1": 3.828172169597668,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 29,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.5271582139917952,
+    "actual_gap_oracle": 0.5271582139917952,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.7956224993822525,
+    "actual_gap_rule_2": 0.5271582139917952,
+    "actual_gap_rule_3": 0.5271582139917952,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 30.543164279835903,
+    "actual_f_rule_3": 30.543164279835903,
+    "actual_field_rule_1": 1.0218875030887375,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 30,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.04301625894125,
+    "actual_gap_oracle": 1.04301625894125,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.04301625894125,
+    "actual_gap_rule_2": 1.3051462187543812,
+    "actual_gap_rule_3": 1.3051462187543812,
+    "actual_f_rule_1": 24.860325178824997,
+    "actual_f_rule_2": 46.102924375087625,
+    "actual_f_rule_3": 46.102924375087625,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 31,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.13980790015913697,
+    "actual_gap_oracle": 0.13980790015913697,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.21760774004320887,
+    "actual_gap_rule_2": 0.13980790015913697,
+    "actual_gap_rule_3": 0.13980790015913697,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 22.79615800318274,
+    "actual_f_rule_3": 22.79615800318274,
+    "actual_field_rule_1": 3.9119612997839557,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 32,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.5107005561482518,
+    "actual_gap_oracle": 0.5107005561482518,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8565551215662988,
+    "actual_gap_rule_2": 0.5107005561482518,
+    "actual_gap_rule_3": 0.5107005561482518,
+    "actual_f_rule_1": 21.131102431325974,
+    "actual_f_rule_2": 30.214011122965037,
+    "actual_f_rule_3": 30.214011122965037,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 33,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 34,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 35,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.74345384577567,
+    "actual_gap_oracle": 0.54379516249661,
+    "gap_regret": 0.19965868327906,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.74345384577567,
+    "actual_gap_rule_2": 0.54379516249661,
+    "actual_gap_rule_3": 0.54379516249661,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 30.8759032499322,
+    "actual_f_rule_3": 30.8759032499322,
+    "actual_field_rule_1": 1.28273077112165,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 36,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.3409615107133696,
+    "actual_gap_oracle": 0.3409615107133696,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.3420394716333897,
+    "actual_gap_rule_2": 0.3409615107133696,
+    "actual_gap_rule_3": 0.3409615107133696,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 26.819230214267392,
+    "actual_f_rule_3": 26.819230214267392,
+    "actual_field_rule_1": 3.2898026418330515,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 37,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.2073739107006578,
+    "actual_gap_oracle": 0.7046849492955852,
+    "gap_regret": 0.5026889614050726,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.7046849492955852,
+    "actual_gap_rule_2": 1.2073739107006578,
+    "actual_gap_rule_3": 1.2073739107006578,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 44.147478214013155,
+    "actual_f_rule_3": 44.147478214013155,
+    "actual_field_rule_1": 1.4765752535220737,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 38,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.46238410893486553,
+    "actual_gap_oracle": 0.46238410893486553,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8227635210062593,
+    "actual_gap_rule_2": 0.46238410893486553,
+    "actual_gap_rule_3": 0.46238410893486553,
+    "actual_f_rule_1": 20.455270420125185,
+    "actual_f_rule_2": 29.24768217869731,
+    "actual_f_rule_3": 29.24768217869731,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 39,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.8162445558101631,
+    "actual_gap_oracle": 0.8162445558101631,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.155570021734872,
+    "actual_gap_rule_2": 0.8162445558101631,
+    "actual_gap_rule_3": 0.8162445558101631,
+    "actual_f_rule_1": 27.11140043469744,
+    "actual_f_rule_2": 36.32489111620326,
+    "actual_f_rule_3": 36.32489111620326,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 40,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.5271582139917952,
+    "actual_gap_oracle": 0.41590585053496376,
+    "gap_regret": 0.11125236345683143,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.41590585053496376,
+    "actual_gap_rule_2": 0.5271582139917952,
+    "actual_gap_rule_3": 0.5271582139917952,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 30.543164279835903,
+    "actual_f_rule_3": 30.543164279835903,
+    "actual_field_rule_1": 2.920470747325181,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 41,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.1458047661597275,
+    "actual_gap_oracle": 1.1458047661597275,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.294420256812304,
+    "actual_gap_rule_2": 24.16510125219886,
+    "actual_gap_rule_3": 1.1458047661597275,
+    "actual_f_rule_1": 29.888405136246078,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 39.61407027921736,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.174493739005702,
+    "actual_field_rule_3": 4.174493739005702
+  },
+  {
+    "prescription_id": 42,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.146827403277579,
+    "actual_gap_oracle": 0.13980790015913697,
+    "gap_regret": 0.007019503118442044,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.146827403277579,
+    "actual_gap_rule_2": 0.13980790015913697,
+    "actual_gap_rule_3": 0.13980790015913697,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 22.79615800318274,
+    "actual_f_rule_3": 22.79615800318274,
+    "actual_field_rule_1": 4.265862983612105,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 43,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.7019251873474996,
+    "actual_gap_oracle": 0.7019251873474996,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.7865779633742161,
+    "actual_gap_rule_2": 0.7019251873474996,
+    "actual_gap_rule_3": 0.7019251873474996,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 34.03850374694999,
+    "actual_f_rule_3": 34.03850374694999,
+    "actual_field_rule_1": 1.0671101831289191,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 44,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.831074125478804,
+    "actual_gap_oracle": 1.4297383766593477,
+    "gap_regret": 0.40133574881945644,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.4297383766593477,
+    "actual_gap_rule_2": 24.07966125396796,
+    "actual_gap_rule_3": 1.831074125478804,
+    "actual_f_rule_1": 32.59476753318695,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 54.83006582815685,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.601693730160205,
+    "actual_field_rule_3": 4.552145829645191
+  },
+  {
+    "prescription_id": 45,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.8339055650169499,
+    "actual_gap_oracle": 0.8339055650169499,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8339055650169499,
+    "actual_gap_rule_2": 0.8966923772466334,
+    "actual_gap_rule_3": 0.8966923772466334,
+    "actual_f_rule_1": 20.678111300338998,
+    "actual_f_rule_2": 37.93384754493267,
+    "actual_f_rule_3": 37.93384754493267,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 46,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.1409615107133697,
+    "actual_gap_oracle": 1.1409615107133697,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.1409615107133697,
+    "actual_gap_rule_2": 1.801560840114382,
+    "actual_gap_rule_3": 1.801560840114382,
+    "actual_f_rule_1": 26.819230214267392,
+    "actual_f_rule_2": 56.03121680228764,
+    "actual_f_rule_3": 56.03121680228764,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 47,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 3.2748427879484163,
+    "actual_gap_oracle": 1.577309404264747,
+    "gap_regret": 1.6975333836836692,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.577309404264747,
+    "actual_gap_rule_2": 3.2748427879484163,
+    "actual_gap_rule_3": 3.2748427879484163,
+    "actual_f_rule_1": 35.54618808529494,
+    "actual_f_rule_2": 85.49685575896832,
+    "actual_f_rule_3": 85.49685575896832,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 48,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.2310347255509804,
+    "actual_gap_oracle": 1.2310347255509804,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.2310347255509804,
+    "actual_gap_rule_2": 1.6252229868627075,
+    "actual_gap_rule_3": 1.6252229868627075,
+    "actual_f_rule_1": 28.620694511019604,
+    "actual_f_rule_2": 52.50445973725415,
+    "actual_f_rule_3": 52.50445973725415,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 49,
+    "fold": 1,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 3.8494116791898607,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 80.98823358379721,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 50,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.19029397711972482,
+    "actual_gap_oracle": 0.19029397711972482,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.2747065806358873,
+    "actual_gap_rule_2": 0.19029397711972482,
+    "actual_gap_rule_3": 0.19029397711972482,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 23.805879542394496,
+    "actual_f_rule_3": 23.805879542394496,
+    "actual_field_rule_1": 3.6264670968205635,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 51,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.5271582139917952,
+    "actual_gap_oracle": 0.49258560512660665,
+    "gap_regret": 0.03457260886518854,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.49258560512660665,
+    "actual_gap_rule_2": 0.5271582139917952,
+    "actual_gap_rule_3": 0.5271582139917952,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 30.543164279835903,
+    "actual_f_rule_3": 30.543164279835903,
+    "actual_field_rule_1": 2.5370719743669667,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 52,
+    "fold": 2,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.03390556501694988,
+    "actual_gap_oracle": 0.03390556501694988,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 5.781293182813772,
+    "actual_gap_rule_2": 0.03390556501694988,
+    "actual_gap_rule_3": 0.03390556501694988,
+    "actual_f_rule_1": 119.62586365627544,
+    "actual_f_rule_2": 20.678111300338998,
+    "actual_f_rule_3": 20.678111300338998,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 53,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.07970085729219925,
+    "actual_gap_oracle": 0.07970085729219925,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.09937371457206137,
+    "actual_gap_rule_2": 0.07970085729219925,
+    "actual_gap_rule_3": 0.07970085729219925,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 21.594017145843985,
+    "actual_f_rule_3": 21.594017145843985,
+    "actual_field_rule_1": 4.503131427139693,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 54,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 0.8560326517119343,
+    "actual_gap_oracle": 0.8560326517119343,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 1.1137485952083506,
+    "actual_gap_rule_3": 0.8560326517119343,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 42.27497190416701,
+    "actual_f_rule_3": 37.120653034238686,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 55,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 56,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.09146317988510315,
+    "actual_gap_oracle": 0.09146317988510315,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.17409087265643866,
+    "actual_gap_rule_2": 0.09146317988510315,
+    "actual_gap_rule_3": 0.09146317988510315,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 21.829263597702063,
+    "actual_f_rule_3": 21.829263597702063,
+    "actual_field_rule_1": 4.129545636717807,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 57,
+    "fold": 5,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.1228447650939795,
+    "actual_gap_oracle": 1.1228447650939795,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 7.2286168138837565,
+    "actual_gap_rule_2": 24.209091779590537,
+    "actual_gap_rule_3": 1.1228447650939795,
+    "actual_f_rule_1": 148.57233627767513,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 37.120653034238686,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 3.9545411020473176,
+    "actual_field_rule_3": 3.665939433089775
+  },
+  {
+    "prescription_id": 58,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.0240943784313725,
+    "actual_gap_oracle": 0.8797008572921993,
+    "gap_regret": 0.14439352113917325,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8797008572921993,
+    "actual_gap_rule_2": 1.1137485952083506,
+    "actual_gap_rule_3": 1.0240943784313725,
+    "actual_f_rule_1": 21.594017145843985,
+    "actual_f_rule_2": 42.27497190416701,
+    "actual_f_rule_3": 40.48188756862745,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 59,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.903353641889813,
+    "actual_gap_oracle": 0.903353641889813,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 1.3556445828243526,
+    "actual_gap_rule_3": 1.3556445828243526,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 47.11289165648705,
+    "actual_f_rule_3": 47.11289165648705,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 60,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.4003573843703336,
+    "actual_gap_oracle": 0.4003573843703336,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.5446479007014926,
+    "actual_gap_rule_2": 0.4003573843703336,
+    "actual_gap_rule_3": 0.4003573843703336,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 28.007147687406672,
+    "actual_f_rule_3": 28.007147687406672,
+    "actual_field_rule_1": 2.2767604964925368,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 61,
+    "fold": 4,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.12752458317447815,
+    "actual_gap_oracle": 0.12752458317447815,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 4.216081478007674,
+    "actual_gap_rule_2": 0.12752458317447815,
+    "actual_gap_rule_3": 0.12752458317447815,
+    "actual_f_rule_1": 88.32162956015348,
+    "actual_f_rule_2": 22.550491663489563,
+    "actual_f_rule_3": 22.550491663489563,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 62,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 63,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.8560326517119343,
+    "actual_gap_oracle": 0.6170671373157025,
+    "gap_regret": 0.23896551439623182,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.6170671373157025,
+    "actual_gap_rule_2": 0.8560326517119343,
+    "actual_gap_rule_3": 0.8560326517119343,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 37.120653034238686,
+    "actual_f_rule_3": 37.120653034238686,
+    "actual_field_rule_1": 1.9146643134214876,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 64,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.07970085729219925,
+    "actual_gap_oracle": 0.07970085729219925,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.11866395987256642,
+    "actual_gap_rule_2": 0.07970085729219925,
+    "actual_gap_rule_3": 0.07970085729219925,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 21.594017145843985,
+    "actual_f_rule_3": 21.594017145843985,
+    "actual_field_rule_1": 4.406680200637168,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 65,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.1774665890801698,
+    "actual_gap_oracle": 0.1774665890801698,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.35613213159191065,
+    "actual_gap_rule_2": 0.1774665890801698,
+    "actual_gap_rule_3": 0.1774665890801698,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 23.549331781603396,
+    "actual_f_rule_3": 23.549331781603396,
+    "actual_field_rule_1": 3.219339342040447,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 66,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.3271582139917952,
+    "actual_gap_oracle": 1.3271582139917952,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.3271582139917952,
+    "actual_gap_rule_2": 24.028471766019557,
+    "actual_gap_rule_3": 1.4202396286126375,
+    "actual_f_rule_1": 30.543164279835903,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 47.62614217972727,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.857641169902225,
+    "actual_field_rule_3": 4.805337401868629
+  },
+  {
+    "prescription_id": 67,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.9593581547023365,
+    "actual_gap_oracle": 0.903353641889813,
+    "gap_regret": 0.0560045128125235,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 0.9593581547023365,
+    "actual_gap_rule_3": 0.9593581547023365,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 39.18716309404673,
+    "actual_f_rule_3": 39.18716309404673,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 68,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.560613354865365,
+    "actual_gap_oracle": 0.560613354865365,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.6949365247105559,
+    "actual_gap_rule_2": 0.560613354865365,
+    "actual_gap_rule_3": 0.560613354865365,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 31.2122670973073,
+    "actual_f_rule_3": 31.2122670973073,
+    "actual_field_rule_1": 1.5253173764472208,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 69,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.7202449975785672,
+    "actual_gap_oracle": 0.5948013906286821,
+    "gap_regret": 0.1254436069498851,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.7202449975785672,
+    "actual_gap_rule_2": 0.5948013906286821,
+    "actual_gap_rule_3": 0.5948013906286821,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 31.896027812573642,
+    "actual_f_rule_3": 31.896027812573642,
+    "actual_field_rule_1": 1.3987750121071638,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 70,
+    "fold": 3,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.4944202568123039,
+    "actual_gap_oracle": 0.4944202568123039,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 6.0462255700249985,
+    "actual_gap_rule_2": 0.4944202568123039,
+    "actual_gap_rule_3": 0.4944202568123039,
+    "actual_f_rule_1": 124.92451140049998,
+    "actual_f_rule_2": 29.888405136246078,
+    "actual_f_rule_3": 29.888405136246078,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 71,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.8560326517119343,
+    "actual_gap_oracle": 0.8560326517119343,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.0840849009577855,
+    "actual_gap_rule_2": 0.8560326517119343,
+    "actual_gap_rule_3": 0.8560326517119343,
+    "actual_f_rule_1": 25.681698019155707,
+    "actual_f_rule_2": 37.120653034238686,
+    "actual_f_rule_3": 37.120653034238686,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 72,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.1367758927132274,
+    "actual_gap_oracle": 0.903353641889813,
+    "gap_regret": 0.2334222508234144,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 1.1367758927132274,
+    "actual_gap_rule_3": 1.1367758927132274,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 42.73551785426455,
+    "actual_f_rule_3": 42.73551785426455,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 73,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.2310347255509804,
+    "actual_gap_oracle": 1.2310347255509804,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.2310347255509804,
+    "actual_gap_rule_2": 1.4867835265075051,
+    "actual_gap_rule_3": 1.4867835265075051,
+    "actual_f_rule_1": 28.620694511019604,
+    "actual_f_rule_2": 49.7356705301501,
+    "actual_f_rule_3": 49.7356705301501,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 74,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 75,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.8560326517119343,
+    "actual_gap_oracle": 0.8560326517119343,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.0840849009577855,
+    "actual_gap_rule_2": 0.8560326517119343,
+    "actual_gap_rule_3": 0.8560326517119343,
+    "actual_f_rule_1": 25.681698019155707,
+    "actual_f_rule_2": 37.120653034238686,
+    "actual_f_rule_3": 37.120653034238686,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 76,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 2,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 77,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 2,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 78,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.5276939387248971,
+    "actual_gap_oracle": 1.4654407200568174,
+    "gap_regret": 0.06225321866807976,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.4654407200568174,
+    "actual_gap_rule_2": 24.29024142366762,
+    "actual_gap_rule_3": 1.5276939387248971,
+    "actual_f_rule_1": 33.308814401136345,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 44.147478214013155,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 3.548792881661899,
+    "actual_field_rule_3": 3.398399859878804
+  },
+  {
+    "prescription_id": 79,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.07970085729219925,
+    "actual_gap_oracle": 0.07970085729219925,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.15601378408068972,
+    "actual_gap_rule_2": 0.07970085729219925,
+    "actual_gap_rule_3": 0.07970085729219925,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 21.594017145843985,
+    "actual_f_rule_3": 21.594017145843985,
+    "actual_field_rule_1": 4.2199310795965514,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 80,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 81,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.21636950244556113,
+    "actual_gap_oracle": 0.21636950244556113,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.41590585053496376,
+    "actual_gap_rule_2": 0.21636950244556113,
+    "actual_gap_rule_3": 0.21636950244556113,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 24.327390048911223,
+    "actual_f_rule_3": 24.327390048911223,
+    "actual_field_rule_1": 2.920470747325181,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 82,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.360613354865365,
+    "actual_gap_oracle": 1.360613354865365,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.360613354865365,
+    "actual_gap_rule_2": 2.44197158983473,
+    "actual_gap_rule_3": 2.44197158983473,
+    "actual_f_rule_1": 31.2122670973073,
+    "actual_f_rule_2": 68.8394317966946,
+    "actual_f_rule_3": 68.8394317966946,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 83,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.8560326517119343,
+    "actual_gap_oracle": 0.7046849492955852,
+    "gap_regret": 0.1513477024163491,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.7046849492955852,
+    "actual_gap_rule_2": 0.8560326517119343,
+    "actual_gap_rule_3": 0.8560326517119343,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 37.120653034238686,
+    "actual_f_rule_3": 37.120653034238686,
+    "actual_field_rule_1": 1.4765752535220737,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 84,
+    "fold": 3,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 6.0462255700249985,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 124.92451140049998,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 85,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.4654407200568174,
+    "actual_gap_oracle": 1.4654407200568174,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.4654407200568174,
+    "actual_gap_rule_2": 24.00720743879751,
+    "actual_gap_rule_3": 1.5210821265835757,
+    "actual_f_rule_1": 33.308814401136345,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 50.277493755721274,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.963962806012439,
+    "actual_field_rule_3": 4.963962806012439
+  },
+  {
+    "prescription_id": 86,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.07970085729219925,
+    "actual_gap_oracle": 0.07970085729219925,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.7172000000000001,
+    "actual_gap_rule_2": 0.07970085729219925,
+    "actual_gap_rule_3": 0.07970085729219925,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 21.594017145843985,
+    "actual_f_rule_3": 21.594017145843985,
+    "actual_field_rule_1": 1.414,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 87,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 88,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.09146317988510315,
+    "actual_gap_oracle": 0.09146317988510315,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8,
+    "actual_gap_rule_2": 0.09146317988510315,
+    "actual_gap_rule_3": 0.09146317988510315,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 21.829263597702063,
+    "actual_f_rule_3": 21.829263597702063,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 89,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 90,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 91,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.7415032914078423,
+    "actual_gap_oracle": 1.5019251873474997,
+    "gap_regret": 0.23957810406034263,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.5019251873474997,
+    "actual_gap_rule_2": 1.7415032914078423,
+    "actual_gap_rule_3": 1.7415032914078423,
+    "actual_f_rule_1": 34.03850374694999,
+    "actual_f_rule_2": 54.83006582815685,
+    "actual_f_rule_3": 54.83006582815685,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 92,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.6098939938359734,
+    "actual_gap_oracle": 0.43457081120000013,
+    "gap_regret": 0.1753231826359733,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.43457081120000013,
+    "actual_gap_rule_2": 24.049280638970608,
+    "actual_gap_rule_3": 0.6098939938359734,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 31.2122670973073,
+    "actual_field_rule_1": 2.8271459439999993,
+    "actual_field_rule_2": 4.753596805146958,
+    "actual_field_rule_3": 4.753596805146958
+  },
+  {
+    "prescription_id": 93,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": false,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 4.309248023907148,
+    "actual_gap_oracle": 0.8227635210062593,
+    "gap_regret": 3.4864845029008884,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8227635210062593,
+    "actual_gap_rule_2": 4.252032087415815,
+    "actual_gap_rule_3": 4.309248023907148,
+    "actual_f_rule_1": 20.455270420125185,
+    "actual_f_rule_2": 105.04064174831629,
+    "actual_f_rule_3": 106.18496047814295,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 94,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.46238410893486553,
+    "actual_gap_oracle": 0.46238410893486553,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8,
+    "actual_gap_rule_2": 0.46238410893486553,
+    "actual_gap_rule_3": 0.46238410893486553,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 29.24768217869731,
+    "actual_f_rule_3": 29.24768217869731,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 95,
+    "fold": 3,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.2605759984859295,
+    "actual_gap_oracle": 1.2605759984859295,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 2.4252229868627078,
+    "actual_gap_rule_2": 24.07966125396796,
+    "actual_gap_rule_3": 1.2605759984859295,
+    "actual_f_rule_1": 52.50445973725415,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 42.27497190416701,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.601693730160205,
+    "actual_field_rule_3": 4.265862983612105
+  },
+  {
+    "prescription_id": 96,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.38526621537455197,
+    "actual_gap_oracle": 0.38341837725006406,
+    "gap_regret": 0.0018478381244879105,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.38341837725006406,
+    "actual_gap_rule_2": 0.38526621537455197,
+    "actual_gap_rule_3": 0.38526621537455197,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 27.70532430749104,
+    "actual_f_rule_3": 27.70532430749104,
+    "actual_field_rule_1": 3.0829081137496797,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 97,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 1.09096945495393,
+    "actual_gap_oracle": 1.09096945495393,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.2310347255509804,
+    "actual_gap_rule_2": 1.09096945495393,
+    "actual_gap_rule_3": 1.09096945495393,
+    "actual_f_rule_1": 28.620694511019604,
+    "actual_f_rule_2": 41.8193890990786,
+    "actual_f_rule_3": 41.8193890990786,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 98,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.2156129574201024,
+    "actual_gap_oracle": 1.2156129574201024,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.2156129574201024,
+    "actual_gap_rule_2": 1.3556445828243526,
+    "actual_gap_rule_3": 1.3556445828243526,
+    "actual_f_rule_1": 28.31225914840205,
+    "actual_f_rule_2": 47.11289165648705,
+    "actual_f_rule_3": 47.11289165648705,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 99,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 100,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.6827332068552099,
+    "actual_gap_oracle": 0.9275245831744782,
+    "gap_regret": 0.7552086236807317,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.9275245831744782,
+    "actual_gap_rule_2": 1.6827332068552099,
+    "actual_gap_rule_3": 1.6827332068552099,
+    "actual_f_rule_1": 22.550491663489563,
+    "actual_f_rule_2": 53.6546641371042,
+    "actual_f_rule_3": 53.6546641371042,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 101,
+    "fold": 2,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 4.216081478007674,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 88.32162956015348,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 102,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.0163695024455612,
+    "actual_gap_oracle": 1.0163695024455612,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.0163695024455612,
+    "actual_gap_rule_2": 1.4867835265075051,
+    "actual_gap_rule_3": 1.4867835265075051,
+    "actual_f_rule_1": 24.327390048911223,
+    "actual_f_rule_2": 49.7356705301501,
+    "actual_f_rule_3": 49.7356705301501,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 103,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.20326110745468212,
+    "actual_gap_oracle": 0.2004831270368002,
+    "gap_regret": 0.002777980417881909,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.2004831270368002,
+    "actual_gap_rule_2": 0.20326110745468212,
+    "actual_gap_rule_3": 0.20326110745468212,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 24.065222149093643,
+    "actual_f_rule_3": 24.065222149093643,
+    "actual_field_rule_1": 3.997584364815999,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 104,
+    "fold": 2,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 6.0462255700249985,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 124.92451140049998,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 105,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 2,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 106,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.1703376787069184,
+    "actual_gap_oracle": 1.1703376787069184,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.1703376787069184,
+    "actual_gap_rule_2": 24.14682740327758,
+    "actual_gap_rule_3": 1.2245775054681727,
+    "actual_f_rule_1": 27.406753574138367,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 40.48188756862745,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.265862983612105,
+    "actual_field_rule_3": 3.997584364815999
+  },
+  {
+    "prescription_id": 107,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.20326110745468212,
+    "actual_gap_oracle": 0.20326110745468212,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.7172000000000001,
+    "actual_gap_rule_2": 0.20326110745468212,
+    "actual_gap_rule_3": 0.20326110745468212,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 24.065222149093643,
+    "actual_f_rule_3": 24.065222149093643,
+    "actual_field_rule_1": 1.414,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 108,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.6835841260533592,
+    "actual_gap_oracle": 0.6673384813491955,
+    "gap_regret": 0.016245644704163675,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.6673384813491955,
+    "actual_gap_rule_2": 0.6835841260533592,
+    "actual_gap_rule_3": 0.6835841260533592,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 33.67168252106718,
+    "actual_f_rule_3": 33.67168252106718,
+    "actual_field_rule_1": 1.6633075932540227,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 109,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.09146317988510315,
+    "actual_gap_oracle": 0.09146317988510315,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.146827403277579,
+    "actual_gap_rule_2": 0.09146317988510315,
+    "actual_gap_rule_3": 0.09146317988510315,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 21.829263597702063,
+    "actual_f_rule_3": 21.829263597702063,
+    "actual_field_rule_1": 4.265862983612105,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 110,
+    "fold": 1,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.12752458317447815,
+    "actual_gap_oracle": 0.12752458317447815,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 5.052032087415815,
+    "actual_gap_rule_2": 0.12752458317447815,
+    "actual_gap_rule_3": 0.12752458317447815,
+    "actual_f_rule_1": 105.0406417483163,
+    "actual_f_rule_2": 22.550491663489563,
+    "actual_f_rule_3": 22.550491663489563,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 111,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.845168991089267,
+    "actual_gap_oracle": 0.845168991089267,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.845168991089267,
+    "actual_gap_rule_2": 1.1137485952083506,
+    "actual_gap_rule_3": 1.1137485952083506,
+    "actual_f_rule_1": 20.90337982178534,
+    "actual_f_rule_2": 42.27497190416701,
+    "actual_f_rule_3": 42.27497190416701,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 112,
+    "fold": 2,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 1.1600540509077724,
+    "actual_gap_oracle": 1.1600540509077724,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 4.216081478007674,
+    "actual_gap_rule_2": 1.1600540509077724,
+    "actual_gap_rule_3": 1.1600540509077724,
+    "actual_f_rule_1": 88.32162956015348,
+    "actual_f_rule_2": 43.20108101815545,
+    "actual_f_rule_3": 43.20108101815545,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 113,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 114,
+    "fold": 5,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 1.6560326517119344,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 37.120653034238686,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 115,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.2310347255509804,
+    "actual_gap_oracle": 1.2310347255509804,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.2310347255509804,
+    "actual_gap_rule_2": 24.563945104137243,
+    "actual_gap_rule_3": 8.434951875,
+    "actual_f_rule_1": 28.620694511019604,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 176.6966215,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 2.1802744793137765,
+    "actual_field_rule_3": 1.9993959999999997
+  },
+  {
+    "prescription_id": 116,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 1.0240943784313725,
+    "actual_gap_oracle": 1.0240943784313725,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.1122150847603376,
+    "actual_gap_rule_2": 1.0240943784313725,
+    "actual_gap_rule_3": 1.0240943784313725,
+    "actual_f_rule_1": 26.24430169520675,
+    "actual_f_rule_2": 40.48188756862745,
+    "actual_f_rule_3": 40.48188756862745,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 117,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.845168991089267,
+    "actual_gap_oracle": 0.845168991089267,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.845168991089267,
+    "actual_gap_rule_2": 1.280304452262857,
+    "actual_gap_rule_3": 1.280304452262857,
+    "actual_f_rule_1": 20.90337982178534,
+    "actual_f_rule_2": 45.60608904525714,
+    "actual_f_rule_3": 45.60608904525714,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 118,
+    "fold": 2,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.5776147655790297,
+    "actual_gap_oracle": 0.5776147655790297,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 5.052032087415815,
+    "actual_gap_rule_2": 0.5776147655790297,
+    "actual_gap_rule_3": 0.5776147655790297,
+    "actual_f_rule_1": 105.0406417483163,
+    "actual_f_rule_2": 31.552295311580593,
+    "actual_f_rule_3": 31.552295311580593,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 119,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.056555121566298716,
+    "actual_gap_oracle": 0.056555121566298716,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.06964381288961316,
+    "actual_gap_rule_2": 0.056555121566298716,
+    "actual_gap_rule_3": 0.056555121566298716,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 21.131102431325974,
+    "actual_f_rule_3": 21.131102431325974,
+    "actual_field_rule_1": 4.651780935551934,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 120,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.15222503229815879,
+    "actual_gap_oracle": 0.15222503229815879,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.1917807734734165,
+    "actual_gap_rule_2": 0.15222503229815879,
+    "actual_gap_rule_3": 0.15222503229815879,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 23.044500645963176,
+    "actual_f_rule_3": 23.044500645963176,
+    "actual_field_rule_1": 4.041096132632918,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 121,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.32651043058134077,
+    "actual_gap_oracle": 0.32651043058134077,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.5869206863755048,
+    "actual_gap_rule_2": 0.32651043058134077,
+    "actual_gap_rule_3": 0.32651043058134077,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 26.530208611626815,
+    "actual_f_rule_3": 26.530208611626815,
+    "actual_field_rule_1": 2.0653965681224764,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 122,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.37033767870691836,
+    "actual_gap_oracle": 0.37033767870691836,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.38341837725006406,
+    "actual_gap_rule_2": 0.37033767870691836,
+    "actual_gap_rule_3": 0.37033767870691836,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 27.406753574138367,
+    "actual_f_rule_3": 27.406753574138367,
+    "actual_field_rule_1": 3.0829081137496797,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 123,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.903353641889813,
+    "actual_gap_oracle": 0.41561295742010246,
+    "gap_regret": 0.4877406844697106,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 0.41561295742010246,
+    "actual_gap_rule_3": 0.41561295742010246,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 28.31225914840205,
+    "actual_f_rule_3": 28.31225914840205,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 124,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.6162445558101632,
+    "actual_gap_oracle": 1.6162445558101632,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.6162445558101632,
+    "actual_gap_rule_2": 24.12815358543159,
+    "actual_gap_rule_3": 2.028035309386091,
+    "actual_f_rule_1": 36.32489111620326,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 57.258681143744624,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.359232072842047,
+    "actual_field_rule_3": 4.174493739005702
+  },
+  {
+    "prescription_id": 125,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 0.28408490095778516,
+    "actual_gap_oracle": 0.28408490095778516,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.30544353053826667,
+    "actual_gap_rule_2": 0.31221508476033755,
+    "actual_gap_rule_3": 0.28408490095778516,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 26.24430169520675,
+    "actual_f_rule_3": 25.681698019155704,
+    "actual_field_rule_1": 3.4727823473086668,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 126,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 2.54564457153606,
+    "actual_gap_oracle": 1.9137485952083506,
+    "gap_regret": 0.6318959763277094,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.9137485952083506,
+    "actual_gap_rule_2": 24.320320028024238,
+    "actual_gap_rule_3": 2.54564457153606,
+    "actual_f_rule_1": 42.27497190416701,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 64.50649087023642,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 3.398399859878804,
+    "actual_field_rule_3": 3.398399859878804
+  },
+  {
+    "prescription_id": 127,
+    "fold": 4,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.4003573843703336,
+    "actual_gap_oracle": 0.4003573843703336,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 2.511959055104386,
+    "actual_gap_rule_2": 0.4003573843703336,
+    "actual_gap_rule_3": 0.4003573843703336,
+    "actual_f_rule_1": 54.23918110208772,
+    "actual_f_rule_2": 28.007147687406672,
+    "actual_f_rule_3": 28.007147687406672,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 128,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.0167276828469634,
+    "actual_gap_oracle": 1.0167276828469634,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.0565577488151763,
+    "actual_gap_rule_2": 24.16510125219886,
+    "actual_gap_rule_3": 1.0167276828469634,
+    "actual_f_rule_1": 25.131154976303524,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 36.32489111620326,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.174493739005702,
+    "actual_field_rule_3": 3.997584364815999
+  },
+  {
+    "prescription_id": 129,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.449638023340942,
+    "actual_gap_oracle": 0.38341837725006406,
+    "gap_regret": 0.06621964609087794,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.38341837725006406,
+    "actual_gap_rule_2": 24.00720743879751,
+    "actual_gap_rule_3": 0.449638023340942,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 28.007147687406672,
+    "actual_field_rule_1": 3.0829081137496797,
+    "actual_field_rule_2": 4.9639628060124386,
+    "actual_field_rule_3": 4.753596805146958
+  },
+  {
+    "prescription_id": 130,
+    "fold": 1,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.8162445558101631,
+    "actual_gap_oracle": 0.8162445558101631,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 4.028774280249337,
+    "actual_gap_rule_2": 0.8162445558101631,
+    "actual_gap_rule_3": 0.8162445558101631,
+    "actual_f_rule_1": 84.57548560498674,
+    "actual_f_rule_2": 36.32489111620326,
+    "actual_f_rule_3": 36.32489111620326,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 131,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.46238410893486553,
+    "actual_gap_oracle": 0.46238410893486553,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.7172000000000001,
+    "actual_gap_rule_2": 0.46238410893486553,
+    "actual_gap_rule_3": 0.46238410893486553,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 29.24768217869731,
+    "actual_f_rule_3": 29.24768217869731,
+    "actual_field_rule_1": 1.414,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 132,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 11.258656212025711,
+    "actual_gap_oracle": 11.258656212025711,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 11.258656212025711,
+    "actual_gap_rule_2": 24.7172,
+    "actual_gap_rule_3": 17.392200000000003,
+    "actual_f_rule_1": 229.1731242405142,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 353.5,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 1.414,
+    "actual_field_rule_3": 1.414
+  },
+  {
+    "prescription_id": 133,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.577309404264747,
+    "actual_gap_oracle": 1.4858998346990542,
+    "gap_regret": 0.0914095695656929,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.577309404264747,
+    "actual_gap_rule_2": 24.349123941985827,
+    "actual_gap_rule_3": 1.4858998346990542,
+    "actual_f_rule_1": 35.54618808529494,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 42.73551785426455,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 3.2543802900708667,
+    "actual_field_rule_3": 3.2543802900708667
+  },
+  {
+    "prescription_id": 134,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.8360308273767358,
+    "actual_gap_oracle": 0.5824245183039576,
+    "gap_regret": 0.25360630907277826,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.5824245183039576,
+    "actual_gap_rule_2": 0.8360308273767358,
+    "actual_gap_rule_3": 0.8360308273767358,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 36.72061654753472,
+    "actual_f_rule_3": 36.72061654753472,
+    "actual_field_rule_1": 2.087877408480212,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 135,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": false,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 12.078649518303957,
+    "actual_gap_oracle": 1.5019251873474997,
+    "gap_regret": 10.576724330956457,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.5019251873474997,
+    "actual_gap_rule_2": 2.44197158983473,
+    "actual_gap_rule_3": 12.078649518303957,
+    "actual_f_rule_1": 34.03850374694999,
+    "actual_f_rule_2": 68.8394317966946,
+    "actual_f_rule_3": 249.9245,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 2.087877408480212
+  },
+  {
+    "prescription_id": 136,
+    "fold": 2,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.6474928392948396,
+    "actual_gap_oracle": 0.6474928392948396,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 2.922169604951425,
+    "actual_gap_rule_2": 0.6474928392948396,
+    "actual_gap_rule_3": 0.6474928392948396,
+    "actual_f_rule_1": 62.44339209902851,
+    "actual_f_rule_2": 32.94985678589679,
+    "actual_f_rule_3": 32.94985678589679,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 137,
+    "fold": 5,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 4.1684908896138975,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 87.36981779227794,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 138,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 2.3318876701900315,
+    "actual_gap_oracle": 0.39005730776018666,
+    "gap_regret": 1.9418303624298447,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.39005730776018666,
+    "actual_gap_rule_2": 24.00720743879751,
+    "actual_gap_rule_3": 2.3318876701900315,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 66.63775340380063,
+    "actual_field_rule_1": 3.0497134611990666,
+    "actual_field_rule_2": 4.963962806012439,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 139,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 140,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.199662933060227,
+    "actual_gap_oracle": 1.199662933060227,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.2783154046524285,
+    "actual_gap_rule_2": 24.363064861790708,
+    "actual_gap_rule_3": 1.199662933060227,
+    "actual_f_rule_1": 29.566308093048573,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 36.32489111620326,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 3.184675691046459,
+    "actual_field_rule_3": 3.0829081137496797
+  },
+  {
+    "prescription_id": 141,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.560613354865365,
+    "actual_gap_oracle": 0.560613354865365,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 0.560613354865365,
+    "actual_gap_rule_3": 0.560613354865365,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 31.2122670973073,
+    "actual_f_rule_3": 31.2122670973073,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 142,
+    "fold": 5,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.19029397711972482,
+    "actual_gap_oracle": 0.19029397711972482,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 4.216081478007674,
+    "actual_gap_rule_2": 0.19029397711972482,
+    "actual_gap_rule_3": 0.19029397711972482,
+    "actual_f_rule_1": 88.32162956015348,
+    "actual_f_rule_2": 23.805879542394496,
+    "actual_f_rule_3": 23.805879542394496,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 143,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.6526168555595122,
+    "actual_gap_oracle": 0.6526168555595122,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.6526168555595122,
+    "actual_gap_rule_2": 0.7966715140743037,
+    "actual_gap_rule_3": 0.7966715140743037,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 35.933430281486075,
+    "actual_f_rule_3": 35.933430281486075,
+    "actual_field_rule_1": 1.736915722202439,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 144,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.3409615107133696,
+    "actual_gap_oracle": 0.3409615107133696,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.34912394198582664,
+    "actual_gap_rule_2": 0.3409615107133696,
+    "actual_gap_rule_3": 0.3409615107133696,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 26.819230214267392,
+    "actual_f_rule_3": 26.819230214267392,
+    "actual_field_rule_1": 3.2543802900708667,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 145,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 2,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 146,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.2073739107006578,
+    "actual_gap_oracle": 0.6949365247105559,
+    "gap_regret": 0.5124373859901019,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.6949365247105559,
+    "actual_gap_rule_2": 1.2073739107006578,
+    "actual_gap_rule_3": 1.2073739107006578,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 44.147478214013155,
+    "actual_f_rule_3": 44.147478214013155,
+    "actual_field_rule_1": 1.5253173764472208,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 147,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 2,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 148,
+    "fold": 2,
+    "true_pareto": [
+      1
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": false,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.7019251873474996,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.7019251873474996,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.7019251873474996,
+    "actual_gap_rule_3": 0.7019251873474996,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 34.03850374694999,
+    "actual_f_rule_3": 34.03850374694999,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 149,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 2,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.2565577488151762,
+    "actual_gap_oracle": 0.2565577488151762,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.3767071851998347,
+    "actual_gap_rule_2": 0.2565577488151762,
+    "actual_gap_rule_3": 0.2565577488151762,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 25.131154976303524,
+    "actual_f_rule_3": 25.131154976303524,
+    "actual_field_rule_1": 3.1164640740008265,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 150,
+    "fold": 2,
+    "true_pareto": [
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.2847974564271019,
+    "actual_gap_oracle": 1.2847974564271019,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 5.1092480239071465,
+    "actual_gap_rule_2": 24.28251604564902,
+    "actual_gap_rule_3": 1.2847974564271019,
+    "actual_f_rule_1": 106.18496047814294,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 40.0456282155616,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 3.5874197717548904,
+    "actual_field_rule_3": 3.5874197717548904
+  },
+  {
+    "prescription_id": 151,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 152,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.2073739107006578,
+    "actual_gap_oracle": 0.903353641889813,
+    "gap_regret": 0.30402026881084476,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.903353641889813,
+    "actual_gap_rule_2": 1.2073739107006578,
+    "actual_gap_rule_3": 1.2073739107006578,
+    "actual_f_rule_1": 22.06707283779626,
+    "actual_f_rule_2": 44.147478214013155,
+    "actual_f_rule_3": 44.147478214013155,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 153,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.38526621537455197,
+    "actual_gap_oracle": 0.38526621537455197,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8,
+    "actual_gap_rule_2": 0.38526621537455197,
+    "actual_gap_rule_3": 0.38526621537455197,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 27.70532430749104,
+    "actual_f_rule_3": 27.70532430749104,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 154,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.22962070103756424,
+    "actual_gap_oracle": 0.22962070103756424,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.28251604564902194,
+    "actual_gap_rule_2": 0.22962070103756424,
+    "actual_gap_rule_3": 0.22962070103756424,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 24.592414020751285,
+    "actual_f_rule_3": 24.592414020751285,
+    "actual_field_rule_1": 3.5874197717548904,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 155,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 156,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 157,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.1122150847603376,
+    "actual_gap_oracle": 1.1122150847603376,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.1122150847603376,
+    "actual_gap_rule_2": 24.028471766019557,
+    "actual_gap_rule_3": 1.4202396286126375,
+    "actual_f_rule_1": 26.24430169520675,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 47.62614217972727,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.857641169902225,
+    "actual_field_rule_3": 4.805337401868629
+  },
+  {
+    "prescription_id": 158,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 159,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 1.1137485952083506,
+    "actual_gap_oracle": 1.1137485952083506,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.2310347255509804,
+    "actual_gap_rule_2": 1.1137485952083506,
+    "actual_gap_rule_3": 1.1137485952083506,
+    "actual_f_rule_1": 28.620694511019604,
+    "actual_f_rule_2": 42.27497190416701,
+    "actual_f_rule_3": 42.27497190416701,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 160,
+    "fold": 3,
+    "true_pareto": [
+      1
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": false,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.7019251873474996,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.7019251873474996,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.7019251873474996,
+    "actual_gap_rule_3": 0.7019251873474996,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 34.03850374694999,
+    "actual_f_rule_3": 34.03850374694999,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 161,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.1137485952083506,
+    "actual_gap_oracle": 0.9774665890801698,
+    "gap_regret": 0.13628200612818075,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.9774665890801698,
+    "actual_gap_rule_2": 1.1137485952083506,
+    "actual_gap_rule_3": 1.1137485952083506,
+    "actual_f_rule_1": 23.549331781603396,
+    "actual_f_rule_2": 42.27497190416701,
+    "actual_f_rule_3": 42.27497190416701,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 162,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 163,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.38526621537455197,
+    "actual_gap_oracle": 0.38526621537455197,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.3966247547931959,
+    "actual_gap_rule_2": 0.38526621537455197,
+    "actual_gap_rule_3": 0.38526621537455197,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 27.70532430749104,
+    "actual_f_rule_3": 27.70532430749104,
+    "actual_field_rule_1": 3.0168762260340203,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 164,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.9024083143842998,
+    "actual_gap_oracle": 0.845168991089267,
+    "gap_regret": 0.057239323295032785,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.845168991089267,
+    "actual_gap_rule_2": 24.2004831270368,
+    "actual_gap_rule_3": 0.9024083143842998,
+    "actual_f_rule_1": 20.90337982178534,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 34.03850374694999,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 3.997584364815999,
+    "actual_field_rule_3": 3.997584364815999
+  },
+  {
+    "prescription_id": 165,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.6654407200568173,
+    "actual_gap_oracle": 0.6654407200568173,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8117415509645429,
+    "actual_gap_rule_2": 0.6654407200568173,
+    "actual_gap_rule_3": 0.6654407200568173,
+    "actual_f_rule_1": 20.23483101929086,
+    "actual_f_rule_2": 33.308814401136345,
+    "actual_f_rule_3": 33.308814401136345,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 166,
+    "fold": 5,
+    "true_pareto": [
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": false,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 3.279468624241817,
+    "actual_gap_oracle": 1.8773796576690724,
+    "gap_regret": 1.4020889665727445,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 3.279468624241817,
+    "actual_gap_rule_2": 24.47583572749598,
+    "actual_gap_rule_3": 1.8773796576690724,
+    "actual_f_rule_1": 69.58937248483635,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 48.144984083380464,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 2.6208213625201067,
+    "actual_field_rule_3": 2.6493477324997543
+  },
+  {
+    "prescription_id": 167,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.8560326517119343,
+    "actual_gap_oracle": 0.8560326517119343,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8565551215662988,
+    "actual_gap_rule_2": 0.8560326517119343,
+    "actual_gap_rule_3": 0.8560326517119343,
+    "actual_f_rule_1": 21.131102431325974,
+    "actual_f_rule_2": 37.120653034238686,
+    "actual_f_rule_3": 37.120653034238686,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 168,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 169,
+    "fold": 3,
+    "true_pareto": [
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 0.12752458317447815,
+    "actual_gap_oracle": 0.12752458317447815,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 7.2286168138837565,
+    "actual_gap_rule_2": 0.13980790015913697,
+    "actual_gap_rule_3": 0.12752458317447815,
+    "actual_f_rule_1": 148.57233627767513,
+    "actual_f_rule_2": 22.79615800318274,
+    "actual_f_rule_3": 22.550491663489563,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 170,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.0461449777958127,
+    "actual_gap_oracle": 0.8,
+    "gap_regret": 0.24614497779581268,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8,
+    "actual_gap_rule_2": 1.0461449777958127,
+    "actual_gap_rule_3": 1.0461449777958127,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 40.92289955591625,
+    "actual_f_rule_3": 40.92289955591625,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 171,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.6297383766593476,
+    "actual_gap_oracle": 0.6297383766593476,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.7172000000000001,
+    "actual_gap_rule_2": 0.6297383766593476,
+    "actual_gap_rule_3": 0.6297383766593476,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 32.59476753318695,
+    "actual_f_rule_3": 32.59476753318695,
+    "actual_field_rule_1": 1.414,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 172,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.560613354865365,
+    "actual_gap_oracle": 0.560613354865365,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.845168991089267,
+    "actual_gap_rule_2": 0.560613354865365,
+    "actual_gap_rule_3": 0.560613354865365,
+    "actual_f_rule_1": 20.90337982178534,
+    "actual_f_rule_2": 31.2122670973073,
+    "actual_f_rule_3": 31.2122670973073,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 173,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.6360308273767359,
+    "actual_gap_oracle": 1.6360308273767359,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.6360308273767359,
+    "actual_gap_rule_2": 2.7536383529023523,
+    "actual_gap_rule_3": 2.7536383529023523,
+    "actual_f_rule_1": 36.72061654753472,
+    "actual_f_rule_2": 75.07276705804705,
+    "actual_f_rule_3": 75.07276705804705,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 174,
+    "fold": 1,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 2,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 3.8494116791898607,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 80.98823358379721,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 175,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.4310347255509802,
+    "actual_gap_oracle": 0.4310347255509802,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.0032611074546822,
+    "actual_gap_rule_2": 0.4310347255509802,
+    "actual_gap_rule_3": 0.4310347255509802,
+    "actual_f_rule_1": 24.065222149093643,
+    "actual_f_rule_2": 28.620694511019604,
+    "actual_f_rule_3": 28.620694511019604,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 176,
+    "fold": 5,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.8966923772466334,
+    "actual_gap_oracle": 0.8966923772466334,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 6.0462255700249985,
+    "actual_gap_rule_2": 0.8966923772466334,
+    "actual_gap_rule_3": 0.8966923772466334,
+    "actual_f_rule_1": 124.92451140049998,
+    "actual_f_rule_2": 37.93384754493267,
+    "actual_f_rule_3": 37.93384754493267,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 177,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.2702467604505328,
+    "actual_gap_oracle": 0.2702467604505328,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.3129220410322171,
+    "actual_gap_rule_2": 0.2702467604505328,
+    "actual_gap_rule_3": 0.2702467604505328,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 25.404935209010656,
+    "actual_f_rule_3": 25.404935209010656,
+    "actual_field_rule_1": 3.4353897948389145,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 178,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.09146317988510315,
+    "actual_gap_oracle": 0.09146317988510315,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.146827403277579,
+    "actual_gap_rule_2": 0.09146317988510315,
+    "actual_gap_rule_3": 0.09146317988510315,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 21.829263597702063,
+    "actual_f_rule_3": 21.829263597702063,
+    "actual_field_rule_1": 4.265862983612105,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 179,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.4944202568123039,
+    "actual_gap_oracle": 0.4944202568123039,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.5544009512571895,
+    "actual_gap_rule_2": 0.4944202568123039,
+    "actual_gap_rule_3": 0.4944202568123039,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 29.888405136246078,
+    "actual_f_rule_3": 29.888405136246078,
+    "actual_field_rule_1": 2.2279952437140524,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 180,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.6297383766593476,
+    "actual_gap_oracle": 0.6297383766593476,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8,
+    "actual_gap_rule_2": 0.6297383766593476,
+    "actual_gap_rule_3": 0.6297383766593476,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 32.59476753318695,
+    "actual_f_rule_3": 32.59476753318695,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 181,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 182,
+    "fold": 4,
+    "true_pareto": [
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 4.995432747356564,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 103.90865494713128,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 183,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.148952868408953,
+    "actual_gap_oracle": 1.1409615107133697,
+    "gap_regret": 0.007991357695583234,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.1409615107133697,
+    "actual_gap_rule_2": 24.297883620083105,
+    "actual_gap_rule_3": 1.148952868408953,
+    "actual_f_rule_1": 26.819230214267392,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 36.72061654753472,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 3.5105818995844693,
+    "actual_field_rule_3": 3.4353897948389145
+  },
+  {
+    "prescription_id": 184,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 2,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.560613354865365,
+    "actual_gap_oracle": 0.560613354865365,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8,
+    "actual_gap_rule_2": 0.560613354865365,
+    "actual_gap_rule_3": 0.560613354865365,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 31.2122670973073,
+    "actual_f_rule_3": 31.2122670973073,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 185,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.19029397711972482,
+    "actual_gap_oracle": 0.19029397711972482,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.2260320064401614,
+    "actual_gap_rule_2": 0.19029397711972482,
+    "actual_gap_rule_3": 0.19029397711972482,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 23.805879542394496,
+    "actual_f_rule_3": 23.805879542394496,
+    "actual_field_rule_1": 3.869839967799193,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 186,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 187,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.5776147655790297,
+    "actual_gap_oracle": 0.5776147655790297,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.9398079001591371,
+    "actual_gap_rule_2": 0.5776147655790297,
+    "actual_gap_rule_3": 0.5776147655790297,
+    "actual_f_rule_1": 22.79615800318274,
+    "actual_f_rule_2": 31.552295311580593,
+    "actual_f_rule_3": 31.552295311580593,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 188,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.577309404264747,
+    "actual_gap_oracle": 1.4383587427224545,
+    "gap_regret": 0.13895066154229263,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.577309404264747,
+    "actual_gap_rule_2": 24.369922945077665,
+    "actual_gap_rule_3": 1.4383587427224545,
+    "actual_f_rule_1": 35.54618808529494,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 41.36871595289577,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 3.15038527461167,
+    "actual_field_rule_3": 3.15038527461167
+  },
+  {
+    "prescription_id": 189,
+    "fold": 1,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.5019251873474997,
+    "actual_gap_oracle": 1.375353746495696,
+    "gap_regret": 0.12657144085180372,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.5019251873474997,
+    "actual_gap_rule_2": 24.519321094783763,
+    "actual_gap_rule_3": 1.375353746495696,
+    "actual_f_rule_1": 34.03850374694999,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 37.120653034238686,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 2.4033945260811915,
+    "actual_field_rule_3": 2.4033945260811915
+  },
+  {
+    "prescription_id": 190,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 1.1122150847603376,
+    "actual_gap_oracle": 1.0684357976447885,
+    "gap_regret": 0.043779287115549126,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.1122150847603376,
+    "actual_gap_rule_2": 1.0684357976447885,
+    "actual_gap_rule_3": 1.0684357976447885,
+    "actual_f_rule_1": 26.24430169520675,
+    "actual_f_rule_2": 41.36871595289577,
+    "actual_f_rule_3": 41.36871595289577,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 191,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.6297383766593476,
+    "actual_gap_oracle": 0.6297383766593476,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.845168991089267,
+    "actual_gap_rule_2": 0.6297383766593476,
+    "actual_gap_rule_3": 0.6297383766593476,
+    "actual_f_rule_1": 20.90337982178534,
+    "actual_f_rule_2": 32.59476753318695,
+    "actual_f_rule_3": 32.59476753318695,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 192,
+    "fold": 4,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 193,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.16477743738145154,
+    "actual_gap_oracle": 0.16477743738145154,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.66371762199009,
+    "actual_gap_rule_2": 0.16477743738145154,
+    "actual_gap_rule_3": 0.16477743738145154,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 23.29554874762903,
+    "actual_f_rule_3": 23.29554874762903,
+    "actual_field_rule_1": 1.68141189004955,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 194,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      3
+    ],
+    "pareto_jaccard": 0.3333333333333333,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1,
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.0,
+    "actual_gap_oracle": 0.0,
+    "gap_regret": 0.0,
+    "selected_target_reached": true,
+    "actual_gap_rule_1": 0.0,
+    "actual_gap_rule_2": 0.0,
+    "actual_gap_rule_3": 0.0,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 20.0,
+    "actual_f_rule_3": 20.0,
+    "actual_field_rule_1": 5.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 195,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 0.8162445558101631,
+    "actual_gap_oracle": 0.8,
+    "gap_regret": 0.01624455581016304,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8,
+    "actual_gap_rule_2": 0.8162445558101631,
+    "actual_gap_rule_3": 0.8162445558101631,
+    "actual_f_rule_1": 20.0,
+    "actual_f_rule_2": 36.32489111620326,
+    "actual_f_rule_3": 36.32489111620326,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 196,
+    "fold": 2,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 0.5948013906286821,
+    "actual_gap_oracle": 0.5948013906286821,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 0.8565551215662988,
+    "actual_gap_rule_2": 0.5948013906286821,
+    "actual_gap_rule_3": 0.5948013906286821,
+    "actual_f_rule_1": 21.131102431325974,
+    "actual_f_rule_2": 31.896027812573642,
+    "actual_f_rule_3": 31.896027812573642,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 197,
+    "fold": 2,
+    "true_pareto": [
+      2
+    ],
+    "predicted_pareto": [
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.5,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": false,
+    "predicted_f_choice": 3,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      2,
+      3
+    ],
+    "actual_gap_selected": 1.7415032914078428,
+    "actual_gap_oracle": 1.7415032914078423,
+    "gap_regret": 4.440892098500626e-16,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 4.216081478007674,
+    "actual_gap_rule_2": 1.7415032914078423,
+    "actual_gap_rule_3": 1.7415032914078428,
+    "actual_f_rule_1": 88.32162956015348,
+    "actual_f_rule_2": 54.83006582815685,
+    "actual_f_rule_3": 54.830065828156854,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 5.0,
+    "actual_field_rule_3": 5.0
+  },
+  {
+    "prescription_id": 198,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 1.0,
+    "predicted_gap_choice": 3,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.0167276828469634,
+    "actual_gap_oracle": 1.0167276828469634,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.1409615107133697,
+    "actual_gap_rule_2": 24.17409087265644,
+    "actual_gap_rule_3": 1.0167276828469634,
+    "actual_f_rule_1": 26.819230214267392,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 36.32489111620326,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 4.129545636717807,
+    "actual_field_rule_3": 3.997584364815999
+  },
+  {
+    "prescription_id": 199,
+    "fold": 3,
+    "true_pareto": [
+      1,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      2,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": true,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 2,
+    "oracle_gap_rules": [
+      1
+    ],
+    "actual_gap_selected": 1.394801390628682,
+    "actual_gap_oracle": 1.394801390628682,
+    "gap_regret": 0.0,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.394801390628682,
+    "actual_gap_rule_2": 24.234365566080466,
+    "actual_gap_rule_3": 1.7211490925879716,
+    "actual_f_rule_1": 31.896027812573642,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 49.7356705301501,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 3.828172169597668,
+    "actual_field_rule_3": 3.828172169597668
+  },
+  {
+    "prescription_id": 200,
+    "fold": 5,
+    "true_pareto": [
+      1,
+      2,
+      3
+    ],
+    "predicted_pareto": [
+      1,
+      3
+    ],
+    "pareto_jaccard": 0.6666666666666666,
+    "predicted_gap_choice": 1,
+    "predicted_gap_choice_in_true_oracle_set": false,
+    "predicted_gap_choice_in_true_pareto": true,
+    "predicted_f_choice": 1,
+    "predicted_field_choice": 3,
+    "oracle_gap_rules": [
+      3
+    ],
+    "actual_gap_selected": 1.4835841260533593,
+    "actual_gap_oracle": 1.4362919243857548,
+    "gap_regret": 0.047292201667604505,
+    "selected_target_reached": false,
+    "actual_gap_rule_1": 1.4835841260533593,
+    "actual_gap_rule_2": 24.492585605126607,
+    "actual_gap_rule_3": 1.4362919243857548,
+    "actual_f_rule_1": 33.67168252106718,
+    "actual_f_rule_2": 500.0,
+    "actual_f_rule_3": 38.76485654050689,
+    "actual_field_rule_1": 1.0,
+    "actual_field_rule_2": 2.5370719743669667,
+    "actual_field_rule_3": 2.509754513197949
+  }
+]

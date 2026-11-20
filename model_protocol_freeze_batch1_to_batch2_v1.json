@@ -1,0 +1,45 @@
+{
+  "status": "frozen_before_independent_test",
+  "study": "F-number prediction: train cases 1-100, one-shot independent test cases 101-200",
+  "target": "final_working_f_number",
+  "training_prescription_ids": [1, 100],
+  "test_prescription_ids": [101, 200],
+  "input_features": [
+    "object_l1_mm",
+    "image_l2_mm",
+    "entrance_pupil_l1_mm",
+    "exit_pupil_l2_mm",
+    "magnification",
+    "thin_spacing_mm",
+    "thin_power_1_per_mm",
+    "thin_power_2_per_mm",
+    "thin_efl_mm"
+  ],
+  "rule_encoding": "fixed rule-conditioned block expansion from run_rule_regression_v1.conditioned_design",
+  "models": [
+    {
+      "name": "rf_raw9_leaf1",
+      "role": "primary",
+      "class": "RandomForestRegressor",
+      "parameters": {"n_estimators": 500, "min_samples_leaf": 1, "max_depth": null, "max_features": "sqrt", "random_state": 20261118, "n_jobs": 1}
+    },
+    {
+      "name": "rf_raw9_leaf3",
+      "role": "control",
+      "class": "RandomForestRegressor",
+      "parameters": {"n_estimators": 500, "min_samples_leaf": 3, "max_depth": null, "max_features": "sqrt", "random_state": 20261118, "n_jobs": 1}
+    },
+    {
+      "name": "rule_conditioned_dummy",
+      "role": "control",
+      "class": "per-rule training mean",
+      "parameters": {"fallback": "overall training mean"}
+    }
+  ],
+  "metrics": ["MAE", "RMSE", "R2"],
+  "report_scopes": ["overall", "rule_1", "rule_2", "rule_3", "f_number_500", "non_f_number_500"],
+  "f_number_500_definition": "exact accepted endpoint value 500.0",
+  "test_policy": "single evaluation; no test-label-driven preprocessing, model selection, thresholding, hyperparameter selection, refitting, or revision",
+  "stage_aware_status": "exploratory mechanism only; excluded from formal independent-test model set",
+  "no_information_leakage": true
+}

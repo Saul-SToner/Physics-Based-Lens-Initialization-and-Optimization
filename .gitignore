@@ -1,0 +1,38 @@
+.venv-background/
+__pycache__/
+.pytest_cache/
+.screenshots/
+*.py[cod]
+
+# Local archives and transient OpticStudio artifacts
+project_archive_*.zip
+*.ZMX
+*.ZDA
+*.zmx
+*.zda
+
+# Background execution is reproducible from scripts, but raw worker state,
+# telemetry, logs, and per-run optical files are machine-local artifacts.
+background_runs/
+
+# Raw local execution traces. Selected summaries inside these directories are
+# already tracked; newly generated worker files stay local.
+dedup_audit_20261118/
+opticstudio_concurrency_load/
+p1_random_3/
+p1_random_3_v1/
+ray_p1_stress_8/
+ray_p1_stress_8_v2/
+ray_thread_regression/
+resource_attribution/
+resource_attribution_detail/
+
+# Local notifications and editor/OS state
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+ca.dcclab.python.raytracing.json
+*.log
+*.write.lock

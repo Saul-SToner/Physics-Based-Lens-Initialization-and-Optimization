@@ -1,0 +1,28 @@
+{
+  "stop_reason_corrections": [
+    {
+      "case_id": 2,
+      "rule": 2,
+      "before": {
+        "field": "target_reached",
+        "aperture": "not_started_first_stage_limit"
+      },
+      "after": {
+        "field": "target_reached",
+        "aperture": "step_limit"
+      }
+    }
+  ],
+  "explanation": "Second-stage limit was incorrectly labelled not_started; only stop-reason metadata corrected, no optical rerun",
+  "final_source_sha256": {
+    "run_p1.py": "b4f5cc2a6d1883cddfd471a749dc819e1d1dbc1ea159f345cd5fbe004603c28a",
+    "p1_engine.py": "e78c40b22f5224b6bae6e8f5b3f31c53814841606aab4013e98256b59cb24a71",
+    "summarize_p1.py": "983c530c758b5c51a733bb6b01571c2fa98ddd4e352715274e25169f40807833"
+  },
+  "parameterization_check": "AST bodies of configure_merit, inspect_prescription and load_seed match frozen implementation after INPUTS -> inputs substitution",
+  "api_cycle_counter": "No completed-cycle counter available; requested cycles reported separately",
+  "api_diagnostic": "Native FRU__delta_init(): Attempt to start when running! messages appeared near session transitions; all nine calls returned and saved final prescriptions passed reload checks",
+  "all_nine_seed_hashes_verified": true,
+  "all_rule_stage_orders_verified": true,
+  "workflow_freeze_verified": true
+}

@@ -1,0 +1,3647 @@
+[
+  {
+    "case_id": 1,
+    "prescription_sha256": "ecd797d062dd2dfa21cc986e61ff6eb2d2444ac935c8d892b42e8135b647d092",
+    "target_success_mask": 6,
+    "successful_rules": [
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 2,
+    "prescription_sha256": "8fac8041cf10e98e36f2e4d0dc98f6d08860d3dd4c98b83d4e17efdaaf846a85",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 3,
+    "prescription_sha256": "2f2f10c0a80bd9cb52419660274132e9614f93f564101bab18e82dd93622043c",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 4,
+    "prescription_sha256": "01df264f3609a35bbb0de016cd1b0eba7f58c5cc58e648a5f6c488e8407d2f42",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 5,
+    "prescription_sha256": "baf237874dbe01c50e97bea8b1e93d1eb88ecc85d21f4c70b8a5c3300bb7644a",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 6,
+    "prescription_sha256": "169253c4840b7535516ae49bdaea1d938514377db2b5f746c10c727fa48d4dc3",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 7,
+    "prescription_sha256": "7bd95fbf1bb0d9b46ddf01851b4d37a818c34affe3af69ac261f198d1aa670a4",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 8,
+    "prescription_sha256": "1726912c69a76ae3938889cf5882405b80c4e8eb43b79b28309ebc3bfb03699a",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 9,
+    "prescription_sha256": "5584dc824b109f1039a3c9892aa3c8a18b3d4d2698e06142c72eb7af04413c2c",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 10,
+    "prescription_sha256": "947810b92cf2eb4da8470bb416bf379cffb06b12208cba56a94c6e8493056413",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 11,
+    "prescription_sha256": "22dd494478f1f5d51c06403047e013e5205ad958c15fe5ee68c993347cb415a8",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 12,
+    "prescription_sha256": "a9ffb9ffd4fd26a9d55066e8f68c4d6b3760d695248ee3fce109572437d16089",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 13,
+    "prescription_sha256": "e2a37f5c289f471214705808e80f289baa61638148cdf57ceecaf432c7a4fd78",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 14,
+    "prescription_sha256": "701af58e97bc89ca400289125ef360ceff4d7a2acc6e2c2095e4386a9373724a",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 15,
+    "prescription_sha256": "688e04e437ed3238686491a3a7ed1a30c0caddbce4003113256f8373debbf458",
+    "target_success_mask": 6,
+    "successful_rules": [
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 16,
+    "prescription_sha256": "724d9d756bb0625a8fcab05e00c36b2c965163f548eca46c8ac904b05eaf0142",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 17,
+    "prescription_sha256": "fcbe5a2865f8cc701f9380a62981cbb29568a5291c973e9d53ca45140d3ee4ed",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 18,
+    "prescription_sha256": "0891ec4a95adf6bce08c89d7ab06e4ccb3ef6e8213cfa29aa967ea932e7dc4b3",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 19,
+    "prescription_sha256": "9fa1e0d642b87f571ebde9fa739a4eef87f143f68eac19df9b32b6959926a74f",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 20,
+    "prescription_sha256": "7050730347fa671a00e2034f365b239197d328b5a6d02f219760a63a66aaae4a",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 21,
+    "prescription_sha256": "8dc0ba6e3ae1b4fd400e8118b4242cb03bd8d50caf799ceb632f397c1d6f9c48",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 22,
+    "prescription_sha256": "d15657553e6ed3bbd2890f36be1a30dd52ab6b2a49aecd36149b73751dc7534a",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 23,
+    "prescription_sha256": "0a9b5cd68e551c2b74b7ab76b8c09239f3acd0bfc0f6cfeafcf3e90fbda3a4fd",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 24,
+    "prescription_sha256": "7e0ea33b59387af581804a39952ad48ed1d66a287cbbf0dd23b6904155370589",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 25,
+    "prescription_sha256": "0c44837f4f8b0135643ca3da21cc6901416fd3175f136160b53dc7b953b5f1dd",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 26,
+    "prescription_sha256": "fa343159062c92ec1d00277a540a576b5e6b05ada96510d6d07edda0d49e9b3e",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 27,
+    "prescription_sha256": "29babd9b27af669ace7558aef9ba5d43bd6e624c616b0b1d356c8e5b0105af70",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 28,
+    "prescription_sha256": "a074369e134814809c2639751442244d9626e3913ce9d3e3a35c3336fe0acda8",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 29,
+    "prescription_sha256": "61e3000d4550c56253ae5219499c59d7680786898370aeb254be8764b9c46da4",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 30,
+    "prescription_sha256": "824125de95e525fb962f07ae247f2cf8f789677e93f1c29d6b769cd5b2de730e",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 31,
+    "prescription_sha256": "77a32dd1693022d9cf8c4df4e6e3c6d8730951fad37300104fe7e2ba69715ddb",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 32,
+    "prescription_sha256": "f968424fce8ce935185c8b4f8834afad992e1ec049d926b4e7e3392e167f63b8",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 33,
+    "prescription_sha256": "3e818652ee20a36a8a7c930ec0c39a00a4aeae9d2c80ffdf463860d6a113e346",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 34,
+    "prescription_sha256": "a2eae27cc25ab713827c9748a14298d256287240faf23ebab2755ab51dda3657",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 35,
+    "prescription_sha256": "83bae83246c23bab8513bf1081e05061717ae452e190e44c028f4b90a6e56584",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 36,
+    "prescription_sha256": "06a24184e2a80b91756b392c5c68f21a36432795ad39bc52cd5448320038093a",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 37,
+    "prescription_sha256": "0a016c775747ad0f91e9abbd8d102bb41f31df8213df86f1e1426454bfa58f1c",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 38,
+    "prescription_sha256": "32aa7ddfd9b0dcec56989b9867c488d2e896e20c41a8e13a7a3bfdf0b1b13ebc",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 39,
+    "prescription_sha256": "7b8a9d495e8d52daee38e3ac971fb09d7300898416d1a9641bf85f3cfc810f45",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 40,
+    "prescription_sha256": "7b17cf29411557900a6e66cbd37ad8e4336ed69fe76a24b228c81e047667bc49",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 41,
+    "prescription_sha256": "57a2147efeb49b9cfcbb2cdd099db9fd1852d21c95cad4968922fe5b364a04d2",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 42,
+    "prescription_sha256": "61f9ab31b9e57d8821dedeebc3252f503dd0d7e83dfd253c2dbfe47026ca3c66",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 43,
+    "prescription_sha256": "190aecd56b983265f79087df04c88afc900b3f996a85853663142667271dbaf7",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 44,
+    "prescription_sha256": "7b08683daeff481da0f143349554951a71e03744f716bdda71c9af5b586cf11c",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 45,
+    "prescription_sha256": "4b686a306d1c988a2c060ee12f0c323e71b7645c05f4cbff064dfe70ecf9360c",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 46,
+    "prescription_sha256": "c14144827fb6a4c96564ca1f9b912b2d08f18e8c558ad8b1fc317a5ef8beeee4",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 47,
+    "prescription_sha256": "19cd5f385210945ed09d875bc6fdbd4dec274b1886a8adc74cf113a1946a3ec7",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 48,
+    "prescription_sha256": "3272e84605dc5b66264a84cb2f9236a659b5f762141c74b4981d0d258fc31db0",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 49,
+    "prescription_sha256": "852a4aa858418d2f1e7d9586fd456db069099cb052fded706a421e2b0bc33193",
+    "target_success_mask": 6,
+    "successful_rules": [
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 50,
+    "prescription_sha256": "ffd044471b9959c7da533dbbd1a27dd98011be00d4cca87d058e1922d9db0574",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 51,
+    "prescription_sha256": "858dfb4ce61464c78e7fe93b1f2c02bd698e794c11c8e36dc1c11e86feb4a36f",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 52,
+    "prescription_sha256": "8d5e63c934e9510040b6842ce633135fb477eb5ce4bea923b1d32d28367c5fd2",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 53,
+    "prescription_sha256": "e7c25f8640885f6b62703e6ef7f80b239054a317287ee54837deb0621d460de2",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 54,
+    "prescription_sha256": "f7e1069918fec4ea9ffe4026429fe2e45f43a0702b1067722aa13fdc32d03e16",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 55,
+    "prescription_sha256": "5ff5480165ac310fbd412b58704ffeb576e20e93c43fc59691ad4db72826c24c",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 56,
+    "prescription_sha256": "a43e518e685ea7de3d9d21bc383be288877d925b8fa647599d4b8a53d7dee219",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 57,
+    "prescription_sha256": "bd3b9df4d4ac0905b985eead7ca0f33e52e5e79b02aa08c090f30f92c0506703",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 58,
+    "prescription_sha256": "30b62bc8ee19969bb09b29c50166924a77cc6320700332f37ca903bace524613",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 59,
+    "prescription_sha256": "11266c8ad9687a4bdcf9ac8344e20cc3383df56dd1738458c4f26d01075375ca",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 60,
+    "prescription_sha256": "fd525cc7ced5548bd1538473c8b1d80296f17c94b5415b8ce274b82af448a486",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 61,
+    "prescription_sha256": "64868f99a5be1c21d5b4f5fe10e82414d9d162b5806f158fb3d68d411d54735a",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 62,
+    "prescription_sha256": "62b26d8dfb25ced884ca9db435ee21ab0ffb65a332617e0637170c9240cb622b",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 63,
+    "prescription_sha256": "4b778c899534e0b01f590ae3224cbab5904981d2cc22233dac98e1d0c5b5e340",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 64,
+    "prescription_sha256": "58c7ab451d1ddd6ed6f84bbdc96ec94205af9b474363e9cafc917ef56a61fcab",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 65,
+    "prescription_sha256": "9cc48b22d52b0a695b29355469a41dcd8ae844170810ec4ba7e5c2329af8252f",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 66,
+    "prescription_sha256": "626f33f0def003ac523cf26e571daee3f5459d280b7519f7d2f5c71b1c0f069a",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 67,
+    "prescription_sha256": "feee87fb50cad11659b0e4ed342c6a52a6187cc372b59c66b2a60d17b6e94b02",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 68,
+    "prescription_sha256": "10499d0a86ecf956a1c8bfa1a3a256bd20e5141c8f42386eebbb3b28bdefc44d",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 69,
+    "prescription_sha256": "67ff2dd42b154b2a8bd2a22cac35399407182549a8166ea29204ce65bb6d6071",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 70,
+    "prescription_sha256": "793daea757cf6931454713bfdef75ede5860278d8253a0662a5441e65b9175cc",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 71,
+    "prescription_sha256": "fbdfb1e9d1599a569309110ca388dd46653532e048cef019291d932e10782961",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 72,
+    "prescription_sha256": "314e521f05a1d2c8d48d36b18c0edbe058625b01e73c65a5c6b7001f929ffb1e",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 73,
+    "prescription_sha256": "8821915586bac211d95c01d19b3bb8345e42c2e5f895afc967514b88b870e0ab",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 74,
+    "prescription_sha256": "31d24d7a2eeeb405750d7ec6fe43efd6fac10135ba0c6314bd7819ac7d945d2f",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 75,
+    "prescription_sha256": "467ef8477b5ec83b56bbc3bf1e39dc29e88e04bc1db1ddbceb5eb8a1e2a18cc6",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 76,
+    "prescription_sha256": "2f02454771af0fd8a28096b187b6db4d4fec5d798e96f593b9bd1aeed4050e65",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 77,
+    "prescription_sha256": "1d36b52a0090da6146895c6999332a1cb0d23fc1763c86091ad05af8f2cc0226",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 78,
+    "prescription_sha256": "d27f7d7514279f9ef9ca825519034796f7f4e029e2f733f882757c65afeb1d67",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 79,
+    "prescription_sha256": "6911be7aa4a8d28dbf5312d50e1943f42c43401756c2179f42f8f3709580fb15",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 80,
+    "prescription_sha256": "d293dbf80f8736a5b9db4f45d58004ff7c764cd63cba300dcd4317575ba249d0",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 81,
+    "prescription_sha256": "ef4ec92cff43d3d89a40e1bbb5a0b0d517538bb3746b3e6073e254d5754ccd84",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 82,
+    "prescription_sha256": "7d590ef4547866ee973f5fc711277cce581e8e32c202bb552a2775b7bfdcfbbe",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 83,
+    "prescription_sha256": "b632ea52653a50d0a1924d364684d2f3841f6a45abeac3296d6f67d3740a4c87",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 84,
+    "prescription_sha256": "f4938267d3f09fe3c53c9497e9d550719761100a1e883ac2cb6310b1488f6d21",
+    "target_success_mask": 6,
+    "successful_rules": [
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      2
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 85,
+    "prescription_sha256": "e4dd7dc81d50b00aed5c408cd1254c60be56084d7c5e4eb050c54ddce217bb5c",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 86,
+    "prescription_sha256": "78afe49b59c39d1d1514f99c210e1744dbf4c2141310bb8dad81c2d4e0df238e",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 87,
+    "prescription_sha256": "c348feb8b9c46b329ea89e636c87aed75c8c86cd8516f9f7de727077b285aca7",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 88,
+    "prescription_sha256": "3038aba23b5787fd6b007baf278b8aa3841af697a65875c3ee26f9643c27c857",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 89,
+    "prescription_sha256": "1a37434c97c7d5b611ee5ecdb61164553ed92991ee2ab176d7f3475ce947db91",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 90,
+    "prescription_sha256": "f9380775673c8a5dfcb38309f31b174209699dacd4b1e8b7fcc2712a0eff7a82",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 91,
+    "prescription_sha256": "f2b2b9cfff6db2cfda601d3c0ac85ea6fd40b639808ab07747b56fc917453e7b",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 92,
+    "prescription_sha256": "2b5de4a831ebbdaa8cec42673d7996af0acccc3002734bc6a0baa6a939d941eb",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 93,
+    "prescription_sha256": "28abe4d95ba469d6ebece2fb7645efc744a8ddee7c5719356ad371e3938471ae",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 94,
+    "prescription_sha256": "4bca2d47b16c13c71ddfca3e4276fc0dff171634451068c20ea06fb8e72dd807",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 95,
+    "prescription_sha256": "43f2d6af147dac8a1c2db6819ff2751e2dc7fcf4579a58bdcc6aaf37c2c89010",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "not_started_first_stage_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "field": "step_limit",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 96,
+    "prescription_sha256": "1fb7fa20e198f8c28662fc7fde7ac069229d065a8e0d0ae642df9ba5c0b71413",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "field_only",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "step_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 97,
+    "prescription_sha256": "90f2f5119c87699248ea06861fd9de39f4bfaf34a53fdc5425ede5da924c92eb",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 98,
+    "prescription_sha256": "3c30475a3b4dcebc2450fff3b844c6df71ab1b621ba2f8b04fdc3af178aaa106",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 99,
+    "prescription_sha256": "66ef7c79196c3d4179fcc24da8d9b11a2cc6e309cedc7175a7f09757444588c1",
+    "target_success_mask": 7,
+    "successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [
+      1,
+      2,
+      3
+    ],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "aperture": "target_reached",
+          "field": "target_reached"
+        }
+      },
+      "2": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      },
+      "3": {
+        "deficit_type": "none",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "target_reached"
+        }
+      }
+    }
+  },
+  {
+    "case_id": 100,
+    "prescription_sha256": "98c86ebdb062e16a465c0997b313f44b4ee674ef2d32de2d8b6a3b8b15bbe53b",
+    "target_success_mask": 0,
+    "successful_rules": [],
+    "pareto_endpoint_rules": [
+      1,
+      2,
+      3
+    ],
+    "least_requested_cycles_successful_rules": [],
+    "failure_details_by_rule": {
+      "1": {
+        "deficit_type": "both",
+        "stop_reasons": {
+          "aperture": "step_limit",
+          "field": "not_started_first_stage_limit"
+        }
+      },
+      "2": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      },
+      "3": {
+        "deficit_type": "aperture_only",
+        "stop_reasons": {
+          "field": "target_reached",
+          "aperture": "step_limit"
+        }
+      }
+    }
+  }
+]

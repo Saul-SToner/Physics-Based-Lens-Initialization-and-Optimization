@@ -1,0 +1,31 @@
+{
+  "definition": "entered iff any accepted-source result step has stage == aperture",
+  "contingency": [
+    {
+      "rule": 1,
+      "entered_aperture": true,
+      "f_number_500": false,
+      "n": 100
+    },
+    {
+      "rule": 2,
+      "entered_aperture": false,
+      "f_number_500": true,
+      "n": 11
+    },
+    {
+      "rule": 2,
+      "entered_aperture": true,
+      "f_number_500": false,
+      "n": 89
+    },
+    {
+      "rule": 3,
+      "entered_aperture": true,
+      "f_number_500": false,
+      "n": 100
+    }
+  ],
+  "observed_equivalence_in_batch_1_only": true,
+  "no_equivalence_assumed": true
+}

@@ -1,0 +1,21 @@
+{
+  "status": "frozen_before_pilot_outcome_read",
+  "scope": "Case 201-300",
+  "prescription_count": 100,
+  "rule_conditioned_rows": 300,
+  "models": "unchanged V2 RF/raw9 leaf=1 final models trained on Case 1-200",
+  "prediction_source": "third_batch_validation_freeze_v1/predictions_preoptimization.json",
+  "selection_source": "third_batch_validation_freeze_v1/rule_selection_preoptimization.json",
+  "model_metrics": ["MAE", "RMSE", "R2"],
+  "model_scopes": ["overall", "rule_1", "rule_2", "rule_3", "f_number_500", "non_f_number_500"],
+  "decision_primary_endpoint": "mean paired actual_gap(selected_rule) - actual_gap(fixed_Rule_3)",
+  "decision_secondary_endpoints": [
+    "selected target success rate",
+    "selected rule in true Pareto set",
+    "harm/equal/benefit counts",
+    "oracle regret"
+  ],
+  "target_gap": "max((F_number-20)/20,0) + max((5-field_deg)/5,0)",
+  "remaining_blinded_scope": "Case 301-700",
+  "no_refit_or_hyperparameter_change": true
+}

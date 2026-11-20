@@ -1,0 +1,55 @@
+{
+  "validated": true,
+  "validation_scope": "P1 cases 1,2,3; all three rules; 9 complete groups",
+  "ray_version": "2.60.0",
+  "ray_num_cpus": 16,
+  "ray_resources": {
+    "opticstudio_slot": 8
+  },
+  "task_num_cpus": 2,
+  "task_resources": {
+    "opticstudio_slot": 1
+  },
+  "ray_system_config": {
+    "prestart_worker_first_driver": false,
+    "enable_worker_prestart": false,
+    "num_workers_soft_limit": 8
+  },
+  "object_store_memory_bytes": 83886080,
+  "model_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "dls_cores": 2,
+  "dls_cycles_per_step": 50,
+  "v1_optical_workflow_manifest": "opticstudio_workflow_freeze_v1.json",
+  "resource_safety": {
+    "low_available_bytes": 268435456,
+    "low_memory_duration_seconds": 5,
+    "performance_slowdown_factor": 3,
+    "consecutive_slow_steps": 3,
+    "emergency_available_bytes": 134217728,
+    "emergency_system_commit_fraction": 0.95,
+    "automatic_task_retries": 0
+  },
+  "acceptance_sha256": "cb7fac532be1231ccbf361498a0d1b37f2126b8fb8ac859fff790f68c5db824b",
+  "regression_sha256": "c311bd9eb0401198c175c242f3b5084c823d3a7c1f22244b07abd195fe31cffe",
+  "sources_sha256": {
+    "run_ray_stress_v2.py": "042d2b7fe77a7ace230a3dcf89b80034607a8a7cc6d06778d2e485ea05dfebb8",
+    "ray_stress_worker_v2.py": "b2fde3b9d52f29e740ae08b64887b6cbefa202fbd7b9d406e6ee94490e12fdfb",
+    "run_thread_regression.py": "f8d98b3084f43d4a42a0887c0b5d6cd407cd89e286a50adb787460998b5a00bf",
+    "audit_ray_stress_v2.py": "f96b205b078a103a3e6dd688a45766930c0c2f8f67fce59560fb9da1760812ba",
+    "run_p1.py": "b4f5cc2a6d1883cddfd471a749dc819e1d1dbc1ea159f345cd5fbe004603c28a",
+    "p1_engine.py": "e78c40b22f5224b6bae6e8f5b3f31c53814841606aab4013e98256b59cb24a71"
+  },
+  "worker_observation": {
+    "unique_ray_execution_workers": 8,
+    "peak_worker_related_python_process_entries": 18,
+    "note": "Windows launcher PIDs and a transient prefetched worker are included in raw process counts; actual executing worker audit shows 8 unique worker PIDs."
+  },
+  "historical_files_verified": 133
+}

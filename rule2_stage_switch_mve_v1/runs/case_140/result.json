@@ -1,0 +1,1596 @@
+{
+  "case_id": 140,
+  "intervention": "Rule2 field-limit then aperture continuation",
+  "trigger_verified": true,
+  "historical_rule_2_result": "background_runs\\batch_300_20261118_02\\case_140_rule_2\\attempt_001\\experiment\\result.json",
+  "historical_rule_2_result_sha256": "a1653b8d6794f71e9e3a983a297b2a7d61376b4abf9eb758055a745d9f2b532f",
+  "baseline_lens_sha256": "d678e0f11f1240866909fcc1c94376594fabfe785df5f067482935f545761f23",
+  "settings": {
+    "dls_cycles_per_step": 50,
+    "cores": 2,
+    "glass_edge_target_mm": 0.002,
+    "hard_clearance_mm": 0.001,
+    "field_fixed_deg": 3.184675691046459
+  },
+  "stop_reason": "step_limit",
+  "steps": [
+    {
+      "working_f_number": 353.5,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 21.385760899999696,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 1.3664056098460492e-05,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.832415317808742,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7705399867305625,
+        "edge_air_gap": 24.867847811211846,
+        "lens_2_edge": 0.9516065734230272
+      },
+      "surface_radii_mm": [
+        4.404523326468096,
+        -4.426378546957751,
+        -6.368136411607819,
+        -3.988364214394656
+      ],
+      "first_vertex_to_image_mm": 30.92462866846733,
+      "object_image_b_mm": 0.0012368514139851072,
+      "magnification_error_at_image": 0.00040649770470757574,
+      "exit_pupil_b_mm": 0.0443265599493925,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.010917803580869561,
+          "mtf_frequency_lp_per_mm": 2.4095862981284744,
+          "mtf_tangential": 0.3885113856335091,
+          "mtf_sagittal": 0.3885113856335091,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 0.47655536951036,
+          "mtf_frequency_lp_per_mm": 2.0722442163904877,
+          "mtf_tangential": 0.4758430239358241,
+          "mtf_sagittal": 0.4701868546506395,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 0.8816951750282584,
+          "mtf_frequency_lp_per_mm": 1.686710408689932,
+          "mtf_tangential": 0.5635737061537003,
+          "mtf_sagittal": 0.5784314933582495,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 22.2219769000003,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 1,
+      "candidate_f_number": 353.5,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 249.9245,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 23.3710188999994,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 6.67261150611235e-05,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.826775804119478,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7705317006162372,
+        "edge_air_gap": 24.862185992484854,
+        "lens_2_edge": 0.9516420710316905
+      },
+      "surface_radii_mm": [
+        4.404557515530137,
+        -4.426031819111663,
+        -6.365629287016239,
+        -3.9884851299034483
+      ],
+      "first_vertex_to_image_mm": 30.918989154778068,
+      "object_image_b_mm": 0.0011310076349992926,
+      "magnification_error_at_image": 0.0005582763133693547,
+      "exit_pupil_b_mm": 0.07784341596787403,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.029895023139845777,
+          "mtf_frequency_lp_per_mm": 3.4081842972114207,
+          "mtf_tangential": 0.3884095444733108,
+          "mtf_sagittal": 0.3884095444733108,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 0.6931611506339836,
+          "mtf_frequency_lp_per_mm": 2.931038495601822,
+          "mtf_tangential": 0.47572110190463085,
+          "mtf_sagittal": 0.4700880276342309,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 1.137999635612132,
+          "mtf_frequency_lp_per_mm": 2.3857290080479943,
+          "mtf_tangential": 0.5195845509622364,
+          "mtf_sagittal": 0.5891615079277854,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 23.810993200000667,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 2,
+      "candidate_f_number": 249.9245,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 176.6966215,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 28.955194899999697,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00011496465064528332,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.759699886357417,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7704647618624958,
+        "edge_air_gap": 24.792914595344435,
+        "lens_2_edge": 0.9520979619033326
+      },
+      "surface_radii_mm": [
+        4.4244150911758995,
+        -4.40366237266663,
+        -6.151150675718538,
+        -3.918966924122855
+      ],
+      "first_vertex_to_image_mm": 30.851913237016007,
+      "object_image_b_mm": -0.0012269041741390652,
+      "magnification_error_at_image": 0.0016653970329860712,
+      "exit_pupil_b_mm": 0.2671996312048206,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.10387108464213676,
+          "mtf_frequency_lp_per_mm": 4.820628426041614,
+          "mtf_tangential": 0.38821198793450973,
+          "mtf_sagittal": 0.38821198793450973,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 1.0554105396408855,
+          "mtf_frequency_lp_per_mm": 4.145740446395788,
+          "mtf_tangential": 0.4758817030046602,
+          "mtf_sagittal": 0.4700378542032096,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 1.618494521196298,
+          "mtf_frequency_lp_per_mm": 3.3744398982291295,
+          "mtf_tangential": 0.5164654618942157,
+          "mtf_sagittal": 0.5890413654973996,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 29.370817400000305,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 3,
+      "candidate_f_number": 176.6966215,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 124.92451140049998,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 29.004393499999424,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.0002913464333913179,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.758322465823902,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7704663771684955,
+        "edge_air_gap": 24.791489923688076,
+        "lens_2_edge": 0.9521191192477887
+      },
+      "surface_radii_mm": [
+        4.424433943129085,
+        -4.403703919894553,
+        -6.1477306667053915,
+        -3.918237468013183
+      ],
+      "first_vertex_to_image_mm": 30.85053581648249,
+      "object_image_b_mm": -0.0007178768618985032,
+      "magnification_error_at_image": 0.0015332422611109564,
+      "exit_pupil_b_mm": 0.2825049068027248,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.24940399473023814,
+          "mtf_frequency_lp_per_mm": 6.8184277596062435,
+          "mtf_tangential": 0.3878094168414099,
+          "mtf_sagittal": 0.3878094168414099,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 1.6271152757385448,
+          "mtf_frequency_lp_per_mm": 5.86384787326137,
+          "mtf_tangential": 0.4753149785657299,
+          "mtf_sagittal": 0.46963094149445517,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 2.0560555817016275,
+          "mtf_frequency_lp_per_mm": 4.77289943172437,
+          "mtf_tangential": 0.4580736573434857,
+          "mtf_sagittal": 0.5868616536749608,
+          "mtf_threshold": 0.5,
+          "meets_threshold": false
+        }
+      ],
+      "accepted": false,
+      "attempt_wall_seconds": 29.448722299999645,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 4,
+      "candidate_f_number": 124.92451140049998,
+      "rejection_reasons": [
+        "field_3_mtf"
+      ]
+    },
+    {
+      "working_f_number": 148.57233627767513,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 30.486494099999618,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.0001834619799704388,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.756348571432213,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7704660263755765,
+        "edge_air_gap": 24.78952664469109,
+        "lens_2_edge": 0.9521271240934591
+      },
+      "surface_radii_mm": [
+        4.424437520352269,
+        -4.403687300458059,
+        -6.148484182426606,
+        -3.918768177685163
+      ],
+      "first_vertex_to_image_mm": 30.848561922090802,
+      "object_image_b_mm": -0.00045033793315241155,
+      "magnification_error_at_image": 0.0017383354338136314,
+      "exit_pupil_b_mm": 0.29241803599708494,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.15259516682979005,
+          "mtf_frequency_lp_per_mm": 5.733158525531026,
+          "mtf_tangential": 0.38804636801416365,
+          "mtf_sagittal": 0.38804636801416365,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 1.296346137753448,
+          "mtf_frequency_lp_per_mm": 4.9305163319566825,
+          "mtf_tangential": 0.47566367729223147,
+          "mtf_sagittal": 0.4698744984261984,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 1.8210327518942828,
+          "mtf_frequency_lp_per_mm": 4.013210967871718,
+          "mtf_tangential": 0.48986446046545384,
+          "mtf_sagittal": 0.5885482297086151,
+          "mtf_threshold": 0.5,
+          "meets_threshold": false
+        }
+      ],
+      "accepted": false,
+      "attempt_wall_seconds": 30.937617800000226,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 5,
+      "candidate_f_number": 148.57233627767513,
+      "rejection_reasons": [
+        "field_3_mtf"
+      ]
+    },
+    {
+      "working_f_number": 162.02539883804354,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 16.80348270000013,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00014503658857643108,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.757627334547763,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7704652617789178,
+        "edge_air_gap": 24.790809414070928,
+        "lens_2_edge": 0.9521237374573992
+      },
+      "surface_radii_mm": [
+        4.4244224149888405,
+        -4.403673756013759,
+        -6.148754151531856,
+        -3.9187756627825565
+      ],
+      "first_vertex_to_image_mm": 30.849840685206352,
+      "object_image_b_mm": -0.000747800734313131,
+      "magnification_error_at_image": 0.0015534334404128103,
+      "exit_pupil_b_mm": 0.28856062384487213,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.1241144637654893,
+          "mtf_frequency_lp_per_mm": 5.257131057827804,
+          "mtf_tangential": 0.38813659095578434,
+          "mtf_sagittal": 0.38813659095578434,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 1.167115054232646,
+          "mtf_frequency_lp_per_mm": 4.521132709731911,
+          "mtf_tangential": 0.4757861460681947,
+          "mtf_sagittal": 0.4699646441653328,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 1.692821720352146,
+          "mtf_frequency_lp_per_mm": 3.6799917404794624,
+          "mtf_tangential": 0.5034060794867318,
+          "mtf_sagittal": 0.5892350960920353,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 17.0486891999999,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 6,
+      "candidate_f_number": 162.02539883804354,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 148.57233627767513,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 22.39887910000016,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00013783445465485208,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.49046145729058,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7697901249139683,
+        "edge_air_gap": 24.506217257890416,
+        "lens_2_edge": 0.9536428937386857
+      },
+      "surface_radii_mm": [
+        4.33252617976722,
+        -4.472622997447956,
+        -5.178593604564243,
+        -3.548343806223196
+      ],
+      "first_vertex_to_image_mm": 30.582674807949168,
+      "object_image_b_mm": 0.0008657711262927137,
+      "magnification_error_at_image": 0.001284296968554699,
+      "exit_pupil_b_mm": 0.2546762435187935,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.1398644680990083,
+          "mtf_frequency_lp_per_mm": 5.733158525531026,
+          "mtf_tangential": 0.38803685910881935,
+          "mtf_sagittal": 0.38803685910881935,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 1.3500623363494932,
+          "mtf_frequency_lp_per_mm": 4.9305163319566825,
+          "mtf_tangential": 0.4782789144013253,
+          "mtf_sagittal": 0.4707789238178276,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 1.9466915001282037,
+          "mtf_frequency_lp_per_mm": 4.013210967871718,
+          "mtf_tangential": 0.5126603759308406,
+          "mtf_sagittal": 0.5903804096818798,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 22.67432540000027,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 7,
+      "candidate_f_number": 148.57233627767513,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 136.23628928123134,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 38.69077479999942,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00017946498646843689,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.490483195538342,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7697901340818556,
+        "edge_air_gap": 24.506238809157516,
+        "lens_2_edge": 0.9536425680438108
+      },
+      "surface_radii_mm": [
+        4.33252626745585,
+        -4.472623256739396,
+        -5.178584208181409,
+        -3.5483318300612514
+      ],
+      "first_vertex_to_image_mm": 30.58269654619693,
+      "object_image_b_mm": 0.0008626322810094678,
+      "magnification_error_at_image": 0.0012865498744449866,
+      "exit_pupil_b_mm": 0.2543541893888266,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.17997956443684252,
+          "mtf_frequency_lp_per_mm": 6.252289759816313,
+          "mtf_tangential": 0.3879273197774826,
+          "mtf_sagittal": 0.3879273197774826,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 1.5070001737639762,
+          "mtf_frequency_lp_per_mm": 5.376969193442029,
+          "mtf_tangential": 0.4781110344241795,
+          "mtf_sagittal": 0.4706649472672364,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 2.098790953443359,
+          "mtf_frequency_lp_per_mm": 4.376602831871419,
+          "mtf_tangential": 0.4979597537942072,
+          "mtf_sagittal": 0.5893214832394275,
+          "mtf_threshold": 0.5,
+          "meets_threshold": false
+        }
+      ],
+      "accepted": false,
+      "attempt_wall_seconds": 39.10761989999992,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 8,
+      "candidate_f_number": 136.23628928123134,
+      "rejection_reasons": [
+        "field_3_mtf"
+      ]
+    },
+    {
+      "working_f_number": 142.27067085071937,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 21.358997000000272,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00012744835379653257,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.310578856007137,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7694341830115783,
+        "edge_air_gap": 24.31404413744998,
+        "lens_2_edge": 0.9549903530497236
+      },
+      "surface_radii_mm": [
+        4.314706208751473,
+        -4.47804744704288,
+        -4.616088471960617,
+        -3.310880668952745
+      ],
+      "first_vertex_to_image_mm": 30.402792206665726,
+      "object_image_b_mm": 0.0008373113842097268,
+      "magnification_error_at_image": 0.0010856832888368473,
+      "exit_pupil_b_mm": 0.20795666092425513,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.1597474307887768,
+          "mtf_frequency_lp_per_mm": 5.987100161228408,
+          "mtf_tangential": 0.38797958854822356,
+          "mtf_sagittal": 0.38797958854822356,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 1.472566008248567,
+          "mtf_frequency_lp_per_mm": 5.148906138656431,
+          "mtf_tangential": 0.48040382001138776,
+          "mtf_sagittal": 0.47148502630263883,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 2.2140489190547217,
+          "mtf_frequency_lp_per_mm": 4.190970112859886,
+          "mtf_tangential": 0.5204354529124152,
+          "mtf_sagittal": 0.5908553362481852,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 21.788606500000242,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 9,
+      "candidate_f_number": 142.27067085071937,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 136.23628928123134,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 36.105488299999706,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.0001463113964703078,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.310610713945582,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7694342976133652,
+        "edge_air_gap": 24.314074960702033,
+        "lens_2_edge": 0.9549897510125569
+      },
+      "surface_radii_mm": [
+        4.314707115234491,
+        -4.478050891230931,
+        -4.616049604035632,
+        -3.3108490819606926
+      ],
+      "first_vertex_to_image_mm": 30.40282406460417,
+      "object_image_b_mm": 0.0008453300272215358,
+      "magnification_error_at_image": 0.0010935317736979755,
+      "exit_pupil_b_mm": 0.2073006162047628,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.1810948537866746,
+          "mtf_frequency_lp_per_mm": 6.252289759816313,
+          "mtf_tangential": 0.38792195936014573,
+          "mtf_sagittal": 0.38792195936014573,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 1.555580722135971,
+          "mtf_frequency_lp_per_mm": 5.376969193442029,
+          "mtf_tangential": 0.48031021902630067,
+          "mtf_sagittal": 0.471423967238391,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 2.2178492633964813,
+          "mtf_frequency_lp_per_mm": 4.376602831871419,
+          "mtf_tangential": 0.5132407466389725,
+          "mtf_sagittal": 0.5909081023273525,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 36.5268245999996,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 10,
+      "candidate_f_number": 136.23628928123134,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 130.45785477875603,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 37.56058690000009,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.0001683548942897741,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 24.310630912975036,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7694343177643581,
+        "edge_air_gap": 24.314094272268292,
+        "lens_2_edge": 0.9549895517736658
+      },
+      "surface_radii_mm": [
+        4.3147064066151986,
+        -4.478052434653393,
+        -4.61601476465536,
+        -3.3108277170668448
+      ],
+      "first_vertex_to_image_mm": 30.402844263633625,
+      "object_image_b_mm": 0.0008448789846156046,
+      "magnification_error_at_image": 0.001093958021301411,
+      "exit_pupil_b_mm": 0.2070110784275112,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.205492801514912,
+          "mtf_frequency_lp_per_mm": 6.529225532896946,
+          "mtf_tangential": 0.38785907057401287,
+          "mtf_sagittal": 0.38785907057401287,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 1.6447562401974878,
+          "mtf_frequency_lp_per_mm": 5.6151339582913735,
+          "mtf_tangential": 0.48020518949431285,
+          "mtf_sagittal": 0.4713567025205888,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 2.289638123025817,
+          "mtf_frequency_lp_per_mm": 4.570457873027862,
+          "mtf_tangential": 0.506119600173989,
+          "mtf_sagittal": 0.590691050433092,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 38.00256910000007,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 11,
+      "candidate_f_number": 130.45785477875603,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 124.9245114005,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 25.937703300000067,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00012659453970730454,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.9458286443172,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7693546331747093,
+        "edge_air_gap": 23.922250916193637,
+        "lens_2_edge": 0.9595263478899121
+      },
+      "surface_radii_mm": [
+        4.536459833523348,
+        -4.259274881553483,
+        -3.5768285521380774,
+        -2.8222094822326476
+      ],
+      "first_vertex_to_image_mm": 30.03804199497579,
+      "object_image_b_mm": 0.0012364587088065093,
+      "magnification_error_at_image": 0.0006866968414485086,
+      "exit_pupil_b_mm": 0.11430710439493552,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.22116653317468526,
+          "mtf_frequency_lp_per_mm": 6.8184277596062435,
+          "mtf_tangential": 0.3878016785858322,
+          "mtf_sagittal": 0.3878016785858322,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 1.825667850397595,
+          "mtf_frequency_lp_per_mm": 5.86384787326137,
+          "mtf_tangential": 0.48684230141022966,
+          "mtf_sagittal": 0.47359996839342683,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 2.7050699678745835,
+          "mtf_frequency_lp_per_mm": 4.77289943172437,
+          "mtf_tangential": 0.5321324962049645,
+          "mtf_sagittal": 0.5947815490992302,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 26.36239579999983,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 12,
+      "candidate_f_number": 124.9245114005,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 119.62586365627546,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 21.801419100000203,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00011869528786719533,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.696901923026143,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7688549192964136,
+        "edge_air_gap": 23.65497061863981,
+        "lens_2_edge": 0.9623931617182189
+      },
+      "surface_radii_mm": [
+        4.515515031003021,
+        -4.2603544782044835,
+        -3.1869349850364155,
+        -2.617387600754901
+      ],
+      "first_vertex_to_image_mm": 29.789115273684732,
+      "object_image_b_mm": 0.0010602420653746947,
+      "magnification_error_at_image": 0.000521858198615277,
+      "exit_pupil_b_mm": 0.06946511489967033,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.25561319485650513,
+          "mtf_frequency_lp_per_mm": 7.120439764062106,
+          "mtf_tangential": 0.3877201862611259,
+          "mtf_sagittal": 0.3877201862611259,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 2.025110496181297,
+          "mtf_frequency_lp_per_mm": 6.123578197093411,
+          "mtf_tangential": 0.490653790361765,
+          "mtf_sagittal": 0.47487413508188536,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 3.101910493161571,
+          "mtf_frequency_lp_per_mm": 4.984307834843474,
+          "mtf_tangential": 0.5445309094677557,
+          "mtf_sagittal": 0.5963431089985073,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 22.223208600000362,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 13,
+      "candidate_f_number": 119.62586365627546,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 114.55195697849678,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 22.920537499999227,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00013085600410112563,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.695661044040563,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7688544192324211,
+        "edge_air_gap": 23.65372516960679,
+        "lens_2_edge": 0.9624058620283407
+      },
+      "surface_radii_mm": [
+        4.516243084730803,
+        -4.259692278267625,
+        -3.186491272954854,
+        -2.617254769664784
+      ],
+      "first_vertex_to_image_mm": 29.787874394699152,
+      "object_image_b_mm": 0.001005400712688953,
+      "magnification_error_at_image": 0.0005591068462988957,
+      "exit_pupil_b_mm": 0.07740277039197352,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.2913094864426807,
+          "mtf_frequency_lp_per_mm": 7.43582893610722,
+          "mtf_tangential": 0.3876394248256701,
+          "mtf_sagittal": 0.3876394248256701,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 2.141983921743994,
+          "mtf_frequency_lp_per_mm": 6.394812885052209,
+          "mtf_tangential": 0.4904678465205507,
+          "mtf_sagittal": 0.4747766804101218,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 3.2473217013113143,
+          "mtf_frequency_lp_per_mm": 5.205080255275054,
+          "mtf_tangential": 0.5387275582868378,
+          "mtf_sagittal": 0.5959353097657203,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 23.358247800000754,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 14,
+      "candidate_f_number": 114.55195697849678,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 109.69325902053791,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 38.65236659999937,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00014991003528797424,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.6956874746162,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7688546582803091,
+        "edge_air_gap": 23.653749783109163,
+        "lens_2_edge": 0.9624059752796196
+      },
+      "surface_radii_mm": [
+        4.516238198232197,
+        -4.259704919402532,
+        -3.1864639526920544,
+        -2.6172384433484233
+      ],
+      "first_vertex_to_image_mm": 29.78790082527479,
+      "object_image_b_mm": 0.001034401499541815,
+      "magnification_error_at_image": 0.0005586249227391704,
+      "exit_pupil_b_mm": 0.07725537861882348,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.3306338492346319,
+          "mtf_frequency_lp_per_mm": 7.765187797264143,
+          "mtf_tangential": 0.3875505204408638,
+          "mtf_sagittal": 0.3875505204408638,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 2.2668309634612083,
+          "mtf_frequency_lp_per_mm": 6.678061505647163,
+          "mtf_tangential": 0.4902598205249799,
+          "mtf_sagittal": 0.47466916389963265,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 3.259742886893618,
+          "mtf_frequency_lp_per_mm": 5.4356314580849,
+          "mtf_tangential": 0.5318636822603223,
+          "mtf_sagittal": 0.5958312894487378,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 39.077961799999684,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 15,
+      "candidate_f_number": 109.69325902053791,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 105.0406417483163,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 26.93398849999994,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00016955637039399628,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.695568834377386,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7688557669615962,
+        "edge_air_gap": 23.653629895739403,
+        "lens_2_edge": 0.9624087741024838
+      },
+      "surface_radii_mm": [
+        4.516254946442393,
+        -4.259728654604568,
+        -3.1864533385995375,
+        -2.6172656549402564
+      ],
+      "first_vertex_to_image_mm": 29.787782185035976,
+      "object_image_b_mm": 0.001200569951308239,
+      "magnification_error_at_image": 0.0005576045711359612,
+      "exit_pupil_b_mm": 0.07958390956417638,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.3731931666079972,
+          "mtf_frequency_lp_per_mm": 8.109135113905271,
+          "mtf_tangential": 0.3874536415745824,
+          "mtf_sagittal": 0.3874536415745824,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 2.3992292831227098,
+          "mtf_frequency_lp_per_mm": 6.973856197958533,
+          "mtf_tangential": 0.49002605654747355,
+          "mtf_sagittal": 0.47455087254316297,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 3.3687817659638575,
+          "mtf_frequency_lp_per_mm": 5.67639457973369,
+          "mtf_tangential": 0.5250011445570274,
+          "mtf_sagittal": 0.5953388888479804,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 27.35883400000057,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 16,
+      "candidate_f_number": 105.0406417483163,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 100.58536429145857,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 37.14023510000061,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00019296662107922877,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.695609792068222,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7688559802194129,
+        "edge_air_gap": 23.65366917586005,
+        "lens_2_edge": 0.9624086887563529
+      },
+      "surface_radii_mm": [
+        4.516253829534483,
+        -4.259737061353266,
+        -3.1864263528475925,
+        -2.617247125844843
+      ],
+      "first_vertex_to_image_mm": 29.78782314272681,
+      "object_image_b_mm": 0.0012219311064853855,
+      "magnification_error_at_image": 0.0005572852352289104,
+      "exit_pupil_b_mm": 0.07926197233733578,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.42422355230842484,
+          "mtf_frequency_lp_per_mm": 8.468317059729008,
+          "mtf_tangential": 0.38734738537756397,
+          "mtf_sagittal": 0.38734738537756397,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 2.5442532496166432,
+          "mtf_frequency_lp_per_mm": 7.282752671366947,
+          "mtf_tangential": 0.4897569242048949,
+          "mtf_sagittal": 0.4744180943156689,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 3.5252202466087805,
+          "mtf_frequency_lp_per_mm": 5.927821941810305,
+          "mtf_tangential": 0.5179582130247667,
+          "mtf_sagittal": 0.5946157614308895,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 37.55788829999983,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 17,
+      "candidate_f_number": 100.58536429145857,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 96.31905652183053,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 30.49471470000026,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00021602824962396492,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.6778696769741,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7688535946697068,
+        "edge_air_gap": 23.634446283987884,
+        "lens_2_edge": 0.9627093117516591
+      },
+      "surface_radii_mm": [
+        4.52877613126087,
+        -4.248629269117724,
+        -3.1529268872580944,
+        -2.599090997094013
+      ],
+      "first_vertex_to_image_mm": 29.77008302763269,
+      "object_image_b_mm": 0.0012681923259947325,
+      "magnification_error_at_image": 0.0005381985286305735,
+      "exit_pupil_b_mm": 0.06898716597764043,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.4811644225059436,
+          "mtf_frequency_lp_per_mm": 8.843408429726047,
+          "mtf_tangential": 0.38723145564276684,
+          "mtf_sagittal": 0.38723145564276684,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 2.70746514870318,
+          "mtf_frequency_lp_per_mm": 7.6053312495644,
+          "mtf_tangential": 0.4898586091397988,
+          "mtf_sagittal": 0.47441084404866113,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 3.711983708015343,
+          "mtf_frequency_lp_per_mm": 6.1903859008082325,
+          "mtf_tangential": 0.5117597456538072,
+          "mtf_sagittal": 0.593717709539566,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 30.931247900000017,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 18,
+      "candidate_f_number": 96.31905652183053,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 92.2337033285805,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 37.05580839999948,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00024570778686246766,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.677910390692137,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7688537640671306,
+        "edge_air_gap": 23.634485315951412,
+        "lens_2_edge": 0.9627096363799416
+      },
+      "surface_radii_mm": [
+        4.5287749764885,
+        -4.248636140383108,
+        -3.152899644381533,
+        -2.599077106098146
+      ],
+      "first_vertex_to_image_mm": 29.770123741350726,
+      "object_image_b_mm": 0.001285238235844588,
+      "magnification_error_at_image": 0.0005297761672311552,
+      "exit_pupil_b_mm": 0.06899090919843864,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.5473258611180938,
+          "mtf_frequency_lp_per_mm": 9.235113907916473,
+          "mtf_tangential": 0.3871041411704083,
+          "mtf_sagittal": 0.3871041411704083,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 2.8771281733982996,
+          "mtf_frequency_lp_per_mm": 7.9421979608081665,
+          "mtf_tangential": 0.4895030578651588,
+          "mtf_sagittal": 0.4742445379923672,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 3.87134487877368,
+          "mtf_frequency_lp_per_mm": 6.46457973554153,
+          "mtf_tangential": 0.504636811899409,
+          "mtf_sagittal": 0.5921483877842931,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 37.4866677,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 19,
+      "candidate_f_number": 92.2337033285805,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 88.32162956015348,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 35.078974899999594,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.0002775524064604968,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.677984206056664,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7688540509469585,
+        "edge_air_gap": 23.634555924779804,
+        "lens_2_edge": 0.9627099573516251
+      },
+      "surface_radii_mm": [
+        4.528772348819394,
+        -4.248648365515395,
+        -3.152847237701651,
+        -2.5990467446315453
+      ],
+      "first_vertex_to_image_mm": 29.770197556715253,
+      "object_image_b_mm": 0.0013129218157210687,
+      "magnification_error_at_image": 0.0005189361492972111,
+      "exit_pupil_b_mm": 0.06875443244457724,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.6224816585187185,
+          "mtf_frequency_lp_per_mm": 9.644169391239384,
+          "mtf_tangential": 0.38696451141136495,
+          "mtf_sagittal": 0.38696451141136495,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 3.060815936735727,
+          "mtf_frequency_lp_per_mm": 8.29398567646587,
+          "mtf_tangential": 0.4890947456821093,
+          "mtf_sagittal": 0.47405806049883725,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 4.0573661316196326,
+          "mtf_frequency_lp_per_mm": 6.750918573867568,
+          "mtf_tangential": 0.4975503303761155,
+          "mtf_sagittal": 0.590942107143824,
+          "mtf_threshold": 0.5,
+          "meets_threshold": false
+        }
+      ],
+      "accepted": false,
+      "attempt_wall_seconds": 35.49379919999956,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 20,
+      "candidate_f_number": 88.32162956015348,
+      "rejection_reasons": [
+        "field_3_mtf"
+      ]
+    },
+    {
+      "working_f_number": 90.25647333209946,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 35.0888718999995,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.00026048925826361685,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.677978988577554,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.768853932368497,
+        "edge_air_gap": 23.634550667119605,
+        "lens_2_edge": 0.9627099522156348
+      },
+      "surface_radii_mm": [
+        4.528770342149766,
+        -4.248646020197271,
+        -3.152845254459194,
+        -2.599045388424887
+      ],
+      "first_vertex_to_image_mm": 29.770192339236143,
+      "object_image_b_mm": 0.0012991791891110438,
+      "magnification_error_at_image": 0.0005174661662454838,
+      "exit_pupil_b_mm": 0.06873786320951236,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.5836817185832068,
+          "mtf_frequency_lp_per_mm": 9.437425648731608,
+          "mtf_tangential": 0.38703591933158416,
+          "mtf_sagittal": 0.38703591933158416,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 2.9671332936271857,
+          "mtf_frequency_lp_per_mm": 8.116186057909182,
+          "mtf_tangential": 0.48930659931762305,
+          "mtf_sagittal": 0.474154182967981,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 3.9629733909865075,
+          "mtf_frequency_lp_per_mm": 6.606197954112125,
+          "mtf_tangential": 0.5011903237215476,
+          "mtf_sagittal": 0.59218557289478,
+          "mtf_threshold": 0.5,
+          "meets_threshold": true
+        }
+      ],
+      "accepted": true,
+      "attempt_wall_seconds": 35.51016980000077,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 21,
+      "candidate_f_number": 90.25647333209946,
+      "rejection_reasons": []
+    },
+    {
+      "working_f_number": 88.32162956015347,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 34.03705330000048,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.0002775515841378385,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.67798147710968,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7688539409813878,
+        "edge_air_gap": 23.634552140165866,
+        "lens_2_edge": 0.9627099381967317
+      },
+      "surface_radii_mm": [
+        4.5287701789233425,
+        -4.248646461067927,
+        -3.152826836594691,
+        -2.599033197466723
+      ],
+      "first_vertex_to_image_mm": 29.770194827768268,
+      "object_image_b_mm": 0.0013002496879011005,
+      "magnification_error_at_image": 0.0005183992076966959,
+      "exit_pupil_b_mm": 0.06857279668665317,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.6227263418473526,
+          "mtf_frequency_lp_per_mm": 9.644169391239384,
+          "mtf_tangential": 0.38696447068573264,
+          "mtf_sagittal": 0.38696447068573264,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 3.061044741112963,
+          "mtf_frequency_lp_per_mm": 8.29398567646587,
+          "mtf_tangential": 0.489094604250247,
+          "mtf_sagittal": 0.4740579869098796,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 4.0575997101974925,
+          "mtf_frequency_lp_per_mm": 6.750918573867568,
+          "mtf_tangential": 0.49755031949681017,
+          "mtf_sagittal": 0.5909419823917824,
+          "mtf_threshold": 0.5,
+          "meets_threshold": false
+        }
+      ],
+      "accepted": false,
+      "attempt_wall_seconds": 34.475954000000456,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 22,
+      "candidate_f_number": 88.32162956015347,
+      "rejection_reasons": [
+        "field_3_mtf"
+      ]
+    },
+    {
+      "working_f_number": 89.28381041960272,
+      "max_field_deg": 3.184675691046459,
+      "dls_seconds": 36.63462320000053,
+      "dls_requested_cycles": 50,
+      "dls_completed_cycles": null,
+      "final_merit": 0.0002694512882816103,
+      "geometry_valid": true,
+      "geometry_violations": [],
+      "clearances_mm": {
+        "lens_1_center": 1.0,
+        "axial_air_gap": 23.678000992222703,
+        "lens_2_center": 1.0,
+        "lens_1_edge": 0.7688540235857436,
+        "edge_air_gap": 23.634572286501967,
+        "lens_2_edge": 0.9627098409218123
+      },
+      "surface_radii_mm": [
+        4.5287714929477065,
+        -4.248648168294302,
+        -3.1528393369787118,
+        -2.5990401911818317
+      ],
+      "first_vertex_to_image_mm": 29.770214342881292,
+      "object_image_b_mm": 0.0013066747381635935,
+      "magnification_error_at_image": 0.0005175330999884764,
+      "exit_pupil_b_mm": 0.06857805657722071,
+      "spot_radius_units": "um",
+      "fields": [
+        {
+          "field_deg": 0.0,
+          "rms_spot_radius": 0.6027540589469653,
+          "mtf_frequency_lp_per_mm": 9.540237500900847,
+          "mtf_tangential": 0.38700061049547896,
+          "mtf_sagittal": 0.38700061049547896,
+          "mtf_threshold": 0.3,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 2.2515657135698466,
+          "rms_spot_radius": 3.0134958945453643,
+          "mtf_frequency_lp_per_mm": 8.204604250774729,
+          "mtf_tangential": 0.4892027676075584,
+          "mtf_sagittal": 0.4741068921207496,
+          "mtf_threshold": 0.4,
+          "meets_threshold": true
+        },
+        {
+          "field_deg": 3.184675691046459,
+          "rms_spot_radius": 4.00981439511903,
+          "mtf_frequency_lp_per_mm": 6.678166250630593,
+          "mtf_tangential": 0.4992439133673496,
+          "mtf_sagittal": 0.5912784573031242,
+          "mtf_threshold": 0.5,
+          "meets_threshold": false
+        }
+      ],
+      "accepted": false,
+      "attempt_wall_seconds": 37.05854550000004,
+      "case_id": 140,
+      "stage": "aperture_after_field_limit",
+      "step": 23,
+      "candidate_f_number": 89.28381041960272,
+      "rejection_reasons": [
+        "field_3_mtf"
+      ]
+    }
+  ],
+  "final_accepted": {
+    "working_f_number": 90.25647333209946,
+    "max_field_deg": 3.184675691046459,
+    "dls_seconds": 35.0888718999995,
+    "dls_requested_cycles": 50,
+    "dls_completed_cycles": null,
+    "final_merit": 0.00026048925826361685,
+    "geometry_valid": true,
+    "geometry_violations": [],
+    "clearances_mm": {
+      "lens_1_center": 1.0,
+      "axial_air_gap": 23.677978988577554,
+      "lens_2_center": 1.0,
+      "lens_1_edge": 0.768853932368497,
+      "edge_air_gap": 23.634550667119605,
+      "lens_2_edge": 0.9627099522156348
+    },
+    "surface_radii_mm": [
+      4.528770342149766,
+      -4.248646020197271,
+      -3.152845254459194,
+      -2.599045388424887
+    ],
+    "first_vertex_to_image_mm": 29.770192339236143,
+    "object_image_b_mm": 0.0012991791891110438,
+    "magnification_error_at_image": 0.0005174661662454838,
+    "exit_pupil_b_mm": 0.06873786320951236,
+    "spot_radius_units": "um",
+    "fields": [
+      {
+        "field_deg": 0.0,
+        "rms_spot_radius": 0.5836817185832068,
+        "mtf_frequency_lp_per_mm": 9.437425648731608,
+        "mtf_tangential": 0.38703591933158416,
+        "mtf_sagittal": 0.38703591933158416,
+        "mtf_threshold": 0.3,
+        "meets_threshold": true
+      },
+      {
+        "field_deg": 2.2515657135698466,
+        "rms_spot_radius": 2.9671332936271857,
+        "mtf_frequency_lp_per_mm": 8.116186057909182,
+        "mtf_tangential": 0.48930659931762305,
+        "mtf_sagittal": 0.474154182967981,
+        "mtf_threshold": 0.4,
+        "meets_threshold": true
+      },
+      {
+        "field_deg": 3.184675691046459,
+        "rms_spot_radius": 3.9629733909865075,
+        "mtf_frequency_lp_per_mm": 6.606197954112125,
+        "mtf_tangential": 0.5011903237215476,
+        "mtf_sagittal": 0.59218557289478,
+        "mtf_threshold": 0.5,
+        "meets_threshold": true
+      }
+    ],
+    "accepted": true,
+    "attempt_wall_seconds": 35.51016980000077,
+    "case_id": 140,
+    "stage": "aperture_after_field_limit",
+    "step": 21,
+    "candidate_f_number": 90.25647333209946,
+    "rejection_reasons": []
+  },
+  "incremental_cost": {
+    "dls_calls": 23,
+    "requested_dls_cycles": 1150,
+    "dls_seconds": 687.8973675999969,
+    "wall_seconds": 699.2829904
+  }
+}

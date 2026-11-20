@@ -1,0 +1,24 @@
+{
+  "opticstudio_version": "2024 R1.00",
+  "settings": {
+    "initial_working_f_number": 500,
+    "initial_max_field_deg": 1,
+    "target_working_f_number": 20,
+    "target_max_field_deg": 5,
+    "dls_cycles_per_step": 50,
+    "glass_edge_target_mm": 0.002,
+    "minimum_clearance_mm": 0.001
+  },
+  "sha256": {
+    "opticstudio_comparison/C_restored_conjugates.zmx": "a80762eda59e78220ffad222fc79e8e9a2bc95392ab1ff6becd099ea2ba356ff",
+    "opticstudio_rule_1_edge_margin/rule_1.zmx": "f97fff3b285a41a07992a15ff51b5b35760218d692513cac16776d7f0fe8ec73",
+    "opticstudio_rule_1_edge_margin/rules.json": "cf2dbb1689a1b80f5af81f173ff8fc5c2515e981d74a8c817129a25e93234546",
+    "opticstudio_rule_2_edge_margin/rule_2.zmx": "88061be108d64e7fab1463ba530482778c85d8bb3f419378cbd96d5aea7fb711",
+    "opticstudio_rule_2_edge_margin/rules.json": "c989c8f0ccfc55cf3f82abd3f22dc6abaab75f58bcf16b06fbe91ce282d2bd1d",
+    "optimize_opticstudio_rules.py": "82fa9076732ac7a62c384cafdc2b56b38e63efb1ee1407209761288a04c80e55",
+    "analyze_opticstudio.py": "ad662f77b23d2df3f4c1edc2aa7590770c038284ad7ce1837c60a08e8dfdc6ba",
+    "compare_opticstudio.py": "a3cbb4c3142c3ada041692aaef51b4ed42f8eabb9c10a8cd5bb1fd9e1a22c907",
+    "lens_geometry.py": "14c666fc8ee7371678da1c93dabaed89fd073bb566b406ece418a79849acc3c7",
+    "two_lens.py": "3ee7d1fa20d7ec19c3e81b62a1c32cd0d5590292814651570eff714246fd2833"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "model": "random_forest/raw9 OOF",
+  "absolute_error_quantiles": {
+    "0": 0.24668288280293638,
+    "0.25": 3.1182690674773212,
+    "0.5": 6.736494754970247,
+    "0.75": 18.01695179756387,
+    "0.9": 70.22109747656928,
+    "0.95": 123.36680118216572,
+    "1": 365.2348571966314
+  },
+  "by_rule": [
+    {
+      "rule": 1,
+      "n": 100,
+      "mae": 15.85549677130295,
+      "rmse": 26.776313469173118,
+      "r2": 0.10127354994335869,
+      "median_absolute_error": 7.593437531433095,
+      "p90_absolute_error": 39.419016377996336,
+      "maximum_absolute_error": 95.51270078658123,
+      "share_total_absolute_error": 0.20629772336217048,
+      "share_total_squared_error": 0.0680416175173035,
+      "under_predictions": 18,
+      "over_predictions": 82
+    },
+    {
+      "rule": 2,
+      "n": 100,
+      "mae": 54.68394271906258,
+      "rmse": 98.48744409328498,
+      "r2": 0.5501364707618306,
+      "median_absolute_error": 17.332020000159368,
+      "p90_absolute_error": 178.3840717349702,
+      "maximum_absolute_error": 365.2348571966314,
+      "share_total_absolute_error": 0.7114991759720752,
+      "share_total_squared_error": 0.9205233216909997,
+      "under_predictions": 19,
+      "over_predictions": 81
+    },
+    {
+      "rule": 3,
+      "n": 100,
+      "mae": 6.317912655336463,
+      "rmse": 10.976975828255554,
+      "r2": 0.5458652757622792,
+      "median_absolute_error": 4.29825293979969,
+      "p90_absolute_error": 11.656157338321712,
+      "maximum_absolute_error": 73.89677333592363,
+      "share_total_absolute_error": 0.08220310066575423,
+      "share_total_squared_error": 0.011435060791696957,
+      "under_predictions": 29,
+      "over_predictions": 71
+    }
+  ],
+  "f500_subset": {
+    "n": 11,
+    "mae": 241.98197857533577,
+    "rmse": 255.56726200317527,
+    "r2": 0.0,
+    "mean_error": -241.98197857533577,
+    "share_total_absolute_error": 0.346330141491551,
+    "share_total_squared_error": 0.6818301282189786
+  },
+  "non_f500": {
+    "n": 289,
+    "mae": 17.38385276900175,
+    "rmse": 34.05995533273125,
+    "r2": -1.5609862242462111
+  },
+  "top_25_rows": [
+    {
+      "case_id": 92,
+      "rule": 2,
+      "fold": 5,
+      "actual": 500.0,
+      "predicted": 134.7651428033686,
+      "error": -365.2348571966314,
+      "absolute_error": 365.2348571966314
+    },
+    {
+      "case_id": 85,
+      "rule": 2,
+      "fold": 4,
+      "actual": 500.0,
+      "predicted": 144.2392539631882,
+      "error": -355.76074603681184,
+      "absolute_error": 355.76074603681184
+    },
+    {
+      "case_id": 41,
+      "rule": 2,
+      "fold": 1,
+      "actual": 500.0,
+      "predicted": 165.20277101188407,
+      "error": -334.79722898811593,
+      "absolute_error": 334.79722898811593
+    },
+    {
+      "case_id": 11,
+      "rule": 2,
+      "fold": 3,
+      "actual": 500.0,
+      "predicted": 229.5704792829664,
+      "error": -270.4295207170336,
+      "absolute_error": 270.4295207170336
+    },
+    {
+      "case_id": 66,
+      "rule": 2,
+      "fold": 1,
+      "actual": 500.0,
+      "predicted": 242.66844317552594,
+      "error": -257.3315568244741,
+      "absolute_error": 257.3315568244741
+    },
+    {
+      "case_id": 95,
+      "rule": 2,
+      "fold": 3,
+      "actual": 500.0,
+      "predicted": 264.9013305014815,
+      "error": -235.09866949851852,
+      "absolute_error": 235.09866949851852
+    },
+    {
+      "case_id": 25,
+      "rule": 2,
+      "fold": 3,
+      "actual": 500.0,
+      "predicted": 286.65977787442296,
+      "error": -213.34022212557704,
+      "absolute_error": 213.34022212557704
+    },
+    {
+      "case_id": 91,
+      "rule": 2,
+      "fold": 5,
+      "actual": 54.83006582815685,
+      "predicted": 252.41165151414353,
+      "error": 197.58158568598668,
+      "absolute_error": 197.58158568598668
+    },
+    {
+      "case_id": 44,
+      "rule": 2,
+      "fold": 1,
+      "actual": 500.0,
+      "predicted": 308.08293314414703,
+      "error": -191.91706685585297,
+      "absolute_error": 191.91706685585297
+    },
+    {
+      "case_id": 47,
+      "rule": 2,
+      "fold": 1,
+      "actual": 85.49685575896832,
+      "predicted": 266.47404086911666,
+      "error": 180.97718511014835,
+      "absolute_error": 180.97718511014835
+    },
+    {
+      "case_id": 5,
+      "rule": 2,
+      "fold": 3,
+      "actual": 500.0,
+      "predicted": 321.90405197338293,
+      "error": -178.09594802661707,
+      "absolute_error": 178.09594802661707
+    },
+    {
+      "case_id": 57,
+      "rule": 2,
+      "fold": 4,
+      "actual": 500.0,
+      "predicted": 325.5200763829992,
+      "error": -174.4799236170008,
+      "absolute_error": 174.4799236170008
+    },
+    {
+      "case_id": 21,
+      "rule": 2,
+      "fold": 2,
+      "actual": 61.104782203897386,
+      "predicted": 219.35550404488998,
+      "error": 158.25072184099258,
+      "absolute_error": 158.25072184099258
+    },
+    {
+      "case_id": 73,
+      "rule": 2,
+      "fold": 2,
+      "actual": 49.7356705301501,
+      "predicted": 206.7733659435739,
+      "error": 157.03769541342382,
+      "absolute_error": 157.03769541342382
+    },
+    {
+      "case_id": 22,
+      "rule": 2,
+      "fold": 3,
+      "actual": 84.57548560498674,
+      "predicted": 214.37065983839932,
+      "error": 129.79517423341258,
+      "absolute_error": 129.79517423341258
+    },
+    {
+      "case_id": 70,
+      "rule": 2,
+      "fold": 3,
+      "actual": 29.888405136246078,
+      "predicted": 152.91687089466188,
+      "error": 123.0284657584158,
+      "absolute_error": 123.0284657584158
+    },
+    {
+      "case_id": 39,
+      "rule": 2,
+      "fold": 3,
+      "actual": 36.32489111620326,
+      "predicted": 138.0642249722248,
+      "error": 101.73933385602153,
+      "absolute_error": 101.73933385602153
+    },
+    {
+      "case_id": 97,
+      "rule": 2,
+      "fold": 3,
+      "actual": 41.8193890990786,
+      "predicted": 141.67180090471908,
+      "error": 99.85241180564049,
+      "absolute_error": 99.85241180564049
+    },
+    {
+      "case_id": 82,
+      "rule": 2,
+      "fold": 5,
+      "actual": 68.8394317966946,
+      "predicted": 168.2611952503654,
+      "error": 99.4217634536708,
+      "absolute_error": 99.4217634536708
+    },
+    {
+      "case_id": 71,
+      "rule": 2,
+      "fold": 2,
+      "actual": 37.120653034238686,
+      "predicted": 136.4033852969683,
+      "error": 99.28273226272962,
+      "absolute_error": 99.28273226272962
+    },
+    {
+      "case_id": 57,
+      "rule": 1,
+      "fold": 4,
+      "actual": 148.57233627767513,
+      "predicted": 53.0596354910939,
+      "error": -95.51270078658123,
+      "absolute_error": 95.51270078658123
+    },
+    {
+      "case_id": 70,
+      "rule": 1,
+      "fold": 3,
+      "actual": 124.92451140049998,
+      "predicted": 31.631963866250196,
+      "error": -93.29254753424979,
+      "absolute_error": 93.29254753424979
+    },
+    {
+      "case_id": 52,
+      "rule": 1,
+      "fold": 2,
+      "actual": 119.62586365627544,
+      "predicted": 29.089451890595825,
+      "error": -90.53641176567962,
+      "absolute_error": 90.53641176567962
+    },
+    {
+      "case_id": 84,
+      "rule": 1,
+      "fold": 4,
+      "actual": 124.92451140049998,
+      "predicted": 35.48383623289358,
+      "error": -89.4406751676064,
+      "absolute_error": 89.4406751676064
+    },
+    {
+      "case_id": 78,
+      "rule": 2,
+      "fold": 5,
+      "actual": 500.0,
+      "predicted": 414.68397555793973,
+      "error": -85.31602444206027,
+      "absolute_error": 85.31602444206027
+    }
+  ],
+  "top_20_cases": [
+    {
+      "case_id": 92,
+      "mean_absolute_error": 138.1309258877615,
+      "maximum_absolute_error": 365.2348571966314,
+      "sum_absolute_error": 414.3927776632845
+    },
+    {
+      "case_id": 85,
+      "mean_absolute_error": 120.97649615382022,
+      "maximum_absolute_error": 355.76074603681184,
+      "sum_absolute_error": 362.92948846146066
+    },
+    {
+      "case_id": 41,
+      "mean_absolute_error": 117.08464428133227,
+      "maximum_absolute_error": 334.79722898811593,
+      "sum_absolute_error": 351.25393284399684
+    },
+    {
+      "case_id": 11,
+      "mean_absolute_error": 100.35527961737337,
+      "maximum_absolute_error": 270.4295207170336,
+      "sum_absolute_error": 301.0658388521201
+    },
+    {
+      "case_id": 57,
+      "mean_absolute_error": 94.33801592389977,
+      "maximum_absolute_error": 174.4799236170008,
+      "sum_absolute_error": 283.0140477716993
+    },
+    {
+      "case_id": 66,
+      "mean_absolute_error": 89.35891657489445,
+      "maximum_absolute_error": 257.3315568244741,
+      "sum_absolute_error": 268.07674972468334
+    },
+    {
+      "case_id": 5,
+      "mean_absolute_error": 88.50864287265756,
+      "maximum_absolute_error": 178.09594802661707,
+      "sum_absolute_error": 265.5259286179727
+    },
+    {
+      "case_id": 95,
+      "mean_absolute_error": 81.79243346028444,
+      "maximum_absolute_error": 235.09866949851852,
+      "sum_absolute_error": 245.37730038085334
+    },
+    {
+      "case_id": 47,
+      "mean_absolute_error": 76.65979031092373,
+      "maximum_absolute_error": 180.97718511014835,
+      "sum_absolute_error": 229.9793709327712
+    },
+    {
+      "case_id": 44,
+      "mean_absolute_error": 74.93726150060098,
+      "maximum_absolute_error": 191.91706685585297,
+      "sum_absolute_error": 224.81178450180295
+    },
+    {
+      "case_id": 70,
+      "mean_absolute_error": 74.6657177477034,
+      "maximum_absolute_error": 123.0284657584158,
+      "sum_absolute_error": 223.9971532431102
+    },
+    {
+      "case_id": 25,
+      "mean_absolute_error": 74.35777795983505,
+      "maximum_absolute_error": 213.34022212557704,
+      "sum_absolute_error": 223.07333387950513
+    },
+    {
+      "case_id": 91,
+      "mean_absolute_error": 69.16246666345572,
+      "maximum_absolute_error": 197.58158568598668,
+      "sum_absolute_error": 207.48739999036715
+    },
+    {
+      "case_id": 21,
+      "mean_absolute_error": 57.12979023509723,
+      "maximum_absolute_error": 158.25072184099258,
+      "sum_absolute_error": 171.3893707052917
+    },
+    {
+      "case_id": 73,
+      "mean_absolute_error": 54.86002458418878,
+      "maximum_absolute_error": 157.03769541342382,
+      "sum_absolute_error": 164.58007375256634
+    },
+    {
+      "case_id": 22,
+      "mean_absolute_error": 54.39759074756546,
+      "maximum_absolute_error": 129.79517423341258,
+      "sum_absolute_error": 163.19277224269638
+    },
+    {
+      "case_id": 1,
+      "mean_absolute_error": 51.56165101699733,
+      "maximum_absolute_error": 80.60206324407545,
+      "sum_absolute_error": 154.684953050992
+    },
+    {
+      "case_id": 93,
+      "mean_absolute_error": 49.520010372658525,
+      "maximum_absolute_error": 73.89677333592363,
+      "sum_absolute_error": 148.56003111797557
+    },
+    {
+      "case_id": 78,
+      "mean_absolute_error": 41.955394208685924,
+      "maximum_absolute_error": 85.31602444206027,
+      "sum_absolute_error": 125.86618262605776
+    },
+    {
+      "case_id": 82,
+      "mean_absolute_error": 39.200852680063875,
+      "maximum_absolute_error": 99.4217634536708,
+      "sum_absolute_error": 117.60255804019162
+    }
+  ]
+}

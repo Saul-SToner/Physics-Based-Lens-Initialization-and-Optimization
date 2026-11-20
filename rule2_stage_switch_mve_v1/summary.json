@@ -1,0 +1,82 @@
+{
+  "cases": [
+    5,
+    25,
+    66,
+    115,
+    129,
+    132,
+    140,
+    157,
+    188,
+    189
+  ],
+  "mechanism": {
+    "f500_cases_in_case_1_200": 31,
+    "all_field_step_limit_aperture_not_started": true
+  },
+  "intervention": {
+    "cases_run": 10,
+    "cases_with_lower_f_number": 9,
+    "cases_with_lower_gap_than_rule2": 9,
+    "cases_better_gap_than_rule3": 0,
+    "cases_equal_gap_to_rule3": 2,
+    "cases_worse_gap_than_rule3": 8,
+    "mean_gap_change_vs_rule2": -17.64050947955311,
+    "mean_gap_change_vs_rule3": 3.000989869944116,
+    "mean_incremental_dls_calls": 13.7,
+    "range_incremental_dls_calls": [
+      6,
+      23
+    ],
+    "mean_incremental_wall_seconds": 365.83737407,
+    "all_final_endpoints_passed_original_acceptance": true
+  },
+  "aggregate": [
+    {
+      "method": "historical_rule_2",
+      "n": 10,
+      "mean_final_f_number": 500.0,
+      "median_final_f_number": 500.0,
+      "mean_final_field_deg": 3.464445846273862,
+      "mean_target_gap": 24.307110830745227,
+      "median_target_gap": 24.366493903434186,
+      "mean_dls_calls": 11.8,
+      "mean_requested_dls_cycles": 590.0,
+      "mean_wall_seconds": 147.15160746,
+      "mean_max_rms_um": 0.6597863998787553,
+      "minimum_observed_mtf_margin": 0.055350240435656284,
+      "minimum_observed_geometry_clearance_mm": 0.3150948114651363
+    },
+    {
+      "method": "historical_rule_3",
+      "n": 10,
+      "mean_final_f_number": 86.9518866798517,
+      "median_final_f_number": 45.18083001699591,
+      "mean_final_field_deg": 3.409914263722898,
+      "mean_target_gap": 3.6656114812480047,
+      "median_target_gap": 1.4202396286126375,
+      "mean_dls_calls": 24.7,
+      "mean_requested_dls_cycles": 1235.0,
+      "mean_wall_seconds": 322.9019082000003,
+      "mean_max_rms_um": 10.346488604807014,
+      "minimum_observed_mtf_margin": 0.0005569715765904037,
+      "minimum_observed_geometry_clearance_mm": 0.3183595686498673
+    },
+    {
+      "method": "rule_2_stage_switch",
+      "n": 10,
+      "mean_final_f_number": 147.18981040893786,
+      "median_final_f_number": 51.66483968580252,
+      "mean_final_field_deg": 3.464445846273862,
+      "mean_target_gap": 6.666601351192121,
+      "median_target_gap": 1.6169441271130403,
+      "mean_dls_calls": 25.5,
+      "mean_requested_dls_cycles": 1275.0,
+      "mean_wall_seconds": 512.98898153,
+      "mean_max_rms_um": 9.19548941134112,
+      "minimum_observed_mtf_margin": 0.00012220293897469148,
+      "minimum_observed_geometry_clearance_mm": 0.3150948114651363
+    }
+  ]
+}

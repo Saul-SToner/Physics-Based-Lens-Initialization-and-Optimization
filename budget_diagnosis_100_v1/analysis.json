@@ -1,0 +1,46 @@
+{
+  "groups_replayed": 300,
+  "replay_errors": [],
+  "step_limit_group_count": 238,
+  "step_limit_dimension_count": 249,
+  "failed_78_rule_counts": {
+    "1": {
+      "n": 78,
+      "threshold_stop_groups": 78,
+      "total_steps_range": [
+        11,
+        24
+      ],
+      "rejection_count_at_crossing": {
+        "6": 78
+      }
+    },
+    "2": {
+      "n": 78,
+      "threshold_stop_groups": 78,
+      "total_steps_range": [
+        11,
+        25
+      ],
+      "rejection_count_at_crossing": {
+        "6": 78
+      }
+    },
+    "3": {
+      "n": 78,
+      "threshold_stop_groups": 78,
+      "total_steps_range": [
+        18,
+        28
+      ],
+      "rejection_count_at_crossing": {
+        "6": 89
+      }
+    }
+  },
+  "factors_after_six_rejections": {
+    "aperture": 0.9945970764989746,
+    "field": 1.005427528571157
+  },
+  "interpretation": "step_limit is an adaptive multiplicative step-size threshold; no stage total-step cap exists. Existing logs do not establish whether 50 DLS cycles per attempt are adequate."
+}

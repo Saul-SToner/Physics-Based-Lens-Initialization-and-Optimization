@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "train_ids": [
+    1,
+    100
+  ],
+  "test_ids": [
+    101,
+    200
+  ],
+  "prescription_fingerprint_overlap_count": 0,
+  "raw_input_exact_overlap_count": 0,
+  "near_duplicate_policy": "No arbitrary distance threshold. Sampling declares no decimal quantization; comparison at original serialized floating-point precision is exact component-wise identity.",
+  "same_seed_continuation": true,
+  "test_is_disjoint_continuation_of_sampling_stream": true,
+  "sampling_ranges_equal": true,
+  "sampling_policy_equal": true,
+  "feature_schema_equal": true,
+  "raw9_equal_and_ordered": true,
+  "rules_equal": true,
+  "core_optimizer_source_hashes_equal": true,
+  "runtime_policy_equal": true,
+  "execution_sources_equal": true,
+  "group_timeout_equal": true,
+  "infrastructure_wrapper_hash_differences": {
+    "background_batch.py": {
+      "batch1": "814e0a88e4e67327d3642a270fa0c107b325bd0240d2f8f49e2c608cadbb8842",
+      "batch2": "1ada203e75d10742034e622b01d0415eacfc6ceb17d1662c7fefcfdf696f8d76"
+    },
+    "background_model_worker.py": {
+      "batch1": "6f41bf85c2f46f41b00ab698ea1fad53fc51bf05a34f11d6b6e0c31b802a518a",
+      "batch2": "5ade47f6be537138d13ebc955ea0990c30a8118dc36213df0304f5185b162562"
+    }
+  },
+  "interpretation": "The test prescriptions are disjoint pseudorandom-stream continuation samples, not a newly seeded independent realization. Core optical optimization protocol is identical; background orchestration wrappers changed without changing the frozen runtime policy or core optimizer hashes."
+}

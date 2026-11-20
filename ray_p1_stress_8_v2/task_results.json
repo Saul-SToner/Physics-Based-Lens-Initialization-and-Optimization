@@ -1,0 +1,47 @@
+[
+  {
+    "job": "C:\\Users\\L2791\\Downloads\\crystals-12-01206\\ray_p1_stress_8_v2\\case_001_rule_1\\job.json",
+    "returncode": 0,
+    "subprocess_wall_seconds": 140.0691339
+  },
+  {
+    "job": "C:\\Users\\L2791\\Downloads\\crystals-12-01206\\ray_p1_stress_8_v2\\case_002_rule_1\\job.json",
+    "returncode": 0,
+    "subprocess_wall_seconds": 178.66806570000017
+  },
+  {
+    "job": "C:\\Users\\L2791\\Downloads\\crystals-12-01206\\ray_p1_stress_8_v2\\case_003_rule_1\\job.json",
+    "returncode": 0,
+    "subprocess_wall_seconds": 186.1767749999999
+  },
+  {
+    "job": "C:\\Users\\L2791\\Downloads\\crystals-12-01206\\ray_p1_stress_8_v2\\case_003_rule_2\\job.json",
+    "returncode": 0,
+    "subprocess_wall_seconds": 237.2885056
+  },
+  {
+    "job": "C:\\Users\\L2791\\Downloads\\crystals-12-01206\\ray_p1_stress_8_v2\\case_001_rule_3\\job.json",
+    "returncode": 0,
+    "subprocess_wall_seconds": 238.31394409999984
+  },
+  {
+    "job": "C:\\Users\\L2791\\Downloads\\crystals-12-01206\\ray_p1_stress_8_v2\\case_001_rule_2\\job.json",
+    "returncode": 0,
+    "subprocess_wall_seconds": 241.8226523999997
+  },
+  {
+    "job": "C:\\Users\\L2791\\Downloads\\crystals-12-01206\\ray_p1_stress_8_v2\\case_002_rule_3\\job.json",
+    "returncode": 0,
+    "subprocess_wall_seconds": 259.3549197999996
+  },
+  {
+    "job": "C:\\Users\\L2791\\Downloads\\crystals-12-01206\\ray_p1_stress_8_v2\\case_002_rule_2\\job.json",
+    "returncode": 0,
+    "subprocess_wall_seconds": 282.91942340000014
+  },
+  {
+    "job": "C:\\Users\\L2791\\Downloads\\crystals-12-01206\\ray_p1_stress_8_v2\\case_003_rule_3\\job.json",
+    "returncode": 0,
+    "subprocess_wall_seconds": 200.1202158000001
+  }
+]

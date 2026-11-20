@@ -1,0 +1,1013 @@
+{
+  "seed": 20261118,
+  "count": 10,
+  "sampling": "independent log-uniform draws, no replacement of failures",
+  "scope": "finite real object and image, negative magnification, entrance stop before lens 1",
+  "sampling_ranges": {
+    "object_distance_magnitude_mm": [
+      2,
+      8
+    ],
+    "image_distance_mm": [
+      1,
+      5
+    ],
+    "entrance_pupil_fraction_of_object_distance": [
+      0.35,
+      0.8
+    ],
+    "exit_pupil_distance_mm": [
+      20,
+      100
+    ],
+    "magnification_magnitude": [
+      1.5,
+      6
+    ]
+  },
+  "assumptions": {
+    "reference_planes": "lens vertex midpoints",
+    "index": 1.5,
+    "center_thicknesses_mm": [
+      1.0,
+      1.0
+    ],
+    "semi_apertures_mm": [
+      1.0,
+      1.0
+    ],
+    "minimum_clearance_mm": 0.001
+  },
+  "environment": {
+    "python": "3.13.1",
+    "numpy": "2.5.5",
+    "raytracing": "1.4.7"
+  },
+  "source_sha256": {
+    "generate_random_prescriptions.py": "ff2042fb241dd743fbcc615d3534b78a76b9129b791185c9c973dad0b5bdf21b",
+    "two_lens.py": "3ee7d1fa20d7ec19c3e81b62a1c32cd0d5590292814651570eff714246fd2833",
+    "validate_two_lens.py": "ec091456da8eb370fab7ebb389e5efd66663c76411906bbd429dbfa6c1e86f7b",
+    "lens_geometry.py": "14c666fc8ee7371678da1c93dabaed89fd073bb566b406ece418a79849acc3c7",
+    "compare_opticstudio.py": "a3cbb4c3142c3ada041692aaef51b4ed42f8eabb9c10a8cd5bb1fd9e1a22c907",
+    "analyze_opticstudio.py": "ad662f77b23d2df3f4c1edc2aa7590770c038284ad7ce1837c60a08e8dfdc6ba"
+  },
+  "summary": {
+    "success_count": 10,
+    "failure_count": 0,
+    "success_rate": 1.0,
+    "failures_by_stage": {},
+    "failure_reasons": {}
+  },
+  "candidates": [
+    {
+      "id": 1,
+      "inputs": [
+        -6.976598389084902,
+        3.807388269975729,
+        -3.24200785940864,
+        21.51851878005104,
+        -1.5380945349372688
+      ],
+      "passed": true,
+      "failed_stage": null,
+      "failure_reasons": [],
+      "theory": {
+        "solution": {
+          "d12": 10.888560531998086,
+          "k1": 0.20258991596986783,
+          "k2": 0.09564809526363785,
+          "efl": 11.461754682777554
+        },
+        "verification": {
+          "object_image_b_mm": {
+            "value": -1.7763568394002505e-15,
+            "tolerance": 1.0888560531998087e-08
+          },
+          "magnification_error": {
+            "value": -4.440892098500626e-16,
+            "tolerance": 1.538094534937269e-09
+          },
+          "pupil_b_mm": {
+            "value": 1.7763568394002505e-15,
+            "tolerance": 2.1518518780051042e-08
+          },
+          "efl_error_mm": {
+            "value": 0.0,
+            "tolerance": 1.1461754682777555e-08
+          }
+        },
+        "passed": true
+      },
+      "initial_geometry": {
+        "edge_thickness_mm": [
+          0.795287591508276,
+          0.9041321377661926
+        ],
+        "axial_air_gap_mm": 9.888560531998086,
+        "minimum_air_gap_mm": 9.888560531998086,
+        "violations": []
+      },
+      "entity": {
+        "radii_mm": [
+          4.644197602455243,
+          -4.644197602455243,
+          9.967387553278279,
+          -9.967387553278279
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 10.008951395038597,
+        "object_to_first_vertex_mm": 6.476598389084902,
+        "last_vertex_to_image_mm": 3.307388269975729,
+        "stop_to_first_vertex_mm": 2.74200785940864,
+        "last_vertex_to_exit_pupil_mm": 21.01851878005104,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "index": 1.5,
+        "restoration_iterations": 3,
+        "verification": {
+          "residuals": {
+            "object_image_b_mm": -3.3235636465178686e-12,
+            "magnification_error": -1.0329515021112456e-12,
+            "pupil_b_mm": 7.172928917498211e-12
+          },
+          "tolerances": {
+            "object_image_b_mm": 1e-08,
+            "magnification_error": 1e-08,
+            "pupil_b_mm": 1e-08
+          },
+          "passed": true,
+          "efl_mm": 11.461754682773098
+        }
+      },
+      "restored_geometry": {
+        "edge_thickness_mm": [
+          0.7821221718770206,
+          0.8994190678732927
+        ],
+        "axial_air_gap_mm": 10.008951395038597,
+        "minimum_air_gap_mm": 10.008951395038597,
+        "violations": []
+      }
+    },
+    {
+      "id": 2,
+      "inputs": [
+        -3.3930869489694926,
+        2.2169922227111423,
+        -1.6854343058483636,
+        26.090294798096167,
+        -3.8353749761817997
+      ],
+      "passed": true,
+      "failed_stage": null,
+      "failure_reasons": [],
+      "theory": {
+        "solution": {
+          "d12": 13.651765510919574,
+          "k1": 0.35548868760718333,
+          "k2": 0.09433061375433001,
+          "efl": -125.44353076574806
+        },
+        "verification": {
+          "object_image_b_mm": {
+            "value": 1.7763568394002505e-15,
+            "tolerance": 1.3651765510919575e-08
+          },
+          "magnification_error": {
+            "value": 4.440892098500626e-16,
+            "tolerance": 3.8353749761818e-09
+          },
+          "pupil_b_mm": {
+            "value": 3.552713678800501e-15,
+            "tolerance": 2.609029479809617e-08
+          },
+          "efl_error_mm": {
+            "value": -2.1316282072803006e-13,
+            "tolerance": 1.2544353076574808e-07
+          }
+        },
+        "passed": true
+      },
+      "initial_geometry": {
+        "edge_thickness_mm": [
+          0.6325091690509341,
+          0.905458602701597
+        ],
+        "axial_air_gap_mm": 12.651765510919574,
+        "minimum_air_gap_mm": 12.651765510919574,
+        "violations": []
+      },
+      "entity": {
+        "radii_mm": [
+          2.512202749503925,
+          -2.512202749503925,
+          9.976857169652572,
+          -9.976857169652572
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 12.358687393762542,
+        "object_to_first_vertex_mm": 2.8930869489694926,
+        "last_vertex_to_image_mm": 1.7169922227111423,
+        "stop_to_first_vertex_mm": 1.1854343058483636,
+        "last_vertex_to_exit_pupil_mm": 25.590294798096167,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "index": 1.5,
+        "restoration_iterations": 4,
+        "verification": {
+          "residuals": {
+            "object_image_b_mm": 0.0,
+            "magnification_error": 4.440892098500626e-16,
+            "pupil_b_mm": -2.6645352591003757e-15
+          },
+          "tolerances": {
+            "object_image_b_mm": 1e-08,
+            "magnification_error": 1e-08,
+            "pupil_b_mm": 1e-08
+          },
+          "passed": true,
+          "efl_mm": -125.44353076574632
+        }
+      },
+      "restored_geometry": {
+        "edge_thickness_mm": [
+          0.5847864712251454,
+          0.8995150185245719
+        ],
+        "axial_air_gap_mm": 12.358687393762542,
+        "minimum_air_gap_mm": 12.358687393762542,
+        "violations": []
+      }
+    },
+    {
+      "id": 3,
+      "inputs": [
+        -2.0094991549699914,
+        4.928653416140328,
+        -0.7351344942502762,
+        20.204140670841678,
+        -2.1973385729714607
+      ],
+      "passed": true,
+      "failed_stage": null,
+      "failure_reasons": [],
+      "theory": {
+        "solution": {
+          "d12": 4.546321329119443,
+          "k1": 0.4720764891793756,
+          "k2": 0.22579417430773838,
+          "efl": 4.688922137953968
+        },
+        "verification": {
+          "object_image_b_mm": {
+            "value": 0.0,
+            "tolerance": 4.928653416140329e-09
+          },
+          "magnification_error": {
+            "value": 0.0,
+            "tolerance": 2.197338572971461e-09
+          },
+          "pupil_b_mm": {
+            "value": 0.0,
+            "tolerance": 2.020414067084168e-08
+          },
+          "efl_error_mm": {
+            "value": 0.0,
+            "tolerance": 4.688922137953969e-09
+          }
+        },
+        "passed": true
+      },
+      "initial_geometry": {
+        "edge_thickness_mm": [
+          0.4982067079566772,
+          0.7712521222562043
+        ],
+        "axial_air_gap_mm": 3.5463213291194426,
+        "minimum_air_gap_mm": 3.5463213291194426,
+        "violations": []
+      },
+      "entity": {
+        "radii_mm": [
+          1.8294433745937275,
+          -1.8294433745937275,
+          3.9828535656461934,
+          -3.9828535656461934
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 3.6705879806691297,
+        "object_to_first_vertex_mm": 1.5094991549699914,
+        "last_vertex_to_image_mm": 4.428653416140328,
+        "stop_to_first_vertex_mm": 0.23513449425027622,
+        "last_vertex_to_exit_pupil_mm": 19.704140670841678,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "index": 1.5,
+        "restoration_iterations": 4,
+        "verification": {
+          "residuals": {
+            "object_image_b_mm": 4.440892098500626e-16,
+            "magnification_error": 0.0,
+            "pupil_b_mm": -2.220446049250313e-16
+          },
+          "tolerances": {
+            "object_image_b_mm": 1e-08,
+            "magnification_error": 1e-08,
+            "pupil_b_mm": 1e-08
+          },
+          "passed": true,
+          "efl_mm": 4.68892213795397
+        }
+      },
+      "restored_geometry": {
+        "edge_thickness_mm": [
+          0.4050081973437641,
+          0.7448369546669422
+        ],
+        "axial_air_gap_mm": 3.6705879806691293,
+        "minimum_air_gap_mm": 3.6705879806691293,
+        "violations": []
+      }
+    },
+    {
+      "id": 4,
+      "inputs": [
+        -5.605684180561162,
+        2.502804437990051,
+        -4.199363125623618,
+        27.97087289716208,
+        -1.8317890005680644
+      ],
+      "passed": true,
+      "failed_stage": null,
+      "failure_reasons": [],
+      "theory": {
+        "solution": {
+          "d12": 7.197623944230472,
+          "k1": 0.28346145094990416,
+          "k2": -0.03153072669108131,
+          "efl": 3.1619428003399284
+        },
+        "verification": {
+          "object_image_b_mm": {
+            "value": -3.552713678800501e-15,
+            "tolerance": 7.1976239442304725e-09
+          },
+          "magnification_error": {
+            "value": -4.440892098500626e-16,
+            "tolerance": 1.8317890005680645e-09
+          },
+          "pupil_b_mm": {
+            "value": -1.4210854715202004e-14,
+            "tolerance": 2.7970872897162083e-08
+          },
+          "efl_error_mm": {
+            "value": -4.440892098500626e-16,
+            "tolerance": 3.1619428003399286e-09
+          }
+        },
+        "passed": true
+      },
+      "initial_geometry": {
+        "edge_thickness_mm": [
+          0.7106035534281905,
+          1.0315385674466353
+        ],
+        "axial_air_gap_mm": 6.197623944230472,
+        "minimum_air_gap_mm": 6.197623944230472,
+        "violations": []
+      },
+      "entity": {
+        "radii_mm": [
+          3.2834251734573052,
+          -3.2834251734573052,
+          -40.422363147189586,
+          40.422363147189586
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 6.557929115827933,
+        "object_to_first_vertex_mm": 5.105684180561162,
+        "last_vertex_to_image_mm": 2.002804437990051,
+        "stop_to_first_vertex_mm": 3.699363125623618,
+        "last_vertex_to_exit_pupil_mm": 27.47087289716208,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "index": 1.5,
+        "restoration_iterations": 4,
+        "verification": {
+          "residuals": {
+            "object_image_b_mm": 0.0,
+            "magnification_error": 2.220446049250313e-16,
+            "pupil_b_mm": 0.0
+          },
+          "tolerances": {
+            "object_image_b_mm": 1e-08,
+            "magnification_error": 1e-08,
+            "pupil_b_mm": 1e-08
+          },
+          "passed": true,
+          "efl_mm": 3.1619428003399275
+        }
+      },
+      "restored_geometry": {
+        "edge_thickness_mm": [
+          0.688029626256141,
+          1.0247425674995738
+        ],
+        "axial_air_gap_mm": 6.557929115827933,
+        "minimum_air_gap_mm": 6.557929115827933,
+        "violations": []
+      }
+    },
+    {
+      "id": 5,
+      "inputs": [
+        -4.488853230290319,
+        1.1880824873572595,
+        -2.2364660758647745,
+        21.720016544591264,
+        -5.216306840845685
+      ],
+      "passed": true,
+      "failed_stage": null,
+      "failure_reasons": [],
+      "theory": {
+        "solution": {
+          "d12": 24.54400765432912,
+          "k1": 0.2614498937300724,
+          "k2": 0.0794523334457761,
+          "efl": -5.919063791638697
+        },
+        "verification": {
+          "object_image_b_mm": {
+            "value": -3.552713678800501e-15,
+            "tolerance": 2.4544007654329124e-08
+          },
+          "magnification_error": {
+            "value": -8.881784197001252e-16,
+            "tolerance": 5.216306840845685e-09
+          },
+          "pupil_b_mm": {
+            "value": -4.440892098500626e-16,
+            "tolerance": 2.4544007654329124e-08
+          },
+          "efl_error_mm": {
+            "value": -1.7763568394002505e-15,
+            "tolerance": 5.9190637916386975e-09
+          }
+        },
+        "passed": true
+      },
+      "initial_geometry": {
+        "edge_thickness_mm": [
+          0.7339226282741271,
+          0.9204218800596307
+        ],
+        "axial_air_gap_mm": 23.54400765432912,
+        "minimum_air_gap_mm": 23.54400765432912,
+        "violations": []
+      },
+      "entity": {
+        "radii_mm": [
+          3.5155685680745346,
+          -3.5155685680745346,
+          12.08274713721973,
+          -12.08274713721973
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 22.89330627682897,
+        "object_to_first_vertex_mm": 3.988853230290319,
+        "last_vertex_to_image_mm": 0.6880824873572595,
+        "stop_to_first_vertex_mm": 1.7364660758647745,
+        "last_vertex_to_exit_pupil_mm": 21.220016544591264,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "index": 1.5,
+        "restoration_iterations": 3,
+        "verification": {
+          "residuals": {
+            "object_image_b_mm": 1.2647660696529783e-12,
+            "magnification_error": 2.4087398742267396e-12,
+            "pupil_b_mm": -1.4165113526587447e-11
+          },
+          "tolerances": {
+            "object_image_b_mm": 1e-08,
+            "magnification_error": 1e-08,
+            "pupil_b_mm": 1e-08
+          },
+          "passed": true,
+          "efl_mm": -5.919063791633134
+        }
+      },
+      "restored_geometry": {
+        "edge_thickness_mm": [
+          0.7095519552817569,
+          0.9170951529449283
+        ],
+        "axial_air_gap_mm": 22.89330627682897,
+        "minimum_air_gap_mm": 22.89330627682897,
+        "violations": []
+      }
+    },
+    {
+      "id": 6,
+      "inputs": [
+        -2.568714423365653,
+        3.7425681246497935,
+        -1.4285043950689063,
+        88.86810470526203,
+        -1.8550122961357407
+      ],
+      "passed": true,
+      "failed_stage": null,
+      "failure_reasons": [],
+      "theory": {
+        "solution": {
+          "d12": 2.4468255007551085,
+          "k1": 0.4769932995779561,
+          "k2": 0.15554579402926155,
+          "efl": 2.2173018588418723
+        },
+        "verification": {
+          "object_image_b_mm": {
+            "value": 8.881784197001252e-16,
+            "tolerance": 3.742568124649794e-09
+          },
+          "magnification_error": {
+            "value": 2.220446049250313e-16,
+            "tolerance": 1.8550122961357409e-09
+          },
+          "pupil_b_mm": {
+            "value": 7.105427357601002e-15,
+            "tolerance": 8.886810470526203e-08
+          },
+          "efl_error_mm": {
+            "value": 0.0,
+            "tolerance": 2.2173018588418725e-09
+          }
+        },
+        "passed": true
+      },
+      "initial_geometry": {
+        "edge_thickness_mm": [
+          0.49226511235689646,
+          0.8435018113995316
+        ],
+        "axial_air_gap_mm": 1.4468255007551085,
+        "minimum_air_gap_mm": 1.4468255007551085,
+        "violations": []
+      },
+      "entity": {
+        "radii_mm": [
+          1.8464298972270488,
+          -1.8464298972270488,
+          5.526078183793725,
+          -5.526078183793725
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 1.8017898967009192,
+        "object_to_first_vertex_mm": 2.068714423365653,
+        "last_vertex_to_image_mm": 3.2425681246497935,
+        "stop_to_first_vertex_mm": 0.9285043950689063,
+        "last_vertex_to_exit_pupil_mm": 88.36810470526203,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "index": 1.5,
+        "restoration_iterations": 4,
+        "verification": {
+          "residuals": {
+            "object_image_b_mm": -8.881784197001252e-16,
+            "magnification_error": -2.220446049250313e-16,
+            "pupil_b_mm": -7.105427357601002e-15
+          },
+          "tolerances": {
+            "object_image_b_mm": 1e-08,
+            "magnification_error": 1e-08,
+            "pupil_b_mm": 1e-08
+          },
+          "passed": true,
+          "efl_mm": 2.2173018588418723
+        }
+      },
+      "restored_geometry": {
+        "edge_thickness_mm": [
+          0.4115263705543022,
+          0.817533617577896
+        ],
+        "axial_air_gap_mm": 1.8017898967009192,
+        "minimum_air_gap_mm": 1.8017898967009192,
+        "violations": []
+      }
+    },
+    {
+      "id": 7,
+      "inputs": [
+        -3.4899006883684853,
+        1.8309865025941405,
+        -2.214075645547904,
+        21.936846513811126,
+        -4.068388708996293
+      ],
+      "passed": true,
+      "failed_stage": null,
+      "failure_reasons": [],
+      "theory": {
+        "solution": {
+          "d12": 14.710247605125762,
+          "k1": 0.3457543572689955,
+          "k2": 0.0869881382600603,
+          "efl": -103.19197531794057
+        },
+        "verification": {
+          "object_image_b_mm": {
+            "value": 0.0,
+            "tolerance": 1.4710247605125762e-08
+          },
+          "magnification_error": {
+            "value": 0.0,
+            "tolerance": 4.068388708996293e-09
+          },
+          "pupil_b_mm": {
+            "value": -1.7763568394002505e-15,
+            "tolerance": 2.193684651381113e-08
+          },
+          "efl_error_mm": {
+            "value": -1.5631940186722204e-13,
+            "tolerance": 1.0319197531794058e-07
+          }
+        },
+        "passed": true
+      },
+      "initial_geometry": {
+        "edge_thickness_mm": [
+          0.6432441969468681,
+          0.9128466777551707
+        ],
+        "axial_air_gap_mm": 13.710247605125762,
+        "minimum_air_gap_mm": 13.710247605125762,
+        "violations": []
+      },
+      "entity": {
+        "radii_mm": [
+          2.59063497238513,
+          -2.59063497238513,
+          10.844414230694783,
+          -10.844414230694783
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 13.383164742692566,
+        "object_to_first_vertex_mm": 2.9899006883684853,
+        "last_vertex_to_image_mm": 1.3309865025941405,
+        "stop_to_first_vertex_mm": 1.7140756455479038,
+        "last_vertex_to_exit_pupil_mm": 21.436846513811126,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "index": 1.5,
+        "restoration_iterations": 4,
+        "verification": {
+          "residuals": {
+            "object_image_b_mm": 1.7763568394002505e-15,
+            "magnification_error": 0.0,
+            "pupil_b_mm": 8.881784197001252e-16
+          },
+          "tolerances": {
+            "object_image_b_mm": 1e-08,
+            "magnification_error": 1e-08,
+            "pupil_b_mm": 1e-08
+          },
+          "passed": true,
+          "efl_mm": -103.19197531794057
+        }
+      },
+      "restored_geometry": {
+        "edge_thickness_mm": [
+          0.5984327908169242,
+          0.9075897607967716
+        ],
+        "axial_air_gap_mm": 13.383164742692566,
+        "minimum_air_gap_mm": 13.383164742692566,
+        "violations": []
+      }
+    },
+    {
+      "id": 8,
+      "inputs": [
+        -3.013706570731259,
+        2.61188429646691,
+        -1.849802716516862,
+        36.67572758984498,
+        -3.766472002421693
+      ],
+      "passed": true,
+      "failed_stage": null,
+      "failure_reasons": [],
+      "theory": {
+        "solution": {
+          "d12": 11.119279074268682,
+          "k1": 0.40105733140452904,
+          "k2": 0.08195371489925396,
+          "efl": 8.507666403551347
+        },
+        "verification": {
+          "object_image_b_mm": {
+            "value": 0.0,
+            "tolerance": 1.1119279074268682e-08
+          },
+          "magnification_error": {
+            "value": 0.0,
+            "tolerance": 3.766472002421693e-09
+          },
+          "pupil_b_mm": {
+            "value": -1.7763568394002505e-15,
+            "tolerance": 3.6675727589844984e-08
+          },
+          "efl_error_mm": {
+            "value": 1.7763568394002505e-15,
+            "tolerance": 8.507666403551348e-09
+          }
+        },
+        "passed": true
+      },
+      "initial_geometry": {
+        "edge_thickness_mm": [
+          0.5813713495822763,
+          0.9179082123173814
+        ],
+        "axial_air_gap_mm": 10.119279074268682,
+        "minimum_air_gap_mm": 10.119279074268682,
+        "violations": []
+      },
+      "entity": {
+        "radii_mm": [
+          2.197483365038457,
+          -2.197483365038457,
+          11.310539399676601,
+          -11.310539399676601
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 9.950030020845984,
+        "object_to_first_vertex_mm": 2.513706570731259,
+        "last_vertex_to_image_mm": 2.11188429646691,
+        "stop_to_first_vertex_mm": 1.349802716516862,
+        "last_vertex_to_exit_pupil_mm": 36.17572758984498,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "index": 1.5,
+        "restoration_iterations": 4,
+        "verification": {
+          "residuals": {
+            "object_image_b_mm": -1.7763568394002505e-15,
+            "magnification_error": 4.440892098500626e-16,
+            "pupil_b_mm": 0.0
+          },
+          "tolerances": {
+            "object_image_b_mm": 1e-08,
+            "magnification_error": 1e-08,
+            "pupil_b_mm": 1e-08
+          },
+          "passed": true,
+          "efl_mm": 8.507666403551342
+        }
+      },
+      "restored_geometry": {
+        "edge_thickness_mm": [
+          0.5185652499231168,
+          0.9114134295713849
+        ],
+        "axial_air_gap_mm": 9.950030020845984,
+        "minimum_air_gap_mm": 9.950030020845984,
+        "violations": []
+      }
+    },
+    {
+      "id": 9,
+      "inputs": [
+        -3.4743020456800915,
+        1.543384330365216,
+        -2.1709541248274133,
+        72.24288911820693,
+        -4.3590136603635035
+      ],
+      "passed": true,
+      "failed_stage": null,
+      "failure_reasons": [],
+      "theory": {
+        "solution": {
+          "d12": 14.885377076451558,
+          "k1": 0.34816127941710134,
+          "k2": 0.05589968147642239,
+          "efl": 8.744301292146474
+        },
+        "verification": {
+          "object_image_b_mm": {
+            "value": 0.0,
+            "tolerance": 1.488537707645156e-08
+          },
+          "magnification_error": {
+            "value": 0.0,
+            "tolerance": 4.359013660363504e-09
+          },
+          "pupil_b_mm": {
+            "value": -3.552713678800501e-15,
+            "tolerance": 7.224288911820694e-08
+          },
+          "efl_error_mm": {
+            "value": -1.7763568394002505e-15,
+            "tolerance": 8.744301292146475e-09
+          }
+        },
+        "passed": true
+      },
+      "initial_geometry": {
+        "edge_thickness_mm": [
+          0.6405955892553588,
+          0.9440565816897157
+        ],
+        "axial_air_gap_mm": 13.885377076451558,
+        "minimum_air_gap_mm": 13.885377076451558,
+        "violations": []
+      },
+      "entity": {
+        "radii_mm": [
+          2.5730063525052,
+          -2.5730063525052,
+          16.69607850708474,
+          -16.69607850708474
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 13.616478809274101,
+        "object_to_first_vertex_mm": 2.9743020456800915,
+        "last_vertex_to_image_mm": 1.043384330365216,
+        "stop_to_first_vertex_mm": 1.6709541248274133,
+        "last_vertex_to_exit_pupil_mm": 71.74288911820693,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "index": 1.5,
+        "restoration_iterations": 4,
+        "verification": {
+          "residuals": {
+            "object_image_b_mm": -1.7763568394002505e-15,
+            "magnification_error": 8.881784197001252e-16,
+            "pupil_b_mm": 0.0
+          },
+          "tolerances": {
+            "object_image_b_mm": 1e-08,
+            "magnification_error": 1e-08,
+            "pupil_b_mm": 1e-08
+          },
+          "passed": true,
+          "efl_mm": 8.744301292146474
+        }
+      },
+      "restored_geometry": {
+        "edge_thickness_mm": [
+          0.59544769871844,
+          0.9400518844161041
+        ],
+        "axial_air_gap_mm": 13.616478809274101,
+        "minimum_air_gap_mm": 13.616478809274101,
+        "violations": []
+      }
+    },
+    {
+      "id": 10,
+      "inputs": [
+        -2.3320386386706566,
+        1.3718273809541979,
+        -1.301123624554791,
+        76.91906388135915,
+        -2.737740535993485
+      ],
+      "passed": true,
+      "failed_stage": null,
+      "failure_reasons": [],
+      "theory": {
+        "solution": {
+          "d12": 5.868034160542361,
+          "k1": 0.5626075176057643,
+          "k2": 0.10625494084274202,
+          "efl": 3.14393846938342
+        },
+        "verification": {
+          "object_image_b_mm": {
+            "value": 0.0,
+            "tolerance": 5.868034160542362e-09
+          },
+          "magnification_error": {
+            "value": 0.0,
+            "tolerance": 2.7377405359934854e-09
+          },
+          "pupil_b_mm": {
+            "value": 0.0,
+            "tolerance": 7.691906388135916e-08
+          },
+          "efl_error_mm": {
+            "value": 8.881784197001252e-16,
+            "tolerance": 3.14393846938342e-09
+          }
+        },
+        "passed": true
+      },
+      "initial_geometry": {
+        "edge_thickness_mm": [
+          0.38402574369928105,
+          0.8934434465629839
+        ],
+        "axial_air_gap_mm": 4.868034160542361,
+        "minimum_air_gap_mm": 4.868034160542361,
+        "violations": []
+      },
+      "entity": {
+        "radii_mm": [
+          1.4932629330552036,
+          -1.4932629330552036,
+          8.326146976576961,
+          -8.326146976576961
+        ],
+        "center_thicknesses_mm": [
+          1.0,
+          1.0
+        ],
+        "air_gap_mm": 4.919332738125816,
+        "object_to_first_vertex_mm": 1.8320386386706566,
+        "last_vertex_to_image_mm": 0.8718273809541979,
+        "stop_to_first_vertex_mm": 0.801123624554791,
+        "last_vertex_to_exit_pupil_mm": 76.41906388135915,
+        "semi_apertures_mm": [
+          1.0,
+          1.0
+        ],
+        "index": 1.5,
+        "restoration_iterations": 4,
+        "verification": {
+          "residuals": {
+            "object_image_b_mm": -8.881784197001252e-16,
+            "magnification_error": 4.440892098500626e-16,
+            "pupil_b_mm": -7.105427357601002e-15
+          },
+          "tolerances": {
+            "object_image_b_mm": 1e-08,
+            "magnification_error": 1e-08,
+            "pupil_b_mm": 1e-08
+          },
+          "passed": true,
+          "efl_mm": 3.14393846938342
+        }
+      },
+      "restored_geometry": {
+        "edge_thickness_mm": [
+          0.23143192179866784,
+          0.879460155295873
+        ],
+        "axial_air_gap_mm": 4.919332738125816,
+        "minimum_air_gap_mm": 4.919332738125816,
+        "violations": []
+      }
+    }
+  ]
+}
